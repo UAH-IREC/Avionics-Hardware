@@ -1,4 +1,4 @@
-update=12/17/2017 9:17:44 PM
+update=12/18/2017 7:27:33 PM
 version=1
 last_client=kicad
 [pcbnew]
@@ -27,7 +27,7 @@ NetIExt=net
 version=1
 [eeschema]
 version=1
-LibDir=../../Avionics-Hardware;../Misc components.pretty
+LibDir=../../Avionics-Hardware;../Misc components.pretty;../SparkFun Libraries
 [eeschema/libraries]
 LibName1=power
 LibName2=device
@@ -62,3 +62,31 @@ LibName30=atmel
 LibName31=contrib
 LibName32=valves
 LibName33=Misc components
+LibName34=SparkFun Libraries/SparkFun-Aesthetics
+LibName35=SparkFun Libraries/SparkFun-Batteries
+LibName36=SparkFun Libraries/SparkFun-Boards
+LibName37=SparkFun Libraries/SparkFun-Capacitors
+LibName38=SparkFun Libraries/SparkFun-Clocks
+LibName39=SparkFun Libraries/SparkFun-Coils
+LibName40=SparkFun Libraries/SparkFun-Connectors
+LibName41=SparkFun Libraries/SparkFun-DiscreteSemi
+LibName42=SparkFun Libraries/SparkFun-Displays
+LibName43=SparkFun Libraries/SparkFun-Electromechanical
+LibName44=SparkFun Libraries/SparkFun-Fuses
+LibName45=SparkFun Libraries/SparkFun-GPS
+LibName46=SparkFun Libraries/SparkFun-Hardware
+LibName47=SparkFun Libraries/SparkFun-IC-Amplifiers
+LibName48=SparkFun Libraries/SparkFun-IC-Comms
+LibName49=SparkFun Libraries/SparkFun-IC-Conversion
+LibName50=SparkFun Libraries/SparkFun-IC-Logic
+LibName51=SparkFun Libraries/SparkFun-IC-Memory
+LibName52=SparkFun Libraries/SparkFun-IC-Microcontroller
+LibName53=SparkFun Libraries/SparkFun-IC-Power
+LibName54=SparkFun Libraries/SparkFun-IC-Special-Function
+LibName55=SparkFun Libraries/SparkFun-Jumpers
+LibName56=SparkFun Libraries/SparkFun-LED
+LibName57=SparkFun Libraries/SparkFun-PowerSymbols
+LibName58=SparkFun Libraries/SparkFun-Resistors
+LibName59=SparkFun Libraries/SparkFun-RF
+LibName60=SparkFun Libraries/SparkFun-Sensors
+LibName61=SparkFun Libraries/SparkFun-Switches
