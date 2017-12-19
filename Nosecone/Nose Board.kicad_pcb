@@ -265,7 +265,7 @@
   )
 
   (module "Misc components:SOIC-8" (layer F.Cu) (tedit 0) (tstamp 5A3863E0)
-    (at 177.8 55.88)
+    (at 196.088 92.964)
     (path /5A373694)
     (fp_text reference U1 (at -3.88 0 90) (layer F.SilkS)
       (effects (font (size 1.2 1.2) (thickness 0.15)))
@@ -699,7 +699,7 @@
   )
 
   (module Pin_Headers:Pin_Header_Straight_1x06_Pitch2.54mm (layer B.Cu) (tedit 59650532) (tstamp 5A389C6C)
-    (at 205.994 73.406)
+    (at 195.834 85.09)
     (descr "Through hole straight pin header, 1x06, 2.54mm pitch, single row")
     (tags "Through hole pin header THT 1x06 2.54mm single row")
     (path /5A387BC9)
@@ -1145,7 +1145,7 @@
   )
 
   (module Pin_Headers:Pin_Header_Straight_1x04_Pitch1.27mm (layer F.Cu) (tedit 59650535) (tstamp 5A3945B7)
-    (at 100.33 80.01)
+    (at 128.778 70.866)
     (descr "Through hole straight pin header, 1x04, 1.27mm pitch, single row")
     (tags "Through hole pin header THT 1x04 1.27mm single row")
     (path /5A3B0654)
@@ -1859,7 +1859,7 @@
   )
 
   (module Pin_Headers:Pin_Header_Straight_1x06_Pitch1.27mm (layer F.Cu) (tedit 59650535) (tstamp 5A39A3FE)
-    (at 177.8 71.12)
+    (at 138.176 100.838)
     (descr "Through hole straight pin header, 1x06, 1.27mm pitch, single row")
     (tags "Through hole pin header THT 1x06 1.27mm single row")
     (path /5A383BA7)
