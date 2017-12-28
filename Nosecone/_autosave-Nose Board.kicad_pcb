@@ -88,7 +88,7 @@
       (mirror false)
       (drillshape 0)
       (scaleselection 1)
-      (outputdirectory "Generated Gerbers/Take6/"))
+      (outputdirectory "Generated Gerbers/Take7/"))
   )
 
   (net 0 "")
