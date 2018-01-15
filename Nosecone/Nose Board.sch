@@ -1492,7 +1492,7 @@ U 1 1 5A3ED160
 P 1500 4400
 F 0 "U5" H 1500 4400 60  0000 C CNN
 F 1 "Via-stitch" H 1500 4400 60  0000 C CNN
-F 2 "Misc components:Small-via" H 1500 4400 60  0001 C CNN
+F 2 "Misc components:small-via" H 1500 4400 60  0001 C CNN
 F 3 "" H 1500 4400 60  0001 C CNN
 	1    1500 4400
 	1    0    0    -1  
@@ -1503,7 +1503,7 @@ U 1 1 5A3ED1CD
 P 1500 4750
 F 0 "U12" H 1500 4750 60  0000 C CNN
 F 1 "Via-stitch" H 1500 4750 60  0000 C CNN
-F 2 "Misc components:Small-via" H 1500 4750 60  0001 C CNN
+F 2 "Misc components:small-via" H 1500 4750 60  0001 C CNN
 F 3 "" H 1500 4750 60  0001 C CNN
 	1    1500 4750
 	1    0    0    -1  
@@ -1536,7 +1536,7 @@ U 1 1 5A3EDDD5
 P 1550 4100
 F 0 "U13" H 1550 4100 60  0000 C CNN
 F 1 "Via-stitch" H 1550 4100 60  0000 C CNN
-F 2 "Misc components:Small-via" H 1550 4100 60  0001 C CNN
+F 2 "Misc components:small-via" H 1550 4100 60  0001 C CNN
 F 3 "" H 1550 4100 60  0001 C CNN
 	1    1550 4100
 	1    0    0    -1  
@@ -1606,7 +1606,7 @@ U 1 1 5A430EE3
 P 750 4150
 F 0 "U14" H 750 4150 60  0000 C CNN
 F 1 "Via-stitch" H 750 4150 60  0000 C CNN
-F 2 "Misc components:Small-via" H 750 4150 60  0001 C CNN
+F 2 "Misc components:small-via" H 750 4150 60  0001 C CNN
 F 3 "" H 750 4150 60  0001 C CNN
 	1    750  4150
 	1    0    0    -1  
@@ -1628,7 +1628,7 @@ U 1 1 5A4316E0
 P 2550 4700
 F 0 "U15" H 2550 4700 60  0000 C CNN
 F 1 "Via-stitch" H 2550 4700 60  0000 C CNN
-F 2 "Misc components:Small-via" H 2550 4700 60  0001 C CNN
+F 2 "Misc components:small-via" H 2550 4700 60  0001 C CNN
 F 3 "" H 2550 4700 60  0001 C CNN
 	1    2550 4700
 	1    0    0    -1  
@@ -1650,7 +1650,7 @@ U 1 1 5A431A33
 P 850 4600
 F 0 "U16" H 850 4600 60  0000 C CNN
 F 1 "Via-stitch" H 850 4600 60  0000 C CNN
-F 2 "Misc components:Small-via" H 850 4600 60  0001 C CNN
+F 2 "Misc components:small-via" H 850 4600 60  0001 C CNN
 F 3 "" H 850 4600 60  0001 C CNN
 	1    850  4600
 	1    0    0    -1  
