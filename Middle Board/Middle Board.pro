@@ -1,4 +1,4 @@
-update=Sunday, January 28, 2018 'PMt' 02:33:34 PM
+update=Sunday, January 28, 2018 'PMt' 07:17:26 PM
 version=1
 last_client=kicad
 [pcbnew]
@@ -27,7 +27,7 @@ NetIExt=net
 version=1
 [eeschema]
 version=1
-LibDir=../Custom Parts
+LibDir=../Custom Parts;../../Avionics-Hardware
 [eeschema/libraries]
 LibName1=Custom Parts
 LibName2=power
@@ -60,3 +60,7 @@ LibName28=atmel
 LibName29=contrib
 LibName30=valves
 LibName31=switches
+LibName32=/Users/Thomas/Desktop/Avionics-Hardware/Misc components
+LibName33=rfcom
+LibName34=RFSolutions
+LibName35=sensors
