@@ -1,4 +1,4 @@
-update=Sunday, January 28, 2018 'PMt' 07:17:26 PM
+update=Monday, January 29, 2018 'PMt' 04:10:10 PM
 version=1
 last_client=kicad
 [pcbnew]
@@ -23,8 +23,6 @@ ModuleOutlineThickness=0.150000000000
 [cvpcb]
 version=1
 NetIExt=net
-[general]
-version=1
 [eeschema]
 version=1
 LibDir=../Custom Parts;../../Avionics-Hardware
@@ -64,3 +62,5 @@ LibName32=/Users/Thomas/Desktop/Avionics-Hardware/Misc components
 LibName33=rfcom
 LibName34=RFSolutions
 LibName35=sensors
+[general]
+version=1
