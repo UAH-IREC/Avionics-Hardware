@@ -1,3 +1,4 @@
 (fp_lib_table
   (lib (name "Custom Footprints")(type KiCad)(uri "$(KIPRJMOD)/Custom Footprints.pretty")(options "")(descr ""))
+  (lib (name "Nosecone project library")(type KiCad)(uri "/Users/Thomas/Desktop/Avionics-Hardware/Nosecone/Nosecone project library.pretty")(options "")(descr ""))
 )
