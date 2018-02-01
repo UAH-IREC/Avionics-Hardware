@@ -1,5 +1,5 @@
 "Source:","/Users/Thomas/Desktop/Avionics-Hardware/Middle Board/Middle Board.sch"
-"Date:","Thursday, February 01, 2018 'PMt' 01:40:59 PM"
+"Date:","Thursday, February 01, 2018 'PMt' 03:39:20 PM"
 "Tool:","Eeschema 4.0.7"
 "Generator:","/Applications/Kicad/kicad.app/Contents/SharedSupport/plugins/bom_csv_grouped_by_value.py"
 "Component Count:","61"
@@ -65,9 +65,9 @@
 "","","U2","BNO055_Breakout","Custom Parts:BNO055_Breakout","Custom Footprints:BNO055_Breakout","","1528-1426-ND"
 "","","U3","MS5803","Custom Parts:MS5803","Custom Footprints:MS5803","","223-1623-5-ND"
 "","","U4","PD0810J5050S2HF","Custom Parts:PD0810J5050S2HF","Custom Footprints:SMD_PD_ANAREN","","1173-1093-1-ND"
-"","","U5","XBee_PRO_SX","Custom Parts:XBee_PRO_SX","","","602-1889-ND"
+"","","U5","XBee_PRO_SX","Custom Parts:XBee_PRO_SX","Custom Footprints:XBEE_PRO_SX","","602-1889-ND"
 "","","U6","PD0922J5050S2HF","Custom Parts:PD0922J5050S2HF","Custom Footprints:SMD_PD_ANAREN","","1173-1094-1-ND"
-"","","U7","UBX_NEO_M8Q","Custom Parts:UBX_NEO_M8Q","","","672-1009-1-ND"
+"","","U7","UBX_NEO_M8Q","Custom Parts:UBX_NEO_M8Q","Custom Footprints:UBX_NEO_M8Q","","672-1009-1-ND"
 
 
 
@@ -98,6 +98,6 @@
 "22","1","U2","BNO055_Breakout","Custom Parts:BNO055_Breakout","Custom Footprints:BNO055_Breakout","","1528-1426-ND"
 "23","1","U3","MS5803","Custom Parts:MS5803","Custom Footprints:MS5803","","223-1623-5-ND"
 "24","1","U4","PD0810J5050S2HF","Custom Parts:PD0810J5050S2HF","Custom Footprints:SMD_PD_ANAREN","","1173-1093-1-ND"
-"25","1","U5","XBee_PRO_SX","Custom Parts:XBee_PRO_SX","","","602-1889-ND"
+"25","1","U5","XBee_PRO_SX","Custom Parts:XBee_PRO_SX","Custom Footprints:XBEE_PRO_SX","","602-1889-ND"
 "26","1","U6","PD0922J5050S2HF","Custom Parts:PD0922J5050S2HF","Custom Footprints:SMD_PD_ANAREN","","1173-1094-1-ND"
-"27","1","U7","UBX_NEO_M8Q","Custom Parts:UBX_NEO_M8Q","","","672-1009-1-ND"
+"27","1","U7","UBX_NEO_M8Q","Custom Parts:UBX_NEO_M8Q","Custom Footprints:UBX_NEO_M8Q","","672-1009-1-ND"

@@ -2,7 +2,7 @@
 <export version="D">
   <design>
     <source>/Users/Thomas/Desktop/Avionics-Hardware/Middle Board/Middle Board.sch</source>
-    <date>Thursday, February 01, 2018 'PMt' 01:40:59 PM</date>
+    <date>Thursday, February 01, 2018 'PMt' 03:39:20 PM</date>
     <tool>Eeschema 4.0.7</tool>
     <sheet number="1" name="/" tstamps="/">
       <title_block>
@@ -331,6 +331,7 @@
     </comp>
     <comp ref="U5">
       <value>XBee_PRO_SX</value>
+      <footprint>Custom Footprints:XBEE_PRO_SX</footprint>
       <fields>
         <field name="Digikey Part Number">602-1889-ND</field>
       </fields>
@@ -530,6 +531,7 @@
     </comp>
     <comp ref="U7">
       <value>UBX_NEO_M8Q</value>
+      <footprint>Custom Footprints:UBX_NEO_M8Q</footprint>
       <fields>
         <field name="Digikey Part Number">672-1009-1-ND</field>
       </fields>
