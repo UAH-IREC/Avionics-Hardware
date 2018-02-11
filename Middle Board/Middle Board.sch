@@ -1381,17 +1381,17 @@ Text Label 2150 18850 2    60   ~ 0
 GPS_TX
 Text Label 2150 18950 2    60   ~ 0
 GPS_RX
-Text Label 4400 20050 2    60   ~ 0
+Text Label 4400 20650 2    60   ~ 0
 GPS_TX
-Text Label 4400 20150 2    60   ~ 0
+Text Label 4400 20750 2    60   ~ 0
 GPS_RX
 Text Label 4400 20350 2    60   ~ 0
 XBEE_TX
 Text Label 4400 20450 2    60   ~ 0
 XBEE_RX
-Text Label 4400 20750 2    60   ~ 0
+Text Label 4400 20150 2    60   ~ 0
 GNC_RX
-Text Label 4400 20650 2    60   ~ 0
+Text Label 4400 20050 2    60   ~ 0
 GNC_TX
 NoConn ~ 4150 11150
 NoConn ~ 4150 11250
@@ -1429,12 +1429,12 @@ NoConn ~ 4000 19150
 $Comp
 L GND #PWR049
 U 1 1 5A715134
-P 5150 20650
-F 0 "#PWR049" H 5150 20400 50  0001 C CNN
-F 1 "GND" H 5150 20500 50  0000 C CNN
-F 2 "" H 5150 20650 50  0001 C CNN
-F 3 "" H 5150 20650 50  0001 C CNN
-	1    5150 20650
+P 5150 19850
+F 0 "#PWR049" H 5150 19600 50  0001 C CNN
+F 1 "GND" H 5150 19700 50  0000 C CNN
+F 2 "" H 5150 19850 50  0001 C CNN
+F 3 "" H 5150 19850 50  0001 C CNN
+	1    5150 19850
 	1    0    0    -1  
 $EndComp
 Text Label 5600 13750 0    60   ~ 0
@@ -1788,15 +1788,6 @@ Connection ~ 5150 18900
 Connection ~ 6350 18450
 Connection ~ 6950 15500
 Wire Wire Line
-	5150 20650 4900 20650
-Wire Wire Line
-	5150 20050 5150 20650
-Wire Wire Line
-	5150 20350 4900 20350
-Wire Wire Line
-	5150 20050 4900 20050
-Connection ~ 5150 20350
-Wire Wire Line
 	5600 13750 5400 13750
 Wire Wire Line
 	5400 14050 6150 14050
@@ -1818,4 +1809,28 @@ Text Label 6400 4600 0    60   ~ 0
 MOSI
 Text Label 6400 4700 0    60   ~ 0
 SCLK
+Wire Wire Line
+	4900 19850 5150 19850
+Connection ~ 4900 19850
+Connection ~ 4900 19950
+Connection ~ 4900 20050
+Connection ~ 4900 20150
+Connection ~ 4900 20250
+Connection ~ 4900 20350
+Connection ~ 4900 20450
+Connection ~ 4900 20550
+Connection ~ 4900 20650
+Wire Wire Line
+	4900 20650 4900 19850
+$Comp
+L +3V3 #PWR?
+U 1 1 5A81B3A7
+P 4900 20750
+F 0 "#PWR?" H 4900 20600 50  0001 C CNN
+F 1 "+3V3" H 4900 20890 50  0000 C CNN
+F 2 "" H 4900 20750 50  0001 C CNN
+F 3 "" H 4900 20750 50  0001 C CNN
+	1    4900 20750
+	0    1    1    0   
+$EndComp
 $EndSCHEMATC
