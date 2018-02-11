@@ -29,6 +29,7 @@ LIBS:atmel
 LIBS:contrib
 LIBS:valves
 LIBS:Custom Parts
+LIBS:Control Board-cache
 EELAYER 25 0
 EELAYER END
 $Descr A1 33110 23386
@@ -1153,9 +1154,9 @@ Wire Wire Line
 Wire Wire Line
 	12600 1750 11950 1750
 Wire Wire Line
-	11950 1800 11950 1750
+	11950 1750 11950 1800
 Wire Wire Line
-	11050 1800 11950 1800
+	11950 1800 11050 1800
 Wire Wire Line
 	11050 1600 11950 1600
 Wire Wire Line
@@ -1196,9 +1197,9 @@ Wire Wire Line
 Wire Wire Line
 	12600 3450 11950 3450
 Wire Wire Line
-	11950 3500 11950 3450
+	11950 3450 11950 3500
 Wire Wire Line
-	11050 3500 11950 3500
+	11950 3500 11050 3500
 Wire Wire Line
 	11050 3300 11950 3300
 Wire Wire Line
@@ -1239,9 +1240,9 @@ Wire Wire Line
 Wire Wire Line
 	12600 5150 11950 5150
 Wire Wire Line
-	11950 5200 11950 5150
+	11950 5150 11950 5200
 Wire Wire Line
-	11050 5200 11950 5200
+	11950 5200 11050 5200
 Wire Wire Line
 	11050 5000 11950 5000
 Wire Wire Line
@@ -1282,9 +1283,9 @@ Wire Wire Line
 Wire Wire Line
 	12600 6850 11950 6850
 Wire Wire Line
-	11950 6900 11950 6850
+	11950 6850 11950 6900
 Wire Wire Line
-	11050 6900 11950 6900
+	11950 6900 11050 6900
 Wire Wire Line
 	11050 6700 11950 6700
 Wire Wire Line
@@ -1325,9 +1326,9 @@ Wire Wire Line
 Wire Wire Line
 	12600 8550 11950 8550
 Wire Wire Line
-	11950 8600 11950 8550
+	11950 8550 11950 8600
 Wire Wire Line
-	11050 8600 11950 8600
+	11950 8600 11050 8600
 Wire Wire Line
 	11050 8400 11950 8400
 Wire Wire Line
@@ -1653,7 +1654,7 @@ Wire Wire Line
 Wire Wire Line
 	2400 2800 2150 2800
 Wire Wire Line
-	2400 3000 2150 3000
+	2400 2900 2150 2900
 Wire Wire Line
 	2400 3650 2150 3650
 Wire Wire Line
@@ -1742,7 +1743,7 @@ Text Label 2150 1850 2    60   ~ 0
 PDI_DATA
 Text Label 2150 2800 2    60   ~ 0
 GNC_RX
-Text Label 2150 3000 2    60   ~ 0
+Text Label 2150 2900 2    60   ~ 0
 GNC_TX
 Text Label 2150 4050 2    60   ~ 0
 GPS_RX
@@ -1795,5 +1796,11 @@ TODO
 Text Notes 1400 1750 2    60   ~ 0
 TODO
 Text Notes 1400 1850 2    60   ~ 0
+TODO
+Wire Wire Line
+	2400 4500 2150 4500
+Text Label 2150 4500 2    60   ~ 0
+MODE_SW
+Text Notes 1400 4500 2    60   ~ 0
 TODO
 $EndSCHEMATC
