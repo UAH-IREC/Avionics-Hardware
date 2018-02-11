@@ -1,4 +1,4 @@
-update=Saturday, February 10, 2018 'PMt' 06:23:00 PM
+update=Sunday, February 11, 2018 'AMt' 01:10:26 AM
 version=1
 last_client=kicad
 [pcbnew]
@@ -23,8 +23,6 @@ ModuleOutlineThickness=0.150000000000
 [cvpcb]
 version=1
 NetIExt=net
-[general]
-version=1
 [eeschema]
 version=1
 LibDir=../../Avionics-Hardware
@@ -59,3 +57,5 @@ LibName27=atmel
 LibName28=contrib
 LibName29=valves
 LibName30=/Users/Thomas/Desktop/Avionics-Hardware/Custom Parts/Custom Parts
+[general]
+version=1
