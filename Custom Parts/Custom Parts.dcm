@@ -11,4 +11,10 @@ K RS485 RS422 transceiver full duplex
 F http://www.intersil.com/content/dam/Intersil/documents/isl8/isl83483-85-88-90-91.pdf
 $ENDCMP
 #
+$CMP TPS54308DDC
+D 28V 3A, Step Down Converter, SOT-23
+K Step-Down DC-DC Switching Regulator
+F http://www.ti.com/lit/ds/symlink/tps54308.pdf
+$ENDCMP
+#
 #End Doc Library

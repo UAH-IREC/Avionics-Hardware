@@ -5,4 +5,22 @@ D power-flag symbol
 K Power Flag Symbol
 $ENDCMP
 #
+$CMP ISL83490
+D 10Mbps RS485/RS422 transceiver, full duplex, receiver/driver enable, low power shutdown
+K RS485 RS422 transceiver full duplex
+F http://www.intersil.com/content/dam/Intersil/documents/isl8/isl83483-85-88-90-91.pdf
+$ENDCMP
+#
+$CMP TPS54308DDC
+D 36V 3A, Step Down Swift Converter, HSOIC8
+K Step-Down DC-DC Switching Regulator
+F http://www.ti.com/lit/ds/symlink/tps5430.pdf
+$ENDCMP
+#
+$CMP TPS5431DDA
+D 23V 3A, Step Down Swift Converter, HSOIC8
+K Step-Down DC-DC Switching Regulator
+F http://www.ti.com/lit/ds/symlink/tps5430.pdf
+$ENDCMP
+#
 #End Doc Library

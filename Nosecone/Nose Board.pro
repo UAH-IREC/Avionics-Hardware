@@ -1,4 +1,4 @@
-update=12/18/2017 7:27:33 PM
+update=Sunday, February 25, 2018 'PMt' 02:44:40 PM
 version=1
 last_client=kicad
 [pcbnew]
@@ -23,8 +23,6 @@ ModuleOutlineThickness=0.150000000000
 [cvpcb]
 version=1
 NetIExt=net
-[general]
-version=1
 [eeschema]
 version=1
 LibDir=../../Avionics-Hardware;../Misc components.pretty;../SparkFun Libraries
@@ -90,3 +88,5 @@ LibName58=SparkFun Libraries/SparkFun-Resistors
 LibName59=SparkFun Libraries/SparkFun-RF
 LibName60=SparkFun Libraries/SparkFun-Sensors
 LibName61=SparkFun Libraries/SparkFun-Switches
+[general]
+version=1

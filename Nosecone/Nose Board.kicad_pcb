@@ -65,7 +65,7 @@
     (grid_origin 167.767 100.711)
     (visible_elements 7FFEFFFF)
     (pcbplotparams
-      (layerselection 0x010f0_80000001)
+      (layerselection 0x010fc_80000001)
       (usegerberextensions false)
       (excludeedgelayer true)
       (linewidth 0.128000)
@@ -83,12 +83,12 @@
       (plotvalue true)
       (plotinvisibletext false)
       (padsonsilk false)
-      (subtractmaskfromsilk false)
+      (subtractmaskfromsilk true)
       (outputformat 1)
       (mirror false)
       (drillshape 0)
       (scaleselection 1)
-      (outputdirectory "Generated Gerbers/Take6/"))
+      (outputdirectory "Generated Gerbers/Take8/"))
   )
 
   (net 0 "")
