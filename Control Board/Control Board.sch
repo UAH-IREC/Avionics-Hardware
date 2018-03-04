@@ -4433,4 +4433,6 @@ F 4 "LTC4417CGN#PBF-ND" H 25600 4200 60  0001 C CNN "Digikey Part Number"
 	1    25600 4200
 	1    0    0    -1  
 $EndComp
+Connection ~ 16150 1400
+Connection ~ 16150 3050
 $EndSCHEMATC

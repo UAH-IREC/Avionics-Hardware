@@ -3421,9 +3421,9 @@ Text Label 10150 14250 0    60   ~ 0
 TC5_T-
 Text Label 10150 14350 0    60   ~ 0
 TC5_T+
-Text Label 9650 11850 2    60   ~ 0
+Text Label 9650 11450 2    60   ~ 0
 BAT_VCC
-Text Label 9650 11650 2    60   ~ 0
+Text Label 9650 12050 2    60   ~ 0
 UMB_VCC
 Text Label 10150 13850 0    60   ~ 0
 PT1_IN
@@ -3433,13 +3433,13 @@ Text Label 2150 4500 2    60   ~ 0
 BOARD_RX
 Text Label 2150 4600 2    60   ~ 0
 BOARD_TX
-Text Label 9650 11950 2    60   ~ 0
-BAT_VCC
-Text Label 9650 12050 2    60   ~ 0
-BAT_VCC
 Text Label 9650 11550 2    60   ~ 0
+BAT_VCC
+Text Label 9650 11650 2    60   ~ 0
+BAT_VCC
+Text Label 9650 11950 2    60   ~ 0
 UMB_VCC
-Text Label 9650 11450 2    60   ~ 0
+Text Label 9650 11850 2    60   ~ 0
 UMB_VCC
 Text Label 9650 12550 2    60   ~ 0
 BOARD_RX+
@@ -3481,9 +3481,9 @@ Text Label 10150 12050 0    60   ~ 0
 BAT_BAK_VCC
 Text Label 10150 12150 0    60   ~ 0
 BAT_BAK_VCC
-Text Label 9650 12150 2    60   ~ 0
-BAT_VCC
 Text Label 9650 11750 2    60   ~ 0
+BAT_VCC
+Text Label 9650 12150 2    60   ~ 0
 UMB_VCC
 Text Label 22500 2200 2    60   ~ 0
 BAT_BAK_VCC
