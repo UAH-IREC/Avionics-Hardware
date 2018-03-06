@@ -12,7 +12,7 @@ F http://www.intersil.com/content/dam/Intersil/documents/isl8/isl83483-85-88-90-
 $ENDCMP
 #
 $CMP LTC4417CGN
-D Prioritized PowerPath controller QFN-24
+D Prioritized PowerPath controller SSOP-24
 K switch power FET sequence
 F http://cds.linear.com/docs/en/datasheet/4417f.pdf
 $ENDCMP
