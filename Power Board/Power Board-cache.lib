@@ -1,21 +1,6 @@
 EESchema-LIBRARY Version 2.4
 #encoding utf-8
 #
-# Custom-Parts:+14V
-#
-DEF Custom-Parts:+14V #PWR 0 0 Y Y 1 F P
-F0 "#PWR" 0 -150 50 H I C CNN
-F1 "Custom-Parts:+14V" 0 140 50 H V C CNN
-F2 "" 0 0 50 H I C CNN
-F3 "" 0 0 50 H I C CNN
-DRAW
-P 2 0 1 0 -30 50 0 100 N
-P 2 0 1 0 0 0 0 100 N
-P 2 0 1 0 0 100 30 50 N
-X +14V 1 0 0 0 U 50 50 1 1 W N
-ENDDRAW
-ENDDEF
-#
 # Custom-Parts:LTC3130-1
 #
 DEF Custom-Parts:LTC3130-1 U 0 40 Y Y 1 F N
@@ -103,6 +88,19 @@ X VIN 3 -500 200 100 R 50 50 1 1 I
 X FB 4 500 -200 100 L 50 50 1 1 I
 X EN 5 -500 -200 100 R 50 50 1 1 I
 X BOOT 6 500 200 100 L 50 50 1 1 I
+ENDDRAW
+ENDDEF
+#
+# Graphic:SYM_Arrow45_XLarge
+#
+DEF ~Graphic:SYM_Arrow45_XLarge #SYM 0 40 Y Y 1 F N
+F0 "#SYM" 110 100 50 H I C CNN
+F1 "Graphic:SYM_Arrow45_XLarge" 0 -180 50 H I C CNN
+F2 "" 0 0 50 H I C CNN
+F3 "" 0 0 50 H I C CNN
+DRAW
+P 2 0 1 20 120 -120 -140 140 N
+P 4 0 1 0 140 -140 20 -90 90 -20 140 -140 F
 ENDDRAW
 ENDDEF
 #

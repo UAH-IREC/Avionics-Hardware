@@ -1905,8 +1905,6 @@ F 4 "311-20.0KHRCT-ND" H 8780 6820 50  0001 C CNN "Digikey Part Number"
 	1    8750 6700
 	-1   0    0    -1  
 $EndComp
-Text Label 15950 1650 2    60   ~ 0
-TC1_FAULT
 Text Label 15950 2050 2    60   ~ 0
 TC1_CS
 Text Label 15950 1750 2    60   ~ 0
@@ -1921,8 +1919,6 @@ Text Label 12400 1700 0    60   ~ 0
 TC1_T-
 Text Label 12400 1900 0    60   ~ 0
 TC1_T+
-Text Label 15950 3350 2    60   ~ 0
-TC2_FAULT
 Text Label 15950 3750 2    60   ~ 0
 TC2_CS
 Text Label 15950 3450 2    60   ~ 0
@@ -1937,12 +1933,8 @@ Text Label 12400 3400 0    60   ~ 0
 TC2_T-
 Text Label 12400 3600 0    60   ~ 0
 TC2_T+
-Text Label 15950 5050 2    60   ~ 0
-TC3_FAULT
 Text Label 15950 5450 2    60   ~ 0
 TC3_CS
-Text Label 15950 5150 2    60   ~ 0
-MOSI1
 Text Label 15950 5250 2    60   ~ 0
 MISO1
 Text Label 15950 5350 2    60   ~ 0
@@ -1953,8 +1945,6 @@ Text Label 12400 5100 0    60   ~ 0
 TC3_T-
 Text Label 12400 5300 0    60   ~ 0
 TC3_T+
-Text Label 15950 6750 2    60   ~ 0
-TC4_FAULT
 Text Label 15950 7150 2    60   ~ 0
 TC4_CS
 Text Label 15950 6850 2    60   ~ 0
@@ -1969,8 +1959,6 @@ Text Label 12400 6800 0    60   ~ 0
 TC4_T-
 Text Label 12400 7000 0    60   ~ 0
 TC4_T+
-Text Label 15950 8450 2    60   ~ 0
-TC5_FAULT
 Text Label 15950 8850 2    60   ~ 0
 TC5_CS
 Text Label 15950 8550 2    60   ~ 0
@@ -1999,9 +1987,7 @@ Text Label 4650 1750 0    60   ~ 0
 PT1_ADC
 Text Label 4650 1850 0    60   ~ 0
 PT2_ADC
-Text Label 4650 2050 0    60   ~ 0
-TC1_FAULT
-Text Label 4650 1950 0    60   ~ 0
+Text Label 4650 2600 0    60   ~ 0
 TC1_CS
 Text Label 4650 3950 0    60   ~ 0
 MOSI1
@@ -2009,39 +1995,31 @@ Text Label 4650 4050 0    60   ~ 0
 MISO1
 Text Label 4650 4150 0    60   ~ 0
 SCK1
-Text Label 4650 2150 0    60   ~ 0
+Text Label 4650 2700 0    60   ~ 0
 TC1_DRDY
-Text Label 4650 2350 0    60   ~ 0
-TC2_FAULT
-Text Label 4650 2250 0    60   ~ 0
-TC2_CS
-Text Label 4650 2450 0    60   ~ 0
-TC2_DRDY
-Text Label 4650 3750 0    60   ~ 0
-TC3_CS
-Text Label 4650 2600 0    60   ~ 0
-TC3_FAULT
-Text Label 4650 3850 0    60   ~ 0
-TC3_DRDY
-Text Label 4650 3450 0    60   ~ 0
-TC4_CS
-Text Label 4650 3550 0    60   ~ 0
-TC4_FAULT
-Text Label 4650 3650 0    60   ~ 0
-TC4_DRDY
-Text Label 2150 3100 2    60   ~ 0
-TC5_CS
-Text Label 2150 3200 2    60   ~ 0
-TC5_FAULT
-Text Label 2150 3300 2    60   ~ 0
-TC5_DRDY
-Text Label 4650 2900 0    60   ~ 0
-V_BAT1_ADC
-Text Label 4650 3200 0    60   ~ 0
-V_3.3_ADC
-Text Label 4650 3300 0    60   ~ 0
-V_PT_ADC
 Text Label 4650 2800 0    60   ~ 0
+TC2_CS
+Text Label 4650 2900 0    60   ~ 0
+TC2_DRDY
+Text Label 4650 3000 0    60   ~ 0
+TC3_CS
+Text Label 4650 3100 0    60   ~ 0
+TC3_DRDY
+Text Label 4650 3200 0    60   ~ 0
+TC4_CS
+Text Label 4650 3300 0    60   ~ 0
+TC4_DRDY
+Text Label 4650 3450 0    60   ~ 0
+TC5_CS
+Text Label 4650 3550 0    60   ~ 0
+TC5_DRDY
+Text Label 4650 2050 0    60   ~ 0
+V_BAT1_ADC
+Text Label 4650 2350 0    60   ~ 0
+V_3.3_ADC
+Text Label 4650 2450 0    60   ~ 0
+V_PT_ADC
+Text Label 4650 1950 0    60   ~ 0
 V_UMB_ADC
 Text Label 4650 4300 0    60   ~ 0
 SERVO1_PWM
@@ -2069,8 +2047,6 @@ Text Label 2150 4150 2    60   ~ 0
 GPS_RX
 Text Label 2150 3650 2    60   ~ 0
 XBEE_TX
-Text Label 2150 3750 2    60   ~ 0
-XBEE_RX
 Text Label 2150 3550 2    60   ~ 0
 GNC_INST
 Text Label 2150 3450 2    60   ~ 0
@@ -2129,10 +2105,6 @@ Text Label 3200 9900 0    60   ~ 0
 PDI_DATA
 Text Label 3200 10100 0    60   ~ 0
 PDI_CLK
-Text Label 2150 3850 2    60   ~ 0
-BUZZER1
-Text Label 2150 3950 2    60   ~ 0
-BUZZER2
 Text Label 2150 2600 2    60   ~ 0
 LED_R
 Text Label 2150 2700 2    60   ~ 0
@@ -2223,7 +2195,7 @@ Text Label 14350 12350 2    60   ~ 0
 BAT_VCC
 Text Label 14850 12350 0    60   ~ 0
 UMB_VCC
-Text Label 4650 3000 0    60   ~ 0
+Text Label 4650 2150 0    60   ~ 0
 V_BAT2_ADC
 Text Label 6800 6450 0    60   ~ 0
 BAT_BAK_VCC
@@ -2231,10 +2203,8 @@ Text Label 8000 6800 2    60   ~ 0
 V_BAT2_ADC
 Text Label 8250 8450 0    60   ~ 0
 VCC_IN
-Text Label 4650 3100 0    60   ~ 0
+Text Label 4650 2250 0    60   ~ 0
 V_SUPPLY_ADC
-Wire Wire Line
-	15050 1650 15950 1650
 Wire Wire Line
 	15950 1750 15050 1750
 Wire Wire Line
@@ -2272,8 +2242,6 @@ Wire Wire Line
 Wire Wire Line
 	12850 1250 12850 1700
 Wire Wire Line
-	15050 3350 15950 3350
-Wire Wire Line
 	15950 3450 15050 3450
 Wire Wire Line
 	15950 3550 15050 3550
@@ -2309,8 +2277,6 @@ Wire Wire Line
 	13400 2950 12850 2950
 Wire Wire Line
 	12850 2950 12850 3400
-Wire Wire Line
-	15050 5050 15950 5050
 Wire Wire Line
 	15950 5150 15050 5150
 Wire Wire Line
@@ -2348,8 +2314,6 @@ Wire Wire Line
 Wire Wire Line
 	12850 4650 12850 5100
 Wire Wire Line
-	15050 6750 15950 6750
-Wire Wire Line
 	15950 6850 15050 6850
 Wire Wire Line
 	15950 6950 15050 6950
@@ -2386,8 +2350,6 @@ Wire Wire Line
 Wire Wire Line
 	12850 6350 12850 6800
 Wire Wire Line
-	15050 8450 15950 8450
-Wire Wire Line
 	15950 8550 15050 8550
 Wire Wire Line
 	15950 8650 15050 8650
@@ -2423,8 +2385,6 @@ Wire Wire Line
 	13400 8050 12850 8050
 Wire Wire Line
 	12850 8050 12850 8500
-Wire Wire Line
-	3150 4900 3250 4900
 Wire Wire Line
 	3150 4900 3150 5050
 Wire Wire Line
@@ -2510,37 +2470,29 @@ Wire Wire Line
 Wire Wire Line
 	2400 4150 2150 4150
 Wire Wire Line
-	4400 2600 4650 2600
+	4400 1950 4650 1950
 Wire Wire Line
-	4400 2700 4650 2700
+	4400 2050 4650 2050
 Wire Wire Line
-	4400 2800 4650 2800
+	4400 2150 4650 2150
 Wire Wire Line
-	4400 2900 4650 2900
+	4650 2250 4400 2250
 Wire Wire Line
-	4400 3000 4650 3000
+	4650 2350 4400 2350
 Wire Wire Line
-	4650 3100 4400 3100
-Wire Wire Line
-	4650 3200 4400 3200
-Wire Wire Line
-	4650 3300 4400 3300
+	4650 2450 4400 2450
 Wire Wire Line
 	4400 4300 4650 4300
 Wire Wire Line
 	4400 4400 4650 4400
 Wire Wire Line
-	4400 1950 4650 1950
+	4400 2600 4650 2600
 Wire Wire Line
-	4400 2050 4650 2050
+	4650 2700 4400 2700
 Wire Wire Line
-	4650 2150 4400 2150
+	4400 2800 4650 2800
 Wire Wire Line
-	4400 2250 4650 2250
-Wire Wire Line
-	4650 2350 4400 2350
-Wire Wire Line
-	4400 2450 4650 2450
+	4400 2900 4650 2900
 Wire Wire Line
 	2150 4300 2400 4300
 Wire Wire Line
@@ -2548,17 +2500,13 @@ Wire Wire Line
 Wire Wire Line
 	4650 4600 4400 4600
 Wire Wire Line
+	4650 3200 4400 3200
+Wire Wire Line
+	4400 3300 4650 3300
+Wire Wire Line
 	4650 3450 4400 3450
 Wire Wire Line
-	4650 3550 4400 3550
-Wire Wire Line
-	4400 3650 4650 3650
-Wire Wire Line
-	2150 3100 2400 3100
-Wire Wire Line
-	2400 3200 2150 3200
-Wire Wire Line
-	2400 3300 2150 3300
+	4400 3550 4650 3550
 Wire Wire Line
 	2400 4400 2150 4400
 Wire Wire Line
@@ -2638,10 +2586,6 @@ Wire Wire Line
 Wire Wire Line
 	3650 10450 3950 10450
 Wire Wire Line
-	2400 3950 2150 3950
-Wire Wire Line
-	2400 3850 2150 3850
-Wire Wire Line
 	2400 3000 2150 3000
 Wire Wire Line
 	2400 2700 2150 2700
@@ -2692,9 +2636,9 @@ Wire Wire Line
 Wire Wire Line
 	8450 11150 8650 11150
 Wire Wire Line
-	4400 3750 4650 3750
+	4400 3000 4650 3000
 Wire Wire Line
-	4400 3850 4650 3850
+	4400 3100 4650 3100
 Wire Wire Line
 	7300 6800 8000 6800
 Wire Wire Line
@@ -2728,10 +2672,6 @@ Connection ~ 13800 8750
 Connection ~ 13200 8700
 Connection ~ 13200 8500
 Connection ~ 12850 8500
-Connection ~ 3250 4900
-Connection ~ 3350 4900
-Connection ~ 3450 4900
-Connection ~ 3550 4900
 Connection ~ 3550 1350
 Connection ~ 3150 1100
 Connection ~ 3250 1100
@@ -2880,14 +2820,6 @@ Wire Wire Line
 Wire Wire Line
 	12850 8500 13200 8500
 Wire Wire Line
-	3250 4900 3350 4900
-Wire Wire Line
-	3350 4900 3450 4900
-Wire Wire Line
-	3450 4900 3550 4900
-Wire Wire Line
-	3550 4900 3650 4900
-Wire Wire Line
 	3550 1350 3550 1450
 Wire Wire Line
 	3550 1350 3650 1350
@@ -2943,4 +2875,83 @@ Wire Wire Line
 	8750 1850 8750 2000
 Wire Wire Line
 	8750 3500 8750 3650
+Text Label 15950 5150 2    60   ~ 0
+MOSI1
+Wire Wire Line
+	3550 4900 3650 4900
+Wire Wire Line
+	3450 4900 3550 4900
+Wire Wire Line
+	3350 4900 3450 4900
+Connection ~ 3550 4900
+Connection ~ 3450 4900
+Connection ~ 3350 4900
+Connection ~ 3250 4900
+Wire Wire Line
+	3250 4900 3350 4900
+Wire Wire Line
+	3150 4900 3250 4900
+Wire Wire Line
+	4400 3650 4650 3650
+Wire Wire Line
+	4400 3750 4650 3750
+Text Label 4650 3650 0    60   ~ 0
+OPENLOG_TX
+Text Label 4650 3750 0    60   ~ 0
+OPENLOG_RX
+$Comp
+L Custom-Parts:OPENLOG U?
+U 1 1 5ACDDD81
+P 9050 14400
+F 0 "U?" H 9478 14540 50  0000 L CNN
+F 1 "OPENLOG" H 9478 14449 50  0000 L CNN
+F 2 "" H 8900 14400 50  0001 C CNN
+F 3 "" H 8900 14400 50  0001 C CNN
+	1    9050 14400
+	1    0    0    -1  
+$EndComp
+NoConn ~ 8800 14600
+$Comp
+L power:GND #PWR?
+U 1 1 5ACFC32F
+P 9300 14600
+F 0 "#PWR?" H 9300 14350 50  0001 C CNN
+F 1 "GND" H 9300 14450 50  0000 C CNN
+F 2 "" H 9300 14600 50  0001 C CNN
+F 3 "" H 9300 14600 50  0001 C CNN
+	1    9300 14600
+	-1   0    0    -1  
+$EndComp
+Wire Wire Line
+	9200 14600 9300 14600
+Connection ~ 9300 14600
+Wire Wire Line
+	9100 14600 9100 15050
+Wire Wire Line
+	9100 15050 9300 15050
+$Comp
+L power:+3V3 #PWR?
+U 1 1 5AD38C00
+P 9300 15050
+F 0 "#PWR?" H 9300 14900 50  0001 C CNN
+F 1 "+3V3" H 9300 15190 50  0000 C CNN
+F 2 "" H 9300 15050 50  0001 C CNN
+F 3 "" H 9300 15050 50  0001 C CNN
+	1    9300 15050
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	9000 14600 9000 15050
+Wire Wire Line
+	9000 15050 8150 15050
+Wire Wire Line
+	8900 14600 8900 14950
+Wire Wire Line
+	8900 14950 8150 14950
+Text Label 8150 15050 2    60   ~ 0
+OPENLOG_TX
+Text Label 8150 14950 2    60   ~ 0
+OPENLOG_RX
+Text Label 2150 3750 2    60   ~ 0
+XBEE_RX
 $EndSCHEMATC
