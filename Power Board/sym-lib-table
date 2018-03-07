@@ -1,0 +1,4 @@
+(sym_lib_table
+  (lib (name Power-Board-rescue)(type Legacy)(uri "${KIPRJMOD}/Power Board-rescue.lib")(options "")(descr ""))
+  (lib (name Custom-Parts)(type Legacy)(uri "/Users/Thomas/Desktop/Avionics-Hardware/Custom Parts/Custom Parts.lib")(options "")(descr ""))
+)

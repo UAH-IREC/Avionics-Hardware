@@ -1,102 +1,6 @@
-EESchema Schematic File Version 2
-LIBS:power
-LIBS:device
-LIBS:transistors
-LIBS:conn
-LIBS:linear
-LIBS:regul
-LIBS:74xx
-LIBS:cmos4000
-LIBS:adc-dac
-LIBS:memory
-LIBS:xilinx
-LIBS:microcontrollers
-LIBS:dsp
-LIBS:microchip
-LIBS:analog_switches
-LIBS:motorola
-LIBS:texas
-LIBS:intel
-LIBS:audio
-LIBS:interface
-LIBS:digital-audio
-LIBS:philips
-LIBS:display
-LIBS:cypress
-LIBS:siliconi
-LIBS:opto
-LIBS:atmel
-LIBS:contrib
-LIBS:valves
-LIBS:Custom Parts
-LIBS:74xgxx
-LIBS:ac-dc
-LIBS:actel
-LIBS:allegro
-LIBS:Altera
-LIBS:analog_devices
-LIBS:battery_management
-LIBS:bbd
-LIBS:bosch
-LIBS:brooktre
-LIBS:cmos_ieee
-LIBS:dc-dc
-LIBS:diode
-LIBS:elec-unifil
-LIBS:ESD_Protection
-LIBS:ftdi
-LIBS:gennum
-LIBS:graphic_symbols
-LIBS:hc11
-LIBS:infineon
-LIBS:intersil
-LIBS:ir
-LIBS:Lattice
-LIBS:leds
-LIBS:LEM
-LIBS:logic_programmable
-LIBS:maxim
-LIBS:mechanical
-LIBS:microchip_dspic33dsc
-LIBS:microchip_pic10mcu
-LIBS:microchip_pic12mcu
-LIBS:microchip_pic16mcu
-LIBS:microchip_pic18mcu
-LIBS:microchip_pic24mcu
-LIBS:microchip_pic32mcu
-LIBS:modules
-LIBS:motor_drivers
-LIBS:motors
-LIBS:msp430
-LIBS:nordicsemi
-LIBS:nxp_armmcu
-LIBS:nxp
-LIBS:onsemi
-LIBS:Oscillators
-LIBS:Power_Management
-LIBS:powerint
-LIBS:pspice
-LIBS:references
-LIBS:relays
-LIBS:rfcom
-LIBS:RFSolutions
-LIBS:sensors
-LIBS:silabs
-LIBS:stm8
-LIBS:stm32
-LIBS:supertex
-LIBS:switches
-LIBS:transf
-LIBS:triac_thyristor
-LIBS:ttl_ieee
-LIBS:video
-LIBS:wiznet
-LIBS:Worldsemi
-LIBS:Xicor
-LIBS:zetex
-LIBS:Zilog
+EESchema Schematic File Version 4
 LIBS:Power Board-cache
-EELAYER 25 0
+EELAYER 26 0
 EELAYER END
 $Descr A1 33110 23386
 encoding utf-8
@@ -111,7 +15,7 @@ Comment3 ""
 Comment4 ""
 $EndDescr
 $Comp
-L LED D5
+L device:LED D5
 U 1 1 5A8295FF
 P 3300 13100
 F 0 "D5" H 3300 13200 50  0000 C CNN
@@ -123,7 +27,7 @@ F 4 "160-1447-1-ND" H 3300 13300 50  0001 C CNN "Digikey Part Number"
 	1    0    0    -1  
 $EndComp
 $Comp
-L R R14
+L device:R R14
 U 1 1 5A8298EE
 P 2800 13100
 F 0 "R14" V 2880 13100 50  0000 C CNN
@@ -135,7 +39,7 @@ F 4 "311-100GRCT-ND" H 2880 13200 50  0001 C CNN "Digikey Part Number"
 	0    1    1    0   
 $EndComp
 $Comp
-L GND #PWR01
+L power:GND #PWR01
 U 1 1 5A829D6A
 P 2500 13100
 F 0 "#PWR01" H 2500 12850 50  0001 C CNN
@@ -146,7 +50,7 @@ F 3 "" H 2500 13100 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L +3V3 #PWR02
+L power:+3V3 #PWR02
 U 1 1 5A82A5C4
 P 3650 13100
 F 0 "#PWR02" H 3650 12950 50  0001 C CNN
@@ -157,7 +61,7 @@ F 3 "" H 3650 13100 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L +3V3 #PWR03
+L power:+3V3 #PWR03
 U 1 1 5A835285
 P 3700 16150
 F 0 "#PWR03" H 3700 16000 50  0001 C CNN
@@ -168,7 +72,7 @@ F 3 "" H 3700 16150 50  0001 C CNN
 	0    -1   -1   0   
 $EndComp
 $Comp
-L +12V #PWR04
+L power:+12V #PWR04
 U 1 1 5A83647C
 P 4200 16250
 F 0 "#PWR04" H 4200 16100 50  0001 C CNN
@@ -179,7 +83,7 @@ F 3 "" H 4200 16250 50  0001 C CNN
 	0    1    1    0   
 $EndComp
 $Comp
-L +3V3 #PWR05
+L power:+3V3 #PWR05
 U 1 1 5A8F6A7E
 P 5850 7900
 F 0 "#PWR05" H 5850 7750 50  0001 C CNN
@@ -190,7 +94,7 @@ F 3 "" H 5850 7900 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L +14V #PWR06
+L Custom-Parts:+14V #PWR06
 U 1 1 5A8F6CAB
 P 2500 6000
 F 0 "#PWR06" H 2500 5850 50  0001 C CNN
@@ -201,7 +105,7 @@ F 3 "" H 2500 6000 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L +12V #PWR07
+L power:+12V #PWR07
 U 1 1 5A8F6E8A
 P 4750 11200
 F 0 "#PWR07" H 4750 11050 50  0001 C CNN
@@ -212,7 +116,7 @@ F 3 "" H 4750 11200 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L GND #PWR08
+L power:GND #PWR08
 U 1 1 5A8FA5E2
 P 3700 14950
 F 0 "#PWR08" H 3700 14700 50  0001 C CNN
@@ -223,7 +127,7 @@ F 3 "" H 3700 14950 50  0001 C CNN
 	0    1    -1   0   
 $EndComp
 $Comp
-L GND #PWR09
+L power:GND #PWR09
 U 1 1 5A8FE187
 P 3700 15050
 F 0 "#PWR09" H 3700 14800 50  0001 C CNN
@@ -234,7 +138,7 @@ F 3 "" H 3700 15050 50  0001 C CNN
 	0    1    -1   0   
 $EndComp
 $Comp
-L GND #PWR010
+L power:GND #PWR010
 U 1 1 5A8FE27C
 P 4200 14950
 F 0 "#PWR010" H 4200 14700 50  0001 C CNN
@@ -245,7 +149,7 @@ F 3 "" H 4200 14950 50  0001 C CNN
 	0    -1   1    0   
 $EndComp
 $Comp
-L GND #PWR011
+L power:GND #PWR011
 U 1 1 5A8FE371
 P 4200 15050
 F 0 "#PWR011" H 4200 14800 50  0001 C CNN
@@ -256,7 +160,7 @@ F 3 "" H 4200 15050 50  0001 C CNN
 	0    -1   1    0   
 $EndComp
 $Comp
-L GND #PWR012
+L power:GND #PWR012
 U 1 1 5A8FFDDD
 P 4200 15950
 F 0 "#PWR012" H 4200 15700 50  0001 C CNN
@@ -267,7 +171,7 @@ F 3 "" H 4200 15950 50  0001 C CNN
 	0    -1   1    0   
 $EndComp
 $Comp
-L GND #PWR013
+L power:GND #PWR013
 U 1 1 5A8FFED2
 P 3700 16250
 F 0 "#PWR013" H 3700 16000 50  0001 C CNN
@@ -278,7 +182,7 @@ F 3 "" H 3700 16250 50  0001 C CNN
 	0    1    -1   0   
 $EndComp
 $Comp
-L Q_PMOS_DGS Q1
+L device:Q_PMOS_DGS Q1
 U 1 1 5A8EF571
 P 5100 1200
 F 0 "Q1" H 5300 1250 50  0000 L CNN
@@ -290,7 +194,7 @@ F 4 "SI7135DP-T1-GE3CT-ND" H 5300 1350 50  0001 C CNN "Digikey Part Number"
 	0    -1   -1   0   
 $EndComp
 $Comp
-L Q_PMOS_DGS Q2
+L device:Q_PMOS_DGS Q2
 U 1 1 5A8EF9DA
 P 5600 1200
 F 0 "Q2" H 5800 1250 50  0000 L CNN
@@ -302,7 +206,7 @@ F 4 "SI7135DP-T1-GE3CT-ND" H 5800 1350 50  0001 C CNN "Digikey Part Number"
 	0    1    -1   0   
 $EndComp
 $Comp
-L Q_PMOS_DGS Q3
+L device:Q_PMOS_DGS Q3
 U 1 1 5A8F1A26
 P 5900 1600
 F 0 "Q3" H 6100 1650 50  0000 L CNN
@@ -314,7 +218,7 @@ F 4 "SI7135DP-T1-GE3CT-ND" H 6100 1750 50  0001 C CNN "Digikey Part Number"
 	0    -1   -1   0   
 $EndComp
 $Comp
-L Q_PMOS_DGS Q4
+L device:Q_PMOS_DGS Q4
 U 1 1 5A8F1A2D
 P 6400 1600
 F 0 "Q4" H 6600 1650 50  0000 L CNN
@@ -326,7 +230,7 @@ F 4 "SI7135DP-T1-GE3CT-ND" H 6600 1750 50  0001 C CNN "Digikey Part Number"
 	0    1    -1   0   
 $EndComp
 $Comp
-L Q_PMOS_DGS Q5
+L device:Q_PMOS_DGS Q5
 U 1 1 5A8F1ADE
 P 6700 2000
 F 0 "Q5" H 6900 2050 50  0000 L CNN
@@ -338,7 +242,7 @@ F 4 "SI7135DP-T1-GE3CT-ND" H 6900 2150 50  0001 C CNN "Digikey Part Number"
 	0    -1   -1   0   
 $EndComp
 $Comp
-L Q_PMOS_DGS Q6
+L device:Q_PMOS_DGS Q6
 U 1 1 5A8F1AE5
 P 7200 2000
 F 0 "Q6" H 7400 2050 50  0000 L CNN
@@ -350,7 +254,7 @@ F 4 "SI7135DP-T1-GE3CT-ND" H 7400 2150 50  0001 C CNN "Digikey Part Number"
 	0    1    -1   0   
 $EndComp
 $Comp
-L GND #PWR014
+L power:GND #PWR014
 U 1 1 5A8F52ED
 P 4000 4600
 F 0 "#PWR014" H 4000 4350 50  0001 C CNN
@@ -361,7 +265,7 @@ F 3 "" H 4000 4600 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L GND #PWR015
+L power:GND #PWR015
 U 1 1 5A8F55FE
 P 4600 5100
 F 0 "#PWR015" H 4600 4850 50  0001 C CNN
@@ -372,7 +276,7 @@ F 3 "" H 4600 5100 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L C_Small C2
+L device:C_Small C2
 U 1 1 5A8F83BF
 P 5500 2750
 F 0 "C2" H 5510 2820 50  0000 L CNN
@@ -384,7 +288,7 @@ F 4 "445-5667-1-ND" H 5510 2920 50  0001 C CNN "Digikey Part Number"
 	1    0    0    -1  
 $EndComp
 $Comp
-L C_Small C3
+L device:C_Small C3
 U 1 1 5A8F8776
 P 6300 2750
 F 0 "C3" H 6310 2820 50  0000 L CNN
@@ -396,7 +300,7 @@ F 4 "445-5667-1-ND" H 6310 2920 50  0001 C CNN "Digikey Part Number"
 	1    0    0    -1  
 $EndComp
 $Comp
-L C_Small C4
+L device:C_Small C4
 U 1 1 5A8F88B6
 P 7100 2750
 F 0 "C4" H 7110 2820 50  0000 L CNN
@@ -408,7 +312,7 @@ F 4 "445-5667-1-ND" H 7110 2920 50  0001 C CNN "Digikey Part Number"
 	1    0    0    -1  
 $EndComp
 $Comp
-L GND #PWR016
+L power:GND #PWR016
 U 1 1 5A8F8F6F
 P 5500 2850
 F 0 "#PWR016" H 5500 2600 50  0001 C CNN
@@ -419,7 +323,7 @@ F 3 "" H 5500 2850 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L GND #PWR017
+L power:GND #PWR017
 U 1 1 5A8F9094
 P 6300 2850
 F 0 "#PWR017" H 6300 2600 50  0001 C CNN
@@ -430,7 +334,7 @@ F 3 "" H 6300 2850 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L GND #PWR018
+L power:GND #PWR018
 U 1 1 5A8F91B9
 P 7100 2850
 F 0 "#PWR018" H 7100 2600 50  0001 C CNN
@@ -441,7 +345,7 @@ F 3 "" H 7100 2850 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L C_Small C5
+L device:C_Small C5
 U 1 1 5A8F92DE
 P 3900 2900
 F 0 "C5" H 3910 2970 50  0000 L CNN
@@ -453,7 +357,7 @@ F 4 "445-5667-1-ND" H 3910 3070 50  0001 C CNN "Digikey Part Number"
 	0    -1   -1   0   
 $EndComp
 $Comp
-L GND #PWR019
+L power:GND #PWR019
 U 1 1 5A8F9E29
 P 8400 1500
 F 0 "#PWR019" H 8400 1250 50  0001 C CNN
@@ -464,7 +368,7 @@ F 3 "" H 8400 1500 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L CP1_Small C1
+L device:CP1_Small C1
 U 1 1 5A8FA915
 P 8400 1400
 F 0 "C1" H 8410 1470 50  0000 L CNN
@@ -476,7 +380,7 @@ F 4 "1189-1733-ND" H 8410 1570 50  0001 C CNN "Digikey Part Number"
 	1    0    0    -1  
 $EndComp
 $Comp
-L D_TVS D1
+L device:D_TVS D1
 U 1 1 5A8FEFAC
 P 4450 1250
 F 0 "D1" H 4450 1350 50  0000 C CNN
@@ -488,7 +392,7 @@ F 4 "SMBJ26CAFSCT-ND" H 4450 1450 50  0001 C CNN "Digikey Part Number"
 	-1   0    0    1   
 $EndComp
 $Comp
-L GND #PWR020
+L power:GND #PWR020
 U 1 1 5A8FF4A6
 P 4700 1250
 F 0 "#PWR020" H 4700 1000 50  0001 C CNN
@@ -499,7 +403,7 @@ F 3 "" H 4700 1250 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L D_TVS D3
+L device:D_TVS D3
 U 1 1 5A8FF9CC
 P 4450 1650
 F 0 "D3" H 4450 1750 50  0000 C CNN
@@ -511,7 +415,7 @@ F 4 "SMBJ26CAFSCT-ND" H 4450 1850 50  0001 C CNN "Digikey Part Number"
 	-1   0    0    1   
 $EndComp
 $Comp
-L GND #PWR021
+L power:GND #PWR021
 U 1 1 5A8FF9D2
 P 4700 1650
 F 0 "#PWR021" H 4700 1400 50  0001 C CNN
@@ -522,7 +426,7 @@ F 3 "" H 4700 1650 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L D_TVS D4
+L device:D_TVS D4
 U 1 1 5A8FFABB
 P 4450 2050
 F 0 "D4" H 4450 2150 50  0000 C CNN
@@ -534,7 +438,7 @@ F 4 "SMBJ26CAFSCT-ND" H 4450 2250 50  0001 C CNN "Digikey Part Number"
 	-1   0    0    1   
 $EndComp
 $Comp
-L GND #PWR022
+L power:GND #PWR022
 U 1 1 5A8FFAC1
 P 4700 2050
 F 0 "#PWR022" H 4700 1800 50  0001 C CNN
@@ -545,7 +449,7 @@ F 3 "" H 4700 2050 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L D_Zener D2
+L device:D_Zener D2
 U 1 1 5A90020B
 P 7900 1350
 F 0 "D2" H 7900 1450 50  0000 C CNN
@@ -557,7 +461,7 @@ F 4 "SMBJ26AFSCT-ND" H 7900 1550 50  0001 C CNN "Digikey Part Number"
 	0    1    1    0   
 $EndComp
 $Comp
-L GND #PWR023
+L power:GND #PWR023
 U 1 1 5A900989
 P 7900 1500
 F 0 "#PWR023" H 7900 1250 50  0001 C CNN
@@ -568,7 +472,7 @@ F 3 "" H 7900 1500 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L R_Small R3
+L device:R_Small R3
 U 1 1 5A904AF0
 P 3650 3300
 F 0 "R3" V 3650 2700 50  0000 L CNN
@@ -580,7 +484,7 @@ F 4 "311-4.99KHRCT-ND" H 3650 2800 50  0001 C CNN "Digikey Part Number"
 	0    1    -1   0   
 $EndComp
 $Comp
-L R_Small R2
+L device:R_Small R2
 U 1 1 5A9057A8
 P 3650 3200
 F 0 "R2" V 3650 2600 50  0000 L CNN
@@ -592,7 +496,7 @@ F 4 "311-4.99KHRCT-ND" H 3650 2700 50  0001 C CNN "Digikey Part Number"
 	0    1    -1   0   
 $EndComp
 $Comp
-L R_Small R1
+L device:R_Small R1
 U 1 1 5A9058F2
 P 3650 3100
 F 0 "R1" V 3650 2500 50  0000 L CNN
@@ -604,7 +508,7 @@ F 4 "311-90.9KHRCT-ND" H 3650 2600 50  0001 C CNN "Digikey Part Number"
 	0    1    -1   0   
 $EndComp
 $Comp
-L GND #PWR024
+L power:GND #PWR024
 U 1 1 5A906A49
 P 3750 3300
 F 0 "#PWR024" H 3750 3050 50  0001 C CNN
@@ -615,7 +519,7 @@ F 3 "" H 3750 3300 50  0001 C CNN
 	0    -1   -1   0   
 $EndComp
 $Comp
-L GND #PWR025
+L power:GND #PWR025
 U 1 1 5A9084E2
 P 3800 2900
 F 0 "#PWR025" H 3800 2650 50  0001 C CNN
@@ -626,7 +530,7 @@ F 3 "" H 3800 2900 50  0001 C CNN
 	0    1    1    0   
 $EndComp
 $Comp
-L C_Small C6
+L device:C_Small C6
 U 1 1 5A90AD02
 P 2850 3300
 F 0 "C6" H 2860 3370 50  0000 L CNN
@@ -638,7 +542,7 @@ F 4 "445-5667-1-ND" H 2860 3470 50  0001 C CNN "Digikey Part Number"
 	0    -1   -1   0   
 $EndComp
 $Comp
-L R_Small R6
+L device:R_Small R6
 U 1 1 5A90AD08
 P 2600 3700
 F 0 "R6" V 2600 3100 50  0000 L CNN
@@ -650,7 +554,7 @@ F 4 "311-11.0KHRCT-ND" H 2600 3200 50  0001 C CNN "Digikey Part Number"
 	0    1    -1   0   
 $EndComp
 $Comp
-L R_Small R5
+L device:R_Small R5
 U 1 1 5A90AD0E
 P 2600 3600
 F 0 "R5" V 2600 3000 50  0000 L CNN
@@ -662,7 +566,7 @@ F 4 "311-5.49KHRCT-ND" H 2600 3100 50  0001 C CNN "Digikey Part Number"
 	0    1    -1   0   
 $EndComp
 $Comp
-L R_Small R4
+L device:R_Small R4
 U 1 1 5A90AD14
 P 2600 3500
 F 0 "R4" V 2600 2900 50  0000 L CNN
@@ -674,7 +578,7 @@ F 4 "311-82.5KHRCT-ND" H 2600 3000 50  0001 C CNN "Digikey Part Number"
 	0    1    -1   0   
 $EndComp
 $Comp
-L GND #PWR026
+L power:GND #PWR026
 U 1 1 5A90AD1A
 P 2700 3700
 F 0 "#PWR026" H 2700 3450 50  0001 C CNN
@@ -685,7 +589,7 @@ F 3 "" H 2700 3700 50  0001 C CNN
 	0    -1   -1   0   
 $EndComp
 $Comp
-L GND #PWR027
+L power:GND #PWR027
 U 1 1 5A90AD20
 P 2750 3300
 F 0 "#PWR027" H 2750 3050 50  0001 C CNN
@@ -696,7 +600,7 @@ F 3 "" H 2750 3300 50  0001 C CNN
 	0    1    1    0   
 $EndComp
 $Comp
-L C_Small C7
+L device:C_Small C7
 U 1 1 5A90B733
 P 1800 3700
 F 0 "C7" H 1810 3770 50  0000 L CNN
@@ -708,7 +612,7 @@ F 4 "445-5667-1-ND" H 1810 3870 50  0001 C CNN "Digikey Part Number"
 	0    -1   -1   0   
 $EndComp
 $Comp
-L GND #PWR028
+L power:GND #PWR028
 U 1 1 5A90B74B
 P 1650 4100
 F 0 "#PWR028" H 1650 3850 50  0001 C CNN
@@ -719,7 +623,7 @@ F 3 "" H 1650 4100 50  0001 C CNN
 	0    -1   -1   0   
 $EndComp
 $Comp
-L GND #PWR029
+L power:GND #PWR029
 U 1 1 5A90B751
 P 1700 3700
 F 0 "#PWR029" H 1700 3450 50  0001 C CNN
@@ -730,7 +634,7 @@ F 3 "" H 1700 3700 50  0001 C CNN
 	0    1    1    0   
 $EndComp
 $Comp
-L TPS54308DDC U2
+L Custom-Parts:TPS54308DDC U2
 U 1 1 5A948659
 P 3150 7900
 F 0 "U2" H 2750 8350 50  0000 L CNN
@@ -742,7 +646,7 @@ F 4 "296-47880-1-ND" H 2750 8450 50  0001 C CNN "Digikey Part Number"
 	1    0    0    -1  
 $EndComp
 $Comp
-L GND #PWR030
+L power:GND #PWR030
 U 1 1 5A94C4DF
 P 3150 8500
 F 0 "#PWR030" H 3150 8250 50  0001 C CNN
@@ -753,7 +657,7 @@ F 3 "" H 3150 8500 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L C_Small C10
+L device:C_Small C10
 U 1 1 5A94C6AC
 P 2350 8050
 F 0 "C10" H 2360 8120 50  0000 L CNN
@@ -765,7 +669,7 @@ F 4 "445-14423-1-ND" H 2360 8220 50  0001 C CNN "Digikey Part Number"
 	1    0    0    -1  
 $EndComp
 $Comp
-L C_Small C9
+L device:C_Small C9
 U 1 1 5A94CAEA
 P 2150 8050
 F 0 "C9" H 2160 8120 50  0000 L CNN
@@ -777,7 +681,7 @@ F 4 "445-14423-1-ND" H 2160 8220 50  0001 C CNN "Digikey Part Number"
 	-1   0    0    -1  
 $EndComp
 $Comp
-L C_Small C8
+L device:C_Small C8
 U 1 1 5A94E0E3
 P 3850 7700
 F 0 "C8" H 3860 7770 50  0000 L CNN
@@ -789,7 +693,7 @@ F 4 "399-1171-1-ND" H 3860 7870 50  0001 C CNN "Digikey Part Number"
 	0    -1   -1   0   
 $EndComp
 $Comp
-L L_Small L1
+L device:L_Small L1
 U 1 1 5A94EC83
 P 4350 7900
 F 0 "L1" H 4380 7940 50  0000 L CNN
@@ -801,7 +705,7 @@ F 4 "732-3880-1-ND" H 4380 8040 50  0001 C CNN "Digikey Part Number"
 	0    -1   -1   0   
 $EndComp
 $Comp
-L R_Small R10
+L device:R_Small R10
 U 1 1 5A94F6FB
 P 4650 8050
 F 0 "R10" H 4680 8070 50  0000 L CNN
@@ -813,7 +717,7 @@ F 4 "311-100KHRCT-ND" H 4680 8170 50  0001 C CNN "Digikey Part Number"
 	1    0    0    -1  
 $EndComp
 $Comp
-L R_Small R11
+L device:R_Small R11
 U 1 1 5A94FD84
 P 4650 8350
 F 0 "R11" H 4680 8370 50  0000 L CNN
@@ -825,7 +729,7 @@ F 4 "311-22.0KHRCT-ND" H 4680 8470 50  0001 C CNN "Digikey Part Number"
 	1    0    0    -1  
 $EndComp
 $Comp
-L C_Small C12
+L device:C_Small C12
 U 1 1 5A950DFD
 P 5450 8250
 F 0 "C12" H 5460 8320 50  0000 L CNN
@@ -837,7 +741,7 @@ F 4 "1276-6526-1-ND" H 5460 8420 50  0001 C CNN "Digikey Part Number"
 	1    0    0    -1  
 $EndComp
 $Comp
-L C_Small C11
+L device:C_Small C11
 U 1 1 5A950E03
 P 5250 8250
 F 0 "C11" H 5260 8320 50  0000 L CNN
@@ -849,7 +753,7 @@ F 4 "1276-6526-1-ND" H 5260 8420 50  0001 C CNN "Digikey Part Number"
 	-1   0    0    -1  
 $EndComp
 $Comp
-L TPS54308DDC U3
+L Custom-Parts:TPS54308DDC U3
 U 1 1 5A95382C
 P 3150 9450
 F 0 "U3" H 2750 9900 50  0000 L CNN
@@ -861,7 +765,7 @@ F 4 "296-47880-1-ND" H 2750 10000 50  0001 C CNN "Digikey Part Number"
 	1    0    0    -1  
 $EndComp
 $Comp
-L GND #PWR031
+L power:GND #PWR031
 U 1 1 5A953834
 P 3150 10050
 F 0 "#PWR031" H 3150 9800 50  0001 C CNN
@@ -872,7 +776,7 @@ F 3 "" H 3150 10050 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L C_Small C15
+L device:C_Small C15
 U 1 1 5A95383A
 P 2350 9600
 F 0 "C15" H 2360 9670 50  0000 L CNN
@@ -884,7 +788,7 @@ F 4 "445-14423-1-ND" H 2360 9770 50  0001 C CNN "Digikey Part Number"
 	1    0    0    -1  
 $EndComp
 $Comp
-L C_Small C14
+L device:C_Small C14
 U 1 1 5A953840
 P 2150 9600
 F 0 "C14" H 2160 9670 50  0000 L CNN
@@ -896,7 +800,7 @@ F 4 "445-14423-1-ND" H 2160 9770 50  0001 C CNN "Digikey Part Number"
 	-1   0    0    -1  
 $EndComp
 $Comp
-L C_Small C13
+L device:C_Small C13
 U 1 1 5A95384E
 P 3850 9250
 F 0 "C13" H 3860 9320 50  0000 L CNN
@@ -908,7 +812,7 @@ F 4 "399-1171-1-ND" H 3860 9420 50  0001 C CNN "Digikey Part Number"
 	0    -1   -1   0   
 $EndComp
 $Comp
-L L_Small L2
+L device:L_Small L2
 U 1 1 5A953859
 P 4350 9450
 F 0 "L2" H 4380 9490 50  0000 L CNN
@@ -920,7 +824,7 @@ F 4 "732-3880-1-ND" H 4380 9590 50  0001 C CNN "Digikey Part Number"
 	0    -1   -1   0   
 $EndComp
 $Comp
-L R_Small R12
+L device:R_Small R12
 U 1 1 5A95385F
 P 4650 9600
 F 0 "R12" H 4680 9620 50  0000 L CNN
@@ -932,7 +836,7 @@ F 4 "311-100KHRCT-ND" H 4680 9720 50  0001 C CNN "Digikey Part Number"
 	1    0    0    -1  
 $EndComp
 $Comp
-L R_Small R13
+L device:R_Small R13
 U 1 1 5A953867
 P 4650 9900
 F 0 "R13" H 4680 9920 50  0000 L CNN
@@ -944,7 +848,7 @@ F 4 "311-22.0KHRCT-ND" H 4680 10020 50  0001 C CNN "Digikey Part Number"
 	1    0    0    -1  
 $EndComp
 $Comp
-L C_Small C17
+L device:C_Small C17
 U 1 1 5A953872
 P 5450 9800
 F 0 "C17" H 5460 9870 50  0000 L CNN
@@ -956,7 +860,7 @@ F 4 "1276-6526-1-ND" H 5460 9970 50  0001 C CNN "Digikey Part Number"
 	1    0    0    -1  
 $EndComp
 $Comp
-L C_Small C16
+L device:C_Small C16
 U 1 1 5A953878
 P 5250 9800
 F 0 "C16" H 5260 9870 50  0000 L CNN
@@ -968,7 +872,7 @@ F 4 "1276-6526-1-ND" H 5260 9970 50  0001 C CNN "Digikey Part Number"
 	-1   0    0    -1  
 $EndComp
 $Comp
-L L_Small L3
+L device:L_Small L3
 U 1 1 5A9540F5
 P 3200 10700
 F 0 "L3" H 3230 10740 50  0000 L CNN
@@ -980,7 +884,7 @@ F 4 "732-4180-1-ND" H 3230 10840 50  0001 C CNN "Digikey Part Number"
 	0    -1   -1   0   
 $EndComp
 $Comp
-L C_Small C21
+L device:C_Small C21
 U 1 1 5A954114
 P 4200 11300
 F 0 "C21" H 4210 11370 50  0000 L CNN
@@ -1060,9 +964,9 @@ Wire Wire Line
 Wire Wire Line
 	2500 13100 2650 13100
 Wire Wire Line
-	5300 1100 5400 1100
+	5300 1100 5350 1100
 Wire Wire Line
-	5350 1100 5350 3200
+	5350 1100 5350 2650
 Wire Wire Line
 	5350 3200 5100 3200
 Wire Wire Line
@@ -1070,21 +974,21 @@ Wire Wire Line
 Wire Wire Line
 	5100 3100 5100 1400
 Wire Wire Line
-	6100 1500 6200 1500
+	6100 1500 6150 1500
 Wire Wire Line
-	6150 1500 6150 3600
+	6150 1500 6150 2650
 Wire Wire Line
-	1500 1500 5700 1500
+	1500 1500 2950 1500
 Wire Wire Line
 	5900 1800 6400 1800
 Wire Wire Line
 	5900 3500 5900 1800
 Wire Wire Line
-	6900 1900 7000 1900
+	6900 1900 6950 1900
 Wire Wire Line
-	6950 1900 6950 4000
+	6950 1900 6950 2650
 Wire Wire Line
-	1500 1900 6500 1900
+	1500 1900 1900 1900
 Wire Wire Line
 	6700 2200 7200 2200
 Wire Wire Line
@@ -1100,13 +1004,13 @@ Wire Wire Line
 Wire Wire Line
 	7550 4200 5100 4200
 Wire Wire Line
-	7550 1100 7550 4200
+	7550 1100 7550 1500
 Wire Wire Line
 	7550 1900 7400 1900
 Wire Wire Line
 	6600 1500 7550 1500
 Wire Wire Line
-	5800 1100 8700 1100
+	5800 1100 7550 1100
 Wire Wire Line
 	4100 4500 4000 4500
 Wire Wire Line
@@ -1116,7 +1020,7 @@ Wire Wire Line
 Wire Wire Line
 	4000 3100 4100 3100
 Wire Wire Line
-	4000 1100 4000 3100
+	4000 1100 4000 2900
 Wire Wire Line
 	5500 2650 5350 2650
 Wire Wire Line
@@ -1140,13 +1044,13 @@ Wire Wire Line
 Wire Wire Line
 	7900 1200 7900 1100
 Wire Wire Line
-	1500 1100 4900 1100
+	1500 1100 4000 1100
 Wire Wire Line
 	3750 3200 4100 3200
 Wire Wire Line
 	3750 3200 3750 3100
 Wire Wire Line
-	3550 3200 3550 3400
+	3550 3200 3550 3300
 Wire Wire Line
 	3550 3100 3550 3000
 Wire Wire Line
@@ -1160,13 +1064,13 @@ Wire Wire Line
 Wire Wire Line
 	2950 3500 4100 3500
 Wire Wire Line
-	2950 1500 2950 3500
+	2950 1500 2950 3300
 Wire Wire Line
 	2700 3600 4100 3600
 Wire Wire Line
 	2700 3600 2700 3500
 Wire Wire Line
-	2500 3600 2500 3800
+	2500 3600 2500 3700
 Wire Wire Line
 	2500 3500 2500 3400
 Wire Wire Line
@@ -1180,13 +1084,13 @@ Wire Wire Line
 Wire Wire Line
 	1900 3900 4100 3900
 Wire Wire Line
-	1900 1900 1900 3900
+	1900 1900 1900 3700
 Wire Wire Line
 	1650 4000 4100 4000
 Wire Wire Line
 	1650 4000 1650 3900
 Wire Wire Line
-	1450 4000 1450 4200
+	1450 4000 1450 4100
 Wire Wire Line
 	1450 3900 1450 3800
 Wire Wire Line
@@ -1198,37 +1102,35 @@ Wire Wire Line
 Wire Wire Line
 	1900 4200 1450 4200
 Wire Wire Line
-	1850 6000 2950 6000
+	1850 6000 2500 6000
 Wire Wire Line
 	2950 6200 2500 6200
 Wire Wire Line
 	2500 6200 2500 6000
 Wire Wire Line
-	1850 7700 2650 7700
+	1850 7700 2250 7700
 Wire Wire Line
-	2150 7950 2350 7950
+	2150 7950 2250 7950
 Wire Wire Line
 	2250 7950 2250 7700
 Wire Wire Line
 	2250 8150 2250 8500
 Wire Wire Line
-	2150 8150 2350 8150
-Wire Wire Line
-	3150 8300 3150 8300
+	2150 8150 2250 8150
 Wire Wire Line
 	3650 7700 3750 7700
 Wire Wire Line
-	3650 7900 4250 7900
+	3650 7900 4050 7900
 Wire Wire Line
 	3950 7700 4050 7700
 Wire Wire Line
 	4050 7700 4050 7900
 Wire Wire Line
-	4450 7900 5850 7900
+	4450 7900 4650 7900
 Wire Wire Line
 	4650 7900 4650 7950
 Wire Wire Line
-	4650 8150 4650 8250
+	4650 8150 4650 8200
 Wire Wire Line
 	4650 8200 4050 8200
 Wire Wire Line
@@ -1236,45 +1138,43 @@ Wire Wire Line
 Wire Wire Line
 	4050 8100 3650 8100
 Wire Wire Line
-	5250 8150 5450 8150
+	5250 8150 5350 8150
 Wire Wire Line
 	5350 7900 5350 8150
 Wire Wire Line
 	5350 8500 5350 8350
 Wire Wire Line
-	5250 8350 5450 8350
+	5250 8350 5350 8350
 Wire Wire Line
-	2250 8500 5350 8500
+	2250 8500 3150 8500
 Wire Wire Line
 	3150 8500 3150 8300
 Wire Wire Line
 	4650 8450 4650 8500
 Wire Wire Line
-	1850 9250 2650 9250
+	1850 9250 2250 9250
 Wire Wire Line
-	2150 9500 2350 9500
+	2150 9500 2250 9500
 Wire Wire Line
 	2250 9500 2250 9250
 Wire Wire Line
 	2250 9700 2250 10050
 Wire Wire Line
-	2150 9700 2350 9700
-Wire Wire Line
-	3150 9850 3150 9850
+	2150 9700 2250 9700
 Wire Wire Line
 	3650 9250 3750 9250
 Wire Wire Line
-	3650 9450 4250 9450
+	3650 9450 4050 9450
 Wire Wire Line
 	3950 9250 4050 9250
 Wire Wire Line
 	4050 9250 4050 9450
 Wire Wire Line
-	4450 9450 5850 9450
+	4450 9450 4650 9450
 Wire Wire Line
 	4650 9450 4650 9500
 Wire Wire Line
-	4650 9700 4650 9800
+	4650 9700 4650 9750
 Wire Wire Line
 	4650 9750 4050 9750
 Wire Wire Line
@@ -1282,15 +1182,15 @@ Wire Wire Line
 Wire Wire Line
 	4050 9650 3650 9650
 Wire Wire Line
-	5250 9700 5450 9700
+	5250 9700 5350 9700
 Wire Wire Line
 	5350 9450 5350 9700
 Wire Wire Line
 	5350 10050 5350 9900
 Wire Wire Line
-	5250 9900 5450 9900
+	5250 9900 5350 9900
 Wire Wire Line
-	2250 10050 5350 10050
+	2250 10050 3150 10050
 Wire Wire Line
 	3150 10050 3150 9850
 Wire Wire Line
@@ -1351,7 +1251,7 @@ Connection ~ 3150 10050
 Connection ~ 4650 10050
 Connection ~ 5350 9450
 $Comp
-L LTC4417CGN U1
+L Custom-Parts:LTC4417CGN U1
 U 1 1 5A97CA54
 P 4600 3900
 F 0 "U1" H 4600 4925 50  0000 C CNN
@@ -1363,7 +1263,7 @@ F 4 "LTC4417CGN#PBF-ND" H 4600 3900 60  0001 C CNN "Digikey Part Number"
 	1    0    0    -1  
 $EndComp
 $Comp
-L LED D6
+L device:LED D6
 U 1 1 5A9CAEBF
 P 3300 13500
 F 0 "D6" H 3300 13600 50  0000 C CNN
@@ -1375,7 +1275,7 @@ F 4 "160-1447-1-ND" H 3300 13700 50  0001 C CNN "Digikey Part Number"
 	1    0    0    -1  
 $EndComp
 $Comp
-L R R15
+L device:R R15
 U 1 1 5A9CAEC6
 P 2800 13500
 F 0 "R15" V 2880 13500 50  0000 C CNN
@@ -1387,7 +1287,7 @@ F 4 "311-100GRCT-ND" H 2880 13600 50  0001 C CNN "Digikey Part Number"
 	0    1    1    0   
 $EndComp
 $Comp
-L GND #PWR032
+L power:GND #PWR032
 U 1 1 5A9CAECC
 P 2500 13500
 F 0 "#PWR032" H 2500 13250 50  0001 C CNN
@@ -1404,7 +1304,7 @@ Wire Wire Line
 Wire Wire Line
 	2500 13500 2650 13500
 $Comp
-L LED D7
+L device:LED D7
 U 1 1 5A9CAF6E
 P 3300 13900
 F 0 "D7" H 3300 14000 50  0000 C CNN
@@ -1416,7 +1316,7 @@ F 4 "160-1447-1-ND" H 3300 14100 50  0001 C CNN "Digikey Part Number"
 	1    0    0    -1  
 $EndComp
 $Comp
-L R R16
+L device:R R16
 U 1 1 5A9CAF75
 P 2800 13900
 F 0 "R16" V 2880 13900 50  0000 C CNN
@@ -1428,7 +1328,7 @@ F 4 "311-100GRCT-ND" H 2880 14000 50  0001 C CNN "Digikey Part Number"
 	0    1    1    0   
 $EndComp
 $Comp
-L GND #PWR033
+L power:GND #PWR033
 U 1 1 5A9CAF7B
 P 2500 13900
 F 0 "#PWR033" H 2500 13650 50  0001 C CNN
@@ -1445,7 +1345,7 @@ Wire Wire Line
 Wire Wire Line
 	2500 13900 2650 13900
 $Comp
-L +12V #PWR034
+L power:+12V #PWR034
 U 1 1 5A9CB3B4
 P 3650 13900
 F 0 "#PWR034" H 3650 13750 50  0001 C CNN
@@ -1458,7 +1358,7 @@ $EndComp
 Text Label 3650 13500 0    60   ~ 0
 XBEE_VCC
 $Comp
-L GND #PWR035
+L power:GND #PWR035
 U 1 1 5A9CE180
 P 3700 15950
 F 0 "#PWR035" H 3700 15700 50  0001 C CNN
@@ -1469,7 +1369,7 @@ F 3 "" H 3700 15950 50  0001 C CNN
 	0    1    -1   0   
 $EndComp
 $Comp
-L GND #PWR036
+L power:GND #PWR036
 U 1 1 5A9CE2F7
 P 4200 16150
 F 0 "#PWR036" H 4200 15900 50  0001 C CNN
@@ -1480,7 +1380,7 @@ F 3 "" H 4200 16150 50  0001 C CNN
 	0    -1   1    0   
 $EndComp
 $Comp
-L GND #PWR037
+L power:GND #PWR037
 U 1 1 5A9CE3B3
 P 4200 16350
 F 0 "#PWR037" H 4200 16100 50  0001 C CNN
@@ -1491,7 +1391,7 @@ F 3 "" H 4200 16350 50  0001 C CNN
 	0    -1   1    0   
 $EndComp
 $Comp
-L GND #PWR038
+L power:GND #PWR038
 U 1 1 5A9CE5D1
 P 4200 16050
 F 0 "#PWR038" H 4200 15800 50  0001 C CNN
@@ -1502,7 +1402,7 @@ F 3 "" H 4200 16050 50  0001 C CNN
 	0    -1   1    0   
 $EndComp
 $Comp
-L GND #PWR039
+L power:GND #PWR039
 U 1 1 5A9CE68D
 P 3700 16050
 F 0 "#PWR039" H 3700 15800 50  0001 C CNN
@@ -1513,7 +1413,7 @@ F 3 "" H 3700 16050 50  0001 C CNN
 	0    1    -1   0   
 $EndComp
 $Comp
-L Conn_02x15_Counter_Clockwise J1
+L Power-Board-rescue:Conn_02x15_Counter_Clockwise J1
 U 1 1 5A9CE786
 P 3900 15650
 F 0 "J1" H 3950 16450 50  0000 C CNN
@@ -1524,7 +1424,7 @@ F 3 "" H 3900 15650 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L LTC3130-1 U4
+L Custom-Parts:LTC3130-1 U4
 U 1 1 5A9EE135
 P 3200 11500
 F 0 "U4" H 2650 12050 60  0000 C CNN
@@ -1536,7 +1436,7 @@ F 4 "LTC3130IMSE-1#PBF-ND" H 3200 11500 60  0001 C CNN "Digikey Part Number"
 	1    0    0    -1  
 $EndComp
 $Comp
-L C_Small C19
+L device:C_Small C19
 U 1 1 5A9EE557
 P 3400 10700
 F 0 "C19" H 3410 10770 50  0000 L CNN
@@ -1548,7 +1448,7 @@ F 4 "399-9043-1-ND" H 3400 10700 60  0001 C CNN "Digikey Part Number"
 	0    -1   -1   0   
 $EndComp
 $Comp
-L C_Small C18
+L device:C_Small C18
 U 1 1 5A9EEB8C
 P 3000 10700
 F 0 "C18" H 3010 10770 50  0000 L CNN
@@ -1562,14 +1462,14 @@ $EndComp
 Connection ~ 3100 10700
 Connection ~ 3300 10700
 Wire Wire Line
-	1450 11200 2600 11200
+	1450 11200 2050 11200
 Wire Wire Line
-	2050 11300 2600 11300
+	2050 11300 2150 11300
 Wire Wire Line
 	2050 11300 2050 11200
 Connection ~ 2050 11200
 $Comp
-L C_Small C20
+L device:C_Small C20
 U 1 1 5A9EFC5B
 P 2150 11100
 F 0 "C20" H 2160 11170 50  0000 L CNN
@@ -1581,7 +1481,7 @@ F 4 "445-14423-1-ND" H 2160 11270 50  0001 C CNN "Digikey Part Number"
 	-1   0    0    1   
 $EndComp
 $Comp
-L GND #PWR040
+L power:GND #PWR040
 U 1 1 5A9F0130
 P 2150 11000
 F 0 "#PWR040" H 2150 10750 50  0001 C CNN
@@ -1592,7 +1492,7 @@ F 3 "" H 2150 11000 50  0001 C CNN
 	-1   0    0    1   
 $EndComp
 $Comp
-L C_Small C22
+L device:C_Small C22
 U 1 1 5A9F06C5
 P 2150 11400
 F 0 "C22" H 2160 11470 50  0000 L CNN
@@ -1604,7 +1504,7 @@ F 4 "587-2984-1-ND" H 2150 11400 60  0001 C CNN "Digikey Part Number"
 	1    0    0    -1  
 $EndComp
 $Comp
-L GND #PWR041
+L power:GND #PWR041
 U 1 1 5A9F0A02
 P 2150 11500
 F 0 "#PWR041" H 2150 11250 50  0001 C CNN
@@ -1617,10 +1517,10 @@ $EndComp
 Wire Wire Line
 	2600 11400 2350 11400
 Wire Wire Line
-	2350 11300 2350 11800
+	2350 11300 2350 11400
 Connection ~ 2350 11300
 $Comp
-L C_Small C23
+L device:C_Small C23
 U 1 1 5A9F17A0
 P 4000 11900
 F 0 "C23" H 4010 11970 50  0000 L CNN
@@ -1634,7 +1534,7 @@ $EndComp
 Wire Wire Line
 	3800 11800 4000 11800
 $Comp
-L GND #PWR042
+L power:GND #PWR042
 U 1 1 5A9F1A41
 P 4000 12000
 F 0 "#PWR042" H 4000 11750 50  0001 C CNN
@@ -1648,7 +1548,7 @@ Wire Wire Line
 	2350 11500 2600 11500
 Connection ~ 2350 11400
 $Comp
-L GND #PWR043
+L power:GND #PWR043
 U 1 1 5A9F1C03
 P 3200 12100
 F 0 "#PWR043" H 3200 11850 50  0001 C CNN
@@ -1665,7 +1565,7 @@ Wire Wire Line
 	2600 11700 2350 11700
 Connection ~ 2350 11700
 $Comp
-L GND #PWR044
+L power:GND #PWR044
 U 1 1 5A9F1ECB
 P 4000 11400
 F 0 "#PWR044" H 4000 11150 50  0001 C CNN
@@ -1678,9 +1578,9 @@ $EndComp
 Wire Wire Line
 	3800 11400 4000 11400
 Wire Wire Line
-	3800 11200 4750 11200
+	3800 11200 4200 11200
 $Comp
-L GND #PWR045
+L power:GND #PWR045
 U 1 1 5A9F23A3
 P 4200 11400
 F 0 "#PWR045" H 4200 11150 50  0001 C CNN
@@ -1700,7 +1600,7 @@ Wire Wire Line
 	3100 12100 3200 12100
 Connection ~ 3200 12100
 $Comp
-L R_Small R9
+L device:R_Small R9
 U 1 1 5A9F6F73
 P 1550 4100
 F 0 "R9" V 1550 3500 50  0000 L CNN
@@ -1712,7 +1612,7 @@ F 4 "311-11.0KHRCT-ND" H 1550 3600 50  0001 C CNN "Digikey Part Number"
 	0    1    -1   0   
 $EndComp
 $Comp
-L R_Small R8
+L device:R_Small R8
 U 1 1 5A9F703E
 P 1550 4000
 F 0 "R8" V 1550 3400 50  0000 L CNN
@@ -1724,7 +1624,7 @@ F 4 "311-5.49KHRCT-ND" H 1550 3500 50  0001 C CNN "Digikey Part Number"
 	0    1    -1   0   
 $EndComp
 $Comp
-L R_Small R7
+L device:R_Small R7
 U 1 1 5A9F7104
 P 1550 3900
 F 0 "R7" V 1550 3300 50  0000 L CNN
@@ -1735,4 +1635,120 @@ F 4 "311-82.5KHRCT-ND" H 1550 3400 50  0001 C CNN "Digikey Part Number"
 	1    1550 3900
 	0    1    -1   0   
 $EndComp
+Wire Wire Line
+	5350 1100 5400 1100
+Wire Wire Line
+	6150 1500 6200 1500
+Wire Wire Line
+	6950 1900 7000 1900
+Wire Wire Line
+	7550 1900 7550 4200
+Wire Wire Line
+	7550 1500 7550 1900
+Wire Wire Line
+	7550 1100 7900 1100
+Wire Wire Line
+	4000 1100 4300 1100
+Wire Wire Line
+	5350 2650 5350 3200
+Wire Wire Line
+	6150 2650 6150 3600
+Wire Wire Line
+	6950 2650 6950 4000
+Wire Wire Line
+	8400 1100 8700 1100
+Wire Wire Line
+	7900 1100 8400 1100
+Wire Wire Line
+	4300 1100 4900 1100
+Wire Wire Line
+	4300 1500 5700 1500
+Wire Wire Line
+	4300 1900 6500 1900
+Wire Wire Line
+	4000 3000 4000 3100
+Wire Wire Line
+	3550 3300 3550 3400
+Wire Wire Line
+	4000 2900 4000 3000
+Wire Wire Line
+	2950 3400 2950 3500
+Wire Wire Line
+	2500 3700 2500 3800
+Wire Wire Line
+	2950 3300 2950 3400
+Wire Wire Line
+	2950 1500 4300 1500
+Wire Wire Line
+	1900 3800 1900 3900
+Wire Wire Line
+	1450 4100 1450 4200
+Wire Wire Line
+	1900 3700 1900 3800
+Wire Wire Line
+	1900 1900 4300 1900
+Wire Wire Line
+	2500 6000 2950 6000
+Wire Wire Line
+	2250 7700 2650 7700
+Wire Wire Line
+	2250 7950 2350 7950
+Wire Wire Line
+	2250 8150 2350 8150
+Wire Wire Line
+	4050 7900 4250 7900
+Wire Wire Line
+	4650 8200 4650 8250
+Wire Wire Line
+	5350 8150 5450 8150
+Wire Wire Line
+	5350 8350 5450 8350
+Wire Wire Line
+	4650 7900 5350 7900
+Wire Wire Line
+	3150 8500 4650 8500
+Wire Wire Line
+	4650 8500 5350 8500
+Wire Wire Line
+	5350 7900 5850 7900
+Wire Wire Line
+	2250 9250 2650 9250
+Wire Wire Line
+	2250 9500 2350 9500
+Wire Wire Line
+	2250 9700 2350 9700
+Wire Wire Line
+	4050 9450 4250 9450
+Wire Wire Line
+	4650 9750 4650 9800
+Wire Wire Line
+	5350 9700 5450 9700
+Wire Wire Line
+	5350 9900 5450 9900
+Wire Wire Line
+	4650 9450 5350 9450
+Wire Wire Line
+	3150 10050 4650 10050
+Wire Wire Line
+	4650 10050 5350 10050
+Wire Wire Line
+	5350 9450 5850 9450
+Wire Wire Line
+	2050 11200 2150 11200
+Wire Wire Line
+	2350 11300 2600 11300
+Wire Wire Line
+	2350 11400 2350 11500
+Wire Wire Line
+	2350 11500 2350 11600
+Wire Wire Line
+	2350 11700 2350 11800
+Wire Wire Line
+	4200 11200 4750 11200
+Wire Wire Line
+	2150 11200 2600 11200
+Wire Wire Line
+	2150 11300 2350 11300
+Wire Wire Line
+	2350 11600 2350 11700
 $EndSCHEMATC
