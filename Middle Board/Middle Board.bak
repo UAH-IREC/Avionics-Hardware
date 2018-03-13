@@ -1381,17 +1381,17 @@ Text Label 2150 18850 2    60   ~ 0
 GPS_TX
 Text Label 2150 18950 2    60   ~ 0
 GPS_RX
-Text Label 4400 20050 2    60   ~ 0
+Text Label 4400 20650 2    60   ~ 0
 GPS_TX
-Text Label 4400 20150 2    60   ~ 0
+Text Label 4400 20750 2    60   ~ 0
 GPS_RX
 Text Label 4400 20350 2    60   ~ 0
 XBEE_TX
 Text Label 4400 20450 2    60   ~ 0
 XBEE_RX
-Text Label 4400 20750 2    60   ~ 0
+Text Label 4400 20150 2    60   ~ 0
 GNC_RX
-Text Label 4400 20650 2    60   ~ 0
+Text Label 4400 20050 2    60   ~ 0
 GNC_TX
 NoConn ~ 4150 11150
 NoConn ~ 4150 11250
