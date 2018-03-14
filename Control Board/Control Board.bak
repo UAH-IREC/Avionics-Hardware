@@ -2030,25 +2030,25 @@ Text Label 18400 11300 0    60   ~ 0
 SERVO1_OP_SW
 Text Label 18400 11400 0    60   ~ 0
 SERVO1_CL_SW
-Text Label 16700 12500 2    60   ~ 0
+Text Label 16900 12500 2    60   ~ 0
 TC1_T-
-Text Label 16700 12600 2    60   ~ 0
+Text Label 16900 12600 2    60   ~ 0
 TC1_T+
-Text Label 16700 12800 2    60   ~ 0
+Text Label 16900 12700 2    60   ~ 0
 TC2_T-
-Text Label 16700 12900 2    60   ~ 0
+Text Label 16900 12800 2    60   ~ 0
 TC2_T+
-Text Label 16700 13100 2    60   ~ 0
+Text Label 16900 12900 2    60   ~ 0
 TC3_T-
-Text Label 16700 13200 2    60   ~ 0
+Text Label 16900 13000 2    60   ~ 0
 TC3_T+
-Text Label 16700 13400 2    60   ~ 0
+Text Label 16900 13100 2    60   ~ 0
 TC4_T-
-Text Label 16700 13500 2    60   ~ 0
+Text Label 16900 13200 2    60   ~ 0
 TC4_T+
-Text Label 16700 13700 2    60   ~ 0
+Text Label 16900 13300 2    60   ~ 0
 TC5_T-
-Text Label 16700 13800 2    60   ~ 0
+Text Label 16900 13400 2    60   ~ 0
 TC5_T+
 Text Label 19300 12950 0    60   ~ 0
 PT1_IN
@@ -2996,4 +2996,15 @@ Wire Wire Line
 Wire Wire Line
 	12900 12600 12300 12600
 Connection ~ 12300 12600
+$Comp
+L Connector:Conn_01x10 J?
+U 1 1 5B085F3E
+P 17100 12900
+F 0 "J?" H 17180 12892 50  0000 L CNN
+F 1 "Conn_01x10" H 17180 12801 50  0000 L CNN
+F 2 "Connectors_JST:JST_PH_S10B-PH-K_10x2.00mm_Angled" H 17100 12900 50  0001 C CNN
+F 3 "~" H 17100 12900 50  0001 C CNN
+	1    17100 12900
+	1    0    0    -1  
+$EndComp
 $EndSCHEMATC
