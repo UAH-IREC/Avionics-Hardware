@@ -1,11 +1,11 @@
 EESchema-LIBRARY Version 2.4
 #encoding utf-8
 #
-# Connector:Conn_01x02
+# Connector_Conn_01x02
 #
-DEF Connector:Conn_01x02 J 0 40 Y N 1 F N
+DEF Connector_Conn_01x02 J 0 40 Y N 1 F N
 F0 "J" 0 100 50 H V C CNN
-F1 "Connector:Conn_01x02" 0 -200 50 H V C CNN
+F1 "Connector_Conn_01x02" 0 -200 50 H V C CNN
 F2 "" 0 0 50 H I C CNN
 F3 "" 0 0 50 H I C CNN
 $FPLIST
@@ -25,11 +25,11 @@ X Pin_2 2 -200 -100 150 R 50 50 1 1 P
 ENDDRAW
 ENDDEF
 #
-# Connector:Conn_02x10_Odd_Even
+# Connector_Conn_02x10_Odd_Even
 #
-DEF Connector:Conn_02x10_Odd_Even J 0 40 Y N 1 F N
+DEF Connector_Conn_02x10_Odd_Even J 0 40 Y N 1 F N
 F0 "J" 50 500 50 H V C CNN
-F1 "Connector:Conn_02x10_Odd_Even" 50 -600 50 H V C CNN
+F1 "Connector_Conn_02x10_Odd_Even" 50 -600 50 H V C CNN
 F2 "" 0 0 50 H I C CNN
 F3 "" 0 0 50 H I C CNN
 $FPLIST
@@ -85,11 +85,11 @@ X Pin_9 9 -200 0 150 R 50 50 1 1 P
 ENDDRAW
 ENDDEF
 #
-# Custom-Parts:LTC3130-1
+# Custom-Parts_LTC3130-1
 #
-DEF Custom-Parts:LTC3130-1 U 0 40 Y Y 1 F N
+DEF Custom-Parts_LTC3130-1 U 0 40 Y Y 1 F N
 F0 "U" -550 550 60 H V C CNN
-F1 "Custom-Parts:LTC3130-1" 350 -500 60 H V C CNN
+F1 "Custom-Parts_LTC3130-1" 350 -500 60 H V C CNN
 F2 "" 0 0 60 H I C CNN
 F3 "" 0 0 60 H I C CNN
 $FPLIST
@@ -117,11 +117,11 @@ X VS2 9 -600 -300 200 R 50 50 1 1 I
 ENDDRAW
 ENDDEF
 #
-# Custom-Parts:LTC4417CGN
+# Custom-Parts_LTC4417CGN
 #
-DEF Custom-Parts:LTC4417CGN U 0 30 Y Y 1 F N
+DEF Custom-Parts_LTC4417CGN U 0 30 Y Y 1 F N
 F0 "U" 0 1025 50 H V C CNN
-F1 "Custom-Parts:LTC4417CGN" 0 950 50 H V C CNN
+F1 "Custom-Parts_LTC4417CGN" 0 950 50 H V C CNN
 F2 "" 50 -950 50 H I L CNN
 F3 "" 700 -1150 50 H I C CNN
 ALIAS LTC4417IGN LTC4417HGN
@@ -154,11 +154,11 @@ X OV3 9 -500 -200 150 R 50 50 1 1 I
 ENDDRAW
 ENDDEF
 #
-# Custom-Parts:TPS54308DDC
+# Custom-Parts_TPS54308DDC
 #
-DEF Custom-Parts:TPS54308DDC U 0 40 Y Y 1 F N
+DEF Custom-Parts_TPS54308DDC U 0 40 Y Y 1 F N
 F0 "U" -400 450 50 H V L CNN
-F1 "Custom-Parts:TPS54308DDC" -400 350 50 H V L CNN
+F1 "Custom-Parts_TPS54308DDC" -400 350 50 H V L CNN
 F2 "SOT-23" 350 -350 50 H I C CIN
 F3 "" 0 0 50 H I C CNN
 $FPLIST
@@ -175,11 +175,11 @@ X BOOT 6 500 200 100 L 50 50 1 1 I
 ENDDRAW
 ENDDEF
 #
-# Graphic:SYM_Arrow45_XLarge
+# Graphic_SYM_Arrow45_XLarge
 #
-DEF ~Graphic:SYM_Arrow45_XLarge #SYM 0 40 Y Y 1 F N
+DEF ~Graphic_SYM_Arrow45_XLarge #SYM 0 40 Y Y 1 F N
 F0 "#SYM" 110 100 50 H I C CNN
-F1 "Graphic:SYM_Arrow45_XLarge" 0 -180 50 H I C CNN
+F1 "Graphic_SYM_Arrow45_XLarge" 0 -180 50 H I C CNN
 F2 "" 0 0 50 H I C CNN
 F3 "" 0 0 50 H I C CNN
 DRAW
@@ -188,11 +188,11 @@ P 4 0 1 0 140 -140 20 -90 90 -20 140 -140 F
 ENDDRAW
 ENDDEF
 #
-# Mechanical:Mounting_Hole
+# Mechanical_Mounting_Hole
 #
-DEF Mechanical:Mounting_Hole MK 0 40 Y Y 1 F N
+DEF Mechanical_Mounting_Hole MK 0 40 Y Y 1 F N
 F0 "MK" 0 200 50 H V C CNN
-F1 "Mechanical:Mounting_Hole" 0 125 50 H V C CNN
+F1 "Mechanical_Mounting_Hole" 0 125 50 H V C CNN
 F2 "" 0 0 50 H I C CNN
 F3 "" 0 0 50 H I C CNN
 $FPLIST
@@ -204,11 +204,11 @@ C 0 0 50 0 1 50 N
 ENDDRAW
 ENDDEF
 #
-# device:CP1_Small
+# device_CP1_Small
 #
-DEF device:CP1_Small C 0 10 N N 1 F N
+DEF device_CP1_Small C 0 10 N N 1 F N
 F0 "C" 10 70 50 H V L CNN
-F1 "device:CP1_Small" 10 -80 50 H V L CNN
+F1 "device_CP1_Small" 10 -80 50 H V L CNN
 F2 "" 0 0 50 H I C CNN
 F3 "" 0 0 50 H I C CNN
 $FPLIST
@@ -224,11 +224,11 @@ X ~ 2 0 -100 80 U 50 50 1 1 P
 ENDDRAW
 ENDDEF
 #
-# device:C_Small
+# device_C_Small
 #
-DEF device:C_Small C 0 10 N N 1 F N
+DEF device_C_Small C 0 10 N N 1 F N
 F0 "C" 10 70 50 H V L CNN
-F1 "device:C_Small" 10 -80 50 H V L CNN
+F1 "device_C_Small" 10 -80 50 H V L CNN
 F2 "" 0 0 50 H I C CNN
 F3 "" 0 0 50 H I C CNN
 $FPLIST
@@ -242,11 +242,11 @@ X ~ 2 0 -100 80 U 50 50 1 1 P
 ENDDRAW
 ENDDEF
 #
-# device:D_Zener
+# device_D_Zener
 #
-DEF device:D_Zener D 0 40 N N 1 F N
+DEF device_D_Zener D 0 40 N N 1 F N
 F0 "D" 0 100 50 H V C CNN
-F1 "device:D_Zener" 0 -100 50 H V C CNN
+F1 "device_D_Zener" 0 -100 50 H V C CNN
 F2 "" 0 0 50 H I C CNN
 F3 "" 0 0 50 H I C CNN
 $FPLIST
@@ -265,11 +265,11 @@ X A 2 150 0 100 L 50 50 1 1 P
 ENDDRAW
 ENDDEF
 #
-# device:LED
+# device_LED
 #
-DEF device:LED D 0 40 Y N 1 F N
+DEF device_LED D 0 40 Y N 1 F N
 F0 "D" 0 100 50 H V C CNN
-F1 "device:LED" 0 -100 50 H V C CNN
+F1 "device_LED" 0 -100 50 H V C CNN
 F2 "" 0 0 50 H I C CNN
 F3 "" 0 0 50 H I C CNN
 $FPLIST
@@ -286,11 +286,11 @@ X A 2 150 0 100 L 50 50 1 1 P
 ENDDRAW
 ENDDEF
 #
-# device:L_Small
+# device_L_Small
 #
-DEF device:L_Small L 0 10 N N 1 F N
+DEF device_L_Small L 0 10 N N 1 F N
 F0 "L" 30 40 50 H V L CNN
-F1 "device:L_Small" 30 -40 50 H V L CNN
+F1 "device_L_Small" 30 -40 50 H V L CNN
 F2 "" 0 0 50 H I C CNN
 F3 "" 0 0 50 H I C CNN
 $FPLIST
@@ -309,11 +309,11 @@ X ~ 2 0 -100 20 U 50 50 1 1 P
 ENDDRAW
 ENDDEF
 #
-# device:Q_PMOS_DGS
+# device_Q_PMOS_DGS
 #
-DEF device:Q_PMOS_DGS Q 0 0 Y N 1 F N
+DEF device_Q_PMOS_DGS Q 0 0 Y N 1 F N
 F0 "Q" 200 50 50 H V L CNN
-F1 "device:Q_PMOS_DGS" 200 -50 50 H V L CNN
+F1 "device_Q_PMOS_DGS" 200 -50 50 H V L CNN
 F2 "" 200 100 50 H I C CNN
 F3 "" 0 0 50 H I C CNN
 DRAW
@@ -341,11 +341,11 @@ X S 3 100 -200 100 U 50 50 1 1 P
 ENDDRAW
 ENDDEF
 #
-# device:R
+# device_R
 #
-DEF device:R R 0 0 N Y 1 F N
+DEF device_R R 0 0 N Y 1 F N
 F0 "R" 80 0 50 V V C CNN
-F1 "device:R" 0 0 50 V V C CNN
+F1 "device_R" 0 0 50 V V C CNN
 F2 "" -70 0 50 V I C CNN
 F3 "" 0 0 50 H I C CNN
 $FPLIST
@@ -359,11 +359,11 @@ X ~ 2 0 -150 50 U 50 50 1 1 P
 ENDDRAW
 ENDDEF
 #
-# device:R_Small
+# device_R_Small
 #
-DEF device:R_Small R 0 10 N N 1 F N
+DEF device_R_Small R 0 10 N N 1 F N
 F0 "R" 30 20 50 H V L CNN
-F1 "device:R_Small" 30 -40 50 H V L CNN
+F1 "device_R_Small" 30 -40 50 H V L CNN
 F2 "" 0 0 50 H I C CNN
 F3 "" 0 0 50 H I C CNN
 $FPLIST
@@ -376,11 +376,11 @@ X ~ 2 0 -100 30 U 50 50 1 1 P
 ENDDRAW
 ENDDEF
 #
-# power:+12V
+# power_+12V
 #
-DEF power:+12V #PWR 0 0 Y Y 1 F P
+DEF power_+12V #PWR 0 0 Y Y 1 F P
 F0 "#PWR" 0 -150 50 H I C CNN
-F1 "power:+12V" 0 140 50 H V C CNN
+F1 "power_+12V" 0 140 50 H V C CNN
 F2 "" 0 0 50 H I C CNN
 F3 "" 0 0 50 H I C CNN
 DRAW
@@ -391,11 +391,11 @@ X +12V 1 0 0 0 U 50 50 1 1 W N
 ENDDRAW
 ENDDEF
 #
-# power:+3V3
+# power_+3V3
 #
-DEF power:+3V3 #PWR 0 0 Y Y 1 F P
+DEF power_+3V3 #PWR 0 0 Y Y 1 F P
 F0 "#PWR" 0 -150 50 H I C CNN
-F1 "power:+3V3" 0 140 50 H V C CNN
+F1 "power_+3V3" 0 140 50 H V C CNN
 F2 "" 0 0 50 H I C CNN
 F3 "" 0 0 50 H I C CNN
 ALIAS +3.3V
@@ -407,11 +407,11 @@ X +3V3 1 0 0 0 U 50 50 1 1 W N
 ENDDRAW
 ENDDEF
 #
-# power:GND
+# power_GND
 #
-DEF power:GND #PWR 0 0 Y Y 1 F P
+DEF power_GND #PWR 0 0 Y Y 1 F P
 F0 "#PWR" 0 -250 50 H I C CNN
-F1 "power:GND" 0 -150 50 H V C CNN
+F1 "power_GND" 0 -150 50 H V C CNN
 F2 "" 0 0 50 H I C CNN
 F3 "" 0 0 50 H I C CNN
 DRAW

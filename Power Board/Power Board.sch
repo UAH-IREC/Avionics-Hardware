@@ -611,11 +611,11 @@ BAT_BAK_VCC
 Text Label 8700 1100 2    60   ~ 0
 VCC_IN
 Text Notes 1700 1050 0    60   ~ 0
-6-9 V
+6-9 V (actually 8.4 but a little margin of error)
 Text Notes 1700 1450 0    60   ~ 0
-6-9 V
+6-9 V (actually 8.4 but a little margin of error)
 Text Notes 1700 1850 0    60   ~ 0
-6-9 V
+6-9 V (actually 8.4 but a little margin of error)
 Text Label 1850 7700 0    60   ~ 0
 VCC_IN
 Text Label 1450 11200 0    60   ~ 0
@@ -1456,4 +1456,12 @@ Wire Wire Line
 	2950 1500 5700 1500
 Wire Wire Line
 	4000 1100 4900 1100
+Text Notes 6150 750  0    50   ~ 0
+Needs to handle 20 A
+Text Notes 2950 7250 0    50   ~ 0
+3.3V dc-dc
+Text Notes 3000 10250 0    50   ~ 0
+12V dc-dc
+Text Notes 4050 600  0    50   ~ 0
+Power Supply Selector
 $EndSCHEMATC
