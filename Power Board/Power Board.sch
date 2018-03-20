@@ -5,10 +5,10 @@ EELAYER END
 $Descr A1 33110 23386
 encoding utf-8
 Sheet 1 1
-Title ""
-Date ""
-Rev ""
-Comp ""
+Title "Avionics Power Board"
+Date "2018-03-20"
+Rev "0.8"
+Comp "UAH SHC Spaceport America Cup"
 Comment1 ""
 Comment2 ""
 Comment3 ""
@@ -1464,4 +1464,6 @@ Text Notes 3000 10250 0    50   ~ 0
 12V dc-dc
 Text Notes 4050 600  0    50   ~ 0
 Power Supply Selector
+Text Notes 4950 5050 0    50   ~ 0
+If this shows up as a box with a question mark\nlook at the exported pdf schematic instead
 $EndSCHEMATC
