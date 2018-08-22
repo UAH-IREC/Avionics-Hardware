@@ -15,7 +15,7 @@ Comment3 ""
 Comment4 ""
 $EndDescr
 $Comp
-L device:LED D5
+L Device:LED D5
 U 1 1 5A8295FF
 P 3300 13100
 F 0 "D5" H 3300 13200 50  0000 C CNN
@@ -27,7 +27,7 @@ F 4 "160-1447-1-ND" H 3300 13300 50  0001 C CNN "Digikey Part Number"
 	1    0    0    -1  
 $EndComp
 $Comp
-L device:R R12
+L Device:R R12
 U 1 1 5A8298EE
 P 2800 13100
 F 0 "R12" V 2880 13100 50  0000 C CNN
@@ -105,7 +105,7 @@ F 3 "" H 4750 11200 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L device:Q_PMOS_DGS Q1
+L Device:Q_PMOS_DGS Q1
 U 1 1 5A8EF571
 P 5100 1200
 F 0 "Q1" H 5300 1250 50  0000 L CNN
@@ -117,7 +117,7 @@ F 4 "SI7135DP-T1-GE3CT-ND" H 5300 1350 50  0001 C CNN "Digikey Part Number"
 	0    -1   -1   0   
 $EndComp
 $Comp
-L device:Q_PMOS_DGS Q2
+L Device:Q_PMOS_DGS Q2
 U 1 1 5A8EF9DA
 P 5600 1200
 F 0 "Q2" H 5800 1250 50  0000 L CNN
@@ -129,7 +129,7 @@ F 4 "SI7135DP-T1-GE3CT-ND" H 5800 1350 50  0001 C CNN "Digikey Part Number"
 	0    1    -1   0   
 $EndComp
 $Comp
-L device:Q_PMOS_DGS Q3
+L Device:Q_PMOS_DGS Q3
 U 1 1 5A8F1A26
 P 5900 1600
 F 0 "Q3" H 6100 1650 50  0000 L CNN
@@ -141,7 +141,7 @@ F 4 "SI7135DP-T1-GE3CT-ND" H 6100 1750 50  0001 C CNN "Digikey Part Number"
 	0    -1   -1   0   
 $EndComp
 $Comp
-L device:Q_PMOS_DGS Q4
+L Device:Q_PMOS_DGS Q4
 U 1 1 5A8F1A2D
 P 6400 1600
 F 0 "Q4" H 6600 1650 50  0000 L CNN
@@ -153,7 +153,7 @@ F 4 "SI7135DP-T1-GE3CT-ND" H 6600 1750 50  0001 C CNN "Digikey Part Number"
 	0    1    -1   0   
 $EndComp
 $Comp
-L device:Q_PMOS_DGS Q5
+L Device:Q_PMOS_DGS Q5
 U 1 1 5A8F1ADE
 P 6700 2000
 F 0 "Q5" H 6900 2050 50  0000 L CNN
@@ -165,7 +165,7 @@ F 4 "SI7135DP-T1-GE3CT-ND" H 6900 2150 50  0001 C CNN "Digikey Part Number"
 	0    -1   -1   0   
 $EndComp
 $Comp
-L device:Q_PMOS_DGS Q6
+L Device:Q_PMOS_DGS Q6
 U 1 1 5A8F1AE5
 P 7200 2000
 F 0 "Q6" H 7400 2050 50  0000 L CNN
@@ -199,7 +199,7 @@ F 3 "" H 4600 5100 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L device:C_Small C2
+L Device:C_Small C2
 U 1 1 5A8F83BF
 P 5500 2750
 F 0 "C2" H 5510 2820 50  0000 L CNN
@@ -211,7 +211,7 @@ F 4 "445-5667-1-ND" H 5510 2920 50  0001 C CNN "Digikey Part Number"
 	1    0    0    -1  
 $EndComp
 $Comp
-L device:C_Small C3
+L Device:C_Small C3
 U 1 1 5A8F8776
 P 6300 2750
 F 0 "C3" H 6310 2820 50  0000 L CNN
@@ -223,7 +223,7 @@ F 4 "445-5667-1-ND" H 6310 2920 50  0001 C CNN "Digikey Part Number"
 	1    0    0    -1  
 $EndComp
 $Comp
-L device:C_Small C4
+L Device:C_Small C4
 U 1 1 5A8F88B6
 P 7100 2750
 F 0 "C4" H 7110 2820 50  0000 L CNN
@@ -268,7 +268,7 @@ F 3 "" H 7100 2850 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L device:C_Small C5
+L Device:C_Small C5
 U 1 1 5A8F92DE
 P 3900 2900
 F 0 "C5" H 3910 2970 50  0000 L CNN
@@ -291,7 +291,7 @@ F 3 "" H 8400 1500 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L device:CP1_Small C1
+L Device:CP1_Small C1
 U 1 1 5A8FA915
 P 8400 1400
 F 0 "C1" H 8410 1470 50  0000 L CNN
@@ -303,7 +303,7 @@ F 4 "1189-1733-ND" H 8410 1570 50  0001 C CNN "Digikey Part Number"
 	1    0    0    -1  
 $EndComp
 $Comp
-L device:D_Zener D2
+L Device:D_Zener D2
 U 1 1 5A90020B
 P 7900 1350
 F 0 "D2" H 7900 1450 50  0000 C CNN
@@ -348,7 +348,7 @@ F 3 "" H 3800 2900 50  0001 C CNN
 	0    1    1    0   
 $EndComp
 $Comp
-L device:C_Small C6
+L Device:C_Small C6
 U 1 1 5A90AD02
 P 2850 3300
 F 0 "C6" H 2860 3370 50  0000 L CNN
@@ -360,7 +360,7 @@ F 4 "445-5667-1-ND" H 2860 3470 50  0001 C CNN "Digikey Part Number"
 	0    -1   -1   0   
 $EndComp
 $Comp
-L device:R_Small R6
+L Device:R_Small R6
 U 1 1 5A90AD08
 P 2600 3700
 F 0 "R6" V 2600 3100 50  0000 L CNN
@@ -372,7 +372,7 @@ F 4 "311-11.0KHRCT-ND" H 2600 3200 50  0001 C CNN "Digikey Part Number"
 	0    1    -1   0   
 $EndComp
 $Comp
-L device:R_Small R5
+L Device:R_Small R5
 U 1 1 5A90AD0E
 P 2600 3600
 F 0 "R5" V 2600 3000 50  0000 L CNN
@@ -384,7 +384,7 @@ F 4 "311-5.49KHRCT-ND" H 2600 3100 50  0001 C CNN "Digikey Part Number"
 	0    1    -1   0   
 $EndComp
 $Comp
-L device:R_Small R4
+L Device:R_Small R4
 U 1 1 5A90AD14
 P 2600 3500
 F 0 "R4" V 2600 2900 50  0000 L CNN
@@ -418,7 +418,7 @@ F 3 "" H 2750 3300 50  0001 C CNN
 	0    1    1    0   
 $EndComp
 $Comp
-L device:C_Small C7
+L Device:C_Small C7
 U 1 1 5A90B733
 P 1800 3700
 F 0 "C7" H 1810 3770 50  0000 L CNN
@@ -475,7 +475,7 @@ F 3 "" H 3150 8500 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L device:C_Small C10
+L Device:C_Small C10
 U 1 1 5A94C6AC
 P 2350 8050
 F 0 "C10" H 2360 8120 50  0000 L CNN
@@ -487,7 +487,7 @@ F 4 "445-14423-1-ND" H 2360 8220 50  0001 C CNN "Digikey Part Number"
 	1    0    0    -1  
 $EndComp
 $Comp
-L device:C_Small C9
+L Device:C_Small C9
 U 1 1 5A94CAEA
 P 2150 8050
 F 0 "C9" H 2160 8120 50  0000 L CNN
@@ -499,7 +499,7 @@ F 4 "445-14423-1-ND" H 2160 8220 50  0001 C CNN "Digikey Part Number"
 	-1   0    0    -1  
 $EndComp
 $Comp
-L device:C_Small C8
+L Device:C_Small C8
 U 1 1 5A94E0E3
 P 3850 7700
 F 0 "C8" H 3860 7770 50  0000 L CNN
@@ -511,7 +511,7 @@ F 4 "399-1171-1-ND" H 3860 7870 50  0001 C CNN "Digikey Part Number"
 	0    -1   -1   0   
 $EndComp
 $Comp
-L device:L_Small L1
+L Device:L_Small L1
 U 1 1 5A94EC83
 P 4350 7900
 F 0 "L1" H 4380 7940 50  0000 L CNN
@@ -523,7 +523,7 @@ F 4 "732-3880-1-ND" H 4380 8040 50  0001 C CNN "Digikey Part Number"
 	0    -1   -1   0   
 $EndComp
 $Comp
-L device:R_Small R10
+L Device:R_Small R10
 U 1 1 5A94F6FB
 P 4650 8050
 F 0 "R10" H 4680 8070 50  0000 L CNN
@@ -535,7 +535,7 @@ F 4 "311-100KHRCT-ND" H 4680 8170 50  0001 C CNN "Digikey Part Number"
 	1    0    0    -1  
 $EndComp
 $Comp
-L device:R_Small R11
+L Device:R_Small R11
 U 1 1 5A94FD84
 P 4650 8350
 F 0 "R11" H 4680 8370 50  0000 L CNN
@@ -547,7 +547,7 @@ F 4 "311-22.0KHRCT-ND" H 4680 8470 50  0001 C CNN "Digikey Part Number"
 	1    0    0    -1  
 $EndComp
 $Comp
-L device:C_Small C12
+L Device:C_Small C12
 U 1 1 5A950DFD
 P 5450 8250
 F 0 "C12" H 5460 8320 50  0000 L CNN
@@ -559,7 +559,7 @@ F 4 "1276-6526-1-ND" H 5460 8420 50  0001 C CNN "Digikey Part Number"
 	1    0    0    -1  
 $EndComp
 $Comp
-L device:C_Small C11
+L Device:C_Small C11
 U 1 1 5A950E03
 P 5250 8250
 F 0 "C11" H 5260 8320 50  0000 L CNN
@@ -571,7 +571,7 @@ F 4 "1276-6526-1-ND" H 5260 8420 50  0001 C CNN "Digikey Part Number"
 	-1   0    0    -1  
 $EndComp
 $Comp
-L device:L_Small L2
+L Device:L_Small L2
 U 1 1 5A9540F5
 P 3200 10700
 F 0 "L2" H 3230 10740 50  0000 L CNN
@@ -583,7 +583,7 @@ F 4 "732-4180-1-ND" H 3230 10840 50  0001 C CNN "Digikey Part Number"
 	0    -1   -1   0   
 $EndComp
 $Comp
-L device:C_Small C16
+L Device:C_Small C16
 U 1 1 5A954114
 P 4200 11300
 F 0 "C16" H 4210 11370 50  0000 L CNN
@@ -608,7 +608,7 @@ Text Label 4900 15100 0    60   ~ 0
 UMB_VCC
 Text Label 1500 1900 2    60   ~ 0
 BAT_BAK_VCC
-Text Label 8700 1100 2    60   ~ 0
+Text Label 9150 1100 2    60   ~ 0
 VCC_IN
 Text Notes 1700 1050 0    60   ~ 0
 6-9 V (actually 8.4 but a little margin of error)
@@ -683,7 +683,7 @@ Wire Wire Line
 Wire Wire Line
 	4000 3100 4100 3100
 Wire Wire Line
-	4000 1100 4000 2900
+	4000 1100 4000 2000
 Wire Wire Line
 	5500 2650 5350 2650
 Wire Wire Line
@@ -713,7 +713,7 @@ Wire Wire Line
 Wire Wire Line
 	2950 3500 4100 3500
 Wire Wire Line
-	2950 1500 2950 3300
+	2950 1500 2950 2000
 Wire Wire Line
 	2700 3600 4100 3600
 Wire Wire Line
@@ -733,7 +733,7 @@ Wire Wire Line
 Wire Wire Line
 	1900 3900 4100 3900
 Wire Wire Line
-	1900 1900 1900 3700
+	1900 1900 1900 2000
 Wire Wire Line
 	1650 4000 4100 4000
 Wire Wire Line
@@ -800,7 +800,6 @@ Connection ~ 6150 1500
 Connection ~ 5900 1800
 Connection ~ 6950 1900
 Connection ~ 6700 2200
-Connection ~ 7550 1900
 Connection ~ 7550 1500
 Connection ~ 7550 1100
 Connection ~ 4000 1100
@@ -845,7 +844,7 @@ F 4 "LTC4417CGN#PBF-ND" H 4600 3900 60  0001 C CNN "Digikey Part Number"
 	1    0    0    -1  
 $EndComp
 $Comp
-L device:LED D6
+L Device:LED D6
 U 1 1 5A9CAF6E
 P 3300 13900
 F 0 "D6" H 3300 14000 50  0000 C CNN
@@ -857,7 +856,7 @@ F 4 "160-1447-1-ND" H 3300 14100 50  0001 C CNN "Digikey Part Number"
 	1    0    0    -1  
 $EndComp
 $Comp
-L device:R R13
+L Device:R R13
 U 1 1 5A9CAF75
 P 2800 13900
 F 0 "R13" V 2880 13900 50  0000 C CNN
@@ -931,7 +930,7 @@ F 4 "LTC3130IMSE-1#PBF-ND" H 3200 11500 60  0001 C CNN "Digikey Part Number"
 	1    0    0    -1  
 $EndComp
 $Comp
-L device:C_Small C14
+L Device:C_Small C14
 U 1 1 5A9EE557
 P 3400 10700
 F 0 "C14" H 3410 10770 50  0000 L CNN
@@ -943,7 +942,7 @@ F 4 "399-9043-1-ND" H 3400 10700 60  0001 C CNN "Digikey Part Number"
 	0    -1   -1   0   
 $EndComp
 $Comp
-L device:C_Small C13
+L Device:C_Small C13
 U 1 1 5A9EEB8C
 P 3000 10700
 F 0 "C13" H 3010 10770 50  0000 L CNN
@@ -964,7 +963,7 @@ Wire Wire Line
 	2050 11300 2050 11200
 Connection ~ 2050 11200
 $Comp
-L device:C_Small C15
+L Device:C_Small C15
 U 1 1 5A9EFC5B
 P 2150 11100
 F 0 "C15" H 2160 11170 50  0000 L CNN
@@ -987,7 +986,7 @@ F 3 "" H 2150 11000 50  0001 C CNN
 	-1   0    0    1   
 $EndComp
 $Comp
-L device:C_Small C17
+L Device:C_Small C17
 U 1 1 5A9F06C5
 P 2150 11400
 F 0 "C17" H 2160 11470 50  0000 L CNN
@@ -1015,7 +1014,7 @@ Wire Wire Line
 	2350 11300 2350 11400
 Connection ~ 2350 11300
 $Comp
-L device:C_Small C18
+L Device:C_Small C18
 U 1 1 5A9F17A0
 P 4000 11900
 F 0 "C18" H 4010 11970 50  0000 L CNN
@@ -1095,7 +1094,7 @@ Wire Wire Line
 	3100 12100 3200 12100
 Connection ~ 3200 12100
 $Comp
-L device:R_Small R9
+L Device:R_Small R9
 U 1 1 5A9F6F73
 P 1550 4100
 F 0 "R9" V 1550 3500 50  0000 L CNN
@@ -1107,7 +1106,7 @@ F 4 "311-11.0KHRCT-ND" H 1550 3600 50  0001 C CNN "Digikey Part Number"
 	0    1    -1   0   
 $EndComp
 $Comp
-L device:R_Small R8
+L Device:R_Small R8
 U 1 1 5A9F703E
 P 1550 4000
 F 0 "R8" V 1550 3400 50  0000 L CNN
@@ -1119,7 +1118,7 @@ F 4 "311-5.49KHRCT-ND" H 1550 3500 50  0001 C CNN "Digikey Part Number"
 	0    1    -1   0   
 $EndComp
 $Comp
-L device:R_Small R7
+L Device:R_Small R7
 U 1 1 5A9F7104
 P 1550 3900
 F 0 "R7" V 1550 3300 50  0000 L CNN
@@ -1137,8 +1136,6 @@ Wire Wire Line
 Wire Wire Line
 	6950 1900 7000 1900
 Wire Wire Line
-	7550 1900 7550 4200
-Wire Wire Line
 	7550 1500 7550 1900
 Wire Wire Line
 	7550 1100 7900 1100
@@ -1148,8 +1145,6 @@ Wire Wire Line
 	6150 2650 6150 3600
 Wire Wire Line
 	6950 2650 6950 4000
-Wire Wire Line
-	8400 1100 8700 1100
 Wire Wire Line
 	7900 1100 8400 1100
 Wire Wire Line
@@ -1211,7 +1206,7 @@ Wire Wire Line
 Wire Wire Line
 	3550 3200 3550 3300
 $Comp
-L device:R_Small R1
+L Device:R_Small R1
 U 1 1 5AA292DA
 P 3650 3100
 F 0 "R1" V 3650 2500 50  0000 L CNN
@@ -1223,7 +1218,7 @@ F 4 "311-82.5KHRCT-ND" H 3650 2600 50  0001 C CNN "Digikey Part Number"
 	0    1    -1   0   
 $EndComp
 $Comp
-L device:R_Small R2
+L Device:R_Small R2
 U 1 1 5AA29371
 P 3650 3200
 F 0 "R2" V 3650 2600 50  0000 L CNN
@@ -1236,7 +1231,7 @@ F 4 "311-5.49KHRCT-ND" H 3650 2700 50  0001 C CNN "Digikey Part Number"
 $EndComp
 Connection ~ 3750 3200
 $Comp
-L device:R_Small R3
+L Device:R_Small R3
 U 1 1 5AA29408
 P 3650 3300
 F 0 "R3" V 3650 2700 50  0000 L CNN
@@ -1267,7 +1262,7 @@ Wire Wire Line
 	5850 7900 6000 7900
 Connection ~ 5850 7900
 $Comp
-L Mechanical:Mounting_Hole H1
+L Power-Board-rescue:Mounting_Hole-Mechanical H1
 U 1 1 5AA6FB6A
 P 2000 18200
 F 0 "H1" H 2100 18246 50  0000 L CNN
@@ -1278,7 +1273,7 @@ F 3 "" H 2000 18200 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Mechanical:Mounting_Hole H4
+L Power-Board-rescue:Mounting_Hole-Mechanical H4
 U 1 1 5AA70339
 P 2000 18800
 F 0 "H4" H 2100 18846 50  0000 L CNN
@@ -1289,7 +1284,7 @@ F 3 "" H 2000 18800 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Mechanical:Mounting_Hole H2
+L Power-Board-rescue:Mounting_Hole-Mechanical H2
 U 1 1 5AA703D9
 P 2000 18400
 F 0 "H2" H 2100 18446 50  0000 L CNN
@@ -1300,7 +1295,7 @@ F 3 "" H 2000 18400 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Mechanical:Mounting_Hole H3
+L Power-Board-rescue:Mounting_Hole-Mechanical H3
 U 1 1 5AA7048D
 P 2000 18600
 F 0 "H3" H 2100 18646 50  0000 L CNN
@@ -1311,7 +1306,7 @@ F 3 "" H 2000 18600 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Connector:Conn_01x02 J2
+L Power-Board-rescue:Conn_01x02-Connector J2
 U 1 1 5AA75ED0
 P 4800 18150
 F 0 "J2" H 4880 18142 50  0000 L CNN
@@ -1335,7 +1330,7 @@ F 3 "" H 4600 18250 50  0001 C CNN
 	0    1    -1   0   
 $EndComp
 $Comp
-L Connector:Conn_01x02 J3
+L Power-Board-rescue:Conn_01x02-Connector J3
 U 1 1 5AA7656E
 P 4800 18450
 F 0 "J3" H 4880 18442 50  0000 L CNN
@@ -1346,7 +1341,7 @@ F 3 "~" H 4800 18450 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Connector:Conn_01x02 J4
+L Power-Board-rescue:Conn_01x02-Connector J4
 U 1 1 5AA765F7
 P 4800 18750
 F 0 "J4" H 4880 18742 50  0000 L CNN
@@ -1357,7 +1352,7 @@ F 3 "~" H 4800 18750 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Connector:Conn_01x02 J5
+L Power-Board-rescue:Conn_01x02-Connector J5
 U 1 1 5AA76683
 P 4800 19050
 F 0 "J5" H 4880 19042 50  0000 L CNN
@@ -1407,7 +1402,7 @@ F 3 "" H 4600 19150 50  0001 C CNN
 	0    1    -1   0   
 $EndComp
 $Comp
-L Connector:Conn_02x10_Odd_Even J1
+L Power-Board-rescue:Conn_02x10_Odd_Even-Connector J1
 U 1 1 5AA9F256
 P 4600 15300
 F 0 "J1" H 4650 15917 50  0000 C CNN
@@ -1466,4 +1461,368 @@ Text Notes 4050 600  0    50   ~ 0
 Power Supply Selector
 Text Notes 4950 5050 0    50   ~ 0
 If this shows up as a box with a question mark\nlook at the exported pdf schematic instead
+$Comp
+L Connector_Generic:Conn_01x03 J?
+U 1 1 5B7E8D44
+P 4800 20000
+F 0 "J?" H 4880 20042 50  0000 L CNN
+F 1 "Conn_01x03" H 4880 19951 50  0000 L CNN
+F 2 "Connectors_JST:JST_XH_S03B-XH-A_03x2.50mm_Angled" H 4800 20000 50  0001 C CNN
+F 3 "~" H 4800 20000 50  0001 C CNN
+F 4 "455-2250-ND" H 0   0   50  0001 C CNN "Digikey Part Number"
+	1    4800 20000
+	1    0    0    -1  
+$EndComp
+Text Label 4600 20000 2    50   ~ 0
+BAT_CELL_1
+Text Label 4600 20100 2    50   ~ 0
+BAT_CELL_2
+$Comp
+L Custom-Parts:BQ2057WSNTR U?
+U 1 1 5B8211E2
+P 10650 5700
+F 0 "U?" H 10650 6165 50  0000 C CNN
+F 1 "BQ2057WSNTR" H 10650 6074 50  0000 C CNN
+F 2 "" H 10650 5700 50  0001 C CNN
+F 3 "" H 10650 5700 50  0001 C CNN
+	1    10650 5700
+	1    0    0    -1  
+$EndComp
+$Comp
+L Custom-Parts:BQ29209DRBT U?
+U 1 1 5B8212FA
+P 14350 5650
+F 0 "U?" H 14350 6065 50  0000 C CNN
+F 1 "BQ29209DRBT" H 14350 5974 50  0000 C CNN
+F 2 "" H 14350 5650 50  0001 C CNN
+F 3 "" H 14350 5650 50  0001 C CNN
+	1    14350 5650
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR?
+U 1 1 5B825B1A
+P 9700 6350
+F 0 "#PWR?" H 9700 6100 50  0001 C CNN
+F 1 "GND" V 9700 6150 50  0000 C CNN
+F 2 "" H 9700 6350 50  0001 C CNN
+F 3 "" H 9700 6350 50  0001 C CNN
+	1    9700 6350
+	-1   0    0    -1  
+$EndComp
+Text Label 13000 5100 2    50   ~ 0
+BAT_CELL_1
+Wire Wire Line
+	9850 4500 10100 4500
+Wire Wire Line
+	10200 5500 10100 5500
+Wire Wire Line
+	10100 5500 10100 4500
+Connection ~ 10100 4500
+Wire Wire Line
+	10100 4500 11100 4500
+Text Label 12100 4500 0    50   ~ 0
+BAT_CELL_2
+Connection ~ 7550 1900
+Wire Wire Line
+	7550 1900 7550 4200
+$Comp
+L Device:R R?
+U 1 1 5B83594E
+P 9700 4500
+F 0 "R?" V 9493 4500 50  0000 C CNN
+F 1 "0.124Ω" V 9584 4500 50  0000 C CNN
+F 2 "Resistors_SMD:R_2512" V 9630 4500 50  0001 C CNN
+F 3 "~" H 9700 4500 50  0001 C CNN
+F 4 "A109697CT-ND" V 9700 4500 50  0001 C CNN "Digikey Part Number"
+	1    9700 4500
+	0    1    1    0   
+$EndComp
+$Comp
+L Device:Q_PMOS_SGD Q?
+U 1 1 5B823DE9
+P 11300 4600
+F 0 "Q?" V 11643 4600 50  0000 C CNN
+F 1 "AON7423" V 11552 4600 50  0000 C CNN
+F 2 "" H 11500 4700 50  0001 C CNN
+F 3 "~" H 11300 4600 50  0001 C CNN
+F 4 "785-1310-1-ND" V 11300 4600 50  0001 C CNN "Digikey Part Number"
+	1    11300 4600
+	0    1    -1   0   
+$EndComp
+Text Label 9250 4500 2    60   ~ 0
+UMB_VCC
+Text Notes 10200 4450 0    50   ~ 0
+Charge current 1A
+Wire Wire Line
+	11300 4800 11300 5600
+Wire Wire Line
+	11300 5600 11100 5600
+Wire Wire Line
+	10200 5700 9700 5700
+Text Label 4600 19900 2    50   ~ 0
+BAT_CELL_GND
+Wire Wire Line
+	11500 4500 11700 4500
+Wire Wire Line
+	10200 5600 10000 5600
+Wire Wire Line
+	10000 5600 10000 5000
+Wire Wire Line
+	10000 5000 11700 5000
+Wire Wire Line
+	11700 5000 11700 4500
+Connection ~ 11700 4500
+Wire Wire Line
+	11700 4500 12100 4500
+Wire Wire Line
+	11100 5800 11350 5800
+Text Label 12100 5800 0    50   ~ 0
+CHARGE_STAT
+$Comp
+L Device:LED D?
+U 1 1 5B8CB8F0
+P 11350 6150
+F 0 "D?" H 11350 6250 50  0000 C CNN
+F 1 "LED_G" H 11350 6050 50  0000 C CNN
+F 2 "LEDs:LED_0603" H 11350 6150 50  0001 C CNN
+F 3 "" H 11350 6150 50  0001 C CNN
+F 4 "160-1888-1-ND" H 11350 6350 50  0001 C CNN "Digikey Part Number"
+	1    11350 6150
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Device:R R?
+U 1 1 5B8CB8F7
+P 11350 6650
+F 0 "R?" V 11430 6650 50  0000 C CNN
+F 1 "470 Ω" V 11350 6650 50  0000 C CNN
+F 2 "Resistors_SMD:R_0603" V 11280 6650 50  0001 C CNN
+F 3 "" H 11350 6650 50  0001 C CNN
+F 4 "311-100GRCT-ND" H 11430 6750 50  0001 C CNN "Digikey Part Number"
+	1    11350 6650
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR?
+U 1 1 5B8CB8FD
+P 11350 6950
+F 0 "#PWR?" H 11350 6700 50  0001 C CNN
+F 1 "GND" H 11350 6800 50  0000 C CNN
+F 2 "" H 11350 6950 50  0001 C CNN
+F 3 "" H 11350 6950 50  0001 C CNN
+	1    11350 6950
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	11350 6300 11350 6500
+Wire Wire Line
+	11350 6950 11350 6800
+Wire Wire Line
+	11350 6000 11350 5800
+Connection ~ 11350 5800
+Wire Wire Line
+	11350 5800 12100 5800
+$Comp
+L Device:C_Small C?
+U 1 1 5B8F0A19
+P 9700 6050
+F 0 "C?" H 9710 6120 50  0000 L CNN
+F 1 "0.1 uF" H 9710 5970 50  0000 L CNN
+F 2 "Capacitors_SMD:C_0603" H 9700 6050 50  0001 C CNN
+F 3 "" H 9700 6050 50  0001 C CNN
+F 4 "445-5667-1-ND" H 9710 6220 50  0001 C CNN "Digikey Part Number"
+	1    9700 6050
+	1    0    0    -1  
+$EndComp
+Text Label 10400 6350 0    50   ~ 0
+BAT_CELL_GND
+Wire Wire Line
+	11100 5700 11200 5700
+Wire Wire Line
+	11200 5700 11200 6350
+Wire Wire Line
+	9250 4500 9350 4500
+Wire Wire Line
+	9350 5700 9350 5100
+Connection ~ 9350 4500
+Wire Wire Line
+	9350 4500 9550 4500
+Wire Wire Line
+	9700 6350 11200 6350
+Connection ~ 9700 6350
+Connection ~ 9700 5700
+Wire Wire Line
+	9350 5700 9700 5700
+Wire Wire Line
+	9700 6150 9700 6350
+Wire Wire Line
+	9700 5700 9700 5950
+Wire Wire Line
+	11100 5500 11100 5100
+Wire Wire Line
+	11100 5100 9350 5100
+Connection ~ 9350 5100
+Wire Wire Line
+	9350 5100 9350 4500
+$Comp
+L Device:R R?
+U 1 1 5B982700
+P 1650 2150
+F 0 "R?" V 1730 2150 50  0000 C CNN
+F 1 "1 kΩ" V 1650 2150 50  0000 C CNN
+F 2 "Resistors_SMD:R_0603" V 1580 2150 50  0001 C CNN
+F 3 "" H 1650 2150 50  0001 C CNN
+F 4 "RHM1.0KDCT-ND" H 1730 2250 50  0001 C CNN "Digikey Part Number"
+	1    1650 2150
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:LED D?
+U 1 1 5B983C96
+P 1650 2450
+F 0 "D?" H 1650 2550 50  0000 C CNN
+F 1 "LED_B" H 1650 2350 50  0000 C CNN
+F 2 "LEDs:LED_0603" H 1650 2450 50  0001 C CNN
+F 3 "" H 1650 2450 50  0001 C CNN
+F 4 "160-1647-1-ND" H 1650 2650 50  0001 C CNN "Digikey Part Number"
+	1    1650 2450
+	0    -1   -1   0   
+$EndComp
+$Comp
+L power:GND #PWR?
+U 1 1 5B984454
+P 1650 2600
+F 0 "#PWR?" H 1650 2350 50  0001 C CNN
+F 1 "GND" H 1650 2450 50  0000 C CNN
+F 2 "" H 1650 2600 50  0001 C CNN
+F 3 "" H 1650 2600 50  0001 C CNN
+	1    1650 2600
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	1650 2000 1900 2000
+$Comp
+L Device:R R?
+U 1 1 5B98D2E1
+P 2700 2150
+F 0 "R?" V 2780 2150 50  0000 C CNN
+F 1 "1 kΩ" V 2700 2150 50  0000 C CNN
+F 2 "Resistors_SMD:R_0603" V 2630 2150 50  0001 C CNN
+F 3 "" H 2700 2150 50  0001 C CNN
+F 4 "RHM1.0KDCT-ND" H 2780 2250 50  0001 C CNN "Digikey Part Number"
+	1    2700 2150
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:LED D?
+U 1 1 5B98D2E8
+P 2700 2450
+F 0 "D?" H 2700 2550 50  0000 C CNN
+F 1 "LED_B" H 2700 2350 50  0000 C CNN
+F 2 "LEDs:LED_0603" H 2700 2450 50  0001 C CNN
+F 3 "" H 2700 2450 50  0001 C CNN
+F 4 "160-1647-1-ND" H 2700 2650 50  0001 C CNN "Digikey Part Number"
+	1    2700 2450
+	0    -1   -1   0   
+$EndComp
+$Comp
+L power:GND #PWR?
+U 1 1 5B98D2EE
+P 2700 2600
+F 0 "#PWR?" H 2700 2350 50  0001 C CNN
+F 1 "GND" H 2700 2450 50  0000 C CNN
+F 2 "" H 2700 2600 50  0001 C CNN
+F 3 "" H 2700 2600 50  0001 C CNN
+	1    2700 2600
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	2700 2000 2950 2000
+Connection ~ 2950 2000
+Wire Wire Line
+	2950 2000 2950 3300
+Connection ~ 1900 2000
+Wire Wire Line
+	1900 2000 1900 3700
+$Comp
+L Device:R R?
+U 1 1 5B99F579
+P 3750 2150
+F 0 "R?" V 3830 2150 50  0000 C CNN
+F 1 "1 kΩ" V 3750 2150 50  0000 C CNN
+F 2 "Resistors_SMD:R_0603" V 3680 2150 50  0001 C CNN
+F 3 "" H 3750 2150 50  0001 C CNN
+F 4 "RHM1.0KDCT-ND" H 3830 2250 50  0001 C CNN "Digikey Part Number"
+	1    3750 2150
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:LED D?
+U 1 1 5B99F580
+P 3750 2450
+F 0 "D?" H 3750 2550 50  0000 C CNN
+F 1 "LED_B" H 3750 2350 50  0000 C CNN
+F 2 "LEDs:LED_0603" H 3750 2450 50  0001 C CNN
+F 3 "" H 3750 2450 50  0001 C CNN
+F 4 "160-1647-1-ND" H 3750 2650 50  0001 C CNN "Digikey Part Number"
+	1    3750 2450
+	0    -1   -1   0   
+$EndComp
+$Comp
+L power:GND #PWR?
+U 1 1 5B99F586
+P 3750 2600
+F 0 "#PWR?" H 3750 2350 50  0001 C CNN
+F 1 "GND" H 3750 2450 50  0000 C CNN
+F 2 "" H 3750 2600 50  0001 C CNN
+F 3 "" H 3750 2600 50  0001 C CNN
+	1    3750 2600
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	3750 2000 4000 2000
+Connection ~ 4000 2000
+Wire Wire Line
+	4000 2000 4000 2900
+$Comp
+L Device:R R?
+U 1 1 5B9A8E94
+P 8900 1250
+F 0 "R?" V 8980 1250 50  0000 C CNN
+F 1 "1 kΩ" V 8900 1250 50  0000 C CNN
+F 2 "Resistors_SMD:R_0603" V 8830 1250 50  0001 C CNN
+F 3 "" H 8900 1250 50  0001 C CNN
+F 4 "RHM1.0KDCT-ND" H 8980 1350 50  0001 C CNN "Digikey Part Number"
+	1    8900 1250
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:LED D?
+U 1 1 5B9A8E9B
+P 8900 1550
+F 0 "D?" H 8900 1650 50  0000 C CNN
+F 1 "LED_B" H 8900 1450 50  0000 C CNN
+F 2 "LEDs:LED_0603" H 8900 1550 50  0001 C CNN
+F 3 "" H 8900 1550 50  0001 C CNN
+F 4 "160-1647-1-ND" H 8900 1750 50  0001 C CNN "Digikey Part Number"
+	1    8900 1550
+	0    -1   -1   0   
+$EndComp
+$Comp
+L power:GND #PWR?
+U 1 1 5B9A8EA1
+P 8900 1700
+F 0 "#PWR?" H 8900 1450 50  0001 C CNN
+F 1 "GND" H 8900 1550 50  0000 C CNN
+F 2 "" H 8900 1700 50  0001 C CNN
+F 3 "" H 8900 1700 50  0001 C CNN
+	1    8900 1700
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	8900 1100 9150 1100
+Wire Wire Line
+	8400 1100 8900 1100
+Connection ~ 8900 1100
 $EndSCHEMATC
