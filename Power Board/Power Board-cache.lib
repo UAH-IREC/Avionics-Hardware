@@ -459,6 +459,19 @@ P 4 0 1 0 140 -140 20 -90 90 -20 140 -140 F
 ENDDRAW
 ENDDEF
 #
+# Mechanical:Heatsink
+#
+DEF Mechanical:Heatsink HS 0 40 Y Y 1 F N
+F0 "HS" 0 200 50 H V C CNN
+F1 "Mechanical:Heatsink" 0 -50 50 H V C CNN
+F2 "" 12 0 50 H I C CNN
+F3 "" 12 0 50 H I C CNN
+DRAW
+P 10 0 1 10 -13 50 -38 50 -38 150 -63 150 -63 50 -88 50 -88 150 -113 150 -113 0 -38 0 f
+P 13 0 1 10 -13 50 -13 150 12 150 12 50 37 50 37 150 62 150 62 50 87 50 87 150 112 150 112 0 -38 0 f
+ENDDRAW
+ENDDEF
+#
 # Power-Board-rescue:Conn_01x02-Connector
 #
 DEF Power-Board-rescue:Conn_01x02-Connector J 0 40 Y N 1 F N

@@ -563,7 +563,7 @@ BAT_BAK_VCC
 Text Label 9150 1100 2    60   ~ 0
 VCC_IN
 Text Notes 1700 1050 0    60   ~ 0
-6-9 V (actually 8.4 but a little margin of error)
+9-10.5 V
 Text Notes 1700 1450 0    60   ~ 0
 6-9 V (actually 8.4 but a little margin of error)
 Text Notes 1700 1850 0    60   ~ 0
@@ -1142,10 +1142,10 @@ L Device:R_Small R1
 U 1 1 5AA292DA
 P 3650 3100
 F 0 "R1" V 3650 2500 50  0000 L CNN
-F 1 "82.5 kΩ" V 3650 2650 50  0000 L CNN
+F 1 "88.7 kΩ" V 3650 2650 50  0000 L CNN
 F 2 "Resistors_SMD:R_0603" H 3650 3100 50  0001 C CNN
 F 3 "" H 3650 3100 50  0001 C CNN
-F 4 "P82.5KHCT-ND" H 3650 2600 50  0001 C CNN "Digikey Part Number"
+F 4 "P88.7KHCT-ND" H 3650 2600 50  0001 C CNN "Digikey Part Number"
 	1    3650 3100
 	0    1    -1   0   
 $EndComp
@@ -1154,10 +1154,10 @@ L Device:R_Small R2
 U 1 1 5AA29371
 P 3650 3200
 F 0 "R2" V 3650 2600 50  0000 L CNN
-F 1 "5.49 kΩ" V 3650 2750 50  0000 L CNN
+F 1 "1.58 kΩ" V 3650 2750 50  0000 L CNN
 F 2 "Resistors_SMD:R_0603" H 3650 3200 50  0001 C CNN
 F 3 "" H 3650 3200 50  0001 C CNN
-F 4 "311-5.49KHRCT-ND" H 3650 2700 50  0001 C CNN "Digikey Part Number"
+F 4 "P1.58KHCT-ND" H 3650 2700 50  0001 C CNN "Digikey Part Number"
 	1    3650 3200
 	0    1    -1   0   
 $EndComp
@@ -1167,10 +1167,10 @@ L Device:R_Small R3
 U 1 1 5AA29408
 P 3650 3300
 F 0 "R3" V 3650 2700 50  0000 L CNN
-F 1 "11 kΩ" V 3650 2900 50  0000 L CNN
+F 1 "9.53 kΩ" V 3650 2900 50  0000 L CNN
 F 2 "Resistors_SMD:R_0603" H 3650 3300 50  0001 C CNN
 F 3 "" H 3650 3300 50  0001 C CNN
-F 4 "P11.0KHCT-ND" H 3650 2800 50  0001 C CNN "Digikey Part Number"
+F 4 "P9.53KHCT-ND" H 3650 2800 50  0001 C CNN "Digikey Part Number"
 	1    3650 3300
 	0    1    -1   0   
 $EndComp
@@ -2223,4 +2223,16 @@ Text Notes 12700 7650 0    50   ~ 0
 6V Undervoltage Cutoff
 Text Notes 5900 1000 0    50   ~ 0
 MOSFETs will need heatsinks
+$Comp
+L Mechanical:Heatsink HS1
+U 1 1 5BBF14DE
+P 7250 950
+F 0 "HS1" H 7392 1071 50  0000 L CNN
+F 1 "Heatsink" H 7392 980 50  0000 L CNN
+F 2 "" H 7262 950 50  0001 C CNN
+F 3 "" H 7262 950 50  0001 C CNN
+F 4 "ATS1099-ND" H 7250 950 50  0001 C CNN "Digikey Part Number"
+	1    7250 950 
+	1    0    0    -1  
+$EndComp
 $EndSCHEMATC
