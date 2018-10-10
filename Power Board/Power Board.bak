@@ -2317,4 +2317,6 @@ F 4 "IC-11785" H 9400 10531 60  0000 C CNN "Field4"
 $EndComp
 Text Notes 11100 9400 0    50   ~ 0
 TODO: MAX6664, LTC4150, DS1682S, MAX11611
+Text Notes 11100 9500 0    50   ~ 0
+Figure out replacement for DS1682S or a way to get it to count down
 $EndSCHEMATC
