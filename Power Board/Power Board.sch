@@ -2235,4 +2235,88 @@ F 4 "ATS1099-ND" H 7250 950 50  0001 C CNN "Digikey Part Number"
 	1    7250 950 
 	1    0    0    -1  
 $EndComp
+Text Notes 4200 14600 0    50   ~ 0
+TODO: Redo this connector
+Text Label 9200 11000 0    50   ~ 0
+CHARGE_STAT
+Text Label 9200 11300 0    60   ~ 0
+UMB_VCC
+$Comp
+L power:+12V #PWR?
+U 1 1 5BBFC6B2
+P 9700 11200
+F 0 "#PWR?" H 9700 11050 50  0001 C CNN
+F 1 "+12V" H 9700 11340 50  0000 C CNN
+F 2 "" H 9700 11200 50  0001 C CNN
+F 3 "" H 9700 11200 50  0001 C CNN
+	1    9700 11200
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:+3V3 #PWR?
+U 1 1 5BBFCB8D
+P 9900 11100
+F 0 "#PWR?" H 9900 10950 50  0001 C CNN
+F 1 "+3V3" H 9900 11250 50  0000 C CNN
+F 2 "" H 9900 11100 50  0001 C CNN
+F 3 "" H 9900 11100 50  0001 C CNN
+	1    9900 11100
+	1    0    0    -1  
+$EndComp
+Text Label 9200 11400 0    60   ~ 0
+BAT_VCC
+Text Label 9200 11500 0    60   ~ 0
+BAT_BAK_VCC
+Text Label 9200 11700 0    50   ~ 0
+BAT_CELL_1
+Text Label 9200 11600 0    60   ~ 0
+VCC_IN
+Text Label 9200 11800 0    50   ~ 0
+THERM1
+Text Label 9200 11900 0    50   ~ 0
+THERM2
+Text Label 9200 12000 0    50   ~ 0
+THERM3
+Text Label 9200 12100 0    50   ~ 0
+THERM4
+Wire Wire Line
+	9900 11100 9000 11100
+Wire Wire Line
+	9200 11000 9000 11000
+Wire Wire Line
+	9700 11200 9000 11200
+Wire Wire Line
+	9200 11300 9000 11300
+Wire Wire Line
+	9200 11400 9000 11400
+Wire Wire Line
+	9200 11500 9000 11500
+Wire Wire Line
+	9200 11600 9000 11600
+Wire Wire Line
+	9200 11700 9000 11700
+Wire Wire Line
+	9200 11800 9000 11800
+Wire Wire Line
+	9200 11900 9000 11900
+Wire Wire Line
+	9200 12000 9000 12000
+Wire Wire Line
+	9200 12100 9000 12100
+$Comp
+L SparkFun-IC-Power:LTC4150 U?
+U 1 1 5BCD2784
+P 9400 9950
+F 0 "U?" H 9400 10710 45  0000 C CNN
+F 1 "LTC4150" H 9400 10626 45  0000 C CNN
+F 2 "MSOP10" H 9400 10550 20  0001 C CNN
+F 3 "" H 9400 9950 60  0001 C CNN
+F 4 "IC-11785" H 9400 10531 60  0000 C CNN "Field4"
+	1    9400 9950
+	1    0    0    -1  
+$EndComp
+Text Notes 11100 9400 0    50   ~ 0
+TODO: MAX6664, LTC4150, DS1682S, MAX11611
+Text Notes 11100 9500 0    50   ~ 0
+Figure out replacement for DS1682S or a way to get it to count down
 $EndSCHEMATC

@@ -563,7 +563,7 @@ BAT_BAK_VCC
 Text Label 9150 1100 2    60   ~ 0
 VCC_IN
 Text Notes 1700 1050 0    60   ~ 0
-6-9 V (actually 8.4 but a little margin of error)
+9-10.5 V
 Text Notes 1700 1450 0    60   ~ 0
 6-9 V (actually 8.4 but a little margin of error)
 Text Notes 1700 1850 0    60   ~ 0
@@ -1142,10 +1142,10 @@ L Device:R_Small R1
 U 1 1 5AA292DA
 P 3650 3100
 F 0 "R1" V 3650 2500 50  0000 L CNN
-F 1 "82.5 kΩ" V 3650 2650 50  0000 L CNN
+F 1 "88.7 kΩ" V 3650 2650 50  0000 L CNN
 F 2 "Resistors_SMD:R_0603" H 3650 3100 50  0001 C CNN
 F 3 "" H 3650 3100 50  0001 C CNN
-F 4 "P82.5KHCT-ND" H 3650 2600 50  0001 C CNN "Digikey Part Number"
+F 4 "P88.7KHCT-ND" H 3650 2600 50  0001 C CNN "Digikey Part Number"
 	1    3650 3100
 	0    1    -1   0   
 $EndComp
@@ -1154,10 +1154,10 @@ L Device:R_Small R2
 U 1 1 5AA29371
 P 3650 3200
 F 0 "R2" V 3650 2600 50  0000 L CNN
-F 1 "5.49 kΩ" V 3650 2750 50  0000 L CNN
+F 1 "1.58 kΩ" V 3650 2750 50  0000 L CNN
 F 2 "Resistors_SMD:R_0603" H 3650 3200 50  0001 C CNN
 F 3 "" H 3650 3200 50  0001 C CNN
-F 4 "311-5.49KHRCT-ND" H 3650 2700 50  0001 C CNN "Digikey Part Number"
+F 4 "P1.58KHCT-ND" H 3650 2700 50  0001 C CNN "Digikey Part Number"
 	1    3650 3200
 	0    1    -1   0   
 $EndComp
@@ -1167,10 +1167,10 @@ L Device:R_Small R3
 U 1 1 5AA29408
 P 3650 3300
 F 0 "R3" V 3650 2700 50  0000 L CNN
-F 1 "11 kΩ" V 3650 2900 50  0000 L CNN
+F 1 "9.53 kΩ" V 3650 2900 50  0000 L CNN
 F 2 "Resistors_SMD:R_0603" H 3650 3300 50  0001 C CNN
 F 3 "" H 3650 3300 50  0001 C CNN
-F 4 "P11.0KHCT-ND" H 3650 2800 50  0001 C CNN "Digikey Part Number"
+F 4 "P9.53KHCT-ND" H 3650 2800 50  0001 C CNN "Digikey Part Number"
 	1    3650 3300
 	0    1    -1   0   
 $EndComp
@@ -2223,4 +2223,98 @@ Text Notes 12700 7650 0    50   ~ 0
 6V Undervoltage Cutoff
 Text Notes 5900 1000 0    50   ~ 0
 MOSFETs will need heatsinks
+$Comp
+L Mechanical:Heatsink HS1
+U 1 1 5BBF14DE
+P 7250 950
+F 0 "HS1" H 7392 1071 50  0000 L CNN
+F 1 "Heatsink" H 7392 980 50  0000 L CNN
+F 2 "" H 7262 950 50  0001 C CNN
+F 3 "" H 7262 950 50  0001 C CNN
+F 4 "ATS1099-ND" H 7250 950 50  0001 C CNN "Digikey Part Number"
+	1    7250 950 
+	1    0    0    -1  
+$EndComp
+Text Notes 4200 14600 0    50   ~ 0
+TODO: Redo this connector
+Text Label 9200 11000 0    50   ~ 0
+CHARGE_STAT
+Text Label 9200 11300 0    60   ~ 0
+UMB_VCC
+$Comp
+L power:+12V #PWR?
+U 1 1 5BBFC6B2
+P 9700 11200
+F 0 "#PWR?" H 9700 11050 50  0001 C CNN
+F 1 "+12V" H 9700 11340 50  0000 C CNN
+F 2 "" H 9700 11200 50  0001 C CNN
+F 3 "" H 9700 11200 50  0001 C CNN
+	1    9700 11200
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:+3V3 #PWR?
+U 1 1 5BBFCB8D
+P 9900 11100
+F 0 "#PWR?" H 9900 10950 50  0001 C CNN
+F 1 "+3V3" H 9900 11250 50  0000 C CNN
+F 2 "" H 9900 11100 50  0001 C CNN
+F 3 "" H 9900 11100 50  0001 C CNN
+	1    9900 11100
+	1    0    0    -1  
+$EndComp
+Text Label 9200 11400 0    60   ~ 0
+BAT_VCC
+Text Label 9200 11500 0    60   ~ 0
+BAT_BAK_VCC
+Text Label 9200 11700 0    50   ~ 0
+BAT_CELL_1
+Text Label 9200 11600 0    60   ~ 0
+VCC_IN
+Text Label 9200 11800 0    50   ~ 0
+THERM1
+Text Label 9200 11900 0    50   ~ 0
+THERM2
+Text Label 9200 12000 0    50   ~ 0
+THERM3
+Text Label 9200 12100 0    50   ~ 0
+THERM4
+Wire Wire Line
+	9900 11100 9000 11100
+Wire Wire Line
+	9200 11000 9000 11000
+Wire Wire Line
+	9700 11200 9000 11200
+Wire Wire Line
+	9200 11300 9000 11300
+Wire Wire Line
+	9200 11400 9000 11400
+Wire Wire Line
+	9200 11500 9000 11500
+Wire Wire Line
+	9200 11600 9000 11600
+Wire Wire Line
+	9200 11700 9000 11700
+Wire Wire Line
+	9200 11800 9000 11800
+Wire Wire Line
+	9200 11900 9000 11900
+Wire Wire Line
+	9200 12000 9000 12000
+Wire Wire Line
+	9200 12100 9000 12100
+$Comp
+L SparkFun-IC-Power:LTC4150 U?
+U 1 1 5BCD2784
+P 9400 9950
+F 0 "U?" H 9400 10710 45  0000 C CNN
+F 1 "LTC4150" H 9400 10626 45  0000 C CNN
+F 2 "MSOP10" H 9400 10550 20  0001 C CNN
+F 3 "" H 9400 9950 60  0001 C CNN
+F 4 "IC-11785" H 9400 10531 60  0000 C CNN "Field4"
+	1    9400 9950
+	1    0    0    -1  
+$EndComp
+Text Notes 11100 9400 0    50   ~ 0
+TODO: MAX6664, LTC4150, DS1682S, MAX11611
 $EndSCHEMATC
