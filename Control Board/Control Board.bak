@@ -15,7 +15,7 @@ Comment3 ""
 Comment4 ""
 $EndDescr
 $Comp
-L atmel:ATXMEGA128A3-AU U1
+L Control-Board-rescue:ATXMEGA128A3-AU-atmel U1
 U 1 1 5A7E0460
 P 3400 3150
 F 0 "U1" H 2550 4750 50  0000 L BNN
@@ -61,7 +61,7 @@ F 3 "" H 15300 2150 50  0001 C CNN
 	0    1    1    0   
 $EndComp
 $Comp
-L device:C_Small C15
+L Control-Board-rescue:C_Small-device C15
 U 1 1 5A7F9A4F
 P 15100 2250
 F 0 "C15" H 15110 2320 50  0000 L CNN
@@ -84,7 +84,7 @@ F 3 "" H 15100 2350 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L device:C_Small C14
+L Control-Board-rescue:C_Small-device C14
 U 1 1 5A7F9D19
 P 13800 2050
 F 0 "C14" H 13810 2120 50  0000 L CNN
@@ -118,7 +118,7 @@ F 3 "" H 13650 1950 50  0001 C CNN
 	0    -1   -1   0   
 $EndComp
 $Comp
-L device:C_Small C12
+L Control-Board-rescue:C_Small-device C12
 U 1 1 5A7F9E67
 P 13200 1800
 F 0 "C12" H 13210 1870 50  0000 L CNN
@@ -130,7 +130,7 @@ F 4 "445-5667-1-ND" H 13210 1970 50  0001 C CNN "Digikey Part Number"
 	-1   0    0    -1  
 $EndComp
 $Comp
-L device:C_Small C11
+L Control-Board-rescue:C_Small-device C11
 U 1 1 5A7F9ECB
 P 13200 1600
 F 0 "C11" H 13210 1670 50  0000 L CNN
@@ -142,7 +142,7 @@ F 4 "399-1091-1-ND" H 13210 1770 50  0001 C CNN "Digikey Part Number"
 	-1   0    0    -1  
 $EndComp
 $Comp
-L device:C_Small C13
+L Control-Board-rescue:C_Small-device C13
 U 1 1 5A7F9EEC
 P 13200 2000
 F 0 "C13" H 13210 2070 50  0000 L CNN
@@ -221,7 +221,7 @@ F 3 "" H 15300 3850 50  0001 C CNN
 	0    1    1    0   
 $EndComp
 $Comp
-L device:C_Small C20
+L Control-Board-rescue:C_Small-device C20
 U 1 1 5A7FB84D
 P 15100 3950
 F 0 "C20" H 15110 4020 50  0000 L CNN
@@ -244,7 +244,7 @@ F 3 "" H 15100 4050 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L device:C_Small C19
+L Control-Board-rescue:C_Small-device C19
 U 1 1 5A7FB85A
 P 13800 3750
 F 0 "C19" H 13810 3820 50  0000 L CNN
@@ -278,7 +278,7 @@ F 3 "" H 13650 3650 50  0001 C CNN
 	0    -1   -1   0   
 $EndComp
 $Comp
-L device:C_Small C17
+L Control-Board-rescue:C_Small-device C17
 U 1 1 5A7FB878
 P 13200 3500
 F 0 "C17" H 13210 3570 50  0000 L CNN
@@ -290,7 +290,7 @@ F 4 "445-5667-1-ND" H 13210 3670 50  0001 C CNN "Digikey Part Number"
 	-1   0    0    -1  
 $EndComp
 $Comp
-L device:C_Small C16
+L Control-Board-rescue:C_Small-device C16
 U 1 1 5A7FB883
 P 13200 3300
 F 0 "C16" H 13210 3370 50  0000 L CNN
@@ -302,7 +302,7 @@ F 4 "399-1091-1-ND" H 13210 3470 50  0001 C CNN "Digikey Part Number"
 	-1   0    0    -1  
 $EndComp
 $Comp
-L device:C_Small C18
+L Control-Board-rescue:C_Small-device C18
 U 1 1 5A7FB889
 P 13200 3700
 F 0 "C18" H 13210 3770 50  0000 L CNN
@@ -381,7 +381,7 @@ F 3 "" H 15300 5550 50  0001 C CNN
 	0    1    1    0   
 $EndComp
 $Comp
-L device:C_Small C25
+L Control-Board-rescue:C_Small-device C25
 U 1 1 5A7FB9BF
 P 15100 5650
 F 0 "C25" H 15110 5720 50  0000 L CNN
@@ -404,7 +404,7 @@ F 3 "" H 15100 5750 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L device:C_Small C24
+L Control-Board-rescue:C_Small-device C24
 U 1 1 5A7FB9CC
 P 13800 5450
 F 0 "C24" H 13810 5520 50  0000 L CNN
@@ -438,7 +438,7 @@ F 3 "" H 13650 5350 50  0001 C CNN
 	0    -1   -1   0   
 $EndComp
 $Comp
-L device:C_Small C22
+L Control-Board-rescue:C_Small-device C22
 U 1 1 5A7FB9EA
 P 13200 5200
 F 0 "C22" H 13210 5270 50  0000 L CNN
@@ -450,7 +450,7 @@ F 4 "445-5667-1-ND" H 13210 5370 50  0001 C CNN "Digikey Part Number"
 	-1   0    0    -1  
 $EndComp
 $Comp
-L device:C_Small C21
+L Control-Board-rescue:C_Small-device C21
 U 1 1 5A7FB9F5
 P 13200 5000
 F 0 "C21" H 13210 5070 50  0000 L CNN
@@ -462,7 +462,7 @@ F 4 "399-1091-1-ND" H 13210 5170 50  0001 C CNN "Digikey Part Number"
 	-1   0    0    -1  
 $EndComp
 $Comp
-L device:C_Small C23
+L Control-Board-rescue:C_Small-device C23
 U 1 1 5A7FB9FB
 P 13200 5400
 F 0 "C23" H 13210 5470 50  0000 L CNN
@@ -541,7 +541,7 @@ F 3 "" H 15300 7250 50  0001 C CNN
 	0    1    1    0   
 $EndComp
 $Comp
-L device:C_Small C30
+L Control-Board-rescue:C_Small-device C30
 U 1 1 5A7FBC8E
 P 15100 7350
 F 0 "C30" H 15110 7420 50  0000 L CNN
@@ -564,7 +564,7 @@ F 3 "" H 15100 7450 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L device:C_Small C29
+L Control-Board-rescue:C_Small-device C29
 U 1 1 5A7FBC9B
 P 13800 7150
 F 0 "C29" H 13810 7220 50  0000 L CNN
@@ -598,7 +598,7 @@ F 3 "" H 13650 7050 50  0001 C CNN
 	0    -1   -1   0   
 $EndComp
 $Comp
-L device:C_Small C27
+L Control-Board-rescue:C_Small-device C27
 U 1 1 5A7FBCB9
 P 13200 6900
 F 0 "C27" H 13210 6970 50  0000 L CNN
@@ -610,7 +610,7 @@ F 4 "445-5667-1-ND" H 13210 7070 50  0001 C CNN "Digikey Part Number"
 	-1   0    0    -1  
 $EndComp
 $Comp
-L device:C_Small C26
+L Control-Board-rescue:C_Small-device C26
 U 1 1 5A7FBCC4
 P 13200 6700
 F 0 "C26" H 13210 6770 50  0000 L CNN
@@ -622,7 +622,7 @@ F 4 "399-1091-1-ND" H 13210 6870 50  0001 C CNN "Digikey Part Number"
 	-1   0    0    -1  
 $EndComp
 $Comp
-L device:C_Small C28
+L Control-Board-rescue:C_Small-device C28
 U 1 1 5A7FBCCA
 P 13200 7100
 F 0 "C28" H 13210 7170 50  0000 L CNN
@@ -701,7 +701,7 @@ F 3 "" H 15300 8950 50  0001 C CNN
 	0    1    1    0   
 $EndComp
 $Comp
-L device:C_Small C35
+L Control-Board-rescue:C_Small-device C35
 U 1 1 5A7FBE6C
 P 15100 9050
 F 0 "C35" H 15110 9120 50  0000 L CNN
@@ -724,7 +724,7 @@ F 3 "" H 15100 9150 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L device:C_Small C34
+L Control-Board-rescue:C_Small-device C34
 U 1 1 5A7FBE79
 P 13800 8850
 F 0 "C34" H 13810 8920 50  0000 L CNN
@@ -758,7 +758,7 @@ F 3 "" H 13650 8750 50  0001 C CNN
 	0    -1   -1   0   
 $EndComp
 $Comp
-L device:C_Small C32
+L Control-Board-rescue:C_Small-device C32
 U 1 1 5A7FBE97
 P 13200 8600
 F 0 "C32" H 13210 8670 50  0000 L CNN
@@ -770,7 +770,7 @@ F 4 "445-5667-1-ND" H 13210 8770 50  0001 C CNN "Digikey Part Number"
 	-1   0    0    -1  
 $EndComp
 $Comp
-L device:C_Small C31
+L Control-Board-rescue:C_Small-device C31
 U 1 1 5A7FBEA2
 P 13200 8400
 F 0 "C31" H 13210 8470 50  0000 L CNN
@@ -782,7 +782,7 @@ F 4 "399-1091-1-ND" H 13210 8570 50  0001 C CNN "Digikey Part Number"
 	-1   0    0    -1  
 $EndComp
 $Comp
-L device:C_Small C33
+L Control-Board-rescue:C_Small-device C33
 U 1 1 5A7FBEA8
 P 13200 8800
 F 0 "C33" H 13210 8870 50  0000 L CNN
@@ -849,7 +849,7 @@ F 3 "" H 3150 5050 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L device:C_Small C1
+L Control-Board-rescue:C_Small-device C1
 U 1 1 5A7FF102
 P 3150 1200
 F 0 "C1" H 3100 1750 50  0000 L CNN
@@ -861,7 +861,7 @@ F 4 "445-5667-1-ND" H 3100 1850 50  0001 C CNN "Digikey Part Number"
 	1    0    0    -1  
 $EndComp
 $Comp
-L device:C_Small C6
+L Control-Board-rescue:C_Small-device C6
 U 1 1 5A7FF2E8
 P 2400 1350
 F 0 "C6" H 2410 1420 50  0000 L CNN
@@ -873,7 +873,7 @@ F 4 "490-12323-1-ND" H 2410 1520 50  0001 C CNN "Digikey Part Number"
 	0    1    1    0   
 $EndComp
 $Comp
-L device:C_Small C2
+L Control-Board-rescue:C_Small-device C2
 U 1 1 5A80014A
 P 3250 1200
 F 0 "C2" H 3200 1750 50  0000 L CNN
@@ -885,7 +885,7 @@ F 4 "445-5667-1-ND" H 3200 1850 50  0001 C CNN "Digikey Part Number"
 	1    0    0    -1  
 $EndComp
 $Comp
-L device:C_Small C3
+L Control-Board-rescue:C_Small-device C3
 U 1 1 5A8001C4
 P 3350 1200
 F 0 "C3" H 3300 1750 50  0000 L CNN
@@ -897,7 +897,7 @@ F 4 "445-5667-1-ND" H 3300 1850 50  0001 C CNN "Digikey Part Number"
 	1    0    0    -1  
 $EndComp
 $Comp
-L device:C_Small C4
+L Control-Board-rescue:C_Small-device C4
 U 1 1 5A800243
 P 3450 1200
 F 0 "C4" H 3400 1750 50  0000 L CNN
@@ -909,7 +909,7 @@ F 4 "445-5667-1-ND" H 3400 1850 50  0001 C CNN "Digikey Part Number"
 	1    0    0    -1  
 $EndComp
 $Comp
-L device:C_Small C5
+L Control-Board-rescue:C_Small-device C5
 U 1 1 5A8002C3
 P 3550 1200
 F 0 "C5" H 3500 1750 50  0000 L CNN
@@ -943,7 +943,7 @@ F 3 "" H 3050 1100 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L device:C_Small C7
+L Control-Board-rescue:C_Small-device C7
 U 1 1 5A8018B5
 P 3850 1400
 F 0 "C7" V 3900 1600 50  0000 L CNN
@@ -966,7 +966,7 @@ F 3 "" H 3950 1250 50  0001 C CNN
 	0    -1   -1   0   
 $EndComp
 $Comp
-L device:Voltage_Divider_CenterPin3 RN1
+L Control-Board-rescue:Voltage_Divider_CenterPin3-device RN1
 U 1 1 5A803CB5
 P 9750 2700
 F 0 "RN1" V 9575 2700 50  0000 C CNN
@@ -1023,7 +1023,7 @@ F 3 "" H 8750 2700 50  0001 C CNN
 	-1   0    0    -1  
 $EndComp
 $Comp
-L device:C_Small C8
+L Control-Board-rescue:C_Small-device C8
 U 1 1 5A808111
 P 8650 1850
 F 0 "C8" V 8750 1800 50  0000 L CNN
@@ -1046,7 +1046,7 @@ F 3 "" H 8550 1850 50  0001 C CNN
 	0    1    -1   0   
 $EndComp
 $Comp
-L device:Voltage_Divider_CenterPin3 RN2
+L Control-Board-rescue:Voltage_Divider_CenterPin3-device RN2
 U 1 1 5A80871B
 P 9750 4350
 F 0 "RN2" V 9575 4350 50  0000 C CNN
@@ -1103,7 +1103,7 @@ F 3 "" H 8750 4350 50  0001 C CNN
 	-1   0    0    -1  
 $EndComp
 $Comp
-L device:C_Small C9
+L Control-Board-rescue:C_Small-device C9
 U 1 1 5A808754
 P 8650 3500
 F 0 "C9" V 8750 3450 50  0000 L CNN
@@ -1170,7 +1170,7 @@ F 3 "" H 8250 7450 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L device:R_Small R11
+L Control-Board-rescue:R_Small-device R11
 U 1 1 5A811CB3
 P 8750 5900
 F 0 "R11" H 8780 5920 50  0000 L CNN
@@ -1182,7 +1182,7 @@ F 4 "311-1.00KHRCT-ND" H 8780 6020 50  0001 C CNN "Digikey Part Number"
 	-1   0    0    -1  
 $EndComp
 $Comp
-L device:R_Small R10
+L Control-Board-rescue:R_Small-device R10
 U 1 1 5A811D80
 P 8750 5700
 F 0 "R10" H 8780 5720 50  0000 L CNN
@@ -1194,7 +1194,7 @@ F 4 "311-20.0KHRCT-ND" H 8780 5820 50  0001 C CNN "Digikey Part Number"
 	-1   0    0    -1  
 $EndComp
 $Comp
-L device:R_Small R15
+L Control-Board-rescue:R_Small-device R15
 U 1 1 5A811E25
 P 8750 6900
 F 0 "R15" H 8780 6920 50  0000 L CNN
@@ -1206,7 +1206,7 @@ F 4 "311-1.00KHRCT-ND" H 8780 7020 50  0001 C CNN "Digikey Part Number"
 	-1   0    0    -1  
 $EndComp
 $Comp
-L device:R_Small R17
+L Control-Board-rescue:R_Small-device R17
 U 1 1 5A8125FE
 P 8750 7900
 F 0 "R17" H 8780 7920 50  0000 L CNN
@@ -1218,7 +1218,7 @@ F 4 "311-1.00KHRCT-ND" H 8780 8020 50  0001 C CNN "Digikey Part Number"
 	-1   0    0    -1  
 $EndComp
 $Comp
-L device:R_Small R16
+L Control-Board-rescue:R_Small-device R16
 U 1 1 5A8126AF
 P 8750 7700
 F 0 "R16" H 8780 7720 50  0000 L CNN
@@ -1241,7 +1241,7 @@ F 3 "" H 8750 9050 50  0001 C CNN
 	-1   0    0    -1  
 $EndComp
 $Comp
-L device:R_Small R19
+L Control-Board-rescue:R_Small-device R19
 U 1 1 5A813518
 P 8750 8900
 F 0 "R19" H 8780 8920 50  0000 L CNN
@@ -1253,7 +1253,7 @@ F 4 "311-1.00KHRCT-ND" H 8780 9020 50  0001 C CNN "Digikey Part Number"
 	-1   0    0    -1  
 $EndComp
 $Comp
-L device:R_Small R18
+L Control-Board-rescue:R_Small-device R18
 U 1 1 5A81351E
 P 8750 8700
 F 0 "R18" H 8780 8720 50  0000 L CNN
@@ -1276,7 +1276,7 @@ F 3 "" H 8750 10050 50  0001 C CNN
 	-1   0    0    -1  
 $EndComp
 $Comp
-L device:R_Small R21
+L Control-Board-rescue:R_Small-device R21
 U 1 1 5A813E73
 P 8750 9900
 F 0 "R21" H 8780 9920 50  0000 L CNN
@@ -1288,7 +1288,7 @@ F 4 "311-1.00KHRCT-ND" H 8780 10020 50  0001 C CNN "Digikey Part Number"
 	-1   0    0    -1  
 $EndComp
 $Comp
-L device:R_Small R20
+L Control-Board-rescue:R_Small-device R20
 U 1 1 5A813E79
 P 8750 9700
 F 0 "R20" H 8780 9720 50  0000 L CNN
@@ -1357,7 +1357,7 @@ F 4 "S9015E-03-ND" H 3200 7450 50  0001 C CNN "Digikey Part Number"
 	1    0    0    -1  
 $EndComp
 $Comp
-L device:R_Small R5
+L Control-Board-rescue:R_Small-device R5
 U 1 1 5A8233BC
 P 3200 7600
 F 0 "R5" H 3230 7620 50  0000 L CNN
@@ -1391,7 +1391,7 @@ F 3 "" H 3900 7050 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L device:LED D1
+L Control-Board-rescue:LED-device D1
 U 1 1 5A8295FF
 P 3450 8300
 F 0 "D1" H 3450 8400 50  0000 C CNN
@@ -1403,7 +1403,7 @@ F 4 "160-1447-1-ND" H 3450 8500 50  0001 C CNN "Digikey Part Number"
 	1    0    0    -1  
 $EndComp
 $Comp
-L device:R R6
+L Control-Board-rescue:R-device R6
 U 1 1 5A8298EE
 P 2950 8300
 F 0 "R6" V 3030 8300 50  0000 C CNN
@@ -1437,7 +1437,7 @@ F 3 "" H 3800 8300 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L device:LED D2
+L Control-Board-rescue:LED-device D2
 U 1 1 5A82B094
 P 3450 9200
 F 0 "D2" H 3450 9300 50  0000 C CNN
@@ -1449,7 +1449,7 @@ F 4 "160-1447-1-ND" H 3450 9400 50  0001 C CNN "Digikey Part Number"
 	1    0    0    -1  
 $EndComp
 $Comp
-L device:R R7
+L Control-Board-rescue:R-device R7
 U 1 1 5A82B09A
 P 2950 9200
 F 0 "R7" V 3030 9200 50  0000 C CNN
@@ -1472,7 +1472,7 @@ F 3 "" H 3800 9200 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L device:LED D3
+L Control-Board-rescue:LED-device D3
 U 1 1 5A82B17B
 P 3450 9500
 F 0 "D3" H 3450 9600 50  0000 C CNN
@@ -1484,7 +1484,7 @@ F 4 "160-1446-1-ND" H 3450 9700 50  0001 C CNN "Digikey Part Number"
 	1    0    0    -1  
 $EndComp
 $Comp
-L device:R R8
+L Control-Board-rescue:R-device R8
 U 1 1 5A82B181
 P 2950 9500
 F 0 "R8" V 3030 9500 50  0000 C CNN
@@ -1507,7 +1507,7 @@ F 3 "" H 3800 9500 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L device:LED D4
+L Control-Board-rescue:LED-device D4
 U 1 1 5A82B2BC
 P 3450 9800
 F 0 "D4" H 3450 9900 50  0000 C CNN
@@ -1519,7 +1519,7 @@ F 4 "160-1647-1-ND" H 3450 10000 50  0001 C CNN "Digikey Part Number"
 	1    0    0    -1  
 $EndComp
 $Comp
-L device:R R9
+L Control-Board-rescue:R-device R9
 U 1 1 5A82B2C2
 P 2950 9800
 F 0 "R9" V 3030 9800 50  0000 C CNN
@@ -1564,7 +1564,7 @@ F 3 "" H 16500 12800 50  0001 C CNN
 	0    1    1    0   
 $EndComp
 $Comp
-L device:L_Small L1
+L Control-Board-rescue:L_Small-device L1
 U 1 1 5A7FF19B
 P 3750 1000
 F 0 "L1" H 3780 1040 50  0000 L CNN
@@ -1588,7 +1588,7 @@ F 4 "ISL83490IBZ-ND" H 8650 11550 50  0001 C CNN "Digikey Part Number"
 	1    0    0    -1  
 $EndComp
 $Comp
-L device:R R22
+L Control-Board-rescue:R-device R22
 U 1 1 5A8E9E2E
 P 9700 11750
 F 0 "R22" V 9780 11750 50  0000 C CNN
@@ -1600,7 +1600,7 @@ F 4 "311-100HRCT-ND" H 9780 11850 50  0001 C CNN "Digikey Part Number"
 	0    1    1    0   
 $EndComp
 $Comp
-L device:C_Small C10
+L Control-Board-rescue:C_Small-device C10
 U 1 1 5A8EBA95
 P 8450 11250
 F 0 "C10" H 8400 11800 50  0000 L CNN
@@ -1667,7 +1667,7 @@ F 3 "" H 7300 7050 50  0001 C CNN
 	-1   0    0    -1  
 $EndComp
 $Comp
-L device:R_Small R14
+L Control-Board-rescue:R_Small-device R14
 U 1 1 5A904ED8
 P 7300 6900
 F 0 "R14" H 7330 6920 50  0000 L CNN
@@ -1679,7 +1679,7 @@ F 4 "311-1.00KHRCT-ND" H 7330 7020 50  0001 C CNN "Digikey Part Number"
 	-1   0    0    -1  
 $EndComp
 $Comp
-L device:R_Small R12
+L Control-Board-rescue:R_Small-device R12
 U 1 1 5A905FDC
 P 7300 6700
 F 0 "R12" H 7330 6720 50  0000 L CNN
@@ -1691,7 +1691,7 @@ F 4 "311-20.0KHRCT-ND" H 7330 6820 50  0001 C CNN "Digikey Part Number"
 	-1   0    0    -1  
 $EndComp
 $Comp
-L device:R_Small R13
+L Control-Board-rescue:R_Small-device R13
 U 1 1 5A9060F2
 P 8750 6700
 F 0 "R13" H 8780 6720 50  0000 L CNN
@@ -2694,7 +2694,7 @@ XBEE_RX
 Wire Wire Line
 	3800 5550 4000 5550
 $Comp
-L device:R_Small R4
+L Control-Board-rescue:R_Small-device R4
 U 1 1 5A81B850
 P 4000 5650
 F 0 "R4" H 4030 5670 50  0000 L CNN
@@ -2706,7 +2706,7 @@ F 4 "311-1.00KHRCT-ND" H 4030 5770 50  0001 C CNN "Digikey Part Number"
 	1    0    0    1   
 $EndComp
 $Comp
-L device:R_Small R3
+L Control-Board-rescue:R_Small-device R3
 U 1 1 5A81B773
 P 3800 5650
 F 0 "R3" H 3830 5670 50  0000 L CNN
@@ -2762,7 +2762,7 @@ F 3 "" H 16500 13250 50  0001 C CNN
 	0    -1   1    0   
 $EndComp
 $Comp
-L Connector:Conn_02x10_Odd_Even J1
+L Control-Board-rescue:Conn_02x10_Odd_Even-Connector J1
 U 1 1 5AD96437
 P 14550 11150
 F 0 "J1" H 14600 11767 50  0000 C CNN
@@ -2773,7 +2773,7 @@ F 3 "~" H 14550 11150 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Connector:RJ45 J3
+L Control-Board-rescue:RJ45-Connector J3
 U 1 1 5ADD31C9
 P 12150 12200
 F 0 "J3" H 12226 12817 50  0000 C CNN
@@ -2787,7 +2787,7 @@ $EndComp
 Text Notes 11750 11550 0    50   ~ 0
 Needs Crossover Cable
 $Comp
-L Connector:Conn_01x02 J4
+L Control-Board-rescue:Conn_01x02-Connector J4
 U 1 1 5AB04604
 P 14300 12450
 F 0 "J4" H 14380 12442 50  0000 L CNN
@@ -2799,7 +2799,7 @@ F 4 "455-1719-ND" H 0   0   50  0001 C CNN "Digikey Part Number"
 	1    0    0    -1  
 $EndComp
 $Comp
-L Connector:Conn_01x02 J5
+L Control-Board-rescue:Conn_01x02-Connector J5
 U 1 1 5AB047C5
 P 14300 12650
 F 0 "J5" H 14380 12642 50  0000 L CNN
@@ -2811,7 +2811,7 @@ F 4 "455-1719-ND" H 0   0   50  0001 C CNN "Digikey Part Number"
 	1    0    0    -1  
 $EndComp
 $Comp
-L Connector:Conn_01x02 J7
+L Control-Board-rescue:Conn_01x02-Connector J7
 U 1 1 5AB04875
 P 14300 12850
 F 0 "J7" H 14380 12842 50  0000 L CNN
@@ -2823,7 +2823,7 @@ F 4 "455-1719-ND" H 0   0   50  0001 C CNN "Digikey Part Number"
 	1    0    0    -1  
 $EndComp
 $Comp
-L Connector:Conn_01x02 J8
+L Control-Board-rescue:Conn_01x02-Connector J8
 U 1 1 5AB04927
 P 14300 13050
 F 0 "J8" H 14380 13042 50  0000 L CNN
@@ -2835,7 +2835,7 @@ F 4 "455-1719-ND" H 0   0   50  0001 C CNN "Digikey Part Number"
 	1    0    0    -1  
 $EndComp
 $Comp
-L Connector:Conn_01x02 J9
+L Control-Board-rescue:Conn_01x02-Connector J9
 U 1 1 5AB049DD
 P 14300 13250
 F 0 "J9" H 14380 13242 50  0000 L CNN
@@ -2869,7 +2869,7 @@ F 3 "" H 15650 14050 50  0001 C CNN
 	0    -1   -1   0   
 $EndComp
 $Comp
-L Connector:Conn_01x03 J15
+L Control-Board-rescue:Conn_01x03-Connector J15
 U 1 1 5AB9B7DB
 P 15850 15450
 F 0 "J15" H 15930 15492 50  0000 L CNN
@@ -2881,7 +2881,7 @@ F 4 "455-1720-ND" H 0   0   50  0001 C CNN "Digikey Part Number"
 	1    0    0    -1  
 $EndComp
 $Comp
-L Connector:Conn_01x03 J13
+L Control-Board-rescue:Conn_01x03-Connector J13
 U 1 1 5AB9B8C0
 P 15850 14550
 F 0 "J13" H 15930 14592 50  0000 L CNN
@@ -2893,7 +2893,7 @@ F 4 "455-1720-ND" H 0   0   50  0001 C CNN "Digikey Part Number"
 	1    0    0    -1  
 $EndComp
 $Comp
-L Connector:Conn_01x03 J11
+L Control-Board-rescue:Conn_01x03-Connector J11
 U 1 1 5AB9B98E
 P 15850 14150
 F 0 "J11" H 15930 14192 50  0000 L CNN
@@ -2905,7 +2905,7 @@ F 4 "455-1720-ND" H 0   0   50  0001 C CNN "Digikey Part Number"
 	1    0    0    -1  
 $EndComp
 $Comp
-L Connector:Conn_01x03 J14
+L Control-Board-rescue:Conn_01x03-Connector J14
 U 1 1 5AB9BA52
 P 15850 15050
 F 0 "J14" H 15930 15092 50  0000 L CNN
@@ -2983,7 +2983,7 @@ F 3 "" H 13900 11150 50  0001 C CNN
 	-1   0    0    -1  
 $EndComp
 $Comp
-L device:R_Small R1
+L Control-Board-rescue:R_Small-device R1
 U 1 1 5ABC0525
 P 13900 11050
 F 0 "R1" H 13930 11070 50  0000 L CNN
@@ -3022,7 +3022,7 @@ F 3 "" H 14350 11050 50  0001 C CNN
 	0    1    -1   0   
 $EndComp
 $Comp
-L Connector:Conn_01x03 J6
+L Control-Board-rescue:Conn_01x03-Connector J6
 U 1 1 5AC1C3F5
 P 16300 12800
 F 0 "J6" H 16220 12475 50  0000 C CNN
@@ -3034,7 +3034,7 @@ F 4 "455-1720-ND" H 0   0   50  0001 C CNN "Digikey Part Number"
 	-1   0    0    1   
 $EndComp
 $Comp
-L Connector:Conn_01x03 J10
+L Control-Board-rescue:Conn_01x03-Connector J10
 U 1 1 5AC1C590
 P 16300 13350
 F 0 "J10" H 16220 13025 50  0000 C CNN
@@ -3052,7 +3052,7 @@ Wire Wire Line
 Wire Wire Line
 	14550 15050 14650 15050
 $Comp
-L device:R_Small R24
+L Control-Board-rescue:R_Small-device R24
 U 1 1 5AD5108E
 P 14650 15350
 F 0 "R24" H 14680 15370 50  0000 L CNN
@@ -3064,7 +3064,7 @@ F 4 "311-10.0KHRCT-ND" H 14680 15470 50  0001 C CNN "Digikey Part Number"
 	-1   0    0    1   
 $EndComp
 $Comp
-L device:R_Small R25
+L Control-Board-rescue:R_Small-device R25
 U 1 1 5AD51173
 P 14750 15350
 F 0 "R25" H 14780 15370 50  0000 L CNN
@@ -3100,7 +3100,7 @@ F 3 "" H 14750 15450 50  0001 C CNN
 $EndComp
 Connection ~ 14750 15450
 $Comp
-L device:R_Small R2
+L Control-Board-rescue:R_Small-device R2
 U 1 1 5ADCC45E
 P 14650 14450
 F 0 "R2" H 14680 14470 50  0000 L CNN
@@ -3112,7 +3112,7 @@ F 4 "311-10.0KHRCT-ND" H 14680 14570 50  0001 C CNN "Digikey Part Number"
 	-1   0    0    1   
 $EndComp
 $Comp
-L device:R_Small R23
+L Control-Board-rescue:R_Small-device R23
 U 1 1 5ADCC465
 P 14750 14450
 F 0 "R23" H 14780 14470 50  0000 L CNN
@@ -3155,7 +3155,7 @@ Connection ~ 3900 7050
 Connection ~ 3650 6200
 Connection ~ 3650 6400
 $Comp
-L Mechanical:Mounting_Hole H1
+L Control-Board-rescue:Mounting_Hole-Mechanical H1
 U 1 1 5AF1AB95
 P 11900 14200
 F 0 "H1" H 12000 14246 50  0000 L CNN
@@ -3166,7 +3166,7 @@ F 3 "" H 11900 14200 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Mechanical:Mounting_Hole H2
+L Control-Board-rescue:Mounting_Hole-Mechanical H2
 U 1 1 5AF1AFD9
 P 11900 14400
 F 0 "H2" H 12000 14446 50  0000 L CNN
@@ -3177,7 +3177,7 @@ F 3 "" H 11900 14400 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Mechanical:Mounting_Hole H3
+L Control-Board-rescue:Mounting_Hole-Mechanical H3
 U 1 1 5AF1B0A9
 P 11900 14600
 F 0 "H3" H 12000 14646 50  0000 L CNN
@@ -3188,7 +3188,7 @@ F 3 "" H 11900 14600 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Mechanical:Mounting_Hole H4
+L Control-Board-rescue:Mounting_Hole-Mechanical H4
 U 1 1 5AF1B185
 P 11900 14800
 F 0 "H4" H 12000 14846 50  0000 L CNN
