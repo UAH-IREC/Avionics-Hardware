@@ -2214,8 +2214,6 @@ F 4 "IC-11785" H 9400 10581 60  0000 C CNN "Field4"
 	1    9400 10000
 	1    0    0    -1  
 $EndComp
-Text Notes 11100 9400 0    50   ~ 0
-TODO: LTC4150, ATXMEGA32E5
 $Comp
 L MCU_Microchip_ATmega:ATxmega32E5-AU U?
 U 1 1 5BBF70D2
@@ -2385,34 +2383,13 @@ $Comp
 L Device:R R?
 U 1 1 5BDEE1DE
 P 7900 9750
-F 0 "R?" H 7970 9796 50  0000 L CNN
-F 1 "R" H 7970 9705 50  0000 L CNN
+F 0 "R?" H 7831 9704 50  0000 R CNN
+F 1 "2.5 mΩ" H 7831 9795 50  0000 R CNN
 F 2 "" V 7830 9750 50  0001 C CNN
-F 3 "~" H 7900 9750 50  0001 C CNN
+F 3 "" H 7900 9750 50  0001 C CNN
+F 4 "A131768CT-ND" H 7900 9750 50  0001 C CNN "Digikey Part Number"
 	1    7900 9750
-	1    0    0    -1  
-$EndComp
-$Comp
-L Device:R_Small R?
-U 1 1 5BFB5DD2
-P 10500 9400
-F 0 "R?" H 10559 9446 50  0000 L CNN
-F 1 "R_Small" H 10559 9355 50  0000 L CNN
-F 2 "" H 10500 9400 50  0001 C CNN
-F 3 "~" H 10500 9400 50  0001 C CNN
-	1    10500 9400
-	1    0    0    -1  
-$EndComp
-$Comp
-L Device:R_Small R?
-U 1 1 5BFB6014
-P 10400 9800
-F 0 "R?" H 10341 9754 50  0000 R CNN
-F 1 "R_Small" H 10341 9845 50  0000 R CNN
-F 2 "" H 10400 9800 50  0001 C CNN
-F 3 "~" H 10400 9800 50  0001 C CNN
-	1    10400 9800
-	-1   0    0    1   
+	1    0    0    1   
 $EndComp
 Wire Wire Line
 	10400 9700 10400 9300
@@ -2450,8 +2427,6 @@ Text Label 11600 7800 0    50   ~ 0
 BAL_OUT
 Text Label 9800 14450 0    50   ~ 0
 BAL_OUT
-Text Notes 7050 9850 0    50   ~ 0
-Shunt Resistor\nTODO: Decide Value
 Text Label 12700 12600 2    50   ~ 0
 12V_SENS
 Text Label 11800 12600 2    50   ~ 0
@@ -3010,8 +2985,6 @@ F 3 "~" H 17000 12150 50  0001 C CNN
 	1    17000 12150
 	1    0    0    -1  
 $EndComp
-Wire Wire Line
-	17000 12250 17000 12350
 $Comp
 L power:+3V3 #PWR?
 U 1 1 5C3BD236
@@ -3034,8 +3007,6 @@ F 3 "" H 17000 12650 50  0001 C CNN
 	1    17000 12650
 	1    0    0    -1  
 $EndComp
-Text Label 17000 12300 2    50   ~ 0
-THERM1
 Text Label 17000 13600 2    50   ~ 0
 THERM2
 Text Label 17000 14900 2    50   ~ 0
@@ -3353,4 +3324,30 @@ Wire Wire Line
 Connection ~ 7650 13550
 Wire Wire Line
 	7650 13550 6900 13550
+$Comp
+L Device:R_Small R?
+U 1 1 5C63524B
+P 10500 9400
+F 0 "R?" H 10559 9446 50  0000 L CNN
+F 1 "10 kΩ" H 10559 9355 50  0000 L CNN
+F 2 "" H 10500 9400 50  0001 C CNN
+F 3 "~" H 10500 9400 50  0001 C CNN
+	1    10500 9400
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:R_Small R?
+U 1 1 5C63583A
+P 10400 9800
+F 0 "R?" H 10459 9846 50  0000 L CNN
+F 1 "10 kΩ" H 10459 9755 50  0000 L CNN
+F 2 "" H 10400 9800 50  0001 C CNN
+F 3 "~" H 10400 9800 50  0001 C CNN
+	1    10400 9800
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	17000 12250 17000 12350
+Text Label 17000 12300 2    50   ~ 0
+THERM1
 $EndSCHEMATC
