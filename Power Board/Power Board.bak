@@ -1315,17 +1315,6 @@ F 3 "" H 4600 19150 50  0001 C CNN
 	0    1    -1   0   
 $EndComp
 $Comp
-L Power-Board-rescue:Conn_02x10_Odd_Even-Connector J1
-U 1 1 5AA9F256
-P 4600 15300
-F 0 "J1" H 4650 15917 50  0000 C CNN
-F 1 "Conn_02x10_Odd_Even" H 4650 15826 50  0000 C CNN
-F 2 "Pin_Headers:Pin_Header_Straight_2x10_Pitch1.27mm" H 4600 15300 50  0001 C CNN
-F 3 "" H 4600 15300 50  0001 C CNN
-	1    4600 15300
-	1    0    0    -1  
-$EndComp
-$Comp
 L power:GND #PWR031
 U 1 1 5AAAEA96
 P 4900 15400
@@ -2260,9 +2249,9 @@ F 3 "" H 9100 14850 50  0001 C CNN
 $EndComp
 Text Label 4100 4300 2    50   ~ 0
 SEL_~SHDN~
-Text Label 4900 15000 0    50   ~ 0
+Text Label 4900 15300 0    50   ~ 0
 MCU_SCL
-Text Label 4900 14900 0    50   ~ 0
+Text Label 4900 15200 0    50   ~ 0
 MCU_SDA
 Text Label 9800 14050 0    50   ~ 0
 SEL_~SHDN~
@@ -3352,4 +3341,15 @@ Text Label 17000 12300 2    50   ~ 0
 THERM1
 Text Label 4900 15700 0    50   ~ 0
 VCC_IN
+$Comp
+L Connector_Generic:Conn_02x07_Counter_Clockwise J?
+U 1 1 5C0B7D8D
+P 4600 15500
+F 0 "J?" H 4650 16017 50  0000 C CNN
+F 1 "Conn_02x07_Counter_Clockwise" H 4650 15926 50  0000 C CNN
+F 2 "" H 4600 15500 50  0001 C CNN
+F 3 "~" H 4600 15500 50  0001 C CNN
+	1    4600 15500
+	1    0    0    -1  
+$EndComp
 $EndSCHEMATC

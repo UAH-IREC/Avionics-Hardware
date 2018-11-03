@@ -3338,4 +3338,78 @@ Text Notes 4800 10400 0    50   ~ 0
 Basically putting an OpenLog on the board instead of a breakout
 Text Notes 3900 13950 0    50   ~ 0
 Not a generic ATMEGA328P! Chip must be desoldered from OpenLog.\nThis is because it must be preprogrammed with the Arduino bootloader\nand OpenLog firmware. (I could add components to be able to flash the\nbootloader and firmware but I'm lazy and this is easier)
+$Comp
+L power:+12V #PWR?
+U 1 1 5C58D70F
+P 17600 12800
+F 0 "#PWR?" H 17600 12650 50  0001 C CNN
+F 1 "+12V" V 17600 13000 50  0000 C CNN
+F 2 "" H 17600 12800 50  0001 C CNN
+F 3 "" H 17600 12800 50  0001 C CNN
+	1    17600 12800
+	0    1    1    0   
+$EndComp
+$Comp
+L power:GND #PWR?
+U 1 1 5C58D715
+P 17600 12700
+F 0 "#PWR?" H 17600 12450 50  0001 C CNN
+F 1 "GND" V 17600 12500 50  0000 C CNN
+F 2 "" H 17600 12700 50  0001 C CNN
+F 3 "" H 17600 12700 50  0001 C CNN
+	1    17600 12700
+	0    -1   1    0   
+$EndComp
+Text Label 17600 12900 0    60   ~ 0
+PT3_IN
+Text Label 17600 13450 0    60   ~ 0
+PT4_IN
+$Comp
+L power:+12V #PWR?
+U 1 1 5C58D71D
+P 17600 13350
+F 0 "#PWR?" H 17600 13200 50  0001 C CNN
+F 1 "+12V" V 17600 13550 50  0000 C CNN
+F 2 "" H 17600 13350 50  0001 C CNN
+F 3 "" H 17600 13350 50  0001 C CNN
+	1    17600 13350
+	0    1    1    0   
+$EndComp
+$Comp
+L power:GND #PWR?
+U 1 1 5C58D723
+P 17600 13250
+F 0 "#PWR?" H 17600 13000 50  0001 C CNN
+F 1 "GND" V 17600 13050 50  0000 C CNN
+F 2 "" H 17600 13250 50  0001 C CNN
+F 3 "" H 17600 13250 50  0001 C CNN
+	1    17600 13250
+	0    -1   1    0   
+$EndComp
+$Comp
+L Control-Board-rescue:Conn_01x03-Connector J?
+U 1 1 5C58D72A
+P 17400 12800
+F 0 "J?" H 17320 12475 50  0000 C CNN
+F 1 "Conn_01x03" H 17320 12566 50  0000 C CNN
+F 2 "Connectors_JST:JST_PH_B3B-PH-K_03x2.00mm_Straight" H 17400 12800 50  0001 C CNN
+F 3 "~" H 17400 12800 50  0001 C CNN
+F 4 "455-1720-ND" H 1100 0   50  0001 C CNN "Digikey Part Number"
+	1    17400 12800
+	-1   0    0    1   
+$EndComp
+$Comp
+L Control-Board-rescue:Conn_01x03-Connector J?
+U 1 1 5C58D731
+P 17400 13350
+F 0 "J?" H 17320 13025 50  0000 C CNN
+F 1 "Conn_01x03" H 17320 13116 50  0000 C CNN
+F 2 "Connectors_JST:JST_PH_B3B-PH-K_03x2.00mm_Straight" H 17400 13350 50  0001 C CNN
+F 3 "~" H 17400 13350 50  0001 C CNN
+F 4 "455-1720-ND" H 1100 0   50  0001 C CNN "Digikey Part Number"
+	1    17400 13350
+	-1   0    0    1   
+$EndComp
+Text Notes 1750 5850 0    50   ~ 0
+Not sure if this part is necessary, ask James\nif the servos work with 3.3V control signal
 $EndSCHEMATC

@@ -3339,8 +3339,6 @@ F 3 "" H 17000 12650 50  0001 C CNN
 $EndComp
 Text Label 17000 12300 2    50   ~ 0
 THERM1
-Text Label 4900 15700 0    50   ~ 0
-VCC_IN
 $Comp
 L Connector_Generic:Conn_02x07_Counter_Clockwise J?
 U 1 1 5C0B7D8D
@@ -3351,5 +3349,16 @@ F 2 "" H 4600 15500 50  0001 C CNN
 F 3 "~" H 4600 15500 50  0001 C CNN
 	1    4600 15500
 	1    0    0    -1  
+$EndComp
+$Comp
+L power:+3V3 #PWR?
+U 1 1 5C671E98
+P 4900 15700
+F 0 "#PWR?" H 4900 15550 50  0001 C CNN
+F 1 "+3V3" V 4900 15900 50  0000 C CNN
+F 2 "" H 4900 15700 50  0001 C CNN
+F 3 "" H 4900 15700 50  0001 C CNN
+	1    4900 15700
+	0    1    -1   0   
 $EndComp
 $EndSCHEMATC
