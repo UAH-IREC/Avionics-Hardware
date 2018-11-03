@@ -1545,8 +1545,6 @@ Text Label 2150 4150 2    60   ~ 0
 GPS_RX
 Text Label 2150 3650 2    60   ~ 0
 XBEE_TX
-Text Label 2150 3550 2    60   ~ 0
-GNC_INST
 Text Label 2150 3450 2    60   ~ 0
 MODE_SW
 Text Notes 12200 1700 0    60   ~ 0
@@ -1973,8 +1971,6 @@ Wire Wire Line
 	4400 3550 4650 3550
 Wire Wire Line
 	2400 4400 2150 4400
-Wire Wire Line
-	2150 3550 2400 3550
 Wire Wire Line
 	2400 3450 2150 3450
 Wire Wire Line
@@ -3365,4 +3361,6 @@ F 3 "~" H 3200 6400 50  0001 C CNN
 	1    3200 6400
 	0    -1   -1   0   
 $EndComp
+Text Label 4650 2250 0    60   ~ 0
+GNC_INST
 $EndSCHEMATC
