@@ -1,0 +1,656 @@
+EESchema Schematic File Version 4
+LIBS:Control Board-cache
+EELAYER 26 0
+EELAYER END
+$Descr A4 11693 8268
+encoding utf-8
+Sheet 1 1
+Title ""
+Date ""
+Rev ""
+Comp ""
+Comment1 ""
+Comment2 ""
+Comment3 ""
+Comment4 ""
+$EndDescr
+$Comp
+L Custom-Parts:ISL83490 U?
+U 1 1 5C733F14
+P 3600 3100
+F 0 "U?" H 3300 2500 50  0000 L CNN
+F 1 "ISL83490" H 3600 3700 50  0000 L CNN
+F 2 "Housings_SOIC:SOIC-8_3.9x4.9mm_Pitch1.27mm" H 3600 3100 50  0001 C CIN
+F 3 "" H 3600 3100 50  0001 C CNN
+F 4 "ISL83490IBZ-ND" H 3300 2600 50  0001 C CNN "Digikey Part Number"
+	1    3600 3100
+	1    0    0    -1  
+$EndComp
+$Comp
+L Control-Board-rescue:R-device R?
+U 1 1 5C733F1C
+P 4350 2800
+F 0 "R?" V 4430 2800 50  0000 C CNN
+F 1 "100 Ω" V 4350 2800 50  0000 C CNN
+F 2 "Resistors_SMD:R_0603" V 4280 2800 50  0001 C CNN
+F 3 "" H 4350 2800 50  0001 C CNN
+F 4 "311-100HRCT-ND" H 4430 2900 50  0001 C CNN "Digikey Part Number"
+	1    4350 2800
+	0    1    1    0   
+$EndComp
+$Comp
+L Control-Board-rescue:C_Small-device C?
+U 1 1 5C733F24
+P 3100 2300
+F 0 "C?" H 3050 2850 50  0000 L CNN
+F 1 "0.1 uF" V 3100 2500 50  0000 L CNN
+F 2 "Capacitors_SMD:C_0603" H 3100 2300 50  0001 C CNN
+F 3 "" H 3100 2300 50  0001 C CNN
+F 4 "445-5667-1-ND" H 3050 2950 50  0001 C CNN "Digikey Part Number"
+	1    3100 2300
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR?
+U 1 1 5C733F2B
+P 3100 2400
+F 0 "#PWR?" H 3100 2150 50  0001 C CNN
+F 1 "GND" H 3100 2250 50  0000 C CNN
+F 2 "" H 3100 2400 50  0001 C CNN
+F 3 "" H 3100 2400 50  0001 C CNN
+	1    3100 2400
+	-1   0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR?
+U 1 1 5C733F31
+P 3700 3800
+F 0 "#PWR?" H 3700 3550 50  0001 C CNN
+F 1 "GND" H 3700 3650 50  0000 C CNN
+F 2 "" H 3700 3800 50  0001 C CNN
+F 3 "" H 3700 3800 50  0001 C CNN
+	1    3700 3800
+	-1   0    0    -1  
+$EndComp
+$Comp
+L power:+3V3 #PWR?
+U 1 1 5C733F37
+P 3300 2200
+F 0 "#PWR?" H 3300 2050 50  0001 C CNN
+F 1 "+3V3" H 3300 2340 50  0000 C CNN
+F 2 "" H 3300 2200 50  0001 C CNN
+F 3 "" H 3300 2200 50  0001 C CNN
+	1    3300 2200
+	1    0    0    -1  
+$EndComp
+Text Label 9000 2300 2    60   ~ 0
+GNC_RX
+Text Label 9000 2200 2    60   ~ 0
+GNC_TX
+Text Label 9000 2500 2    60   ~ 0
+XBEE_RX
+Text Label 9000 2400 2    60   ~ 0
+XBEE_TX
+Text Label 9000 2700 2    60   ~ 0
+GPS_RX
+Text Label 9000 2600 2    60   ~ 0
+GPS_TX
+Text Label 8450 2100 2    60   ~ 0
+GNC_INST
+Text Label 6650 3700 3    60   ~ 0
+BOARD_RX+
+Text Label 6450 3700 3    60   ~ 0
+BOARD_TX+
+Text Label 6950 3700 3    60   ~ 0
+BOARD_RX-
+Text Label 6550 3700 3    60   ~ 0
+BOARD_TX-
+Text Label 3100 3300 2    60   ~ 0
+BOARD_TX
+Text Label 3100 2800 2    60   ~ 0
+BOARD_RX
+Text Label 4650 3200 0    60   ~ 0
+BOARD_TX+
+Text Label 4650 3400 0    60   ~ 0
+BOARD_TX-
+Text Label 4650 2900 0    60   ~ 0
+BOARD_RX-
+Text Label 4650 2700 0    60   ~ 0
+BOARD_RX+
+Text Notes 4100 2450 0    60   ~ 0
+Note: 100 Ω is not the proper termination resistance \nfor RS422 but we're using Cat6 cables which have a \n100 Ω characteristic impedance
+Wire Wire Line
+	4100 3200 4650 3200
+Wire Wire Line
+	4100 3400 4650 3400
+Wire Wire Line
+	4100 2700 4500 2700
+Wire Wire Line
+	4100 2900 4200 2900
+Wire Wire Line
+	4200 2800 4200 2900
+Wire Wire Line
+	4500 2700 4500 2800
+Wire Wire Line
+	3500 2200 3500 2400
+Wire Wire Line
+	3100 2200 3300 2200
+Connection ~ 4200 2900
+Connection ~ 4500 2700
+Connection ~ 3300 2200
+Wire Wire Line
+	4200 2900 4650 2900
+Wire Wire Line
+	4500 2700 4650 2700
+Wire Wire Line
+	3300 2200 3500 2200
+Text Label -1100 7050 0    60   ~ 0
+OPENLOG_TX
+Text Label -1100 6950 0    60   ~ 0
+OPENLOG_RX
+$Comp
+L power:GND #PWR?
+U 1 1 5C733F5F
+P 7350 2900
+F 0 "#PWR?" H 7350 2650 50  0001 C CNN
+F 1 "GND" V 7350 2700 50  0000 C CNN
+F 2 "" H 7350 2900 50  0001 C CNN
+F 3 "" H 7350 2900 50  0001 C CNN
+	1    7350 2900
+	0    -1   1    0   
+$EndComp
+$Comp
+L Control-Board-rescue:RJ45-Connector J?
+U 1 1 5C733F66
+P 6800 3250
+F 0 "J?" H 6876 3867 50  0000 C CNN
+F 1 "RJ45" H 6876 3776 50  0000 C CNN
+F 2 "Connectors:RJ45_8" H 6800 3250 50  0001 C CNN
+F 3 "" H 6800 3250 50  0001 C CNN
+F 4 "RJHSE-5080-ND" H -5350 -8950 50  0001 C CNN "Digikey Part Number"
+	1    6800 3250
+	1    0    0    -1  
+$EndComp
+Text Notes 6400 2600 0    50   ~ 0
+Needs Crossover Cable
+$Comp
+L power:GND #PWR?
+U 1 1 5C733F6E
+P 9500 2300
+F 0 "#PWR?" H 9500 2050 50  0001 C CNN
+F 1 "GND" V 9500 2100 50  0000 C CNN
+F 2 "" H 9500 2300 50  0001 C CNN
+F 3 "" H 9500 2300 50  0001 C CNN
+	1    9500 2300
+	0    -1   1    0   
+$EndComp
+$Comp
+L power:+3V3 #PWR?
+U 1 1 5C733F74
+P 9500 2700
+F 0 "#PWR?" H 9500 2550 50  0001 C CNN
+F 1 "+3V3" V 9500 2900 50  0000 C CNN
+F 2 "" H 9500 2700 50  0001 C CNN
+F 3 "" H 9500 2700 50  0001 C CNN
+	1    9500 2700
+	0    1    1    0   
+$EndComp
+$Comp
+L power:+12V #PWR?
+U 1 1 5C733F7A
+P 9500 2400
+F 0 "#PWR?" H 9500 2250 50  0001 C CNN
+F 1 "+12V" V 9500 2600 50  0000 C CNN
+F 2 "" H 9500 2400 50  0001 C CNN
+F 3 "" H 9500 2400 50  0001 C CNN
+	1    9500 2400
+	0    1    1    0   
+$EndComp
+$Comp
+L power:GND #PWR?
+U 1 1 5C733F80
+P 9500 2500
+F 0 "#PWR?" H 9500 2250 50  0001 C CNN
+F 1 "GND" V 9500 2300 50  0000 C CNN
+F 2 "" H 9500 2500 50  0001 C CNN
+F 3 "" H 9500 2500 50  0001 C CNN
+	1    9500 2500
+	0    -1   1    0   
+$EndComp
+$Comp
+L power:GND #PWR?
+U 1 1 5C733F86
+P 8550 2300
+F 0 "#PWR?" H 8550 2050 50  0001 C CNN
+F 1 "GND" V 8550 2100 50  0000 C CNN
+F 2 "" H 8550 2300 50  0001 C CNN
+F 3 "" H 8550 2300 50  0001 C CNN
+	1    8550 2300
+	-1   0    0    -1  
+$EndComp
+$Comp
+L Control-Board-rescue:R_Small-device R?
+U 1 1 5C733F8D
+P 8550 2200
+F 0 "R?" H 8580 2220 50  0000 L CNN
+F 1 "10 kΩ" H 8580 2160 50  0000 L CNN
+F 2 "Resistors_SMD:R_0603" H 8550 2200 50  0001 C CNN
+F 3 "" H 8550 2200 50  0001 C CNN
+F 4 "311-10.0KHRCT-ND" H 8580 2320 50  0001 C CNN "Digikey Part Number"
+	1    8550 2200
+	-1   0    0    1   
+$EndComp
+Wire Wire Line
+	8450 2100 8550 2100
+Connection ~ 8550 2100
+Wire Wire Line
+	8550 2100 9000 2100
+$Comp
+L Control-Board-rescue:Mounting_Hole-Mechanical H?
+U 1 1 5C733F97
+P 6550 5250
+F 0 "H?" H 6650 5296 50  0000 L CNN
+F 1 "Mounting_Hole" H 6650 5205 50  0000 L CNN
+F 2 "Mounting_Holes:MountingHole_3.2mm_M3" H 6550 5250 50  0001 C CNN
+F 3 "" H 6550 5250 50  0001 C CNN
+	1    6550 5250
+	1    0    0    -1  
+$EndComp
+$Comp
+L Control-Board-rescue:Mounting_Hole-Mechanical H?
+U 1 1 5C733F9E
+P 6550 5450
+F 0 "H?" H 6650 5496 50  0000 L CNN
+F 1 "Mounting_Hole" H 6650 5405 50  0000 L CNN
+F 2 "Mounting_Holes:MountingHole_3.2mm_M3" H 6550 5450 50  0001 C CNN
+F 3 "" H 6550 5450 50  0001 C CNN
+	1    6550 5450
+	1    0    0    -1  
+$EndComp
+$Comp
+L Control-Board-rescue:Mounting_Hole-Mechanical H?
+U 1 1 5C733FA5
+P 6550 5650
+F 0 "H?" H 6650 5696 50  0000 L CNN
+F 1 "Mounting_Hole" H 6650 5605 50  0000 L CNN
+F 2 "Mounting_Holes:MountingHole_3.2mm_M3" H 6550 5650 50  0001 C CNN
+F 3 "" H 6550 5650 50  0001 C CNN
+	1    6550 5650
+	1    0    0    -1  
+$EndComp
+$Comp
+L Control-Board-rescue:Mounting_Hole-Mechanical H?
+U 1 1 5C733FAC
+P 6550 5850
+F 0 "H?" H 6650 5896 50  0000 L CNN
+F 1 "Mounting_Hole" H 6650 5805 50  0000 L CNN
+F 2 "Mounting_Holes:MountingHole_3.2mm_M3" H 6550 5850 50  0001 C CNN
+F 3 "" H 6550 5850 50  0001 C CNN
+	1    6550 5850
+	1    0    0    -1  
+$EndComp
+$Comp
+L Graphic:SYM_Arrow45_Large SYM?
+U 1 1 5C733FB3
+P 6550 6450
+F 0 "SYM?" H 6550 6610 50  0001 C CNN
+F 1 "SYM_Arrow45_Large" H 6550 6310 50  0001 C CNN
+F 2 "Custom Parts:Logo_v3" H 6550 6450 50  0001 C CNN
+F 3 "~" H 6550 6450 50  0001 C CNN
+	1    6550 6450
+	0    -1   -1   0   
+$EndComp
+Text Label 9500 2100 0    50   ~ 0
+PWR_SDA
+Text Label 9500 2200 0    50   ~ 0
+PWR_SCL
+$Comp
+L Connector_Generic:Conn_02x07_Counter_Clockwise J?
+U 1 1 5C733FBB
+P 9200 2400
+F 0 "J?" H 9250 2917 50  0000 C CNN
+F 1 "Conn_02x07_Counter_Clockwise" H 9250 2826 50  0000 C CNN
+F 2 "" H 9200 2400 50  0001 C CNN
+F 3 "~" H 9200 2400 50  0001 C CNN
+	1    9200 2400
+	1    0    0    -1  
+$EndComp
+$Comp
+L MCU_Microchip_ATmega:ATmega328P-AU U?
+U 1 1 5C733FC4
+P -1700 6450
+F 0 "U?" H -1500 5000 50  0000 C CNN
+F 1 "ATmega328P-AU" H -1250 4900 50  0000 C CNN
+F 2 "Package_QFP:TQFP-32_7x7mm_P0.8mm" H -1700 6450 50  0001 C CIN
+F 3 "http://ww1.microchip.com/downloads/en/DeviceDoc/ATmega328_P%20AVR%20MCU%20with%20picoPower%20Technology%20Data%20Sheet%2040001984A.pdf" H -1700 6450 50  0001 C CNN
+F 4 "NOT A GENERIC ATMEGA328P! Must be desoldered from an OpenLog with the program already installed!" H -1700 6450 50  0001 C CNN "Note"
+F 5 "1568-1368-ND" H -1700 6450 50  0001 C CNN "Digikey Part Number"
+	1    -1700 6450
+	1    0    0    -1  
+$EndComp
+$Comp
+L Custom-Parts:Micro_SD_Card_SPI_MODE_Det J?
+U 1 1 5C733FCB
+P -1150 3050
+F 0 "J?" H -1200 3867 50  0000 C CNN
+F 1 "Micro_SD_Card_SPI_MODE_Det" H -1200 3776 50  0000 C CNN
+F 2 "" H 900 3750 50  0001 C CNN
+F 3 "https://www.hirose.com/product/en/download_file/key_name/DM3/category/Catalog/doc_file_id/49662/?file_category_id=4&item_id=195&is_series=1" H -1150 3150 50  0001 C CNN
+	1    -1150 3050
+	1    0    0    -1  
+$EndComp
+Text Label -2600 2750 2    50   ~ 0
+SD_CS
+Text Label -2600 2850 2    50   ~ 0
+SD_MOSI
+Text Label -2600 3050 2    50   ~ 0
+SD_SCK
+Text Label -2600 3250 2    50   ~ 0
+SD_MISO
+NoConn ~ -2050 2650
+NoConn ~ -2050 3350
+Text Label -2600 3450 2    50   ~ 0
+SD_CD
+Wire Wire Line
+	-2050 3450 -2600 3450
+Wire Wire Line
+	-2600 3250 -2050 3250
+Wire Wire Line
+	-2050 3050 -2600 3050
+Wire Wire Line
+	-2600 2850 -2050 2850
+Wire Wire Line
+	-2600 2750 -2050 2750
+$Comp
+L power:+3V3 #PWR?
+U 1 1 5C733FDE
+P -2300 2650
+F 0 "#PWR?" H -2300 2500 50  0001 C CNN
+F 1 "+3V3" H -2300 2790 50  0000 C CNN
+F 2 "" H -2300 2650 50  0001 C CNN
+F 3 "" H -2300 2650 50  0001 C CNN
+	1    -2300 2650
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	-2300 2650 -2300 2950
+Wire Wire Line
+	-2300 2950 -2050 2950
+Wire Wire Line
+	-2050 3150 -2300 3150
+Wire Wire Line
+	-2300 3150 -2300 3850
+Wire Wire Line
+	-2300 3850 -200 3850
+Wire Wire Line
+	-200 3850 -200 3550
+Wire Wire Line
+	-200 3550 -350 3550
+$Comp
+L power:GND #PWR?
+U 1 1 5C733FEB
+P -2300 3850
+F 0 "#PWR?" H -2300 3600 50  0001 C CNN
+F 1 "GND" H -2300 3700 50  0000 C CNN
+F 2 "" H -2300 3850 50  0001 C CNN
+F 3 "" H -2300 3850 50  0001 C CNN
+	1    -2300 3850
+	-1   0    0    -1  
+$EndComp
+Connection ~ -2300 3850
+Wire Notes Line
+	-4100 1450 -4100 8950
+Wire Notes Line
+	-4100 8950 1800 8950
+Wire Notes Line
+	1800 8950 1800 1450
+Wire Notes Line
+	-4100 1450 1800 1450
+Text Notes -1850 1450 0    50   ~ 0
+From Sparkfun OpenLog 
+Wire Wire Line
+	-1600 4950 -1600 4850
+Wire Wire Line
+	-1600 4850 -1700 4850
+Wire Wire Line
+	-2400 4850 -2400 5250
+Wire Wire Line
+	-2400 5250 -2300 5250
+Wire Wire Line
+	-1700 4950 -1700 4850
+Connection ~ -1700 4850
+Wire Wire Line
+	-1700 4850 -2400 4850
+$Comp
+L Device:Resonator_Small Y?
+U 1 1 5C733FFF
+P -300 5900
+F 0 "Y?" V 25  5850 50  0000 C CNN
+F 1 "16 MHz" V -66 5850 50  0000 C CNN
+F 2 "" H -325 5900 50  0001 C CNN
+F 3 "" H -325 5900 50  0001 C CNN
+F 4 "490-17948-1-ND" V -300 5900 50  0001 C CNN "Digikey Part Number"
+	1    -300 5900
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	-400 5800 -700 5800
+Wire Wire Line
+	-700 5800 -700 5850
+Wire Wire Line
+	-700 5850 -1100 5850
+Wire Wire Line
+	-1100 5950 -700 5950
+Wire Wire Line
+	-700 5950 -700 6000
+Wire Wire Line
+	-700 6000 -400 6000
+$Comp
+L power:GND #PWR?
+U 1 1 5C73400C
+P 0 6050
+F 0 "#PWR?" H 0   5800 50  0001 C CNN
+F 1 "GND" H 0   5900 50  0000 C CNN
+F 2 "" H 0   6050 50  0001 C CNN
+F 3 "" H 0   6050 50  0001 C CNN
+	1    0    6050
+	-1   0    0    -1  
+$EndComp
+Wire Wire Line
+	0    6050 0    5900
+Wire Wire Line
+	0    5900 -100 5900
+$Comp
+L power:+3V3 #PWR?
+U 1 1 5C734014
+P -1700 4850
+F 0 "#PWR?" H -1700 4700 50  0001 C CNN
+F 1 "+3V3" H -1700 4990 50  0000 C CNN
+F 2 "" H -1700 4850 50  0001 C CNN
+F 3 "" H -1700 4850 50  0001 C CNN
+	1    -1700 4850
+	1    0    0    -1  
+$EndComp
+$Comp
+L Control-Board-rescue:C_Small-device C?
+U 1 1 5C73401B
+P -2600 5050
+F 0 "C?" H -2950 5050 50  0000 L CNN
+F 1 "0.1 uF" H -2950 5150 50  0000 L CNN
+F 2 "Capacitors_SMD:C_0603" H -2600 5050 50  0001 C CNN
+F 3 "" H -2600 5050 50  0001 C CNN
+F 4 "445-5667-1-ND" H -2650 5700 50  0001 C CNN "Digikey Part Number"
+	1    -2600 5050
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	-2600 4950 -2600 4850
+Wire Wire Line
+	-2600 4850 -2400 4850
+Connection ~ -2400 4850
+Text Label -1100 6350 0    50   ~ 0
+SD_CD
+Wire Wire Line
+	-1100 6750 0    6750
+$Comp
+L Device:R_Small R?
+U 1 1 5C734027
+P 0 6650
+F 0 "R?" H 59  6696 50  0000 L CNN
+F 1 "10 kΩ" H 59  6605 50  0000 L CNN
+F 2 "" H 0   6650 50  0001 C CNN
+F 3 "~" H 0   6650 50  0001 C CNN
+	1    0    6650
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:+3V3 #PWR?
+U 1 1 5C73402E
+P 0 6550
+F 0 "#PWR?" H 0   6400 50  0001 C CNN
+F 1 "+3V3" H 0   6690 50  0000 C CNN
+F 2 "" H 0   6550 50  0001 C CNN
+F 3 "" H 0   6550 50  0001 C CNN
+	1    0    6550
+	1    0    0    -1  
+$EndComp
+Text Label -1100 5450 0    50   ~ 0
+SD_CS
+Text Label -1100 5550 0    50   ~ 0
+SD_MOSI
+Text Label -1100 5650 0    50   ~ 0
+SD_MISO
+$Comp
+L Control-Board-rescue:C_Small-device C?
+U 1 1 5C734038
+P -2750 5050
+F 0 "C?" H -3100 5050 50  0000 L CNN
+F 1 "0.1 uF" H -3100 5150 50  0000 L CNN
+F 2 "Capacitors_SMD:C_0603" H -2750 5050 50  0001 C CNN
+F 3 "" H -2750 5050 50  0001 C CNN
+F 4 "445-5667-1-ND" H -2800 5700 50  0001 C CNN "Digikey Part Number"
+	1    -2750 5050
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	-2750 4950 -2750 4850
+Wire Wire Line
+	-2750 4850 -2600 4850
+Connection ~ -2600 4850
+$Comp
+L power:GND #PWR?
+U 1 1 5C734042
+P -2750 5150
+F 0 "#PWR?" H -2750 4900 50  0001 C CNN
+F 1 "GND" H -2750 5000 50  0000 C CNN
+F 2 "" H -2750 5150 50  0001 C CNN
+F 3 "" H -2750 5150 50  0001 C CNN
+	1    -2750 5150
+	-1   0    0    -1  
+$EndComp
+Text Label -1100 5750 0    50   ~ 0
+SD_SCK
+Wire Wire Line
+	-2750 5150 -2600 5150
+Connection ~ -2750 5150
+$Comp
+L power:GND #PWR?
+U 1 1 5C73404B
+P -1700 7950
+F 0 "#PWR?" H -1700 7700 50  0001 C CNN
+F 1 "GND" H -1700 7800 50  0000 C CNN
+F 2 "" H -1700 7950 50  0001 C CNN
+F 3 "" H -1700 7950 50  0001 C CNN
+	1    -1700 7950
+	-1   0    0    -1  
+$EndComp
+$Comp
+L Device:R_Small R?
+U 1 1 5C734051
+P -200 7650
+F 0 "R?" H -141 7696 50  0000 L CNN
+F 1 "1 kΩ" H -141 7605 50  0000 L CNN
+F 2 "" H -200 7650 50  0001 C CNN
+F 3 "~" H -200 7650 50  0001 C CNN
+	1    -200 7650
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:R_Small R?
+U 1 1 5C734058
+P -600 7650
+F 0 "R?" H -541 7696 50  0000 L CNN
+F 1 "330 Ω" H -541 7605 50  0000 L CNN
+F 2 "" H -600 7650 50  0001 C CNN
+F 3 "~" H -600 7650 50  0001 C CNN
+	1    -600 7650
+	1    0    0    -1  
+$EndComp
+$Comp
+L Control-Board-rescue:LED-device D?
+U 1 1 5C734060
+P -600 7900
+F 0 "D?" H -600 8000 50  0000 C CNN
+F 1 "LED_G" H -600 7800 50  0000 C CNN
+F 2 "LEDs:LED_0603" H -600 7900 50  0001 C CNN
+F 3 "" H -600 7900 50  0001 C CNN
+F 4 "160-1446-1-ND" H -600 8100 50  0001 C CNN "Digikey Part Number"
+	1    -600 7900
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Control-Board-rescue:LED-device D?
+U 1 1 5C734068
+P -200 7900
+F 0 "D?" H -200 8000 50  0000 C CNN
+F 1 "LED_B" H -200 7800 50  0000 C CNN
+F 2 "LEDs:LED_0603" H -200 7900 50  0001 C CNN
+F 3 "" H -200 7900 50  0001 C CNN
+F 4 "160-1647-1-ND" H -200 8100 50  0001 C CNN "Digikey Part Number"
+	1    -200 7900
+	0    -1   -1   0   
+$EndComp
+$Comp
+L power:GND #PWR?
+U 1 1 5C73406F
+P -200 8050
+F 0 "#PWR?" H -200 7800 50  0001 C CNN
+F 1 "GND" H -200 7900 50  0000 C CNN
+F 2 "" H -200 8050 50  0001 C CNN
+F 3 "" H -200 8050 50  0001 C CNN
+	1    -200 8050
+	-1   0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR?
+U 1 1 5C734075
+P -600 8050
+F 0 "#PWR?" H -600 7800 50  0001 C CNN
+F 1 "GND" H -600 7900 50  0000 C CNN
+F 2 "" H -600 8050 50  0001 C CNN
+F 3 "" H -600 8050 50  0001 C CNN
+	1    -600 8050
+	-1   0    0    -1  
+$EndComp
+Text Label -200 7550 1    50   ~ 0
+SD_SCK
+Wire Wire Line
+	-1100 7450 -600 7450
+Wire Wire Line
+	-600 7450 -600 7550
+Text Notes -550 1450 0    50   ~ 0
+Basically putting an OpenLog on the board instead of a breakout
+Text Notes -1450 5000 0    50   ~ 0
+Not a generic ATMEGA328P! Chip must be desoldered from OpenLog.\nThis is because it must be preprogrammed with the Arduino bootloader\nand OpenLog firmware. (I could add components to be able to flash the\nbootloader and firmware but I'm lazy and this is easier)
+$Comp
+L power:+3V3 #PWR?
+U 1 1 5C734080
+P 9500 2600
+F 0 "#PWR?" H 9500 2450 50  0001 C CNN
+F 1 "+3V3" V 9500 2800 50  0000 C CNN
+F 2 "" H 9500 2600 50  0001 C CNN
+F 3 "" H 9500 2600 50  0001 C CNN
+	1    9500 2600
+	0    1    1    0   
+$EndComp
+$EndSCHEMATC
