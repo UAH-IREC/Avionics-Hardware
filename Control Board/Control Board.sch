@@ -1545,8 +1545,6 @@ Text Label 2150 4150 2    60   ~ 0
 GPS_RX
 Text Label 2150 3650 2    60   ~ 0
 XBEE_TX
-Text Label 2150 3550 2    60   ~ 0
-GNC_INST
 Text Label 2150 3450 2    60   ~ 0
 MODE_SW
 Text Notes 12200 1700 0    60   ~ 0
@@ -1973,8 +1971,6 @@ Wire Wire Line
 	4400 3550 4650 3550
 Wire Wire Line
 	2400 4400 2150 4400
-Wire Wire Line
-	2150 3550 2400 3550
 Wire Wire Line
 	2400 3450 2150 3450
 Wire Wire Line
@@ -3325,9 +3321,9 @@ $EndComp
 Text Notes 1750 5850 0    50   ~ 0
 Not sure if this part is necessary, ask James\nif the servos work with 3.3V control signal\n\nTurns out it isn't necessary!
 Wire Wire Line
-	2100 6200 4200 6200
+	2100 6200 3100 6200
 Wire Wire Line
-	2100 6400 4200 6400
+	2100 6400 3100 6400
 $Comp
 L power:+3V3 #PWR?
 U 1 1 5C653C57
@@ -3339,4 +3335,32 @@ F 3 "" H 14850 11550 50  0001 C CNN
 	1    14850 11550
 	0    1    1    0   
 $EndComp
+$Comp
+L Device:R_Small R?
+U 1 1 5C69A738
+P 3200 6200
+F 0 "R?" V 3004 6200 50  0000 C CNN
+F 1 "220 Ω" V 3095 6200 50  0000 C CNN
+F 2 "" H 3200 6200 50  0001 C CNN
+F 3 "~" H 3200 6200 50  0001 C CNN
+	1    3200 6200
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	3300 6200 4200 6200
+Wire Wire Line
+	3300 6400 4200 6400
+$Comp
+L Device:R_Small R?
+U 1 1 5C69AF52
+P 3200 6400
+F 0 "R?" V 3396 6400 50  0000 C CNN
+F 1 "220 Ω" V 3305 6400 50  0000 C CNN
+F 2 "" H 3200 6400 50  0001 C CNN
+F 3 "~" H 3200 6400 50  0001 C CNN
+	1    3200 6400
+	0    -1   -1   0   
+$EndComp
+Text Label 4650 2250 0    60   ~ 0
+GNC_INST
 $EndSCHEMATC
