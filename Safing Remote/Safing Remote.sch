@@ -993,4 +993,6 @@ F 3 "" H 9550 5050 50  0001 C CNN
 $EndComp
 Text Label 4050 5800 0    50   ~ 0
 LORA_RST
+Text Notes 10200 4700 0    50   ~ 0
+Not mounted, just here so\nit shows up in the BOM
 $EndSCHEMATC
