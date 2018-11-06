@@ -39,13 +39,13 @@ $EndComp
 $Comp
 L Connector:Conn_Coaxial J?
 U 1 1 5C9B849C
-P 9550 4850
-F 0 "J?" H 9649 4826 50  0000 L CNN
-F 1 "Conn_Coaxial" H 9649 4735 50  0000 L CNN
-F 2 "" H 9550 4850 50  0001 C CNN
-F 3 " ~" H 9550 4850 50  0001 C CNN
-F 4 "CONSMA002-L-ND" H 9550 4850 50  0001 C CNN "Digikey Part Number"
-	1    9550 4850
+P 9800 4850
+F 0 "J?" H 9899 4826 50  0000 L CNN
+F 1 "Conn_Coaxial" H 9899 4735 50  0000 L CNN
+F 2 "" H 9800 4850 50  0001 C CNN
+F 3 " ~" H 9800 4850 50  0001 C CNN
+F 4 "CONSMA002-L-ND" H 9800 4850 50  0001 C CNN "Digikey Part Number"
+	1    9800 4850
 	1    0    0    -1  
 $EndComp
 $Comp
@@ -499,8 +499,6 @@ F 3 "" H 8450 5850 50  0001 C CNN
 	1    8450 5850
 	1    0    0    -1  
 $EndComp
-Wire Wire Line
-	8950 4850 9350 4850
 $Comp
 L power:+3V3 #PWR?
 U 1 1 5CA5380D
@@ -960,12 +958,12 @@ LCD_RX
 $Comp
 L power:GND #PWR?
 U 1 1 5CA8ABAA
-P 9550 5050
-F 0 "#PWR?" H 9550 4800 50  0001 C CNN
-F 1 "GND" H 9550 4900 50  0000 C CNN
-F 2 "" H 9550 5050 50  0001 C CNN
-F 3 "" H 9550 5050 50  0001 C CNN
-	1    9550 5050
+P 9800 5050
+F 0 "#PWR?" H 9800 4800 50  0001 C CNN
+F 1 "GND" H 9800 4900 50  0000 C CNN
+F 2 "" H 9800 5050 50  0001 C CNN
+F 3 "" H 9800 5050 50  0001 C CNN
+	1    9800 5050
 	1    0    0    -1  
 $EndComp
 Text Label 4050 5800 0    50   ~ 0
@@ -1002,4 +1000,8 @@ F 4 "311-10.0KHRCT-ND" H 7280 5370 50  0001 C CNN "Digikey Part Number"
 	1    7250 5250
 	-1   0    0    1   
 $EndComp
+Text Notes 9150 4750 0    50   ~ 0
+Keep this trace\nshort and straight
+Wire Wire Line
+	8950 4850 9600 4850
 $EndSCHEMATC
