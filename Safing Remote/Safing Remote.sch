@@ -1,6 +1,5 @@
 EESchema Schematic File Version 4
-LIBS:Power Board-cache
-LIBS:Control Board-cache
+LIBS:Safing Remote-cache
 EELAYER 26 0
 EELAYER END
 $Descr A4 11693 8268
@@ -73,7 +72,7 @@ F 3 "" H 5100 1200 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Custom-Parts:TPS54308DDC U?
+L Custom_Parts:TPS54308DDC U?
 U 1 1 5CA051C3
 P 2400 1200
 F 0 "U?" H 2000 1650 50  0000 L CNN
@@ -503,23 +502,6 @@ $EndComp
 Wire Wire Line
 	8950 4850 9350 4850
 $Comp
-L Control-Board-rescue:R_Small-device R?
-U 1 1 5CA53803
-P 7250 5250
-F 0 "R?" H 7280 5270 50  0000 L CNN
-F 1 "10 kΩ" H 7280 5210 50  0000 L CNN
-F 2 "Resistors_SMD:R_0603" H 7250 5250 50  0001 C CNN
-F 3 "" H 7250 5250 50  0001 C CNN
-F 4 "311-10.0KHRCT-ND" H 7280 5370 50  0001 C CNN "Digikey Part Number"
-	1    7250 5250
-	-1   0    0    1   
-$EndComp
-Wire Wire Line
-	7950 5350 7250 5350
-Connection ~ 7250 5350
-Wire Wire Line
-	7250 5350 6950 5350
-$Comp
 L power:+3V3 #PWR?
 U 1 1 5CA5380D
 P 8450 4450
@@ -530,8 +512,6 @@ F 3 "" H 8450 4450 50  0001 C CNN
 	1    8450 4450
 	1    0    0    -1  
 $EndComp
-Wire Wire Line
-	8450 4450 8450 4500
 $Comp
 L power:+3V3 #PWR?
 U 1 1 5CA53814
@@ -555,7 +535,7 @@ NoConn ~ 8950 5250
 NoConn ~ 8950 5150
 NoConn ~ 8950 5050
 $Comp
-L Control-Board-rescue:C_Small-device C?
+L Device:C_Small C?
 U 1 1 5CA53822
 P 8350 4500
 F 0 "C?" V 8450 4450 50  0000 L CNN
@@ -565,9 +545,6 @@ F 3 "" H 8350 4500 50  0001 C CNN
 	1    8350 4500
 	0    -1   1    0   
 $EndComp
-Connection ~ 8450 4500
-Wire Wire Line
-	8450 4500 8450 4650
 $Comp
 L power:GND #PWR?
 U 1 1 5CA5382B
@@ -995,4 +972,34 @@ Text Label 4050 5800 0    50   ~ 0
 LORA_RST
 Text Notes 10200 4700 0    50   ~ 0
 Not mounted, just here so\nit shows up in the BOM
+Text Notes 3400 800  0    50   ~ 0
+Power Supply:\nTakes in power from the two batteries and regulates it down to 3.3v. Uses\nthe same DC-DC converter as in the main power board, to minimize unique components.\ncomponents. 
+Text Notes 5100 1600 0    50   ~ 0
+Beeper:\nLow power/volume buzzer to provide audible feedback.
+Text Notes 7800 700  0    50   ~ 0
+Button Array:\nUp, down, left, right, and enter buttons to control the remote
+Text Notes 4950 3250 0    50   ~ 0
+LCD Screen:\nConnector for the Sparkfun SerLCD. The actual module has more\nconnectors, this one is just the minimum required.
+Text Notes 7200 4300 0    50   ~ 0
+RFM95 LoRa Module:\nLow power, long range radio to recieve communications from the backup\nradios in the rocket. Also cabable of sending commands to the rocket, if\nthat function is desired later
+Text Notes 1050 4250 0    50   ~ 0
+MCU:\nATXMegaE5U to control all the functions.\nLow cost and small in order to\nminimize complexity.
+Text Notes 4750 5100 0    50   ~ 0
+Voltage Divider:\nAllows the MCU to see if its batteries are dying
+Wire Wire Line
+	6950 5350 7950 5350
+Wire Wire Line
+	8450 4450 8450 4650
+$Comp
+L Device:R_Small R?
+U 1 1 5CA53803
+P 7250 5250
+F 0 "R?" H 7280 5270 50  0000 L CNN
+F 1 "10 kΩ" H 7280 5210 50  0000 L CNN
+F 2 "Resistors_SMD:R_0603" H 7250 5250 50  0001 C CNN
+F 3 "" H 7250 5250 50  0001 C CNN
+F 4 "311-10.0KHRCT-ND" H 7280 5370 50  0001 C CNN "Digikey Part Number"
+	1    7250 5250
+	-1   0    0    1   
+$EndComp
 $EndSCHEMATC
