@@ -2668,10 +2668,10 @@ F 3 "~" H 10100 20700 50  0001 C CNN
 	0    -1   -1   0   
 $EndComp
 $Comp
-L Connector_Generic:Conn_02x03_Odd_Even J?
+L Connector_Generic:Conn_02x03_Odd_Even J1
 U 1 1 5BE39CE4
 P 3450 7150
-F 0 "J?" H 3500 7467 50  0000 C CNN
+F 0 "J1" H 3500 7467 50  0000 C CNN
 F 1 "Conn_02x03_Odd_Even" H 3500 7376 50  0000 C CNN
 F 2 "" H 3450 7150 50  0001 C CNN
 F 3 "~" H 3450 7150 50  0001 C CNN
@@ -2685,10 +2685,10 @@ PT3_ADC
 Text Label 4650 3000 0    60   ~ 0
 PT4_ADC
 $Comp
-L Control-Board-rescue:Voltage_Divider_CenterPin3-device RN?
+L Control-Board-rescue:Voltage_Divider_CenterPin3-device RN3
 U 1 1 5BE93FEE
 P 9750 7750
-F 0 "RN?" V 9575 7750 50  0000 C CNN
+F 0 "RN3" V 9575 7750 50  0000 C CNN
 F 1 "1 kΩ, 5 kΩ" V 9650 7750 50  0000 C CNN
 F 2 "TO_SOT_Packages_SMD:SOT-23" V 10225 7750 50  0001 C CNN
 F 3 "" H 9950 7750 50  0001 C CNN
@@ -2697,10 +2697,10 @@ F 4 "MPMT-1K/5KCT-ND" H 9575 7850 50  0001 C CNN "Digikey Part Number"
 	1    0    0    1   
 $EndComp
 $Comp
-L power:GND #PWR?
+L power:GND #PWR057
 U 1 1 5BE93FF4
 P 9750 8000
-F 0 "#PWR?" H 9750 7750 50  0001 C CNN
+F 0 "#PWR057" H 9750 7750 50  0001 C CNN
 F 1 "GND" H 9750 7850 50  0000 C CNN
 F 2 "" H 9750 8000 50  0001 C CNN
 F 3 "" H 9750 8000 50  0001 C CNN
@@ -2708,10 +2708,10 @@ F 3 "" H 9750 8000 50  0001 C CNN
 	-1   0    0    -1  
 $EndComp
 $Comp
-L Custom-Parts:LT1797 U?
+L Custom-Parts:LT1797 U10
 U 1 1 5BE93FFB
 P 8750 7400
-F 0 "U?" H 8550 7750 60  0000 C CNN
+F 0 "U10" H 8550 7750 60  0000 C CNN
 F 1 "LT1797" H 9050 7200 60  0000 C CNN
 F 2 "TO_SOT_Packages_SMD:TSOT-23-5" H 8500 7400 60  0001 C CNN
 F 3 "" H 8500 7400 60  0001 C CNN
@@ -2720,10 +2720,10 @@ F 4 "LT1797CS5#TRMPBFCT-ND" H 8550 7850 50  0001 C CNN "Digikey Part Number"
 	1    0    0    -1  
 $EndComp
 $Comp
-L power:+12V #PWR?
+L power:+12V #PWR054
 U 1 1 5BE94001
 P 8750 6800
-F 0 "#PWR?" H 8750 6650 50  0001 C CNN
+F 0 "#PWR054" H 8750 6650 50  0001 C CNN
 F 1 "+12V" H 8750 6940 50  0000 C CNN
 F 2 "" H 8750 6800 50  0001 C CNN
 F 3 "" H 8750 6800 50  0001 C CNN
@@ -2731,10 +2731,10 @@ F 3 "" H 8750 6800 50  0001 C CNN
 	-1   0    0    -1  
 $EndComp
 $Comp
-L power:GND #PWR?
+L power:GND #PWR056
 U 1 1 5BE94007
 P 8750 7750
-F 0 "#PWR?" H 8750 7500 50  0001 C CNN
+F 0 "#PWR056" H 8750 7500 50  0001 C CNN
 F 1 "GND" H 8750 7600 50  0000 C CNN
 F 2 "" H 8750 7750 50  0001 C CNN
 F 3 "" H 8750 7750 50  0001 C CNN
@@ -2742,10 +2742,10 @@ F 3 "" H 8750 7750 50  0001 C CNN
 	-1   0    0    -1  
 $EndComp
 $Comp
-L Control-Board-rescue:C_Small-device C?
+L Control-Board-rescue:C_Small-device C36
 U 1 1 5BE9400E
 P 8650 6900
-F 0 "C?" V 8750 6850 50  0000 L CNN
+F 0 "C36" V 8750 6850 50  0000 L CNN
 F 1 "0.1 µF" V 8550 6950 50  0000 L CNN
 F 2 "Capacitors_SMD:C_0603" H 8650 6900 50  0001 C CNN
 F 3 "" H 8650 6900 50  0001 C CNN
@@ -2754,10 +2754,10 @@ F 4 "445-5667-1-ND" H 8750 6950 50  0001 C CNN "Digikey Part Number"
 	0    -1   1    0   
 $EndComp
 $Comp
-L power:GND #PWR?
+L power:GND #PWR055
 U 1 1 5BE94014
 P 8550 6900
-F 0 "#PWR?" H 8550 6650 50  0001 C CNN
+F 0 "#PWR055" H 8550 6650 50  0001 C CNN
 F 1 "GND" H 8550 6750 50  0000 C CNN
 F 2 "" H 8550 6900 50  0001 C CNN
 F 3 "" H 8550 6900 50  0001 C CNN
@@ -2765,10 +2765,10 @@ F 3 "" H 8550 6900 50  0001 C CNN
 	0    1    -1   0   
 $EndComp
 $Comp
-L Control-Board-rescue:Voltage_Divider_CenterPin3-device RN?
+L Control-Board-rescue:Voltage_Divider_CenterPin3-device RN4
 U 1 1 5BE9401B
 P 9750 9450
-F 0 "RN?" V 9575 9450 50  0000 C CNN
+F 0 "RN4" V 9575 9450 50  0000 C CNN
 F 1 "1 kΩ, 5 kΩ" V 9650 9450 50  0000 C CNN
 F 2 "TO_SOT_Packages_SMD:SOT-23" V 10225 9450 50  0001 C CNN
 F 3 "" H 9950 9450 50  0001 C CNN
@@ -2777,10 +2777,10 @@ F 4 "MPMT-1K/5KCT-ND" H 9575 9550 50  0001 C CNN "Digikey Part Number"
 	1    0    0    1   
 $EndComp
 $Comp
-L power:GND #PWR?
+L power:GND #PWR061
 U 1 1 5BE94021
 P 9750 9700
-F 0 "#PWR?" H 9750 9450 50  0001 C CNN
+F 0 "#PWR061" H 9750 9450 50  0001 C CNN
 F 1 "GND" H 9750 9550 50  0000 C CNN
 F 2 "" H 9750 9700 50  0001 C CNN
 F 3 "" H 9750 9700 50  0001 C CNN
@@ -2788,10 +2788,10 @@ F 3 "" H 9750 9700 50  0001 C CNN
 	-1   0    0    -1  
 $EndComp
 $Comp
-L Custom-Parts:LT1797 U?
+L Custom-Parts:LT1797 U11
 U 1 1 5BE94028
 P 8750 9100
-F 0 "U?" H 8550 9450 60  0000 C CNN
+F 0 "U11" H 8550 9450 60  0000 C CNN
 F 1 "LT1797" H 9050 8900 60  0000 C CNN
 F 2 "TO_SOT_Packages_SMD:TSOT-23-5" H 8500 9100 60  0001 C CNN
 F 3 "" H 8500 9100 60  0001 C CNN
@@ -2800,10 +2800,10 @@ F 4 "LT1797CS5#TRMPBFCT-ND" H 8550 9550 50  0001 C CNN "Digikey Part Number"
 	1    0    0    -1  
 $EndComp
 $Comp
-L power:+12V #PWR?
+L power:+12V #PWR058
 U 1 1 5BE9402E
 P 8750 8500
-F 0 "#PWR?" H 8750 8350 50  0001 C CNN
+F 0 "#PWR058" H 8750 8350 50  0001 C CNN
 F 1 "+12V" H 8750 8640 50  0000 C CNN
 F 2 "" H 8750 8500 50  0001 C CNN
 F 3 "" H 8750 8500 50  0001 C CNN
@@ -2811,10 +2811,10 @@ F 3 "" H 8750 8500 50  0001 C CNN
 	-1   0    0    -1  
 $EndComp
 $Comp
-L power:GND #PWR?
+L power:GND #PWR060
 U 1 1 5BE94034
 P 8750 9450
-F 0 "#PWR?" H 8750 9200 50  0001 C CNN
+F 0 "#PWR060" H 8750 9200 50  0001 C CNN
 F 1 "GND" H 8750 9300 50  0000 C CNN
 F 2 "" H 8750 9450 50  0001 C CNN
 F 3 "" H 8750 9450 50  0001 C CNN
@@ -2822,10 +2822,10 @@ F 3 "" H 8750 9450 50  0001 C CNN
 	-1   0    0    -1  
 $EndComp
 $Comp
-L Control-Board-rescue:C_Small-device C?
+L Control-Board-rescue:C_Small-device C37
 U 1 1 5BE9403B
 P 8650 8600
-F 0 "C?" V 8750 8550 50  0000 L CNN
+F 0 "C37" V 8750 8550 50  0000 L CNN
 F 1 "0.1 µF" V 8550 8650 50  0000 L CNN
 F 2 "Capacitors_SMD:C_0603" H 8650 8600 50  0001 C CNN
 F 3 "" H 8650 8600 50  0001 C CNN
@@ -2834,10 +2834,10 @@ F 4 "445-5667-1-ND" H 8750 8650 50  0001 C CNN "Digikey Part Number"
 	0    -1   1    0   
 $EndComp
 $Comp
-L power:GND #PWR?
+L power:GND #PWR059
 U 1 1 5BE94041
 P 8550 8600
-F 0 "#PWR?" H 8550 8350 50  0001 C CNN
+F 0 "#PWR059" H 8550 8350 50  0001 C CNN
 F 1 "GND" H 8550 8450 50  0000 C CNN
 F 2 "" H 8550 8600 50  0001 C CNN
 F 3 "" H 8550 8600 50  0001 C CNN
@@ -2905,10 +2905,10 @@ PWR_SDA
 Text Label 4650 4500 0    50   ~ 0
 PWR_SCL
 $Comp
-L Connector_Generic:Conn_02x07_Counter_Clockwise J?
+L Connector_Generic:Conn_02x07_Counter_Clockwise J18
 U 1 1 5C07DC16
 P 13900 20450
-F 0 "J?" H 13950 20967 50  0000 C CNN
+F 0 "J18" H 13950 20967 50  0000 C CNN
 F 1 "Conn_02x07_Counter_Clockwise" H 13950 20876 50  0000 C CNN
 F 2 "" H 13900 20450 50  0001 C CNN
 F 3 "~" H 13900 20450 50  0001 C CNN
@@ -2916,10 +2916,10 @@ F 3 "~" H 13900 20450 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L MCU_Microchip_ATmega:ATmega328P-AU U?
+L MCU_Microchip_ATmega:ATmega328P-AU U13
 U 1 1 5C0D9743
 P 4050 19050
-F 0 "U?" H 4250 17600 50  0000 C CNN
+F 0 "U13" H 4250 17600 50  0000 C CNN
 F 1 "ATmega328P-AU" H 4500 17500 50  0000 C CNN
 F 2 "Package_QFP:TQFP-32_7x7mm_P0.8mm" H 4050 19050 50  0001 C CIN
 F 3 "http://ww1.microchip.com/downloads/en/DeviceDoc/ATmega328_P%20AVR%20MCU%20with%20picoPower%20Technology%20Data%20Sheet%2040001984A.pdf" H 4050 19050 50  0001 C CNN
@@ -2929,10 +2929,10 @@ F 5 "1568-1368-ND" H 4050 19050 50  0001 C CNN "Digikey Part Number"
 	1    0    0    -1  
 $EndComp
 $Comp
-L Custom-Parts:Micro_SD_Card_SPI_MODE_Det J?
+L Custom-Parts:Micro_SD_Card_SPI_MODE_Det J12
 U 1 1 5C1055E2
 P 4600 15650
-F 0 "J?" H 4550 16467 50  0000 C CNN
+F 0 "J12" H 4550 16467 50  0000 C CNN
 F 1 "Micro_SD_Card_SPI_MODE_Det" H 4550 16376 50  0000 C CNN
 F 2 "" H 6650 16350 50  0001 C CNN
 F 3 "https://www.hirose.com/product/en/download_file/key_name/DM3/category/Catalog/doc_file_id/49662/?file_category_id=4&item_id=195&is_series=1" H 4600 15750 50  0001 C CNN
@@ -2962,10 +2962,10 @@ Wire Wire Line
 Wire Wire Line
 	3150 15350 3700 15350
 $Comp
-L power:+3V3 #PWR?
+L power:+3V3 #PWR075
 U 1 1 5C209429
 P 3450 15250
-F 0 "#PWR?" H 3450 15100 50  0001 C CNN
+F 0 "#PWR075" H 3450 15100 50  0001 C CNN
 F 1 "+3V3" H 3450 15390 50  0000 C CNN
 F 2 "" H 3450 15250 50  0001 C CNN
 F 3 "" H 3450 15250 50  0001 C CNN
@@ -2987,10 +2987,10 @@ Wire Wire Line
 Wire Wire Line
 	5550 16150 5400 16150
 $Comp
-L power:GND #PWR?
+L power:GND #PWR081
 U 1 1 5C24D5D8
 P 3450 16450
-F 0 "#PWR?" H 3450 16200 50  0001 C CNN
+F 0 "#PWR081" H 3450 16200 50  0001 C CNN
 F 1 "GND" H 3450 16300 50  0000 C CNN
 F 2 "" H 3450 16450 50  0001 C CNN
 F 3 "" H 3450 16450 50  0001 C CNN
@@ -3022,10 +3022,10 @@ Connection ~ 4050 17450
 Wire Wire Line
 	4050 17450 3350 17450
 $Comp
-L Device:Resonator_Small Y?
+L Device:Resonator_Small Y1
 U 1 1 5C2DC997
 P 5450 18500
-F 0 "Y?" V 5775 18450 50  0000 C CNN
+F 0 "Y1" V 5775 18450 50  0000 C CNN
 F 1 "16 MHz" V 5684 18450 50  0000 C CNN
 F 2 "" H 5425 18500 50  0001 C CNN
 F 3 "" H 5425 18500 50  0001 C CNN
@@ -3046,10 +3046,10 @@ Wire Wire Line
 Wire Wire Line
 	5050 18600 5350 18600
 $Comp
-L power:GND #PWR?
+L power:GND #PWR0101
 U 1 1 5C325F6F
 P 5750 18650
-F 0 "#PWR?" H 5750 18400 50  0001 C CNN
+F 0 "#PWR0101" H 5750 18400 50  0001 C CNN
 F 1 "GND" H 5750 18500 50  0000 C CNN
 F 2 "" H 5750 18650 50  0001 C CNN
 F 3 "" H 5750 18650 50  0001 C CNN
@@ -3061,10 +3061,10 @@ Wire Wire Line
 Wire Wire Line
 	5750 18500 5650 18500
 $Comp
-L power:+3V3 #PWR?
+L power:+3V3 #PWR091
 U 1 1 5C34BD67
 P 4050 17450
-F 0 "#PWR?" H 4050 17300 50  0001 C CNN
+F 0 "#PWR091" H 4050 17300 50  0001 C CNN
 F 1 "+3V3" H 4050 17590 50  0000 C CNN
 F 2 "" H 4050 17450 50  0001 C CNN
 F 3 "" H 4050 17450 50  0001 C CNN
@@ -3072,10 +3072,10 @@ F 3 "" H 4050 17450 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Control-Board-rescue:C_Small-device C?
+L Control-Board-rescue:C_Small-device C40
 U 1 1 5C34C22A
 P 3150 17650
-F 0 "C?" H 2800 17650 50  0000 L CNN
+F 0 "C40" H 2800 17650 50  0000 L CNN
 F 1 "0.1 µF" H 2800 17750 50  0000 L CNN
 F 2 "Capacitors_SMD:C_0603" H 3150 17650 50  0001 C CNN
 F 3 "" H 3150 17650 50  0001 C CNN
@@ -3093,21 +3093,22 @@ SD_CD
 Wire Wire Line
 	4650 19350 5750 19350
 $Comp
-L Device:R_Small R?
+L Device:R_Small R11
 U 1 1 5C3BE23A
 P 5750 19250
-F 0 "R?" H 5809 19296 50  0000 L CNN
+F 0 "R11" H 5809 19296 50  0000 L CNN
 F 1 "10 kΩ" H 5809 19205 50  0000 L CNN
-F 2 "" H 5750 19250 50  0001 C CNN
+F 2 "Resistors_SMD:R_0603" H 5750 19250 50  0001 C CNN
 F 3 "~" H 5750 19250 50  0001 C CNN
+F 4 "311-10.0KHRCT-ND" H 0   0   50  0001 C CNN "Digikey Part Number"
 	1    5750 19250
 	1    0    0    -1  
 $EndComp
 $Comp
-L power:+3V3 #PWR?
+L power:+3V3 #PWR0102
 U 1 1 5C3BE343
 P 5750 19150
-F 0 "#PWR?" H 5750 19000 50  0001 C CNN
+F 0 "#PWR0102" H 5750 19000 50  0001 C CNN
 F 1 "+3V3" H 5750 19290 50  0000 C CNN
 F 2 "" H 5750 19150 50  0001 C CNN
 F 3 "" H 5750 19150 50  0001 C CNN
@@ -3121,10 +3122,10 @@ SD_MOSI
 Text Label 4650 18250 0    50   ~ 0
 SD_MISO
 $Comp
-L Control-Board-rescue:C_Small-device C?
+L Control-Board-rescue:C_Small-device C39
 U 1 1 5C3E59C4
 P 3000 17650
-F 0 "C?" H 2650 17650 50  0000 L CNN
+F 0 "C39" H 2650 17650 50  0000 L CNN
 F 1 "0.1 µF" H 2650 17750 50  0000 L CNN
 F 2 "Capacitors_SMD:C_0603" H 3000 17650 50  0001 C CNN
 F 3 "" H 3000 17650 50  0001 C CNN
@@ -3138,10 +3139,10 @@ Wire Wire Line
 	3000 17450 3150 17450
 Connection ~ 3150 17450
 $Comp
-L power:GND #PWR?
+L power:GND #PWR0100
 U 1 1 5C40A83C
 P 3000 17750
-F 0 "#PWR?" H 3000 17500 50  0001 C CNN
+F 0 "#PWR0100" H 3000 17500 50  0001 C CNN
 F 1 "GND" H 3000 17600 50  0000 C CNN
 F 2 "" H 3000 17750 50  0001 C CNN
 F 3 "" H 3000 17750 50  0001 C CNN
@@ -3154,10 +3155,10 @@ Wire Wire Line
 	3000 17750 3150 17750
 Connection ~ 3000 17750
 $Comp
-L power:GND #PWR?
+L power:GND #PWR0103
 U 1 1 5C430736
 P 4050 20550
-F 0 "#PWR?" H 4050 20300 50  0001 C CNN
+F 0 "#PWR0103" H 4050 20300 50  0001 C CNN
 F 1 "GND" H 4050 20400 50  0000 C CNN
 F 2 "" H 4050 20550 50  0001 C CNN
 F 3 "" H 4050 20550 50  0001 C CNN
@@ -3165,10 +3166,10 @@ F 3 "" H 4050 20550 50  0001 C CNN
 	-1   0    0    -1  
 $EndComp
 $Comp
-L Device:R_Small R?
+L Device:R_Small R13
 U 1 1 5C430CF7
 P 5550 20250
-F 0 "R?" H 5609 20296 50  0000 L CNN
+F 0 "R13" H 5609 20296 50  0000 L CNN
 F 1 "1 kΩ" H 5609 20205 50  0000 L CNN
 F 2 "" H 5550 20250 50  0001 C CNN
 F 3 "~" H 5550 20250 50  0001 C CNN
@@ -3176,10 +3177,10 @@ F 3 "~" H 5550 20250 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Device:R_Small R?
+L Device:R_Small R12
 U 1 1 5C430DD0
 P 5150 20250
-F 0 "R?" H 5209 20296 50  0000 L CNN
+F 0 "R12" H 5209 20296 50  0000 L CNN
 F 1 "330 Ω" H 5209 20205 50  0000 L CNN
 F 2 "" H 5150 20250 50  0001 C CNN
 F 3 "~" H 5150 20250 50  0001 C CNN
@@ -3187,10 +3188,10 @@ F 3 "~" H 5150 20250 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Control-Board-rescue:LED-device D?
+L Control-Board-rescue:LED-device D5
 U 1 1 5C43166B
 P 5150 20500
-F 0 "D?" H 5150 20600 50  0000 C CNN
+F 0 "D5" H 5150 20600 50  0000 C CNN
 F 1 "LED_G" H 5150 20400 50  0000 C CNN
 F 2 "LEDs:LED_0603" H 5150 20500 50  0001 C CNN
 F 3 "" H 5150 20500 50  0001 C CNN
@@ -3199,10 +3200,10 @@ F 4 "160-1446-1-ND" H 5150 20700 50  0001 C CNN "Digikey Part Number"
 	0    -1   -1   0   
 $EndComp
 $Comp
-L Control-Board-rescue:LED-device D?
+L Control-Board-rescue:LED-device D6
 U 1 1 5C431BB1
 P 5550 20500
-F 0 "D?" H 5550 20600 50  0000 C CNN
+F 0 "D6" H 5550 20600 50  0000 C CNN
 F 1 "LED_B" H 5550 20400 50  0000 C CNN
 F 2 "LEDs:LED_0603" H 5550 20500 50  0001 C CNN
 F 3 "" H 5550 20500 50  0001 C CNN
@@ -3211,10 +3212,10 @@ F 4 "160-1647-1-ND" H 5550 20700 50  0001 C CNN "Digikey Part Number"
 	0    -1   -1   0   
 $EndComp
 $Comp
-L power:GND #PWR?
+L power:GND #PWR0105
 U 1 1 5C43267A
 P 5550 20650
-F 0 "#PWR?" H 5550 20400 50  0001 C CNN
+F 0 "#PWR0105" H 5550 20400 50  0001 C CNN
 F 1 "GND" H 5550 20500 50  0000 C CNN
 F 2 "" H 5550 20650 50  0001 C CNN
 F 3 "" H 5550 20650 50  0001 C CNN
@@ -3222,10 +3223,10 @@ F 3 "" H 5550 20650 50  0001 C CNN
 	-1   0    0    -1  
 $EndComp
 $Comp
-L power:GND #PWR?
+L power:GND #PWR0104
 U 1 1 5C43274B
 P 5150 20650
-F 0 "#PWR?" H 5150 20400 50  0001 C CNN
+F 0 "#PWR0104" H 5150 20400 50  0001 C CNN
 F 1 "GND" H 5150 20500 50  0000 C CNN
 F 2 "" H 5150 20650 50  0001 C CNN
 F 3 "" H 5150 20650 50  0001 C CNN
@@ -3243,10 +3244,10 @@ Basically putting an OpenLog on the board instead of a breakout
 Text Notes 4300 17600 0    50   ~ 0
 Not a generic ATMEGA328P! Chip must be desoldered from OpenLog.\nThis is because it must be preprogrammed with the Arduino bootloader\nand OpenLog firmware. (I could add components to be able to flash the\nbootloader and firmware but I'm lazy and this is easier)
 $Comp
-L power:+12V #PWR?
+L power:+12V #PWR090
 U 1 1 5C58D70F
 P 20050 17150
-F 0 "#PWR?" H 20050 17000 50  0001 C CNN
+F 0 "#PWR090" H 20050 17000 50  0001 C CNN
 F 1 "+12V" V 20050 17350 50  0000 C CNN
 F 2 "" H 20050 17150 50  0001 C CNN
 F 3 "" H 20050 17150 50  0001 C CNN
@@ -3254,10 +3255,10 @@ F 3 "" H 20050 17150 50  0001 C CNN
 	0    1    1    0   
 $EndComp
 $Comp
-L power:GND #PWR?
+L power:GND #PWR089
 U 1 1 5C58D715
 P 20050 17050
-F 0 "#PWR?" H 20050 16800 50  0001 C CNN
+F 0 "#PWR089" H 20050 16800 50  0001 C CNN
 F 1 "GND" V 20050 16850 50  0000 C CNN
 F 2 "" H 20050 17050 50  0001 C CNN
 F 3 "" H 20050 17050 50  0001 C CNN
@@ -3269,10 +3270,10 @@ PT3_IN
 Text Label 20050 17800 0    60   ~ 0
 PT4_IN
 $Comp
-L power:+12V #PWR?
+L power:+12V #PWR098
 U 1 1 5C58D71D
 P 20050 17700
-F 0 "#PWR?" H 20050 17550 50  0001 C CNN
+F 0 "#PWR098" H 20050 17550 50  0001 C CNN
 F 1 "+12V" V 20050 17900 50  0000 C CNN
 F 2 "" H 20050 17700 50  0001 C CNN
 F 3 "" H 20050 17700 50  0001 C CNN
@@ -3280,10 +3281,10 @@ F 3 "" H 20050 17700 50  0001 C CNN
 	0    1    1    0   
 $EndComp
 $Comp
-L power:GND #PWR?
+L power:GND #PWR096
 U 1 1 5C58D723
 P 20050 17600
-F 0 "#PWR?" H 20050 17350 50  0001 C CNN
+F 0 "#PWR096" H 20050 17350 50  0001 C CNN
 F 1 "GND" V 20050 17400 50  0000 C CNN
 F 2 "" H 20050 17600 50  0001 C CNN
 F 3 "" H 20050 17600 50  0001 C CNN
@@ -3291,10 +3292,10 @@ F 3 "" H 20050 17600 50  0001 C CNN
 	0    -1   1    0   
 $EndComp
 $Comp
-L Control-Board-rescue:Conn_01x03-Connector J?
+L Control-Board-rescue:Conn_01x03-Connector J16
 U 1 1 5C58D72A
 P 19850 17150
-F 0 "J?" H 19770 16825 50  0000 C CNN
+F 0 "J16" H 19770 16825 50  0000 C CNN
 F 1 "Conn_01x03" H 19770 16916 50  0000 C CNN
 F 2 "Connectors_JST:JST_PH_B3B-PH-K_03x2.00mm_Straight" H 19850 17150 50  0001 C CNN
 F 3 "~" H 19850 17150 50  0001 C CNN
@@ -3303,10 +3304,10 @@ F 4 "455-1720-ND" H 3550 4350 50  0001 C CNN "Digikey Part Number"
 	-1   0    0    1   
 $EndComp
 $Comp
-L Control-Board-rescue:Conn_01x03-Connector J?
+L Control-Board-rescue:Conn_01x03-Connector J17
 U 1 1 5C58D731
 P 19850 17700
-F 0 "J?" H 19770 17375 50  0000 C CNN
+F 0 "J17" H 19770 17375 50  0000 C CNN
 F 1 "Conn_01x03" H 19770 17466 50  0000 C CNN
 F 2 "Connectors_JST:JST_PH_B3B-PH-K_03x2.00mm_Straight" H 19850 17700 50  0001 C CNN
 F 3 "~" H 19850 17700 50  0001 C CNN
@@ -3321,10 +3322,10 @@ Wire Wire Line
 Wire Wire Line
 	2550 9800 3550 9800
 $Comp
-L power:+3V3 #PWR?
+L power:+3V3 #PWR0106
 U 1 1 5C653C57
 P 14200 20650
-F 0 "#PWR?" H 14200 20500 50  0001 C CNN
+F 0 "#PWR0106" H 14200 20500 50  0001 C CNN
 F 1 "+3V3" V 14200 20850 50  0000 C CNN
 F 2 "" H 14200 20650 50  0001 C CNN
 F 3 "" H 14200 20650 50  0001 C CNN
@@ -3332,10 +3333,10 @@ F 3 "" H 14200 20650 50  0001 C CNN
 	0    1    1    0   
 $EndComp
 $Comp
-L Device:R_Small R?
+L Device:R_Small R3
 U 1 1 5C69A738
 P 3650 9600
-F 0 "R?" V 3454 9600 50  0000 C CNN
+F 0 "R3" V 3454 9600 50  0000 C CNN
 F 1 "220 Ω" V 3545 9600 50  0000 C CNN
 F 2 "" H 3650 9600 50  0001 C CNN
 F 3 "~" H 3650 9600 50  0001 C CNN
@@ -3347,10 +3348,10 @@ Wire Wire Line
 Wire Wire Line
 	3750 9800 4650 9800
 $Comp
-L Device:R_Small R?
+L Device:R_Small R4
 U 1 1 5C69AF52
 P 3650 9800
-F 0 "R?" V 3846 9800 50  0000 C CNN
+F 0 "R4" V 3846 9800 50  0000 C CNN
 F 1 "220 Ω" V 3755 9800 50  0000 C CNN
 F 2 "" H 3650 9800 50  0001 C CNN
 F 3 "~" H 3650 9800 50  0001 C CNN
@@ -3360,10 +3361,10 @@ $EndComp
 Text Label 4650 3200 0    60   ~ 0
 GNC_INST
 $Comp
-L RF_AM_FM:RFM96W-315S2 U?
+L RF_AM_FM:RFM96W-315S2 U12
 U 1 1 5C761F8F
 P 11600 13500
-F 0 "U?" H 11750 14050 50  0000 C CNN
+F 0 "U12" H 11750 14050 50  0000 C CNN
 F 1 "RFM95W-915S2" H 11950 13950 50  0000 C CNN
 F 2 "" H 8300 15150 50  0001 C CNN
 F 3 "http://www.hoperf.com/upload/rf/RFM95_96_97_98W.pdf" H 8300 15150 50  0001 C CNN
@@ -3389,10 +3390,10 @@ Connection ~ 11600 14200
 Wire Wire Line
 	11600 14200 11700 14200
 $Comp
-L power:GND #PWR?
+L power:GND #PWR067
 U 1 1 5C7D3705
 P 11600 14200
-F 0 "#PWR?" H 11600 13950 50  0001 C CNN
+F 0 "#PWR067" H 11600 13950 50  0001 C CNN
 F 1 "GND" H 11600 14050 50  0000 C CNN
 F 2 "" H 11600 14200 50  0001 C CNN
 F 3 "" H 11600 14200 50  0001 C CNN
@@ -3400,10 +3401,10 @@ F 3 "" H 11600 14200 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L SparkFun-Connectors:U.FL J?
+L SparkFun-Connectors:U.FL J2
 U 1 1 5C7D391F
 P 12700 13200
-F 0 "J?" H 12750 13560 45  0000 C CNN
+F 0 "J2" H 12750 13560 45  0000 C CNN
 F 1 "U.FL" H 12750 13476 45  0000 C CNN
 F 2 "U.FL" H 12700 13450 20  0001 C CNN
 F 3 "" H 12700 13200 50  0001 C CNN
@@ -3420,10 +3421,10 @@ Wire Wire Line
 Wire Wire Line
 	12900 13500 12800 13500
 $Comp
-L power:GND #PWR?
+L power:GND #PWR066
 U 1 1 5C81F7C4
 P 12900 13500
-F 0 "#PWR?" H 12900 13250 50  0001 C CNN
+F 0 "#PWR066" H 12900 13250 50  0001 C CNN
 F 1 "GND" H 12900 13350 50  0000 C CNN
 F 2 "" H 12900 13500 50  0001 C CNN
 F 3 "" H 12900 13500 50  0001 C CNN
@@ -3432,10 +3433,10 @@ F 3 "" H 12900 13500 50  0001 C CNN
 $EndComp
 Connection ~ 12900 13500
 $Comp
-L Control-Board-rescue:R_Small-device R?
+L Control-Board-rescue:R_Small-device R10
 U 1 1 5C82075A
 P 10400 13600
-F 0 "R?" H 10430 13620 50  0000 L CNN
+F 0 "R10" H 10430 13620 50  0000 L CNN
 F 1 "10 kΩ" H 10430 13560 50  0000 L CNN
 F 2 "Resistors_SMD:R_0603" H 10400 13600 50  0001 C CNN
 F 3 "" H 10400 13600 50  0001 C CNN
@@ -3449,10 +3450,10 @@ Connection ~ 10400 13700
 Wire Wire Line
 	10400 13700 10100 13700
 $Comp
-L power:+3V3 #PWR?
+L power:+3V3 #PWR062
 U 1 1 5C847A2E
 P 11600 12800
-F 0 "#PWR?" H 11600 12650 50  0001 C CNN
+F 0 "#PWR062" H 11600 12650 50  0001 C CNN
 F 1 "+3V3" H 11600 12940 50  0000 C CNN
 F 2 "" H 11600 12800 50  0001 C CNN
 F 3 "" H 11600 12800 50  0001 C CNN
@@ -3462,10 +3463,10 @@ $EndComp
 Wire Wire Line
 	11600 12800 11600 12850
 $Comp
-L power:+3V3 #PWR?
+L power:+3V3 #PWR064
 U 1 1 5C86EE1C
 P 10400 13500
-F 0 "#PWR?" H 10400 13350 50  0001 C CNN
+F 0 "#PWR064" H 10400 13350 50  0001 C CNN
 F 1 "+3V3" H 10400 13640 50  0000 C CNN
 F 2 "" H 10400 13500 50  0001 C CNN
 F 3 "" H 10400 13500 50  0001 C CNN
@@ -3496,10 +3497,10 @@ NoConn ~ 12100 13600
 NoConn ~ 12100 13500
 NoConn ~ 12100 13400
 $Comp
-L Control-Board-rescue:C_Small-device C?
+L Control-Board-rescue:C_Small-device C38
 U 1 1 5C9B0AE5
 P 11500 12850
-F 0 "C?" V 11600 12800 50  0000 L CNN
+F 0 "C38" V 11600 12800 50  0000 L CNN
 F 1 "10 µF" V 11400 12900 50  0000 L CNN
 F 2 "Capacitors_SMD:C_0603" H 11500 12850 50  0001 C CNN
 F 3 "" H 11500 12850 50  0001 C CNN
@@ -3510,10 +3511,10 @@ Connection ~ 11600 12850
 Wire Wire Line
 	11600 12850 11600 13000
 $Comp
-L power:GND #PWR?
+L power:GND #PWR063
 U 1 1 5C9B0F4C
 P 11400 12850
-F 0 "#PWR?" H 11400 12600 50  0001 C CNN
+F 0 "#PWR063" H 11400 12600 50  0001 C CNN
 F 1 "GND" H 11400 12700 50  0000 C CNN
 F 2 "" H 11400 12850 50  0001 C CNN
 F 3 "" H 11400 12850 50  0001 C CNN
@@ -3521,10 +3522,10 @@ F 3 "" H 11400 12850 50  0001 C CNN
 	0    1    -1   0   
 $EndComp
 $Comp
-L Device:Antenna AE?
+L Device:Antenna AE1
 U 1 1 5C9B331C
 P 13300 13000
-F 0 "AE?" H 13380 12991 50  0000 L CNN
+F 0 "AE1" H 13380 12991 50  0000 L CNN
 F 1 "Antenna" H 13380 12900 50  0000 L CNN
 F 2 "" H 13300 13000 50  0001 C CNN
 F 3 "~" H 13300 13000 50  0001 C CNN
@@ -3540,4 +3541,22 @@ Text Notes 7150 3150 0    50   ~ 0
 PT Op-Amps:\nThe Pressure Transducers (PTs) like to have a very high input impedance\non the device connected to their output in order to output the right\nvoltage. (Think of input impedance as the resistance between the input\nand ground. That's a major oversimplification for a lot of circuits, but\nworks okay enough here.) The voltage they output is too high for the\nMCU, so it has to go into a voltage divider to lower the voltage. However,\nthe input impedance of the voltage divider is too low, close to a few kΩ\ninstead of the MΩ range the PTs like. The op-amps have a very high input\nimpedance, and in this configuration their output voltage is the same as\ntheir input, which is called unity gain, which just means its gain is 1. The\nop-amps care a lot less about their impedance on the output, so a\nvoltage divider works fine there. Since this measurement needs to be\nsuper precise, a high precision prematched resistor array is used instead\nof two separate resistors.
 Text Notes 12950 2600 0    50   ~ 0
 Thermocouple Amplifiers:\nThese configurable thermocouple amplifiers output the temperature on\nthe connected thermocouples, and are configurable to use almost any\ntype of thermocouple.
+Text Notes 10300 12500 0    50   ~ 0
+Backup Radio:\nSends critical safety information so that the rocket state is known even if\nthe main comms fail. Uses a low cost, low power, long range LoRa\ntransciever. Capable of recieving commands too, if that functionality ends\nup being needed.
+Text Notes 2300 8800 0    50   ~ 0
+Servo Connections:\nConnecting the PWM outputs of the MCU to the servo inputs. There used\nto be a lot more here.
+Text Notes 3300 10700 0    50   ~ 0
+LEDs:\nBlinky blinky
+Text Notes 3100 13700 0    50   ~ 0
+Data Logger:\nLogs data to an SD card, kinda like a black box. If it blows up hopefully\nthis will tell us why.
+Text Notes 10050 15650 0    50   ~ 0
+Inter-Board Comms:\nRS422 transciever to communicate between uper and lower avionics.\nUses Cat5 cable, which isn't standard for RS422, so the design had to be\nmodified a bit from standard.
+Text Notes 16600 16350 0    50   ~ 0
+PT and TC Connectors:\nConnects to the pressure transducers and thermocouples
+Text Notes 16400 19550 0    50   ~ 0
+Servo Connectors:\nConnectors for the servos and associated limit switches
+Text Notes 12800 19850 0    50   ~ 0
+Connector:\nConnects to the other boards in the avionics stack
+Text Notes 9700 19250 0    50   ~ 0
+Mounting holes and logo:\nMounting holes and logo
 $EndSCHEMATC
