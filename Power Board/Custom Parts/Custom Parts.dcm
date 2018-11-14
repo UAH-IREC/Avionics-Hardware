@@ -1,0 +1,44 @@
+EESchema-DOCLIB  Version 2.0
+#
+$CMP +14V
+D power-flag symbol
+K Power Flag Symbol
+$ENDCMP
+#
+$CMP ISL83490
+D 10Mbps RS485/RS422 transceiver, full duplex, receiver/driver enable, low power shutdown
+K RS485 RS422 transceiver full duplex
+F http://www.intersil.com/content/dam/Intersil/documents/isl8/isl83483-85-88-90-91.pdf
+$ENDCMP
+#
+$CMP LTC4417CGN
+D Prioritized PowerPath controller SSOP-24
+K switch power FET sequence
+F http://cds.linear.com/docs/en/datasheet/4417f.pdf
+$ENDCMP
+#
+$CMP LTC4417HGN
+D Prioritized PowerPath controller QFN-24, extended temperature range
+K switch power FET sequence
+F http://cds.linear.com/docs/en/datasheet/4417f.pdf
+$ENDCMP
+#
+$CMP LTC4417IGN
+D Prioritized PowerPath controller QFN-24, industrial temperature range
+K switch power FET sequence
+F http://cds.linear.com/docs/en/datasheet/4417f.pdf
+$ENDCMP
+#
+$CMP Micro_SD_Card_SPI_MODE_Det
+D Micro SD Card Socket with card detection pins
+K connector SD microsd
+F https://www.hirose.com/product/en/download_file/key_name/DM3/category/Catalog/doc_file_id/49662/?file_category_id=4&item_id=195&is_series=1
+$ENDCMP
+#
+$CMP TPS54308DDC
+D 28V 3A, Step Down Converter, SOT-23
+K Step-Down DC-DC Switching Regulator
+F http://www.ti.com/lit/ds/symlink/tps54308.pdf
+$ENDCMP
+#
+#End Doc Library
