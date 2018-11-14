@@ -1,563 +1,43 @@
 EESchema-LIBRARY Version 2.4
 #encoding utf-8
 #
-# Connector_Generic:Conn_01x02
+# Power-Board-rescue_+12V-power
 #
-DEF Connector_Generic:Conn_01x02 J 0 40 Y N 1 F N
-F0 "J" 0 100 50 H V C CNN
-F1 "Connector_Generic:Conn_01x02" 0 -200 50 H V C CNN
-F2 "" 0 0 50 H I C CNN
-F3 "" 0 0 50 H I C CNN
-$FPLIST
- Connector*:*_1x??_*
-$ENDFPLIST
-DRAW
-S -50 -95 0 -105 1 1 6 N
-S -50 5 0 -5 1 1 6 N
-S -50 50 50 -150 1 1 10 f
-X Pin_1 1 -200 0 150 R 50 50 1 1 P
-X Pin_2 2 -200 -100 150 R 50 50 1 1 P
-ENDDRAW
-ENDDEF
-#
-# Connector_Generic:Conn_01x03
-#
-DEF Connector_Generic:Conn_01x03 J 0 40 Y N 1 F N
-F0 "J" 0 200 50 H V C CNN
-F1 "Connector_Generic:Conn_01x03" 0 -200 50 H V C CNN
-F2 "" 0 0 50 H I C CNN
-F3 "" 0 0 50 H I C CNN
-$FPLIST
- Connector*:*_1x??_*
-$ENDFPLIST
-DRAW
-S -50 -95 0 -105 1 1 6 N
-S -50 5 0 -5 1 1 6 N
-S -50 105 0 95 1 1 6 N
-S -50 150 50 -150 1 1 10 f
-X Pin_1 1 -200 100 150 R 50 50 1 1 P
-X Pin_2 2 -200 0 150 R 50 50 1 1 P
-X Pin_3 3 -200 -100 150 R 50 50 1 1 P
-ENDDRAW
-ENDDEF
-#
-# Connector_Generic:Conn_02x03_Odd_Even
-#
-DEF Connector_Generic:Conn_02x03_Odd_Even J 0 40 Y N 1 F N
-F0 "J" 50 200 50 H V C CNN
-F1 "Connector_Generic:Conn_02x03_Odd_Even" 50 -200 50 H V C CNN
-F2 "" 0 0 50 H I C CNN
-F3 "" 0 0 50 H I C CNN
-$FPLIST
- Connector*:*_2x??_*
-$ENDFPLIST
-DRAW
-S -50 -95 0 -105 1 1 6 N
-S -50 5 0 -5 1 1 6 N
-S -50 105 0 95 1 1 6 N
-S -50 150 150 -150 1 1 10 f
-S 150 -95 100 -105 1 1 6 N
-S 150 5 100 -5 1 1 6 N
-S 150 105 100 95 1 1 6 N
-X Pin_1 1 -200 100 150 R 50 50 1 1 P
-X Pin_2 2 300 100 150 L 50 50 1 1 P
-X Pin_3 3 -200 0 150 R 50 50 1 1 P
-X Pin_4 4 300 0 150 L 50 50 1 1 P
-X Pin_5 5 -200 -100 150 R 50 50 1 1 P
-X Pin_6 6 300 -100 150 L 50 50 1 1 P
-ENDDRAW
-ENDDEF
-#
-# Connector_Generic:Conn_02x07_Counter_Clockwise
-#
-DEF Connector_Generic:Conn_02x07_Counter_Clockwise J 0 40 Y N 1 F N
-F0 "J" 50 400 50 H V C CNN
-F1 "Connector_Generic:Conn_02x07_Counter_Clockwise" 50 -400 50 H V C CNN
-F2 "" 0 0 50 H I C CNN
-F3 "" 0 0 50 H I C CNN
-$FPLIST
- Connector*:*_2x??_*
-$ENDFPLIST
-DRAW
-S -50 -295 0 -305 1 1 6 N
-S -50 -195 0 -205 1 1 6 N
-S -50 -95 0 -105 1 1 6 N
-S -50 5 0 -5 1 1 6 N
-S -50 105 0 95 1 1 6 N
-S -50 205 0 195 1 1 6 N
-S -50 305 0 295 1 1 6 N
-S -50 350 150 -350 1 1 10 f
-S 150 -295 100 -305 1 1 6 N
-S 150 -195 100 -205 1 1 6 N
-S 150 -95 100 -105 1 1 6 N
-S 150 5 100 -5 1 1 6 N
-S 150 105 100 95 1 1 6 N
-S 150 205 100 195 1 1 6 N
-S 150 305 100 295 1 1 6 N
-X Pin_1 1 -200 300 150 R 50 50 1 1 P
-X Pin_10 10 300 -100 150 L 50 50 1 1 P
-X Pin_11 11 300 0 150 L 50 50 1 1 P
-X Pin_12 12 300 100 150 L 50 50 1 1 P
-X Pin_13 13 300 200 150 L 50 50 1 1 P
-X Pin_14 14 300 300 150 L 50 50 1 1 P
-X Pin_2 2 -200 200 150 R 50 50 1 1 P
-X Pin_3 3 -200 100 150 R 50 50 1 1 P
-X Pin_4 4 -200 0 150 R 50 50 1 1 P
-X Pin_5 5 -200 -100 150 R 50 50 1 1 P
-X Pin_6 6 -200 -200 150 R 50 50 1 1 P
-X Pin_7 7 -200 -300 150 R 50 50 1 1 P
-X Pin_8 8 300 -300 150 L 50 50 1 1 P
-X Pin_9 9 300 -200 150 L 50 50 1 1 P
-ENDDRAW
-ENDDEF
-#
-# Custom-Parts:BQ2057WSNTR
-#
-DEF Custom-Parts:BQ2057WSNTR U 0 40 Y Y 1 F N
-F0 "U" 0 450 50 H V C CNN
-F1 "Custom-Parts:BQ2057WSNTR" 0 350 50 H V C CNN
+DEF Power-Board-rescue_+12V-power #PWR 0 0 Y Y 1 F P
+F0 "#PWR" 0 -150 50 H I C CNN
+F1 "Power-Board-rescue_+12V-power" 0 140 50 H V C CNN
 F2 "" 0 0 50 H I C CNN
 F3 "" 0 0 50 H I C CNN
 DRAW
-S -250 300 250 -200 0 1 0 f
-X SNS 1 -450 200 200 R 50 50 1 1 I
-X BAT 2 -450 100 200 R 50 50 1 1 I
-X VCC 3 -450 0 200 R 50 50 1 1 I
-X TS 4 -450 -100 200 R 50 50 1 1 I
-X STAT 5 450 -100 200 L 50 50 1 1 I
-X VSS 6 450 0 200 L 50 50 1 1 I
-X CC 7 450 100 200 L 50 50 1 1 I
-X COMP 8 450 200 200 L 50 50 1 1 I
+P 2 0 1 0 -30 50 0 100 N
+P 2 0 1 0 0 0 0 100 N
+P 2 0 1 0 0 100 30 50 N
+X +12V 1 0 0 0 U 50 50 1 1 W N
 ENDDRAW
 ENDDEF
 #
-# Custom-Parts:BQ29209DRBT
+# Power-Board-rescue_+3V3-power
 #
-DEF Custom-Parts:BQ29209DRBT U 0 40 Y Y 1 F N
-F0 "U" 0 400 50 H V C CNN
-F1 "Custom-Parts:BQ29209DRBT" 0 300 50 H V C CNN
+DEF Power-Board-rescue_+3V3-power #PWR 0 0 Y Y 1 F P
+F0 "#PWR" 0 -150 50 H I C CNN
+F1 "Power-Board-rescue_+3V3-power" 0 140 50 H V C CNN
 F2 "" 0 0 50 H I C CNN
 F3 "" 0 0 50 H I C CNN
 DRAW
-S -350 250 350 -250 0 1 0 f
-X VC2 1 -550 150 200 R 50 50 1 1 I
-X VC1 2 -550 50 200 R 50 50 1 1 I
-X VC1_CB 3 -550 -50 200 R 50 50 1 1 I
-X CD 4 -550 -150 200 R 50 50 1 1 I
-X GND 5 550 -150 200 L 50 50 1 1 I
-X ~CB_EN~ 6 550 -50 200 L 50 50 1 1 I
-X VDD 7 550 50 200 L 50 50 1 1 I
-X OUT 8 550 150 200 L 50 50 1 1 I
-X PAD 9 0 -450 200 U 50 50 1 1 I
+P 2 0 1 0 -30 50 0 100 N
+P 2 0 1 0 0 0 0 100 N
+P 2 0 1 0 0 100 30 50 N
+X +3V3 1 0 0 0 U 50 50 1 1 W N
 ENDDRAW
 ENDDEF
 #
-# Custom-Parts:LT6700CS6-1
+# Power-Board-rescue_ATxmega32E5-AU-MCU_Microchip_ATmega
 #
-DEF Custom-Parts:LT6700CS6-1 U 0 40 Y Y 1 F N
-F0 "U" 0 -250 50 H V C CNN
-F1 "Custom-Parts:LT6700CS6-1" 0 250 50 H V C CNN
-F2 "" 0 -200 50 H I C CNN
-F3 "" 0 -200 50 H I C CNN
-DRAW
-S -300 200 300 -200 0 1 0 f
-X OUTA 1 -500 100 200 R 50 50 1 1 I
-X GND 2 -500 0 200 R 50 50 1 1 I
-X +INA 3 -500 -100 200 R 50 50 1 1 I
-X -INB 4 500 -100 200 L 50 50 1 1 I
-X Vs 5 500 0 200 L 50 50 1 1 I
-X OUTB 6 500 100 200 L 50 50 1 1 I
-ENDDRAW
-ENDDEF
-#
-# Custom-Parts:LTC3130-1
-#
-DEF Custom-Parts:LTC3130-1 U 0 40 Y Y 1 F N
-F0 "U" -550 550 60 H V C CNN
-F1 "Custom-Parts:LTC3130-1" 350 -500 60 H V C CNN
-F2 "" 0 0 60 H I C CNN
-F3 "" 0 0 60 H I C CNN
-$FPLIST
- MSOP
-$ENDFPLIST
-DRAW
-S -400 600 400 -400 0 1 0 f
-X GND 1 0 -600 200 U 50 50 1 1 I
-X VS1 10 -600 -200 200 R 50 50 1 1 I
-X MODE 11 -600 -100 200 R 50 50 1 1 I
-X EXTVCC 12 600 100 200 L 50 50 1 1 I
-X PGOOD 13 600 -100 200 L 50 50 1 1 I
-X V_OUT 14 600 300 200 L 50 50 1 1 I
-X BST2 15 300 800 200 D 50 50 1 1 I
-X SW2 16 100 800 200 D 50 50 1 1 I
-X PAD 17 -100 -600 200 U 50 50 1 1 I
-X BST1 2 -300 800 200 D 50 50 1 1 I
-X SW1 3 -100 800 200 D 50 50 1 1 I
-X PV_IN 4 -600 300 200 R 50 50 1 1 I
-X V_IN 5 -600 200 200 R 50 50 1 1 I
-X RUN 6 -600 100 200 R 50 50 1 1 I
-X VCC 7 600 -300 200 L 50 50 1 1 I
-X MPPC 8 -600 0 200 R 50 50 1 1 I
-X VS2 9 -600 -300 200 R 50 50 1 1 I
-ENDDRAW
-ENDDEF
-#
-# Custom-Parts:LTC4417CGN
-#
-DEF Custom-Parts:LTC4417CGN U 0 30 Y Y 1 F N
-F0 "U" 0 1025 50 H V C CNN
-F1 "Custom-Parts:LTC4417CGN" 0 950 50 H V C CNN
-F2 "" 50 -950 50 H I L CNN
-F3 "" 700 -1150 50 H I C CNN
-ALIAS LTC4417IGN LTC4417HGN
-DRAW
-S -350 900 350 -900 0 1 10 f
-X EN 1 -500 -500 150 R 50 50 1 1 I
-X ~VALID1 10 500 -400 150 L 50 50 1 1 C
-X ~VALID2 11 500 -500 150 L 50 50 1 1 C
-X ~VALID3 12 500 -600 150 L 50 50 1 1 C
-X GND 13 0 -1000 100 U 50 50 1 1 W
-X CAS 14 500 -700 150 L 50 50 1 1 O
-X VOUT 15 500 -300 150 L 50 50 1 1 O
-X G3 16 500 0 150 L 50 50 1 1 O
-X VS3 17 500 -100 150 L 50 50 1 1 O
-X G2 18 500 400 150 L 50 50 1 1 O
-X VS2 19 500 300 150 L 50 50 1 1 O
-X ~SHDN 2 -500 -400 150 R 50 50 1 1 I
-X G1 20 500 800 150 L 50 50 1 1 O
-X VS1 21 500 700 150 L 50 50 1 1 O
-X V3 22 -500 0 150 R 50 50 1 1 I
-X V2 23 -500 400 150 R 50 50 1 1 I
-X V1 24 -500 800 150 R 50 50 1 1 I
-X HYS 3 -500 -600 150 R 50 50 1 1 I
-X UV1 4 -500 700 150 R 50 50 1 1 I
-X OV1 5 -500 600 150 R 50 50 1 1 I
-X UV2 6 -500 300 150 R 50 50 1 1 I
-X OV2 7 -500 200 150 R 50 50 1 1 I
-X UV3 8 -500 -100 150 R 50 50 1 1 I
-X OV3 9 -500 -200 150 R 50 50 1 1 I
-ENDDRAW
-ENDDEF
-#
-# Custom-Parts:STS8C5H30L
-#
-DEF Custom-Parts:STS8C5H30L U 0 40 Y Y 1 F N
-F0 "U" 0 -250 50 H V C CNN
-F1 "Custom-Parts:STS8C5H30L" 0 250 50 H V C CNN
-F2 "" 0 0 50 H I C CNN
-F3 "" 0 0 50 H I C CNN
-DRAW
-S -200 200 200 -200 0 1 0 f
-X S1 1 -400 150 200 R 50 50 1 1 I
-X G1 2 -400 50 200 R 50 50 1 1 I
-X S2 3 -400 -50 200 R 50 50 1 1 I
-X G2 4 -400 -150 200 R 50 50 1 1 I
-X D2 5 400 -150 200 L 50 50 1 1 I
-X D2 6 400 -50 200 L 50 50 1 1 I
-X D1 7 400 50 200 L 50 50 1 1 I
-X D1 8 400 150 200 L 50 50 1 1 I
-ENDDRAW
-ENDDEF
-#
-# Custom-Parts:TPS54308DDC
-#
-DEF Custom-Parts:TPS54308DDC U 0 40 Y Y 1 F N
-F0 "U" -400 450 50 H V L CNN
-F1 "Custom-Parts:TPS54308DDC" -400 350 50 H V L CNN
-F2 "SOT-23" 350 -350 50 H I C CIN
-F3 "" 0 0 50 H I C CNN
-$FPLIST
- *SO*
-$ENDFPLIST
-DRAW
-S -400 300 400 -300 0 1 10 f
-X GND 1 0 -400 100 U 50 50 1 1 W
-X SW 2 500 0 100 L 50 50 1 1 O
-X VIN 3 -500 200 100 R 50 50 1 1 I
-X FB 4 500 -200 100 L 50 50 1 1 I
-X EN 5 -500 -200 100 R 50 50 1 1 I
-X BOOT 6 500 200 100 L 50 50 1 1 I
-ENDDRAW
-ENDDEF
-#
-# Device:CP1_Small
-#
-DEF Device:CP1_Small C 0 10 N N 1 F N
-F0 "C" 10 70 50 H V L CNN
-F1 "Device:CP1_Small" 10 -80 50 H V L CNN
-F2 "" 0 0 50 H I C CNN
-F3 "" 0 0 50 H I C CNN
-$FPLIST
- CP_*
-$ENDFPLIST
-DRAW
-A 0 -140 125 1186 614 0 1 12 N -60 -30 60 -30
-P 2 0 1 12 -60 20 60 20 N
-P 2 0 1 0 -50 60 -30 60 N
-P 2 0 1 0 -40 50 -40 70 N
-X ~ 1 0 100 80 D 50 50 1 1 P
-X ~ 2 0 -100 80 U 50 50 1 1 P
-ENDDRAW
-ENDDEF
-#
-# Device:C_Small
-#
-DEF Device:C_Small C 0 10 N N 1 F N
-F0 "C" 10 70 50 H V L CNN
-F1 "Device:C_Small" 10 -80 50 H V L CNN
-F2 "" 0 0 50 H I C CNN
-F3 "" 0 0 50 H I C CNN
-$FPLIST
- C_*
-$ENDFPLIST
-DRAW
-P 2 0 1 13 -60 -20 60 -20 N
-P 2 0 1 12 -60 20 60 20 N
-X ~ 1 0 100 80 D 50 50 1 1 P
-X ~ 2 0 -100 80 U 50 50 1 1 P
-ENDDRAW
-ENDDEF
-#
-# Device:D_Zener
-#
-DEF Device:D_Zener D 0 40 N N 1 F N
-F0 "D" 0 100 50 H V C CNN
-F1 "Device:D_Zener" 0 -100 50 H V C CNN
-F2 "" 0 0 50 H I C CNN
-F3 "" 0 0 50 H I C CNN
-$FPLIST
- TO-???*
- *_Diode_*
- *SingleDiode*
- D_*
-$ENDFPLIST
-DRAW
-P 2 0 1 0 50 0 -50 0 N
-P 3 0 1 8 -50 -50 -50 50 -30 50 N
-P 4 0 1 8 50 -50 50 50 -50 0 50 -50 N
-X K 1 -150 0 100 R 50 50 1 1 P
-X A 2 150 0 100 L 50 50 1 1 P
-ENDDRAW
-ENDDEF
-#
-# Device:Ferrite_Bead_Small
-#
-DEF Device:Ferrite_Bead_Small L 0 0 N Y 1 F N
-F0 "L" 75 50 50 H V L CNN
-F1 "Device:Ferrite_Bead_Small" 75 -50 50 H V L CNN
-F2 "" -70 0 50 V I C CNN
-F3 "" 0 0 50 H I C CNN
-$FPLIST
- Inductor_*
- L_*
- *Ferrite*
-$ENDFPLIST
-DRAW
-P 2 0 1 0 0 -50 0 -31 N
-P 2 0 1 0 0 35 0 51 N
-P 5 0 1 0 -72 11 -44 59 72 -8 44 -56 -72 11 N
-X ~ 1 0 100 50 D 50 50 1 1 P
-X ~ 2 0 -100 50 U 50 50 1 1 P
-ENDDRAW
-ENDDEF
-#
-# Device:LED
-#
-DEF Device:LED D 0 40 N N 1 F N
-F0 "D" 0 100 50 H V C CNN
-F1 "Device:LED" 0 -100 50 H V C CNN
-F2 "" 0 0 50 H I C CNN
-F3 "" 0 0 50 H I C CNN
-$FPLIST
- LED*
- LED_SMD:*
- LED_THT:*
-$ENDFPLIST
-DRAW
-P 2 0 1 8 -50 -50 -50 50 N
-P 2 0 1 0 -50 0 50 0 N
-P 4 0 1 8 50 -50 50 50 -50 0 50 -50 N
-P 5 0 1 0 -120 -30 -180 -90 -150 -90 -180 -90 -180 -60 N
-P 5 0 1 0 -70 -30 -130 -90 -100 -90 -130 -90 -130 -60 N
-X K 1 -150 0 100 R 50 50 1 1 P
-X A 2 150 0 100 L 50 50 1 1 P
-ENDDRAW
-ENDDEF
-#
-# Device:L_Small
-#
-DEF Device:L_Small L 0 10 N N 1 F N
-F0 "L" 30 40 50 H V L CNN
-F1 "Device:L_Small" 30 -40 50 H V L CNN
-F2 "" 0 0 50 H I C CNN
-F3 "" 0 0 50 H I C CNN
-$FPLIST
- Choke_*
- *Coil*
- Inductor_*
- L_*
-$ENDFPLIST
-DRAW
-A 0 -60 20 -899 899 0 1 0 N 0 -80 0 -40
-A 0 -20 20 -899 899 0 1 0 N 0 -40 0 0
-A 0 20 20 -899 899 0 1 0 N 0 0 0 40
-A 0 60 20 -899 899 0 1 0 N 0 40 0 80
-X ~ 1 0 100 20 D 50 50 1 1 P
-X ~ 2 0 -100 20 U 50 50 1 1 P
-ENDDRAW
-ENDDEF
-#
-# Device:Q_PMOS_DGS
-#
-DEF Device:Q_PMOS_DGS Q 0 0 Y N 1 F N
-F0 "Q" 200 50 50 H V L CNN
-F1 "Device:Q_PMOS_DGS" 200 -50 50 H V L CNN
-F2 "" 200 100 50 H I C CNN
-F3 "" 0 0 50 H I C CNN
-DRAW
-C 65 0 111 0 1 10 N
-C 100 -70 11 0 1 0 F
-C 100 70 11 0 1 0 F
-P 2 0 1 0 2 0 10 0 N
-P 2 0 1 0 30 -70 100 -70 N
-P 2 0 1 10 30 -50 30 -90 N
-P 2 0 1 0 30 0 100 0 N
-P 2 0 1 10 30 20 30 -20 N
-P 2 0 1 0 30 70 100 70 N
-P 2 0 1 10 30 90 30 50 N
-P 2 0 1 0 100 -70 100 -100 N
-P 2 0 1 0 100 -70 100 0 N
-P 2 0 1 0 100 100 100 70 N
-P 3 0 1 10 10 75 10 -75 10 -75 N
-P 4 0 1 0 90 0 50 -15 50 15 90 0 F
-P 4 0 1 0 100 -70 130 -70 130 70 100 70 N
-P 4 0 1 0 110 -20 115 -15 145 -15 150 -10 N
-P 4 0 1 0 130 -15 115 10 145 10 130 -15 N
-X D 1 100 200 100 D 50 50 1 1 P
-X G 2 -200 0 200 R 50 50 1 1 I
-X S 3 100 -200 100 U 50 50 1 1 P
-ENDDRAW
-ENDDEF
-#
-# Device:Q_PMOS_SGD
-#
-DEF Device:Q_PMOS_SGD Q 0 0 Y N 1 F N
-F0 "Q" 200 50 50 H V L CNN
-F1 "Device:Q_PMOS_SGD" 200 -50 50 H V L CNN
-F2 "" 200 100 50 H I C CNN
-F3 "" 0 0 50 H I C CNN
-DRAW
-C 65 0 111 0 1 10 N
-C 100 -70 11 0 1 0 F
-C 100 70 11 0 1 0 F
-P 2 0 1 0 2 0 10 0 N
-P 2 0 1 0 30 -70 100 -70 N
-P 2 0 1 10 30 -50 30 -90 N
-P 2 0 1 0 30 0 100 0 N
-P 2 0 1 10 30 20 30 -20 N
-P 2 0 1 0 30 70 100 70 N
-P 2 0 1 10 30 90 30 50 N
-P 2 0 1 0 100 -70 100 -100 N
-P 2 0 1 0 100 -70 100 0 N
-P 2 0 1 0 100 100 100 70 N
-P 3 0 1 10 10 75 10 -75 10 -75 N
-P 4 0 1 0 90 0 50 -15 50 15 90 0 F
-P 4 0 1 0 100 -70 130 -70 130 70 100 70 N
-P 4 0 1 0 110 -20 115 -15 145 -15 150 -10 N
-P 4 0 1 0 130 -15 115 10 145 10 130 -15 N
-X S 1 100 -200 100 U 50 50 1 1 P
-X G 2 -200 0 200 R 50 50 1 1 I
-X D 3 100 200 100 D 50 50 1 1 P
-ENDDRAW
-ENDDEF
-#
-# Device:R
-#
-DEF Device:R R 0 0 N Y 1 F N
-F0 "R" 80 0 50 V V C CNN
-F1 "Device:R" 0 0 50 V V C CNN
-F2 "" -70 0 50 V I C CNN
-F3 "" 0 0 50 H I C CNN
-$FPLIST
- R_*
-$ENDFPLIST
-DRAW
-S -40 -100 40 100 0 1 10 N
-X ~ 1 0 150 50 D 50 50 1 1 P
-X ~ 2 0 -150 50 U 50 50 1 1 P
-ENDDRAW
-ENDDEF
-#
-# Device:R_Small
-#
-DEF Device:R_Small R 0 10 N N 1 F N
-F0 "R" 30 20 50 H V L CNN
-F1 "Device:R_Small" 30 -40 50 H V L CNN
-F2 "" 0 0 50 H I C CNN
-F3 "" 0 0 50 H I C CNN
-$FPLIST
- R_*
-$ENDFPLIST
-DRAW
-S -30 70 30 -70 0 1 8 N
-X ~ 1 0 100 30 D 50 50 1 1 P
-X ~ 2 0 -100 30 U 50 50 1 1 P
-ENDDRAW
-ENDDEF
-#
-# Device:Thermistor_NTC
-#
-DEF Device:Thermistor_NTC TH 0 0 N Y 1 F N
-F0 "TH" -175 0 50 V V C CNN
-F1 "Device:Thermistor_NTC" 125 0 50 V V C CNN
-F2 "" 0 50 50 H I C CNN
-F3 "" 0 50 50 H I C CNN
-$FPLIST
- *NTC*
- *Thermistor*
- PIN?ARRAY*
- bornier*
- *Terminal?Block*
-$ENDFPLIST
-DRAW
-A -126 88 7 -265 818 0 1 0 N -120 85 -125 95
-A -110 85 10 1800 -900 0 1 0 N -120 85 -110 75
-A -110 85 10 -900 0 0 1 0 N -110 75 -100 85
-A -110 110 10 0 900 0 1 0 N -100 110 -110 120
-A -110 110 10 900 1800 0 1 0 N -110 120 -120 110
-A -110 110 10 1800 -900 0 1 0 N -120 110 -110 100
-A -104 119 20 -1075 -253 0 1 0 N -110 100 -85 110
-S -40 100 40 -100 0 1 10 N
-P 2 0 1 0 -100 85 -100 110 N
-P 4 0 1 0 -70 100 -70 60 70 -60 70 -100 N
-P 6 0 1 0 -100 -145 -100 -55 -110 -85 -90 -85 -100 -55 -100 -65 F
-P 6 0 1 0 -70 -55 -70 -145 -80 -115 -60 -115 -70 -145 -70 -135 F
-X ~ 1 0 150 50 D 50 50 1 1 P
-X ~ 2 0 -150 50 U 50 50 1 1 P
-ENDDRAW
-ENDDEF
-#
-# Graphic:SYM_Arrow45_XLarge
-#
-DEF ~Graphic:SYM_Arrow45_XLarge #SYM 0 40 Y Y 1 F N
-F0 "#SYM" 110 100 50 H I C CNN
-F1 "Graphic:SYM_Arrow45_XLarge" 0 -180 50 H I C CNN
-F2 "" 0 0 50 H I C CNN
-F3 "" 0 0 50 H I C CNN
-DRAW
-P 2 0 1 20 120 -120 -140 140 N
-P 4 0 1 0 140 -140 20 -90 90 -20 140 -140 F
-ENDDRAW
-ENDDEF
-#
-# MCU_Microchip_ATmega:ATxmega32E5-AU
-#
-DEF MCU_Microchip_ATmega:ATxmega32E5-AU U 0 20 Y Y 1 F N
+DEF Power-Board-rescue_ATxmega32E5-AU-MCU_Microchip_ATmega U 0 20 Y Y 1 F N
 F0 "U" -600 1050 50 H V L BNN
-F1 "MCU_Microchip_ATmega:ATxmega32E5-AU" 100 -1050 50 H V L TNN
+F1 "Power-Board-rescue_ATxmega32E5-AU-MCU_Microchip_ATmega" 100 -1050 50 H V L TNN
 F2 "Package_QFP:TQFP-32_7x7mm_P0.8mm" 0 0 50 H I C CIN
 F3 "" 0 0 50 H I C CNN
-ALIAS ATxmega16E5-AU ATxmega32E5-AU
 $FPLIST
  TQFP*7x7mm*P0.8mm*
 $ENDFPLIST
@@ -598,24 +78,90 @@ X PC7 9 700 -800 100 L 50 50 1 1 B
 ENDDRAW
 ENDDEF
 #
-# Mechanical:Heatsink
+# Power-Board-rescue_BQ2057WSNTR-Custom-Parts
 #
-DEF Mechanical:Heatsink HS 0 40 Y Y 1 F N
-F0 "HS" 0 200 50 H V C CNN
-F1 "Mechanical:Heatsink" 0 -50 50 H V C CNN
-F2 "" 12 0 50 H I C CNN
-F3 "" 12 0 50 H I C CNN
+DEF Power-Board-rescue_BQ2057WSNTR-Custom-Parts U 0 40 Y Y 1 F N
+F0 "U" 0 450 50 H V C CNN
+F1 "Power-Board-rescue_BQ2057WSNTR-Custom-Parts" 0 350 50 H V C CNN
+F2 "" 0 0 50 H I C CNN
+F3 "" 0 0 50 H I C CNN
 DRAW
-P 10 0 1 10 -13 50 -38 50 -38 150 -63 150 -63 50 -88 50 -88 150 -113 150 -113 0 -38 0 f
-P 13 0 1 10 -13 50 -13 150 12 150 12 50 37 50 37 150 62 150 62 50 87 50 87 150 112 150 112 0 -38 0 f
+S -250 300 250 -200 0 1 0 f
+X SNS 1 -450 200 200 R 50 50 1 1 I
+X BAT 2 -450 100 200 R 50 50 1 1 I
+X VCC 3 -450 0 200 R 50 50 1 1 I
+X TS 4 -450 -100 200 R 50 50 1 1 I
+X STAT 5 450 -100 200 L 50 50 1 1 I
+X VSS 6 450 0 200 L 50 50 1 1 I
+X CC 7 450 100 200 L 50 50 1 1 I
+X COMP 8 450 200 200 L 50 50 1 1 I
 ENDDRAW
 ENDDEF
 #
-# Power-Board-rescue:Conn_01x02-Connector
+# Power-Board-rescue_BQ29209DRBT-Custom-Parts
 #
-DEF Power-Board-rescue:Conn_01x02-Connector J 0 40 Y N 1 F N
+DEF Power-Board-rescue_BQ29209DRBT-Custom-Parts U 0 40 Y Y 1 F N
+F0 "U" 0 400 50 H V C CNN
+F1 "Power-Board-rescue_BQ29209DRBT-Custom-Parts" 0 300 50 H V C CNN
+F2 "" 0 0 50 H I C CNN
+F3 "" 0 0 50 H I C CNN
+DRAW
+S -350 250 350 -250 0 1 0 f
+X VC2 1 -550 150 200 R 50 50 1 1 I
+X VC1 2 -550 50 200 R 50 50 1 1 I
+X VC1_CB 3 -550 -50 200 R 50 50 1 1 I
+X CD 4 -550 -150 200 R 50 50 1 1 I
+X GND 5 550 -150 200 L 50 50 1 1 I
+X ~CB_EN~ 6 550 -50 200 L 50 50 1 1 I
+X VDD 7 550 50 200 L 50 50 1 1 I
+X OUT 8 550 150 200 L 50 50 1 1 I
+X PAD 9 0 -450 200 U 50 50 1 1 I
+ENDDRAW
+ENDDEF
+#
+# Power-Board-rescue_CP1_Small-Device
+#
+DEF Power-Board-rescue_CP1_Small-Device C 0 10 N N 1 F N
+F0 "C" 10 70 50 H V L CNN
+F1 "Power-Board-rescue_CP1_Small-Device" 10 -80 50 H V L CNN
+F2 "" 0 0 50 H I C CNN
+F3 "" 0 0 50 H I C CNN
+$FPLIST
+ CP_*
+$ENDFPLIST
+DRAW
+A 0 -140 125 1186 614 0 1 12 N -60 -30 60 -30
+P 2 0 1 12 -60 20 60 20 N
+P 2 0 1 0 -50 60 -30 60 N
+P 2 0 1 0 -40 50 -40 70 N
+X ~ 1 0 100 80 D 50 50 1 1 P
+X ~ 2 0 -100 80 U 50 50 1 1 P
+ENDDRAW
+ENDDEF
+#
+# Power-Board-rescue_C_Small-Device
+#
+DEF Power-Board-rescue_C_Small-Device C 0 10 N N 1 F N
+F0 "C" 10 70 50 H V L CNN
+F1 "Power-Board-rescue_C_Small-Device" 10 -80 50 H V L CNN
+F2 "" 0 0 50 H I C CNN
+F3 "" 0 0 50 H I C CNN
+$FPLIST
+ C_*
+$ENDFPLIST
+DRAW
+P 2 0 1 13 -60 -20 60 -20 N
+P 2 0 1 12 -60 20 60 20 N
+X ~ 1 0 100 80 D 50 50 1 1 P
+X ~ 2 0 -100 80 U 50 50 1 1 P
+ENDDRAW
+ENDDEF
+#
+# Power-Board-rescue_Conn_01x02-Connector-Power-Board-rescue
+#
+DEF Power-Board-rescue_Conn_01x02-Connector-Power-Board-rescue J 0 40 Y N 1 F N
 F0 "J" 0 100 50 H V C CNN
-F1 "Power-Board-rescue:Conn_01x02-Connector" 0 -200 50 H V C CNN
+F1 "Power-Board-rescue_Conn_01x02-Connector-Power-Board-rescue" 0 -200 50 H V C CNN
 F2 "" 0 0 50 H I C CNN
 F3 "" 0 0 50 H I C CNN
 $FPLIST
@@ -635,27 +181,263 @@ X Pin_2 2 -200 -100 150 R 50 50 1 1 P
 ENDDRAW
 ENDDEF
 #
-# Power-Board-rescue:Mounting_Hole-Mechanical
+# Power-Board-rescue_Conn_01x02-Connector_Generic
 #
-DEF Power-Board-rescue:Mounting_Hole-Mechanical MK 0 40 Y Y 1 F N
-F0 "MK" 0 200 50 H V C CNN
-F1 "Power-Board-rescue:Mounting_Hole-Mechanical" 0 125 50 H V C CNN
+DEF Power-Board-rescue_Conn_01x02-Connector_Generic J 0 40 Y N 1 F N
+F0 "J" 0 100 50 H V C CNN
+F1 "Power-Board-rescue_Conn_01x02-Connector_Generic" 0 -200 50 H V C CNN
 F2 "" 0 0 50 H I C CNN
 F3 "" 0 0 50 H I C CNN
 $FPLIST
- Mounting?Hole*
- Hole*
+ Connector*:*_1x??_*
 $ENDFPLIST
 DRAW
-C 0 0 50 0 1 50 N
+S -50 -95 0 -105 1 1 6 N
+S -50 5 0 -5 1 1 6 N
+S -50 50 50 -150 1 1 10 f
+X Pin_1 1 -200 0 150 R 50 50 1 1 P
+X Pin_2 2 -200 -100 150 R 50 50 1 1 P
 ENDDRAW
 ENDDEF
 #
-# SparkFun-IC-Power:LTC4150
+# Power-Board-rescue_Conn_01x03-Connector_Generic
 #
-DEF SparkFun-IC-Power:LTC4150 U 0 40 Y Y 1 L N
+DEF Power-Board-rescue_Conn_01x03-Connector_Generic J 0 40 Y N 1 F N
+F0 "J" 0 200 50 H V C CNN
+F1 "Power-Board-rescue_Conn_01x03-Connector_Generic" 0 -200 50 H V C CNN
+F2 "" 0 0 50 H I C CNN
+F3 "" 0 0 50 H I C CNN
+$FPLIST
+ Connector*:*_1x??_*
+$ENDFPLIST
+DRAW
+S -50 -95 0 -105 1 1 6 N
+S -50 5 0 -5 1 1 6 N
+S -50 105 0 95 1 1 6 N
+S -50 150 50 -150 1 1 10 f
+X Pin_1 1 -200 100 150 R 50 50 1 1 P
+X Pin_2 2 -200 0 150 R 50 50 1 1 P
+X Pin_3 3 -200 -100 150 R 50 50 1 1 P
+ENDDRAW
+ENDDEF
+#
+# Power-Board-rescue_Conn_02x03_Odd_Even-Connector_Generic
+#
+DEF Power-Board-rescue_Conn_02x03_Odd_Even-Connector_Generic J 0 40 Y N 1 F N
+F0 "J" 50 200 50 H V C CNN
+F1 "Power-Board-rescue_Conn_02x03_Odd_Even-Connector_Generic" 50 -200 50 H V C CNN
+F2 "" 0 0 50 H I C CNN
+F3 "" 0 0 50 H I C CNN
+$FPLIST
+ Connector*:*_2x??_*
+$ENDFPLIST
+DRAW
+S -50 -95 0 -105 1 1 6 N
+S -50 5 0 -5 1 1 6 N
+S -50 105 0 95 1 1 6 N
+S -50 150 150 -150 1 1 10 f
+S 150 -95 100 -105 1 1 6 N
+S 150 5 100 -5 1 1 6 N
+S 150 105 100 95 1 1 6 N
+X Pin_1 1 -200 100 150 R 50 50 1 1 P
+X Pin_2 2 300 100 150 L 50 50 1 1 P
+X Pin_3 3 -200 0 150 R 50 50 1 1 P
+X Pin_4 4 300 0 150 L 50 50 1 1 P
+X Pin_5 5 -200 -100 150 R 50 50 1 1 P
+X Pin_6 6 300 -100 150 L 50 50 1 1 P
+ENDDRAW
+ENDDEF
+#
+# Power-Board-rescue_Conn_02x07_Counter_Clockwise-Connector_Generic
+#
+DEF Power-Board-rescue_Conn_02x07_Counter_Clockwise-Connector_Generic J 0 40 Y N 1 F N
+F0 "J" 50 400 50 H V C CNN
+F1 "Power-Board-rescue_Conn_02x07_Counter_Clockwise-Connector_Generic" 50 -400 50 H V C CNN
+F2 "" 0 0 50 H I C CNN
+F3 "" 0 0 50 H I C CNN
+$FPLIST
+ Connector*:*_2x??_*
+$ENDFPLIST
+DRAW
+S -50 -295 0 -305 1 1 6 N
+S -50 -195 0 -205 1 1 6 N
+S -50 -95 0 -105 1 1 6 N
+S -50 5 0 -5 1 1 6 N
+S -50 105 0 95 1 1 6 N
+S -50 205 0 195 1 1 6 N
+S -50 305 0 295 1 1 6 N
+S -50 350 150 -350 1 1 10 f
+S 150 -295 100 -305 1 1 6 N
+S 150 -195 100 -205 1 1 6 N
+S 150 -95 100 -105 1 1 6 N
+S 150 5 100 -5 1 1 6 N
+S 150 105 100 95 1 1 6 N
+S 150 205 100 195 1 1 6 N
+S 150 305 100 295 1 1 6 N
+X Pin_1 1 -200 300 150 R 50 50 1 1 P
+X Pin_10 10 300 -100 150 L 50 50 1 1 P
+X Pin_11 11 300 0 150 L 50 50 1 1 P
+X Pin_12 12 300 100 150 L 50 50 1 1 P
+X Pin_13 13 300 200 150 L 50 50 1 1 P
+X Pin_14 14 300 300 150 L 50 50 1 1 P
+X Pin_2 2 -200 200 150 R 50 50 1 1 P
+X Pin_3 3 -200 100 150 R 50 50 1 1 P
+X Pin_4 4 -200 0 150 R 50 50 1 1 P
+X Pin_5 5 -200 -100 150 R 50 50 1 1 P
+X Pin_6 6 -200 -200 150 R 50 50 1 1 P
+X Pin_7 7 -200 -300 150 R 50 50 1 1 P
+X Pin_8 8 300 -300 150 L 50 50 1 1 P
+X Pin_9 9 300 -200 150 L 50 50 1 1 P
+ENDDRAW
+ENDDEF
+#
+# Power-Board-rescue_D_Zener-Device
+#
+DEF Power-Board-rescue_D_Zener-Device D 0 40 N N 1 F N
+F0 "D" 0 100 50 H V C CNN
+F1 "Power-Board-rescue_D_Zener-Device" 0 -100 50 H V C CNN
+F2 "" 0 0 50 H I C CNN
+F3 "" 0 0 50 H I C CNN
+$FPLIST
+ TO-???*
+ *_Diode_*
+ *SingleDiode*
+ D_*
+$ENDFPLIST
+DRAW
+P 2 0 1 0 50 0 -50 0 N
+P 3 0 1 8 -50 -50 -50 50 -30 50 N
+P 4 0 1 8 50 -50 50 50 -50 0 50 -50 N
+X K 1 -150 0 100 R 50 50 1 1 P
+X A 2 150 0 100 L 50 50 1 1 P
+ENDDRAW
+ENDDEF
+#
+# Power-Board-rescue_Ferrite_Bead_Small-Device
+#
+DEF Power-Board-rescue_Ferrite_Bead_Small-Device L 0 0 N Y 1 F N
+F0 "L" 75 50 50 H V L CNN
+F1 "Power-Board-rescue_Ferrite_Bead_Small-Device" 75 -50 50 H V L CNN
+F2 "" -70 0 50 V I C CNN
+F3 "" 0 0 50 H I C CNN
+$FPLIST
+ Inductor_*
+ L_*
+ *Ferrite*
+$ENDFPLIST
+DRAW
+P 2 0 1 0 0 -50 0 -31 N
+P 2 0 1 0 0 35 0 51 N
+P 5 0 1 0 -72 11 -44 59 72 -8 44 -56 -72 11 N
+X ~ 1 0 100 50 D 50 50 1 1 P
+X ~ 2 0 -100 50 U 50 50 1 1 P
+ENDDRAW
+ENDDEF
+#
+# Power-Board-rescue_GND-power
+#
+DEF Power-Board-rescue_GND-power #PWR 0 0 Y Y 1 F P
+F0 "#PWR" 0 -250 50 H I C CNN
+F1 "Power-Board-rescue_GND-power" 0 -150 50 H V C CNN
+F2 "" 0 0 50 H I C CNN
+F3 "" 0 0 50 H I C CNN
+DRAW
+P 6 0 1 0 0 0 0 -50 50 -50 0 -100 -50 -50 0 -50 N
+X GND 1 0 0 0 D 50 50 1 1 W N
+ENDDRAW
+ENDDEF
+#
+# Power-Board-rescue_Heatsink-Mechanical
+#
+DEF Power-Board-rescue_Heatsink-Mechanical HS 0 40 Y Y 1 F N
+F0 "HS" 0 200 50 H V C CNN
+F1 "Power-Board-rescue_Heatsink-Mechanical" 0 -50 50 H V C CNN
+F2 "" 12 0 50 H I C CNN
+F3 "" 12 0 50 H I C CNN
+DRAW
+P 10 0 1 10 -13 50 -38 50 -38 150 -63 150 -63 50 -88 50 -88 150 -113 150 -113 0 -38 0 f
+P 13 0 1 10 -13 50 -13 150 12 150 12 50 37 50 37 150 62 150 62 50 87 50 87 150 112 150 112 0 -38 0 f
+ENDDRAW
+ENDDEF
+#
+# Power-Board-rescue_LED-Device
+#
+DEF Power-Board-rescue_LED-Device D 0 40 N N 1 F N
+F0 "D" 0 100 50 H V C CNN
+F1 "Power-Board-rescue_LED-Device" 0 -100 50 H V C CNN
+F2 "" 0 0 50 H I C CNN
+F3 "" 0 0 50 H I C CNN
+$FPLIST
+ LED*
+ LED_SMD:*
+ LED_THT:*
+$ENDFPLIST
+DRAW
+P 2 0 1 8 -50 -50 -50 50 N
+P 2 0 1 0 -50 0 50 0 N
+P 4 0 1 8 50 -50 50 50 -50 0 50 -50 N
+P 5 0 1 0 -120 -30 -180 -90 -150 -90 -180 -90 -180 -60 N
+P 5 0 1 0 -70 -30 -130 -90 -100 -90 -130 -90 -130 -60 N
+X K 1 -150 0 100 R 50 50 1 1 P
+X A 2 150 0 100 L 50 50 1 1 P
+ENDDRAW
+ENDDEF
+#
+# Power-Board-rescue_LT6700CS6-1-Custom-Parts
+#
+DEF Power-Board-rescue_LT6700CS6-1-Custom-Parts U 0 40 Y Y 1 F N
+F0 "U" 0 -250 50 H V C CNN
+F1 "Power-Board-rescue_LT6700CS6-1-Custom-Parts" 0 250 50 H V C CNN
+F2 "" 0 -200 50 H I C CNN
+F3 "" 0 -200 50 H I C CNN
+DRAW
+S -300 200 300 -200 0 1 0 f
+X OUTA 1 -500 100 200 R 50 50 1 1 I
+X GND 2 -500 0 200 R 50 50 1 1 I
+X +INA 3 -500 -100 200 R 50 50 1 1 I
+X -INB 4 500 -100 200 L 50 50 1 1 I
+X Vs 5 500 0 200 L 50 50 1 1 I
+X OUTB 6 500 100 200 L 50 50 1 1 I
+ENDDRAW
+ENDDEF
+#
+# Power-Board-rescue_LTC3130-1-Custom-Parts
+#
+DEF Power-Board-rescue_LTC3130-1-Custom-Parts U 0 40 Y Y 1 F N
+F0 "U" -550 550 60 H V C CNN
+F1 "Power-Board-rescue_LTC3130-1-Custom-Parts" 350 -500 60 H V C CNN
+F2 "" 0 0 60 H I C CNN
+F3 "" 0 0 60 H I C CNN
+$FPLIST
+ MSOP
+$ENDFPLIST
+DRAW
+S -400 600 400 -400 0 1 0 f
+X GND 1 0 -600 200 U 50 50 1 1 I
+X VS1 10 -600 -200 200 R 50 50 1 1 I
+X MODE 11 -600 -100 200 R 50 50 1 1 I
+X EXTVCC 12 600 100 200 L 50 50 1 1 I
+X PGOOD 13 600 -100 200 L 50 50 1 1 I
+X V_OUT 14 600 300 200 L 50 50 1 1 I
+X BST2 15 300 800 200 D 50 50 1 1 I
+X SW2 16 100 800 200 D 50 50 1 1 I
+X PAD 17 -100 -600 200 U 50 50 1 1 I
+X BST1 2 -300 800 200 D 50 50 1 1 I
+X SW1 3 -100 800 200 D 50 50 1 1 I
+X PV_IN 4 -600 300 200 R 50 50 1 1 I
+X V_IN 5 -600 200 200 R 50 50 1 1 I
+X RUN 6 -600 100 200 R 50 50 1 1 I
+X VCC 7 600 -300 200 L 50 50 1 1 I
+X MPPC 8 -600 0 200 R 50 50 1 1 I
+X VS2 9 -600 -300 200 R 50 50 1 1 I
+ENDDRAW
+ENDDEF
+#
+# Power-Board-rescue_LTC4150-SparkFun-IC-Power
+#
+DEF Power-Board-rescue_LTC4150-SparkFun-IC-Power U 0 40 Y Y 1 L N
 F0 "U" -400 550 45 H V L BNN
-F1 "SparkFun-IC-Power:LTC4150" -400 -500 45 H V L BNN
+F1 "Power-Board-rescue_LTC4150-SparkFun-IC-Power" -400 -500 45 H V L BNN
 F2 "MSOP10" 0 600 20 H I C CNN
 F3 "" 0 0 60 H I C CNN
 F4 "IC-11785" 0 650 60 H V C CNN
@@ -677,47 +459,262 @@ X ~CLR~ 9 600 200 200 L 40 40 1 1 B
 ENDDRAW
 ENDDEF
 #
-# power:+12V
+# Power-Board-rescue_LTC4417CGN-Custom-Parts
 #
-DEF power:+12V #PWR 0 0 Y Y 1 F P
-F0 "#PWR" 0 -150 50 H I C CNN
-F1 "power:+12V" 0 140 50 H V C CNN
-F2 "" 0 0 50 H I C CNN
-F3 "" 0 0 50 H I C CNN
+DEF Power-Board-rescue_LTC4417CGN-Custom-Parts U 0 30 Y Y 1 F N
+F0 "U" 0 1025 50 H V C CNN
+F1 "Power-Board-rescue_LTC4417CGN-Custom-Parts" 0 950 50 H V C CNN
+F2 "" 50 -950 50 H I L CNN
+F3 "" 700 -1150 50 H I C CNN
 DRAW
-P 2 0 1 0 -30 50 0 100 N
-P 2 0 1 0 0 0 0 100 N
-P 2 0 1 0 0 100 30 50 N
-X +12V 1 0 0 0 U 50 50 1 1 W N
+S -350 900 350 -900 0 1 10 f
+X EN 1 -500 -500 150 R 50 50 1 1 I
+X ~VALID1 10 500 -400 150 L 50 50 1 1 C
+X ~VALID2 11 500 -500 150 L 50 50 1 1 C
+X ~VALID3 12 500 -600 150 L 50 50 1 1 C
+X GND 13 0 -1000 100 U 50 50 1 1 W
+X CAS 14 500 -700 150 L 50 50 1 1 O
+X VOUT 15 500 -300 150 L 50 50 1 1 O
+X G3 16 500 0 150 L 50 50 1 1 O
+X VS3 17 500 -100 150 L 50 50 1 1 O
+X G2 18 500 400 150 L 50 50 1 1 O
+X VS2 19 500 300 150 L 50 50 1 1 O
+X ~SHDN 2 -500 -400 150 R 50 50 1 1 I
+X G1 20 500 800 150 L 50 50 1 1 O
+X VS1 21 500 700 150 L 50 50 1 1 O
+X V3 22 -500 0 150 R 50 50 1 1 I
+X V2 23 -500 400 150 R 50 50 1 1 I
+X V1 24 -500 800 150 R 50 50 1 1 I
+X HYS 3 -500 -600 150 R 50 50 1 1 I
+X UV1 4 -500 700 150 R 50 50 1 1 I
+X OV1 5 -500 600 150 R 50 50 1 1 I
+X UV2 6 -500 300 150 R 50 50 1 1 I
+X OV2 7 -500 200 150 R 50 50 1 1 I
+X UV3 8 -500 -100 150 R 50 50 1 1 I
+X OV3 9 -500 -200 150 R 50 50 1 1 I
 ENDDRAW
 ENDDEF
 #
-# power:+3V3
+# Power-Board-rescue_L_Small-Device
 #
-DEF power:+3V3 #PWR 0 0 Y Y 1 F P
-F0 "#PWR" 0 -150 50 H I C CNN
-F1 "power:+3V3" 0 140 50 H V C CNN
+DEF Power-Board-rescue_L_Small-Device L 0 10 N N 1 F N
+F0 "L" 30 40 50 H V L CNN
+F1 "Power-Board-rescue_L_Small-Device" 30 -40 50 H V L CNN
 F2 "" 0 0 50 H I C CNN
 F3 "" 0 0 50 H I C CNN
-ALIAS +3.3V
+$FPLIST
+ Choke_*
+ *Coil*
+ Inductor_*
+ L_*
+$ENDFPLIST
 DRAW
-P 2 0 1 0 -30 50 0 100 N
-P 2 0 1 0 0 0 0 100 N
-P 2 0 1 0 0 100 30 50 N
-X +3V3 1 0 0 0 U 50 50 1 1 W N
+A 0 -60 20 -899 899 0 1 0 N 0 -80 0 -40
+A 0 -20 20 -899 899 0 1 0 N 0 -40 0 0
+A 0 20 20 -899 899 0 1 0 N 0 0 0 40
+A 0 60 20 -899 899 0 1 0 N 0 40 0 80
+X ~ 1 0 100 20 D 50 50 1 1 P
+X ~ 2 0 -100 20 U 50 50 1 1 P
 ENDDRAW
 ENDDEF
 #
-# power:GND
+# Power-Board-rescue_Mounting_Hole-Mechanical-Power-Board-rescue
 #
-DEF power:GND #PWR 0 0 Y Y 1 F P
-F0 "#PWR" 0 -250 50 H I C CNN
-F1 "power:GND" 0 -150 50 H V C CNN
+DEF Power-Board-rescue_Mounting_Hole-Mechanical-Power-Board-rescue MK 0 40 Y Y 1 F N
+F0 "MK" 0 200 50 H V C CNN
+F1 "Power-Board-rescue_Mounting_Hole-Mechanical-Power-Board-rescue" 0 125 50 H V C CNN
+F2 "" 0 0 50 H I C CNN
+F3 "" 0 0 50 H I C CNN
+$FPLIST
+ Mounting?Hole*
+ Hole*
+$ENDFPLIST
+DRAW
+C 0 0 50 0 1 50 N
+ENDDRAW
+ENDDEF
+#
+# Power-Board-rescue_Q_PMOS_DGS-Device
+#
+DEF Power-Board-rescue_Q_PMOS_DGS-Device Q 0 0 Y N 1 F N
+F0 "Q" 200 50 50 H V L CNN
+F1 "Power-Board-rescue_Q_PMOS_DGS-Device" 200 -50 50 H V L CNN
+F2 "" 200 100 50 H I C CNN
+F3 "" 0 0 50 H I C CNN
+DRAW
+C 65 0 111 0 1 10 N
+C 100 -70 11 0 1 0 F
+C 100 70 11 0 1 0 F
+P 2 0 1 0 2 0 10 0 N
+P 2 0 1 0 30 -70 100 -70 N
+P 2 0 1 10 30 -50 30 -90 N
+P 2 0 1 0 30 0 100 0 N
+P 2 0 1 10 30 20 30 -20 N
+P 2 0 1 0 30 70 100 70 N
+P 2 0 1 10 30 90 30 50 N
+P 2 0 1 0 100 -70 100 -100 N
+P 2 0 1 0 100 -70 100 0 N
+P 2 0 1 0 100 100 100 70 N
+P 3 0 1 10 10 75 10 -75 10 -75 N
+P 4 0 1 0 90 0 50 -15 50 15 90 0 F
+P 4 0 1 0 100 -70 130 -70 130 70 100 70 N
+P 4 0 1 0 110 -20 115 -15 145 -15 150 -10 N
+P 4 0 1 0 130 -15 115 10 145 10 130 -15 N
+X D 1 100 200 100 D 50 50 1 1 P
+X G 2 -200 0 200 R 50 50 1 1 I
+X S 3 100 -200 100 U 50 50 1 1 P
+ENDDRAW
+ENDDEF
+#
+# Power-Board-rescue_Q_PMOS_SGD-Device
+#
+DEF Power-Board-rescue_Q_PMOS_SGD-Device Q 0 0 Y N 1 F N
+F0 "Q" 200 50 50 H V L CNN
+F1 "Power-Board-rescue_Q_PMOS_SGD-Device" 200 -50 50 H V L CNN
+F2 "" 200 100 50 H I C CNN
+F3 "" 0 0 50 H I C CNN
+DRAW
+C 65 0 111 0 1 10 N
+C 100 -70 11 0 1 0 F
+C 100 70 11 0 1 0 F
+P 2 0 1 0 2 0 10 0 N
+P 2 0 1 0 30 -70 100 -70 N
+P 2 0 1 10 30 -50 30 -90 N
+P 2 0 1 0 30 0 100 0 N
+P 2 0 1 10 30 20 30 -20 N
+P 2 0 1 0 30 70 100 70 N
+P 2 0 1 10 30 90 30 50 N
+P 2 0 1 0 100 -70 100 -100 N
+P 2 0 1 0 100 -70 100 0 N
+P 2 0 1 0 100 100 100 70 N
+P 3 0 1 10 10 75 10 -75 10 -75 N
+P 4 0 1 0 90 0 50 -15 50 15 90 0 F
+P 4 0 1 0 100 -70 130 -70 130 70 100 70 N
+P 4 0 1 0 110 -20 115 -15 145 -15 150 -10 N
+P 4 0 1 0 130 -15 115 10 145 10 130 -15 N
+X S 1 100 -200 100 U 50 50 1 1 P
+X G 2 -200 0 200 R 50 50 1 1 I
+X D 3 100 200 100 D 50 50 1 1 P
+ENDDRAW
+ENDDEF
+#
+# Power-Board-rescue_R-Device
+#
+DEF Power-Board-rescue_R-Device R 0 0 N Y 1 F N
+F0 "R" 80 0 50 V V C CNN
+F1 "Power-Board-rescue_R-Device" 0 0 50 V V C CNN
+F2 "" -70 0 50 V I C CNN
+F3 "" 0 0 50 H I C CNN
+$FPLIST
+ R_*
+$ENDFPLIST
+DRAW
+S -40 -100 40 100 0 1 10 N
+X ~ 1 0 150 50 D 50 50 1 1 P
+X ~ 2 0 -150 50 U 50 50 1 1 P
+ENDDRAW
+ENDDEF
+#
+# Power-Board-rescue_R_Small-Device
+#
+DEF Power-Board-rescue_R_Small-Device R 0 10 N N 1 F N
+F0 "R" 30 20 50 H V L CNN
+F1 "Power-Board-rescue_R_Small-Device" 30 -40 50 H V L CNN
+F2 "" 0 0 50 H I C CNN
+F3 "" 0 0 50 H I C CNN
+$FPLIST
+ R_*
+$ENDFPLIST
+DRAW
+S -30 70 30 -70 0 1 8 N
+X ~ 1 0 100 30 D 50 50 1 1 P
+X ~ 2 0 -100 30 U 50 50 1 1 P
+ENDDRAW
+ENDDEF
+#
+# Power-Board-rescue_STS8C5H30L-Custom-Parts
+#
+DEF Power-Board-rescue_STS8C5H30L-Custom-Parts U 0 40 Y Y 1 F N
+F0 "U" 0 -250 50 H V C CNN
+F1 "Power-Board-rescue_STS8C5H30L-Custom-Parts" 0 250 50 H V C CNN
 F2 "" 0 0 50 H I C CNN
 F3 "" 0 0 50 H I C CNN
 DRAW
-P 6 0 1 0 0 0 0 -50 50 -50 0 -100 -50 -50 0 -50 N
-X GND 1 0 0 0 D 50 50 1 1 W N
+S -200 200 200 -200 0 1 0 f
+X S1 1 -400 150 200 R 50 50 1 1 I
+X G1 2 -400 50 200 R 50 50 1 1 I
+X S2 3 -400 -50 200 R 50 50 1 1 I
+X G2 4 -400 -150 200 R 50 50 1 1 I
+X D2 5 400 -150 200 L 50 50 1 1 I
+X D2 6 400 -50 200 L 50 50 1 1 I
+X D1 7 400 50 200 L 50 50 1 1 I
+X D1 8 400 150 200 L 50 50 1 1 I
+ENDDRAW
+ENDDEF
+#
+# Power-Board-rescue_SYM_Arrow45_XLarge-Graphic
+#
+DEF ~Power-Board-rescue_SYM_Arrow45_XLarge-Graphic #SYM 0 40 Y Y 1 F N
+F0 "#SYM" 110 100 50 H I C CNN
+F1 "Power-Board-rescue_SYM_Arrow45_XLarge-Graphic" 0 -180 50 H I C CNN
+F2 "" 0 0 50 H I C CNN
+F3 "" 0 0 50 H I C CNN
+DRAW
+P 2 0 1 20 120 -120 -140 140 N
+P 4 0 1 0 140 -140 20 -90 90 -20 140 -140 F
+ENDDRAW
+ENDDEF
+#
+# Power-Board-rescue_TPS54308DDC-Custom-Parts
+#
+DEF Power-Board-rescue_TPS54308DDC-Custom-Parts U 0 40 Y Y 1 F N
+F0 "U" -400 450 50 H V L CNN
+F1 "Power-Board-rescue_TPS54308DDC-Custom-Parts" -400 350 50 H V L CNN
+F2 "SOT-23" 350 -350 50 H I C CIN
+F3 "" 0 0 50 H I C CNN
+$FPLIST
+ *SO*
+$ENDFPLIST
+DRAW
+S -400 300 400 -300 0 1 10 f
+X GND 1 0 -400 100 U 50 50 1 1 W
+X SW 2 500 0 100 L 50 50 1 1 O
+X VIN 3 -500 200 100 R 50 50 1 1 I
+X FB 4 500 -200 100 L 50 50 1 1 I
+X EN 5 -500 -200 100 R 50 50 1 1 I
+X BOOT 6 500 200 100 L 50 50 1 1 I
+ENDDRAW
+ENDDEF
+#
+# Power-Board-rescue_Thermistor_NTC-Device
+#
+DEF Power-Board-rescue_Thermistor_NTC-Device TH 0 0 N Y 1 F N
+F0 "TH" -175 0 50 V V C CNN
+F1 "Power-Board-rescue_Thermistor_NTC-Device" 125 0 50 V V C CNN
+F2 "" 0 50 50 H I C CNN
+F3 "" 0 50 50 H I C CNN
+$FPLIST
+ *NTC*
+ *Thermistor*
+ PIN?ARRAY*
+ bornier*
+ *Terminal?Block*
+$ENDFPLIST
+DRAW
+A -126 88 7 -265 818 0 1 0 N -120 85 -125 95
+A -110 85 10 1800 -900 0 1 0 N -120 85 -110 75
+A -110 85 10 -900 0 0 1 0 N -110 75 -100 85
+A -110 110 10 0 900 0 1 0 N -100 110 -110 120
+A -110 110 10 900 1800 0 1 0 N -110 120 -120 110
+A -110 110 10 1800 -900 0 1 0 N -120 110 -110 100
+A -104 119 20 -1075 -253 0 1 0 N -110 100 -85 110
+S -40 100 40 -100 0 1 10 N
+P 2 0 1 0 -100 85 -100 110 N
+P 4 0 1 0 -70 100 -70 60 70 -60 70 -100 N
+P 6 0 1 0 -100 -145 -100 -55 -110 -85 -90 -85 -100 -55 -100 -65 F
+P 6 0 1 0 -70 -55 -70 -145 -80 -115 -60 -115 -70 -145 -70 -135 F
+X ~ 1 0 150 50 D 50 50 1 1 P
+X ~ 2 0 -150 50 U 50 50 1 1 P
 ENDDRAW
 ENDDEF
 #
