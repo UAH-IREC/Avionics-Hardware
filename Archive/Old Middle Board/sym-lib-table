@@ -1,0 +1,5 @@
+(sym_lib_table
+  (lib (name Middle-Board-rescue)(type Legacy)(uri "${KIPRJMOD}/Middle Board-rescue.lib")(options "")(descr ""))
+  (lib (name Custom-Parts)(type Legacy)(uri "${KIPRJMOD}/Custom Parts/Custom Parts.lib")(options "")(descr ""))
+  (lib (name Misc-components)(type Legacy)(uri "${KIPRJMOD}/Misc components.lib")(options "")(descr ""))
+)
