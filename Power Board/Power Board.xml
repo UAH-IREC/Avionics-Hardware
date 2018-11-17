@@ -1,0 +1,2377 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<export version="D">
+  <design>
+    <source>/Users/Thomas/Desktop/Avionics-Hardware/Power Board/Power Board.sch</source>
+    <date>Friday, November 16, 2018 at 03:23:12 PM</date>
+    <tool>Eeschema (5.0.0-3-g5ebb6b6)</tool>
+    <sheet number="1" name="/" tstamps="/">
+      <title_block>
+        <title>Avionics Power Board</title>
+        <company>UAH SHC Spaceport America Cup</company>
+        <rev>0.8</rev>
+        <date>2018-03-20</date>
+        <source>Power Board.sch</source>
+        <comment number="1" value=""/>
+        <comment number="2" value=""/>
+        <comment number="3" value=""/>
+        <comment number="4" value=""/>
+      </title_block>
+    </sheet>
+  </design>
+  <components>
+    <comp ref="D5">
+      <value>LED_R</value>
+      <footprint>LEDs:LED_0603</footprint>
+      <fields>
+        <field name="Digikey Part Number">160-1447-1-ND</field>
+      </fields>
+      <libsource lib="Power-Board-rescue" part="LED-Device" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5A8295FF</tstamp>
+    </comp>
+    <comp ref="R12">
+      <value>100 Ω</value>
+      <footprint>Resistors_SMD:R_0603</footprint>
+      <fields>
+        <field name="Digikey Part Number">P100HCT-ND</field>
+      </fields>
+      <libsource lib="Power-Board-rescue" part="R-Device" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5A8298EE</tstamp>
+    </comp>
+    <comp ref="Q1">
+      <value>SI7157DP</value>
+      <footprint>Custom Footprints:PowerPAK_SO-8</footprint>
+      <fields>
+        <field name="Digikey Part Number">SI7157DP-T1-GE3CT-ND</field>
+      </fields>
+      <libsource lib="Power-Board-rescue" part="Q_PMOS_DGS-Device" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5A8EF571</tstamp>
+    </comp>
+    <comp ref="Q2">
+      <value>SI7157DP</value>
+      <footprint>Custom Footprints:PowerPAK_SO-8</footprint>
+      <fields>
+        <field name="Digikey Part Number">SI7157DP-T1-GE3CT-ND</field>
+      </fields>
+      <libsource lib="Power-Board-rescue" part="Q_PMOS_DGS-Device" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5A8EF9DA</tstamp>
+    </comp>
+    <comp ref="Q3">
+      <value>SI7157DP</value>
+      <footprint>Custom Footprints:PowerPAK_SO-8</footprint>
+      <fields>
+        <field name="Digikey Part Number">SI7157DP-T1-GE3CT-ND</field>
+      </fields>
+      <libsource lib="Power-Board-rescue" part="Q_PMOS_DGS-Device" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5A8F1A26</tstamp>
+    </comp>
+    <comp ref="Q4">
+      <value>SI7157DP</value>
+      <footprint>Custom Footprints:PowerPAK_SO-8</footprint>
+      <fields>
+        <field name="Digikey Part Number">SI7157DP-T1-GE3CT-ND</field>
+      </fields>
+      <libsource lib="Power-Board-rescue" part="Q_PMOS_DGS-Device" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5A8F1A2D</tstamp>
+    </comp>
+    <comp ref="Q5">
+      <value>SI7157DP</value>
+      <footprint>Custom Footprints:PowerPAK_SO-8</footprint>
+      <fields>
+        <field name="Digikey Part Number">SI7157DP-T1-GE3CT-ND</field>
+      </fields>
+      <libsource lib="Power-Board-rescue" part="Q_PMOS_DGS-Device" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5A8F1ADE</tstamp>
+    </comp>
+    <comp ref="Q6">
+      <value>SI7157DP</value>
+      <footprint>Custom Footprints:PowerPAK_SO-8</footprint>
+      <fields>
+        <field name="Digikey Part Number">SI7157DP-T1-GE3CT-ND</field>
+      </fields>
+      <libsource lib="Power-Board-rescue" part="Q_PMOS_DGS-Device" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5A8F1AE5</tstamp>
+    </comp>
+    <comp ref="C2">
+      <value>0.1 µF</value>
+      <footprint>Capacitors_SMD:C_0603</footprint>
+      <fields>
+        <field name="Digikey Part Number">1276-6717-6-ND</field>
+      </fields>
+      <libsource lib="Power-Board-rescue" part="C_Small-Device" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5A8F83BF</tstamp>
+    </comp>
+    <comp ref="C3">
+      <value>0.1 µF</value>
+      <footprint>Capacitors_SMD:C_0603</footprint>
+      <fields>
+        <field name="Digikey Part Number">1276-6717-6-ND</field>
+      </fields>
+      <libsource lib="Power-Board-rescue" part="C_Small-Device" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5A8F8776</tstamp>
+    </comp>
+    <comp ref="C4">
+      <value>0.1 µF</value>
+      <footprint>Capacitors_SMD:C_0603</footprint>
+      <fields>
+        <field name="Digikey Part Number">1276-6717-6-ND</field>
+      </fields>
+      <libsource lib="Power-Board-rescue" part="C_Small-Device" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5A8F88B6</tstamp>
+    </comp>
+    <comp ref="C5">
+      <value>0.1 µF</value>
+      <footprint>Capacitors_SMD:C_0603</footprint>
+      <fields>
+        <field name="Digikey Part Number">1276-6717-6-ND</field>
+      </fields>
+      <libsource lib="Power-Board-rescue" part="C_Small-Device" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5A8F92DE</tstamp>
+    </comp>
+    <comp ref="C1">
+      <value>470 µF</value>
+      <footprint>Custom Footprints:CP_Radial_Horiz_D8.0mm_L13.00mm_P3.50mm</footprint>
+      <fields>
+        <field name="Digikey Part Number">1189-1733-ND</field>
+      </fields>
+      <libsource lib="Power-Board-rescue" part="CP1_Small-Device" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5A8FA915</tstamp>
+    </comp>
+    <comp ref="D2">
+      <value>SMBJ26A</value>
+      <footprint>Diodes_SMD:D_SMB</footprint>
+      <fields>
+        <field name="Digikey Part Number">SMBJ26AFSCT-ND</field>
+      </fields>
+      <libsource lib="Power-Board-rescue" part="D_Zener-Device" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5A90020B</tstamp>
+    </comp>
+    <comp ref="C6">
+      <value>0.1 µF</value>
+      <footprint>Capacitors_SMD:C_0603</footprint>
+      <fields>
+        <field name="Digikey Part Number">1276-6717-6-ND</field>
+      </fields>
+      <libsource lib="Power-Board-rescue" part="C_Small-Device" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5A90AD02</tstamp>
+    </comp>
+    <comp ref="R6">
+      <value>11 kΩ</value>
+      <footprint>Resistors_SMD:R_0603</footprint>
+      <fields>
+        <field name="Digikey Part Number">P11.0KHCT-ND</field>
+      </fields>
+      <libsource lib="Power-Board-rescue" part="R_Small-Device" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5A90AD08</tstamp>
+    </comp>
+    <comp ref="R5">
+      <value>5.49 kΩ</value>
+      <footprint>Resistors_SMD:R_0603</footprint>
+      <fields>
+        <field name="Digikey Part Number">311-5.49KHRCT-ND</field>
+      </fields>
+      <libsource lib="Power-Board-rescue" part="R_Small-Device" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5A90AD0E</tstamp>
+    </comp>
+    <comp ref="R4">
+      <value>82.5 kΩ</value>
+      <footprint>Resistors_SMD:R_0603</footprint>
+      <fields>
+        <field name="Digikey Part Number">P82.5KHCT-ND</field>
+      </fields>
+      <libsource lib="Power-Board-rescue" part="R_Small-Device" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5A90AD14</tstamp>
+    </comp>
+    <comp ref="C7">
+      <value>0.1 µF</value>
+      <footprint>Capacitors_SMD:C_0603</footprint>
+      <fields>
+        <field name="Digikey Part Number">1276-6717-6-ND</field>
+      </fields>
+      <libsource lib="Power-Board-rescue" part="C_Small-Device" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5A90B733</tstamp>
+    </comp>
+    <comp ref="U2">
+      <value>TPS564208DDCT</value>
+      <footprint>TO_SOT_Packages_SMD:SOT-23-6</footprint>
+      <fields>
+        <field name="Digikey Part Number">296-44123-1-ND</field>
+      </fields>
+      <libsource lib="Power-Board-rescue" part="TPS54308DDC-Custom-Parts" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5A948659</tstamp>
+    </comp>
+    <comp ref="C8">
+      <value>0.1 µF</value>
+      <footprint>Capacitors_SMD:C_0805</footprint>
+      <fields>
+        <field name="Digikey Part Number">478-3351-1-ND</field>
+      </fields>
+      <libsource lib="Power-Board-rescue" part="C_Small-Device" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5A94E0E3</tstamp>
+    </comp>
+    <comp ref="L1">
+      <value>2.2 µH</value>
+      <footprint>Custom Parts:3.3v DC-DC Inductor</footprint>
+      <fields>
+        <field name="Digikey Part Number">SRP6540-2R2MCT-ND</field>
+      </fields>
+      <libsource lib="Power-Board-rescue" part="L_Small-Device" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5A94EC83</tstamp>
+    </comp>
+    <comp ref="R10">
+      <value>33.2 kΩ</value>
+      <footprint>Resistors_SMD:R_0603</footprint>
+      <fields>
+        <field name="Digikey Part Number">P33.2KHCT-ND</field>
+      </fields>
+      <libsource lib="Power-Board-rescue" part="R_Small-Device" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5A94F6FB</tstamp>
+    </comp>
+    <comp ref="R11">
+      <value>10 kΩ</value>
+      <footprint>Resistors_SMD:R_0603</footprint>
+      <fields>
+        <field name="Digikey Part Number">P10.0KHCT-ND</field>
+      </fields>
+      <libsource lib="Power-Board-rescue" part="R_Small-Device" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5A94FD84</tstamp>
+    </comp>
+    <comp ref="L2">
+      <value>15 µH</value>
+      <footprint>Custom Footprints:L_Wuerth_7447779115</footprint>
+      <fields>
+        <field name="Digikey Part Number">732-4180-1-ND</field>
+      </fields>
+      <libsource lib="Power-Board-rescue" part="L_Small-Device" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5A9540F5</tstamp>
+    </comp>
+    <comp ref="C16">
+      <value>22 µF</value>
+      <footprint>Capacitors_SMD:C_0805</footprint>
+      <fields>
+        <field name="Digikey Part Number">1276-6780-1-ND</field>
+      </fields>
+      <libsource lib="Power-Board-rescue" part="C_Small-Device" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5A954114</tstamp>
+    </comp>
+    <comp ref="U1">
+      <value>LTC4417CGN</value>
+      <footprint>Housings_SSOP:SSOP-24_3.9x8.7mm_Pitch0.635mm</footprint>
+      <fields>
+        <field name="Digikey Part Number">LTC4417CGN#PBF-ND</field>
+      </fields>
+      <libsource lib="Power-Board-rescue" part="LTC4417CGN-Custom-Parts" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5A97CA54</tstamp>
+    </comp>
+    <comp ref="D6">
+      <value>LED_R</value>
+      <footprint>LEDs:LED_0603</footprint>
+      <fields>
+        <field name="Digikey Part Number">160-1447-1-ND</field>
+      </fields>
+      <libsource lib="Power-Board-rescue" part="LED-Device" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5A9CAF6E</tstamp>
+    </comp>
+    <comp ref="R13">
+      <value>470 Ω</value>
+      <footprint>Resistors_SMD:R_0603</footprint>
+      <fields>
+        <field name="Digikey Part Number">P470HCT-ND</field>
+      </fields>
+      <libsource lib="Power-Board-rescue" part="R-Device" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5A9CAF75</tstamp>
+    </comp>
+    <comp ref="U3">
+      <value>LTC3130-1</value>
+      <footprint>Housings_SSOP:MSOP-16-1EP_3x4mm_Pitch0.5mm</footprint>
+      <fields>
+        <field name="Digikey Part Number">LTC3130IMSE-1#PBF-ND</field>
+      </fields>
+      <libsource lib="Power-Board-rescue" part="LTC3130-1-Custom-Parts" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5A9EE135</tstamp>
+    </comp>
+    <comp ref="C14">
+      <value>22nF</value>
+      <footprint>Capacitors_SMD:C_0603</footprint>
+      <fields>
+        <field name="Digikey Part Number">399-9044-1-ND</field>
+      </fields>
+      <libsource lib="Power-Board-rescue" part="C_Small-Device" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5A9EE557</tstamp>
+    </comp>
+    <comp ref="C13">
+      <value>22nF</value>
+      <footprint>Capacitors_SMD:C_0603</footprint>
+      <fields>
+        <field name="Digikey Part Number">399-9044-1-ND</field>
+      </fields>
+      <libsource lib="Power-Board-rescue" part="C_Small-Device" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5A9EEB8C</tstamp>
+    </comp>
+    <comp ref="C15">
+      <value>15 µF</value>
+      <footprint>Capacitors_SMD:C_0805</footprint>
+      <fields>
+        <field name="Digikey Part Number">445-14373-1-ND</field>
+      </fields>
+      <libsource lib="Power-Board-rescue" part="C_Small-Device" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5A9EFC5B</tstamp>
+    </comp>
+    <comp ref="C17">
+      <value>1 µF</value>
+      <footprint>Capacitors_SMD:C_0603</footprint>
+      <fields>
+        <field name="Digikey Part Number">1276-6524-1-ND</field>
+      </fields>
+      <libsource lib="Power-Board-rescue" part="C_Small-Device" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5A9F06C5</tstamp>
+    </comp>
+    <comp ref="C18">
+      <value>4.7 µF</value>
+      <footprint>Capacitors_SMD:C_0603</footprint>
+      <fields>
+        <field name="Digikey Part Number">1276-1900-1-ND</field>
+      </fields>
+      <libsource lib="Power-Board-rescue" part="C_Small-Device" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5A9F17A0</tstamp>
+    </comp>
+    <comp ref="R9">
+      <value>11 kΩ</value>
+      <footprint>Resistors_SMD:R_0603</footprint>
+      <fields>
+        <field name="Digikey Part Number">P11.0KHCT-ND</field>
+      </fields>
+      <libsource lib="Power-Board-rescue" part="R_Small-Device" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5A9F6F73</tstamp>
+    </comp>
+    <comp ref="R8">
+      <value>5.49 kΩ</value>
+      <footprint>Resistors_SMD:R_0603</footprint>
+      <fields>
+        <field name="Digikey Part Number">311-5.49KHRCT-ND</field>
+      </fields>
+      <libsource lib="Power-Board-rescue" part="R_Small-Device" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5A9F703E</tstamp>
+    </comp>
+    <comp ref="R7">
+      <value>82.5 kΩ</value>
+      <footprint>Resistors_SMD:R_0603</footprint>
+      <fields>
+        <field name="Digikey Part Number">P82.5KHCT-ND</field>
+      </fields>
+      <libsource lib="Power-Board-rescue" part="R_Small-Device" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5A9F7104</tstamp>
+    </comp>
+    <comp ref="R1">
+      <value>88.7 kΩ</value>
+      <footprint>Resistors_SMD:R_0603</footprint>
+      <fields>
+        <field name="Digikey Part Number">P88.7KHCT-ND</field>
+      </fields>
+      <libsource lib="Power-Board-rescue" part="R_Small-Device" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5AA292DA</tstamp>
+    </comp>
+    <comp ref="R2">
+      <value>1.58 kΩ</value>
+      <footprint>Resistors_SMD:R_0603</footprint>
+      <fields>
+        <field name="Digikey Part Number">P1.58KHCT-ND</field>
+      </fields>
+      <libsource lib="Power-Board-rescue" part="R_Small-Device" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5AA29371</tstamp>
+    </comp>
+    <comp ref="R3">
+      <value>9.53 kΩ</value>
+      <footprint>Resistors_SMD:R_0603</footprint>
+      <fields>
+        <field name="Digikey Part Number">P9.53KHCT-ND</field>
+      </fields>
+      <libsource lib="Power-Board-rescue" part="R_Small-Device" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5AA29408</tstamp>
+    </comp>
+    <comp ref="SYM1">
+      <value>SYM_Arrow45_XLarge</value>
+      <footprint>Custom Parts:Logo_v3</footprint>
+      <fields>
+        <field name="Digikey Part Number">N/A</field>
+      </fields>
+      <libsource lib="Power-Board-rescue" part="SYM_Arrow45_XLarge-Graphic" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5AA25E4E</tstamp>
+    </comp>
+    <comp ref="H1">
+      <value>M3 Mounting Hole</value>
+      <footprint>Mounting_Holes:MountingHole_3.2mm_M3</footprint>
+      <fields>
+        <field name="Digikey Part Number">732-12933-ND</field>
+      </fields>
+      <libsource lib="Power-Board-rescue" part="Mounting_Hole-Mechanical-Power-Board-rescue" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5AA6FB6A</tstamp>
+    </comp>
+    <comp ref="H4">
+      <value>M3 Mounting Hole</value>
+      <footprint>Mounting_Holes:MountingHole_3.2mm_M3</footprint>
+      <fields>
+        <field name="Digikey Part Number">732-12933-ND</field>
+      </fields>
+      <libsource lib="Power-Board-rescue" part="Mounting_Hole-Mechanical-Power-Board-rescue" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5AA70339</tstamp>
+    </comp>
+    <comp ref="H2">
+      <value>M3 Mounting Hole</value>
+      <footprint>Mounting_Holes:MountingHole_3.2mm_M3</footprint>
+      <fields>
+        <field name="Digikey Part Number">732-12933-ND</field>
+      </fields>
+      <libsource lib="Power-Board-rescue" part="Mounting_Hole-Mechanical-Power-Board-rescue" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5AA703D9</tstamp>
+    </comp>
+    <comp ref="H3">
+      <value>M3 Mounting Hole</value>
+      <footprint>Mounting_Holes:MountingHole_3.2mm_M3</footprint>
+      <fields>
+        <field name="Digikey Part Number">732-12933-ND</field>
+      </fields>
+      <libsource lib="Power-Board-rescue" part="Mounting_Hole-Mechanical-Power-Board-rescue" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5AA7048D</tstamp>
+    </comp>
+    <comp ref="J2">
+      <value>Conn_01x02</value>
+      <fields>
+        <field name="AliExpress Part Link">https://www.aliexpress.com/item/AMASS-XT30PW-Banana-golden-XT30-Upgrade-Right-Angle-Plug-Connector-male-female-ESC-Motor-PCB-board/32689137918.html</field>
+      </fields>
+      <libsource lib="Power-Board-rescue" part="Conn_01x02-Connector-Power-Board-rescue" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5AA75ED0</tstamp>
+    </comp>
+    <comp ref="J3">
+      <value>Conn_01x02</value>
+      <fields>
+        <field name="AliExpress Part Link">https://www.aliexpress.com/item/AMASS-XT30PW-Banana-golden-XT30-Upgrade-Right-Angle-Plug-Connector-male-female-ESC-Motor-PCB-board/32689137918.html</field>
+      </fields>
+      <libsource lib="Power-Board-rescue" part="Conn_01x02-Connector-Power-Board-rescue" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5AA7656E</tstamp>
+    </comp>
+    <comp ref="J4">
+      <value>Conn_01x02</value>
+      <fields>
+        <field name="AliExpress Part Link">https://www.aliexpress.com/item/AMASS-XT30PW-Banana-golden-XT30-Upgrade-Right-Angle-Plug-Connector-male-female-ESC-Motor-PCB-board/32689137918.html</field>
+      </fields>
+      <libsource lib="Power-Board-rescue" part="Conn_01x02-Connector-Power-Board-rescue" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5AA765F7</tstamp>
+    </comp>
+    <comp ref="J5">
+      <value>Conn_01x02</value>
+      <fields>
+        <field name="AliExpress Part Link">https://www.aliexpress.com/item/AMASS-XT30PW-Banana-golden-XT30-Upgrade-Right-Angle-Plug-Connector-male-female-ESC-Motor-PCB-board/32689137918.html</field>
+      </fields>
+      <libsource lib="Power-Board-rescue" part="Conn_01x02-Connector-Power-Board-rescue" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5AA76683</tstamp>
+    </comp>
+    <comp ref="J7">
+      <value>Conn_01x03</value>
+      <footprint>Connectors_JST:JST_XH_S03B-XH-A_03x2.50mm_Angled</footprint>
+      <fields>
+        <field name="Digikey Part Number">455-2250-ND</field>
+      </fields>
+      <libsource lib="Power-Board-rescue" part="Conn_01x03-Connector_Generic" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5B7E8D44</tstamp>
+    </comp>
+    <comp ref="U4">
+      <value>BQ2057WSNTR</value>
+      <footprint>Housings_SOIC:SOIC-8_3.9x4.9mm_Pitch1.27mm</footprint>
+      <fields>
+        <field name="Digikey Part Number">296-41202-1-ND</field>
+      </fields>
+      <libsource lib="Power-Board-rescue" part="BQ2057WSNTR-Custom-Parts" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5B8211E2</tstamp>
+    </comp>
+    <comp ref="U5">
+      <value>BQ29209DRBT</value>
+      <footprint>Housings_SON:Texas_S-PVSON-N8</footprint>
+      <fields>
+        <field name="Digikey Part Number">296-49154-1-ND</field>
+      </fields>
+      <libsource lib="Power-Board-rescue" part="BQ29209DRBT-Custom-Parts" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5B8212FA</tstamp>
+    </comp>
+    <comp ref="R18">
+      <value>0.124Ω</value>
+      <footprint>Resistors_SMD:R_2512</footprint>
+      <fields>
+        <field name="Digikey Part Number">A109697CT-ND</field>
+      </fields>
+      <libsource lib="Power-Board-rescue" part="R-Device" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5B83594E</tstamp>
+    </comp>
+    <comp ref="Q7">
+      <value>AON7423</value>
+      <footprint>Custom Parts:AON7423</footprint>
+      <fields>
+        <field name="Digikey Part Number">785-1310-1-ND</field>
+      </fields>
+      <libsource lib="Power-Board-rescue" part="Q_PMOS_SGD-Device" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5B823DE9</tstamp>
+    </comp>
+    <comp ref="D8">
+      <value>LED_G</value>
+      <footprint>LEDs:LED_0603</footprint>
+      <fields>
+        <field name="Digikey Part Number">160-1888-1-ND</field>
+      </fields>
+      <libsource lib="Power-Board-rescue" part="LED-Device" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5B8CB8F0</tstamp>
+    </comp>
+    <comp ref="C19">
+      <value>0.1 µF</value>
+      <footprint>Capacitors_SMD:C_0603</footprint>
+      <fields>
+        <field name="Digikey Part Number">1276-6717-6-ND</field>
+      </fields>
+      <libsource lib="Power-Board-rescue" part="C_Small-Device" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5B8F0A19</tstamp>
+    </comp>
+    <comp ref="R15">
+      <value>1 kΩ</value>
+      <footprint>Resistors_SMD:R_0603</footprint>
+      <fields>
+        <field name="Digikey Part Number">RHM1.0KDCT-ND</field>
+      </fields>
+      <libsource lib="Power-Board-rescue" part="R-Device" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5B982700</tstamp>
+    </comp>
+    <comp ref="D3">
+      <value>LED_B</value>
+      <footprint>LEDs:LED_0603</footprint>
+      <fields>
+        <field name="Digikey Part Number">160-1647-1-ND</field>
+      </fields>
+      <libsource lib="Power-Board-rescue" part="LED-Device" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5B983C96</tstamp>
+    </comp>
+    <comp ref="R16">
+      <value>1 kΩ</value>
+      <footprint>Resistors_SMD:R_0603</footprint>
+      <fields>
+        <field name="Digikey Part Number">RHM1.0KDCT-ND</field>
+      </fields>
+      <libsource lib="Power-Board-rescue" part="R-Device" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5B98D2E1</tstamp>
+    </comp>
+    <comp ref="D4">
+      <value>LED_B</value>
+      <footprint>LEDs:LED_0603</footprint>
+      <fields>
+        <field name="Digikey Part Number">160-1647-1-ND</field>
+      </fields>
+      <libsource lib="Power-Board-rescue" part="LED-Device" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5B98D2E8</tstamp>
+    </comp>
+    <comp ref="R17">
+      <value>1 kΩ</value>
+      <footprint>Resistors_SMD:R_0603</footprint>
+      <fields>
+        <field name="Digikey Part Number">RHM1.0KDCT-ND</field>
+      </fields>
+      <libsource lib="Power-Board-rescue" part="R-Device" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5B99F579</tstamp>
+    </comp>
+    <comp ref="D7">
+      <value>LED_B</value>
+      <footprint>LEDs:LED_0603</footprint>
+      <fields>
+        <field name="Digikey Part Number">160-1647-1-ND</field>
+      </fields>
+      <libsource lib="Power-Board-rescue" part="LED-Device" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5B99F580</tstamp>
+    </comp>
+    <comp ref="R14">
+      <value>1 kΩ</value>
+      <footprint>Resistors_SMD:R_0603</footprint>
+      <fields>
+        <field name="Digikey Part Number">RHM1.0KDCT-ND</field>
+      </fields>
+      <libsource lib="Power-Board-rescue" part="R-Device" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5B9A8E94</tstamp>
+    </comp>
+    <comp ref="D1">
+      <value>LED_B</value>
+      <footprint>LEDs:LED_0603</footprint>
+      <fields>
+        <field name="Digikey Part Number">160-1647-1-ND</field>
+      </fields>
+      <libsource lib="Power-Board-rescue" part="LED-Device" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5B9A8E9B</tstamp>
+    </comp>
+    <comp ref="R20">
+      <value>1 kΩ</value>
+      <footprint>Resistors_SMD:R_0603</footprint>
+      <fields>
+        <field name="Digikey Part Number">RHM1.0KDCT-ND</field>
+      </fields>
+      <libsource lib="Power-Board-rescue" part="R-Device" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5B9CB7B5</tstamp>
+    </comp>
+    <comp ref="J6">
+      <value>Conn_01x02</value>
+      <footprint>Connectors_JST:JST_PH_S2B-PH-K_02x2.00mm_Angled</footprint>
+      <fields>
+        <field name="Digikey Part Number">455-1719-ND</field>
+      </fields>
+      <libsource lib="Power-Board-rescue" part="Conn_01x02-Connector_Generic" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5B9CEC20</tstamp>
+    </comp>
+    <comp ref="TH1">
+      <value>NXFT15XH103FA2B100</value>
+      <fields>
+        <field name="Digikey Part Number">490-5630-ND</field>
+      </fields>
+      <libsource lib="Power-Board-rescue" part="Thermistor_NTC-Device" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5B9CEDC6</tstamp>
+    </comp>
+    <comp ref="R19">
+      <value>8.25 kΩ</value>
+      <footprint>Resistors_SMD:R_0603</footprint>
+      <fields>
+        <field name="Digikey Part Number">P8.25KDBCT-ND</field>
+      </fields>
+      <libsource lib="Power-Board-rescue" part="R-Device" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5BA12446</tstamp>
+    </comp>
+    <comp ref="R21">
+      <value>22.1 kΩ</value>
+      <footprint>Resistors_SMD:R_0603</footprint>
+      <fields>
+        <field name="Digikey Part Number">P22.1KDBCT-ND</field>
+      </fields>
+      <libsource lib="Power-Board-rescue" part="R-Device" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5BA12507</tstamp>
+    </comp>
+    <comp ref="C20">
+      <value>0.1 µF</value>
+      <footprint>Capacitors_SMD:C_0603</footprint>
+      <fields>
+        <field name="Digikey Part Number">1276-6717-6-ND</field>
+      </fields>
+      <libsource lib="Power-Board-rescue" part="C_Small-Device" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5B803945</tstamp>
+    </comp>
+    <comp ref="C21">
+      <value>0.1 µF</value>
+      <footprint>Capacitors_SMD:C_0603</footprint>
+      <fields>
+        <field name="Digikey Part Number">1276-6717-6-ND</field>
+      </fields>
+      <libsource lib="Power-Board-rescue" part="C_Small-Device" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5B803B52</tstamp>
+    </comp>
+    <comp ref="C23">
+      <value>0.33 µF</value>
+      <footprint>Capacitors_SMD:C_0603</footprint>
+      <fields>
+        <field name="Digikey Part Number">445-12479-6-ND</field>
+      </fields>
+      <libsource lib="Power-Board-rescue" part="C_Small-Device" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5B868D60</tstamp>
+    </comp>
+    <comp ref="R22">
+      <value>100 Ω</value>
+      <footprint>Resistors_SMD:R_0603</footprint>
+      <fields>
+        <field name="Digikey Part Number">P100HCT-ND</field>
+      </fields>
+      <libsource lib="Power-Board-rescue" part="R_Small-Device" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5B908F71</tstamp>
+    </comp>
+    <comp ref="C22">
+      <value>0.1 µF</value>
+      <footprint>Capacitors_SMD:C_0603</footprint>
+      <fields>
+        <field name="Digikey Part Number">1276-6717-6-ND</field>
+      </fields>
+      <libsource lib="Power-Board-rescue" part="C_Small-Device" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5B9090B0</tstamp>
+    </comp>
+    <comp ref="C9">
+      <value>22 µF</value>
+      <footprint>Capacitors_SMD:C_0805</footprint>
+      <fields>
+        <field name="Digikey Part Number">1276-6780-1-ND</field>
+      </fields>
+      <libsource lib="Power-Board-rescue" part="C_Small-Device" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5B87BD0A</tstamp>
+    </comp>
+    <comp ref="C11">
+      <value>47 µF</value>
+      <footprint>Capacitors_SMD:C_0805</footprint>
+      <fields>
+        <field name="Digikey Part Number">490-13249-1-ND</field>
+      </fields>
+      <libsource lib="Power-Board-rescue" part="C_Small-Device" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5A950E03</tstamp>
+    </comp>
+    <comp ref="U6">
+      <value>LT6700CS6-1</value>
+      <footprint>TO_SOT_Packages_SMD:TSOT-23-6</footprint>
+      <fields>
+        <field name="Digikey Part Number">LT6700CS6-1#TRMPBFCT-ND</field>
+      </fields>
+      <libsource lib="Power-Board-rescue" part="LT6700CS6-1-Custom-Parts" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5B87ED39</tstamp>
+    </comp>
+    <comp ref="R26">
+      <value>140 kΩ</value>
+      <footprint>Resistors_SMD:R_0603</footprint>
+      <fields>
+        <field name="Digikey Part Number">P140KDBCT-ND</field>
+      </fields>
+      <libsource lib="Power-Board-rescue" part="R_Small-Device" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5B8F1A44</tstamp>
+    </comp>
+    <comp ref="R28">
+      <value>10 kΩ</value>
+      <footprint>Resistors_SMD:R_0603</footprint>
+      <fields>
+        <field name="Digikey Part Number">P10.0KHCT-ND</field>
+      </fields>
+      <libsource lib="Power-Board-rescue" part="R_Small-Device" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5B8F1B92</tstamp>
+    </comp>
+    <comp ref="R23">
+      <value>100 kΩ</value>
+      <footprint>Resistors_SMD:R_0603</footprint>
+      <fields>
+        <field name="Digikey Part Number">P100KDBCT-ND</field>
+      </fields>
+      <libsource lib="Power-Board-rescue" part="R_Small-Device" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5B9AB503</tstamp>
+    </comp>
+    <comp ref="R24">
+      <value>100 kΩ</value>
+      <footprint>Resistors_SMD:R_0603</footprint>
+      <fields>
+        <field name="Digikey Part Number">P100KDBCT-ND</field>
+      </fields>
+      <libsource lib="Power-Board-rescue" part="R_Small-Device" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5B9F1B5A</tstamp>
+    </comp>
+    <comp ref="R25">
+      <value>100 kΩ</value>
+      <footprint>Resistors_SMD:R_0603</footprint>
+      <fields>
+        <field name="Digikey Part Number">P100KDBCT-ND</field>
+      </fields>
+      <libsource lib="Power-Board-rescue" part="R_Small-Device" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5B9F1C80</tstamp>
+    </comp>
+    <comp ref="R29">
+      <value>10 kΩ</value>
+      <footprint>Resistors_SMD:R_0603</footprint>
+      <fields>
+        <field name="Digikey Part Number">P10.0KHCT-ND</field>
+      </fields>
+      <libsource lib="Power-Board-rescue" part="R_Small-Device" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5BA0E090</tstamp>
+    </comp>
+    <comp ref="R27">
+      <value>10 Ω</value>
+      <footprint>Resistors_SMD:R_0603</footprint>
+      <fields>
+        <field name="Digikey Part Number">541-10.0SCT-ND</field>
+      </fields>
+      <libsource lib="Power-Board-rescue" part="R_Small-Device" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5BA0E1CA</tstamp>
+    </comp>
+    <comp ref="U7">
+      <value>STS8C5H30L</value>
+      <footprint>Housings_SOIC:SOIC-8_3.9x4.9mm_Pitch1.27mm</footprint>
+      <fields>
+        <field name="Digikey Part Number">497-4398-1-ND</field>
+      </fields>
+      <libsource lib="Power-Board-rescue" part="STS8C5H30L-Custom-Parts" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5BA1D13B</tstamp>
+    </comp>
+    <comp ref="HS1">
+      <value>Heatsink</value>
+      <fields>
+        <field name="Digikey Part Number">ATS1099-ND</field>
+      </fields>
+      <libsource lib="Power-Board-rescue" part="Heatsink-Mechanical" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5BBF14DE</tstamp>
+    </comp>
+    <comp ref="U8">
+      <value>LTC4150</value>
+      <footprint>Housings_SSOP:MSOP-10_3x3mm_Pitch0.5mm</footprint>
+      <fields>
+        <field name="Digikey Part Number">LTC4150CMS#PBF-ND</field>
+      </fields>
+      <libsource lib="Power-Board-rescue" part="LTC4150-SparkFun-IC-Power" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5BCD2784</tstamp>
+    </comp>
+    <comp ref="U9">
+      <value>ATxmega32E5-AU</value>
+      <footprint>Package_QFP:TQFP-32_7x7mm_P0.8mm</footprint>
+      <datasheet>http://ww1.microchip.com/downloads/en/DeviceDoc/Atmel-8153-8-and-16-bit-AVR-Microcontroller-XMEGA-E-ATxmega8E5-ATxmega16E5-ATxmega32E5_Datasheet.pdf</datasheet>
+      <fields>
+        <field name="Digikey Part Number">ATXMEGA32E5-AU-ND</field>
+      </fields>
+      <libsource lib="Power-Board-rescue" part="ATxmega32E5-AU-MCU_Microchip_ATmega" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5BBF70D2</tstamp>
+    </comp>
+    <comp ref="C12">
+      <value>4.7 µF</value>
+      <footprint>Capacitors_SMD:C_0603</footprint>
+      <fields>
+        <field name="Digikey Part Number">1276-1900-1-ND</field>
+      </fields>
+      <libsource lib="Power-Board-rescue" part="C_Small-Device" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5BEBDC6E</tstamp>
+    </comp>
+    <comp ref="C10">
+      <value>4.7 µF</value>
+      <footprint>Capacitors_SMD:C_0603</footprint>
+      <fields>
+        <field name="Digikey Part Number">1276-1900-1-ND</field>
+      </fields>
+      <libsource lib="Power-Board-rescue" part="C_Small-Device" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5BEF4BBE</tstamp>
+    </comp>
+    <comp ref="R34">
+      <value>2.5 mΩ</value>
+      <footprint>Resistors_SMD:R_2512</footprint>
+      <fields>
+        <field name="Digikey Part Number">A131768CT-ND</field>
+      </fields>
+      <libsource lib="Power-Board-rescue" part="R-Device" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5BDEE1DE</tstamp>
+    </comp>
+    <comp ref="R39">
+      <value>121 kΩ</value>
+      <footprint>Resistors_SMD:R_0603</footprint>
+      <fields>
+        <field name="Digikey Part Number">P121KDBCT-ND</field>
+      </fields>
+      <libsource lib="Power-Board-rescue" part="R_Small-Device" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5C03751C</tstamp>
+    </comp>
+    <comp ref="R42">
+      <value>10 kΩ</value>
+      <footprint>Resistors_SMD:R_0603</footprint>
+      <fields>
+        <field name="Digikey Part Number">P10.0KHCT-ND</field>
+      </fields>
+      <libsource lib="Power-Board-rescue" part="R_Small-Device" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5C037610</tstamp>
+    </comp>
+    <comp ref="R40">
+      <value>121 kΩ</value>
+      <footprint>Resistors_SMD:R_0603</footprint>
+      <fields>
+        <field name="Digikey Part Number">P121KDBCT-ND</field>
+      </fields>
+      <libsource lib="Power-Board-rescue" part="R_Small-Device" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5C076098</tstamp>
+    </comp>
+    <comp ref="R43">
+      <value>10 kΩ</value>
+      <footprint>Resistors_SMD:R_0603</footprint>
+      <fields>
+        <field name="Digikey Part Number">P10.0KHCT-ND</field>
+      </fields>
+      <libsource lib="Power-Board-rescue" part="R_Small-Device" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5C07609F</tstamp>
+    </comp>
+    <comp ref="R41">
+      <value>121 kΩ</value>
+      <footprint>Resistors_SMD:R_0603</footprint>
+      <fields>
+        <field name="Digikey Part Number">P121KDBCT-ND</field>
+      </fields>
+      <libsource lib="Power-Board-rescue" part="R_Small-Device" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5C08AA2B</tstamp>
+    </comp>
+    <comp ref="R44">
+      <value>10 kΩ</value>
+      <footprint>Resistors_SMD:R_0603</footprint>
+      <fields>
+        <field name="Digikey Part Number">P10.0KHCT-ND</field>
+      </fields>
+      <libsource lib="Power-Board-rescue" part="R_Small-Device" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5C08AA32</tstamp>
+    </comp>
+    <comp ref="R47">
+      <value>121 kΩ</value>
+      <footprint>Resistors_SMD:R_0603</footprint>
+      <fields>
+        <field name="Digikey Part Number">P121KDBCT-ND</field>
+      </fields>
+      <libsource lib="Power-Board-rescue" part="R_Small-Device" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5C0B4F3C</tstamp>
+    </comp>
+    <comp ref="R50">
+      <value>10 kΩ</value>
+      <footprint>Resistors_SMD:R_0603</footprint>
+      <fields>
+        <field name="Digikey Part Number">P10.0KHCT-ND</field>
+      </fields>
+      <libsource lib="Power-Board-rescue" part="R_Small-Device" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5C0B4F43</tstamp>
+    </comp>
+    <comp ref="R48">
+      <value>121 kΩ</value>
+      <footprint>Resistors_SMD:R_0603</footprint>
+      <fields>
+        <field name="Digikey Part Number">P121KDBCT-ND</field>
+      </fields>
+      <libsource lib="Power-Board-rescue" part="R_Small-Device" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5C0DEB8E</tstamp>
+    </comp>
+    <comp ref="R51">
+      <value>10 kΩ</value>
+      <footprint>Resistors_SMD:R_0603</footprint>
+      <fields>
+        <field name="Digikey Part Number">P10.0KHCT-ND</field>
+      </fields>
+      <libsource lib="Power-Board-rescue" part="R_Small-Device" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5C0DEB95</tstamp>
+    </comp>
+    <comp ref="R49">
+      <value>121 kΩ</value>
+      <footprint>Resistors_SMD:R_0603</footprint>
+      <fields>
+        <field name="Digikey Part Number">P121KDBCT-ND</field>
+      </fields>
+      <libsource lib="Power-Board-rescue" part="R_Small-Device" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5C1091A3</tstamp>
+    </comp>
+    <comp ref="R52">
+      <value>10 kΩ</value>
+      <footprint>Resistors_SMD:R_0603</footprint>
+      <fields>
+        <field name="Digikey Part Number">P10.0KHCT-ND</field>
+      </fields>
+      <libsource lib="Power-Board-rescue" part="R_Small-Device" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5C1091AA</tstamp>
+    </comp>
+    <comp ref="R53">
+      <value>121 kΩ</value>
+      <footprint>Resistors_SMD:R_0603</footprint>
+      <fields>
+        <field name="Digikey Part Number">P121KDBCT-ND</field>
+      </fields>
+      <libsource lib="Power-Board-rescue" part="R_Small-Device" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5C13379A</tstamp>
+    </comp>
+    <comp ref="R56">
+      <value>10 kΩ</value>
+      <footprint>Resistors_SMD:R_0603</footprint>
+      <fields>
+        <field name="Digikey Part Number">P10.0KHCT-ND</field>
+      </fields>
+      <libsource lib="Power-Board-rescue" part="R_Small-Device" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5C1337A1</tstamp>
+    </comp>
+    <comp ref="R30">
+      <value>100 kΩ</value>
+      <footprint>Resistors_SMD:R_0603</footprint>
+      <fields>
+        <field name="Digikey Part Number">P100KDBCT-ND</field>
+      </fields>
+      <libsource lib="Power-Board-rescue" part="R_Small-Device" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5C1C49D8</tstamp>
+    </comp>
+    <comp ref="R31">
+      <value>100 kΩ</value>
+      <footprint>Resistors_SMD:R_0603</footprint>
+      <fields>
+        <field name="Digikey Part Number">P100KDBCT-ND</field>
+      </fields>
+      <libsource lib="Power-Board-rescue" part="R_Small-Device" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5C1C6432</tstamp>
+    </comp>
+    <comp ref="R32">
+      <value>100 kΩ</value>
+      <footprint>Resistors_SMD:R_0603</footprint>
+      <fields>
+        <field name="Digikey Part Number">P100KDBCT-ND</field>
+      </fields>
+      <libsource lib="Power-Board-rescue" part="R_Small-Device" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5C1C6523</tstamp>
+    </comp>
+    <comp ref="C27">
+      <value>0.1 µF</value>
+      <footprint>Capacitors_SMD:C_0603</footprint>
+      <fields>
+        <field name="Digikey Part Number">1276-6717-6-ND</field>
+      </fields>
+      <libsource lib="Power-Board-rescue" part="C_Small-Device" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5C255C92</tstamp>
+    </comp>
+    <comp ref="C25">
+      <value>10 µF</value>
+      <footprint>Capacitors_SMD:C_0603</footprint>
+      <fields>
+        <field name="Digikey Part Number">1276-1038-1-ND</field>
+      </fields>
+      <libsource lib="Power-Board-rescue" part="C_Small-Device" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5C258B2C</tstamp>
+    </comp>
+    <comp ref="C26">
+      <value>0.1 µF</value>
+      <footprint>Capacitors_SMD:C_0603</footprint>
+      <fields>
+        <field name="Digikey Part Number">1276-6717-6-ND</field>
+      </fields>
+      <libsource lib="Power-Board-rescue" part="C_Small-Device" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5C2D4AC3</tstamp>
+    </comp>
+    <comp ref="C24">
+      <value>10 µF</value>
+      <footprint>Capacitors_SMD:C_0603</footprint>
+      <fields>
+        <field name="Digikey Part Number">1276-1038-1-ND</field>
+      </fields>
+      <libsource lib="Power-Board-rescue" part="C_Small-Device" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5C2ED74A</tstamp>
+    </comp>
+    <comp ref="L4">
+      <value>220 Ω @ 100 MHz</value>
+      <footprint>Inductors_SMD:L_0603</footprint>
+      <fields>
+        <field name="Digikey Part Number">732-1581-2-ND</field>
+      </fields>
+      <libsource lib="Power-Board-rescue" part="Ferrite_Bead_Small-Device" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5C338666</tstamp>
+    </comp>
+    <comp ref="L3">
+      <value>10 µH</value>
+      <fields>
+        <field name="Digikey Part Number">490-10563-2-ND</field>
+      </fields>
+      <libsource lib="Power-Board-rescue" part="L_Small-Device" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5C3526F5</tstamp>
+    </comp>
+    <comp ref="TH2">
+      <value>NXFT15XH103FA2B100</value>
+      <fields>
+        <field name="Digikey Part Number">490-5630-ND</field>
+      </fields>
+      <libsource lib="Power-Board-rescue" part="Thermistor_NTC-Device" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5C36EAE3</tstamp>
+    </comp>
+    <comp ref="R37">
+      <value>64.9 kΩ</value>
+      <footprint>Resistors_SMD:R_0603</footprint>
+      <fields>
+        <field name="Digikey Part Number">P64.9KDBCT-ND</field>
+      </fields>
+      <libsource lib="Power-Board-rescue" part="R_Small-Device" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5C370428</tstamp>
+    </comp>
+    <comp ref="TH4">
+      <value>NXFT15XH103FA2B100</value>
+      <fields>
+        <field name="Digikey Part Number">490-5630-ND</field>
+      </fields>
+      <libsource lib="Power-Board-rescue" part="Thermistor_NTC-Device" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5C3F1CB5</tstamp>
+    </comp>
+    <comp ref="R45">
+      <value>64.9 kΩ</value>
+      <footprint>Resistors_SMD:R_0603</footprint>
+      <fields>
+        <field name="Digikey Part Number">P64.9KDBCT-ND</field>
+      </fields>
+      <libsource lib="Power-Board-rescue" part="R_Small-Device" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5C3F1CBC</tstamp>
+    </comp>
+    <comp ref="TH6">
+      <value>NXFT15XH103FA2B100</value>
+      <fields>
+        <field name="Digikey Part Number">490-5630-ND</field>
+      </fields>
+      <libsource lib="Power-Board-rescue" part="Thermistor_NTC-Device" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5C425358</tstamp>
+    </comp>
+    <comp ref="R54">
+      <value>64.9 kΩ</value>
+      <footprint>Resistors_SMD:R_0603</footprint>
+      <fields>
+        <field name="Digikey Part Number">P64.9KDBCT-ND</field>
+      </fields>
+      <libsource lib="Power-Board-rescue" part="R_Small-Device" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5C42535F</tstamp>
+    </comp>
+    <comp ref="TH3">
+      <value>NXFT15XH103FA2B100</value>
+      <fields>
+        <field name="Digikey Part Number">490-5630-ND</field>
+      </fields>
+      <libsource lib="Power-Board-rescue" part="Thermistor_NTC-Device" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5C473DF1</tstamp>
+    </comp>
+    <comp ref="R38">
+      <value>64.9 kΩ</value>
+      <footprint>Resistors_SMD:R_0603</footprint>
+      <fields>
+        <field name="Digikey Part Number">P64.9KDBCT-ND</field>
+      </fields>
+      <libsource lib="Power-Board-rescue" part="R_Small-Device" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5C473DF8</tstamp>
+    </comp>
+    <comp ref="TH5">
+      <value>NXFT15XH103FA2B100</value>
+      <fields>
+        <field name="Digikey Part Number">490-5630-ND</field>
+      </fields>
+      <libsource lib="Power-Board-rescue" part="Thermistor_NTC-Device" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5C473E0D</tstamp>
+    </comp>
+    <comp ref="R46">
+      <value>64.9 kΩ</value>
+      <footprint>Resistors_SMD:R_0603</footprint>
+      <fields>
+        <field name="Digikey Part Number">P64.9KDBCT-ND</field>
+      </fields>
+      <libsource lib="Power-Board-rescue" part="R_Small-Device" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5C473E14</tstamp>
+    </comp>
+    <comp ref="TH7">
+      <value>NXFT15XH103FA2B100</value>
+      <fields>
+        <field name="Digikey Part Number">490-5630-ND</field>
+      </fields>
+      <libsource lib="Power-Board-rescue" part="Thermistor_NTC-Device" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5C473E29</tstamp>
+    </comp>
+    <comp ref="R55">
+      <value>64.9 kΩ</value>
+      <footprint>Resistors_SMD:R_0603</footprint>
+      <fields>
+        <field name="Digikey Part Number">P64.9KDBCT-ND</field>
+      </fields>
+      <libsource lib="Power-Board-rescue" part="R_Small-Device" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5C473E30</tstamp>
+    </comp>
+    <comp ref="J1">
+      <value>Conn_02x03_Odd_Even</value>
+      <fields>
+        <field name="Digikey Part Number">609-3693-1-ND</field>
+      </fields>
+      <libsource lib="Power-Board-rescue" part="Conn_02x03_Odd_Even-Connector_Generic" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5C49525A</tstamp>
+    </comp>
+    <comp ref="R36">
+      <value>10 kΩ</value>
+      <footprint>Resistors_SMD:R_0603</footprint>
+      <fields>
+        <field name="Digikey Part Number">P10.0KHCT-ND</field>
+      </fields>
+      <libsource lib="Power-Board-rescue" part="R_Small-Device" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5C5C0BDB</tstamp>
+    </comp>
+    <comp ref="R33">
+      <value>10 kΩ</value>
+      <footprint>Resistors_SMD:R_0603</footprint>
+      <fields>
+        <field name="Digikey Part Number">P10.0KHCT-ND</field>
+      </fields>
+      <libsource lib="Power-Board-rescue" part="R_Small-Device" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5C63524B</tstamp>
+    </comp>
+    <comp ref="R35">
+      <value>10 kΩ</value>
+      <footprint>Resistors_SMD:R_0603</footprint>
+      <fields>
+        <field name="Digikey Part Number">P10.0KHCT-ND</field>
+      </fields>
+      <libsource lib="Power-Board-rescue" part="R_Small-Device" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5C63583A</tstamp>
+    </comp>
+    <comp ref="J8">
+      <value>Conn_02x07_Counter_Clockwise</value>
+      <footprint>Pin_Headers:Pin_Header_Straight_2x07_Pitch2.54mm</footprint>
+      <fields>
+        <field name="Digikey Part Number">952-1932-ND</field>
+      </fields>
+      <libsource lib="Power-Board-rescue" part="Conn_02x07_Counter_Clockwise-Connector_Generic" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5C0B7D8D</tstamp>
+    </comp>
+  </components>
+  <libparts>
+    <libpart lib="Power-Board-rescue" part="ATxmega32E5-AU-MCU_Microchip_ATmega">
+      <footprints>
+        <fp>TQFP*7x7mm*P0.8mm*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">U</field>
+        <field name="Value">ATxmega32E5-AU-MCU_Microchip_ATmega</field>
+        <field name="Footprint">Package_QFP:TQFP-32_7x7mm_P0.8mm</field>
+      </fields>
+      <pins>
+        <pin num="1" name="GND" type="power_in"/>
+        <pin num="2" name="PA4" type="BiDi"/>
+        <pin num="3" name="PA3" type="BiDi"/>
+        <pin num="4" name="PA2" type="BiDi"/>
+        <pin num="5" name="PA1" type="BiDi"/>
+        <pin num="6" name="AREF/PA0" type="BiDi"/>
+        <pin num="7" name="PDI_DATA" type="input"/>
+        <pin num="8" name="~RESET~/PDI_CLK" type="input"/>
+        <pin num="9" name="PC7" type="BiDi"/>
+        <pin num="10" name="PC6" type="BiDi"/>
+        <pin num="11" name="PC5" type="BiDi"/>
+        <pin num="12" name="PC4" type="BiDi"/>
+        <pin num="13" name="PC3" type="BiDi"/>
+        <pin num="14" name="PC2" type="BiDi"/>
+        <pin num="15" name="PC1" type="BiDi"/>
+        <pin num="16" name="PC0" type="BiDi"/>
+        <pin num="17" name="VCC" type="power_in"/>
+        <pin num="18" name="GND" type="passive"/>
+        <pin num="19" name="PR1/XTAL1" type="BiDi"/>
+        <pin num="20" name="PR0/XTAL2" type="BiDi"/>
+        <pin num="21" name="PD7" type="BiDi"/>
+        <pin num="22" name="PD6" type="BiDi"/>
+        <pin num="23" name="PD5" type="BiDi"/>
+        <pin num="24" name="PD4" type="BiDi"/>
+        <pin num="25" name="PD3" type="BiDi"/>
+        <pin num="26" name="PD2" type="BiDi"/>
+        <pin num="27" name="PD1" type="BiDi"/>
+        <pin num="28" name="PD0/AREF" type="BiDi"/>
+        <pin num="29" name="PA7" type="BiDi"/>
+        <pin num="30" name="PA6" type="BiDi"/>
+        <pin num="31" name="PA5" type="BiDi"/>
+        <pin num="32" name="AVCC" type="power_in"/>
+      </pins>
+    </libpart>
+    <libpart lib="Power-Board-rescue" part="BQ2057WSNTR-Custom-Parts">
+      <fields>
+        <field name="Reference">U</field>
+        <field name="Value">BQ2057WSNTR-Custom-Parts</field>
+      </fields>
+      <pins>
+        <pin num="1" name="SNS" type="input"/>
+        <pin num="2" name="BAT" type="input"/>
+        <pin num="3" name="VCC" type="input"/>
+        <pin num="4" name="TS" type="input"/>
+        <pin num="5" name="STAT" type="input"/>
+        <pin num="6" name="VSS" type="input"/>
+        <pin num="7" name="CC" type="input"/>
+        <pin num="8" name="COMP" type="input"/>
+      </pins>
+    </libpart>
+    <libpart lib="Power-Board-rescue" part="BQ29209DRBT-Custom-Parts">
+      <fields>
+        <field name="Reference">U</field>
+        <field name="Value">BQ29209DRBT-Custom-Parts</field>
+      </fields>
+      <pins>
+        <pin num="1" name="VC2" type="input"/>
+        <pin num="2" name="VC1" type="input"/>
+        <pin num="3" name="VC1_CB" type="input"/>
+        <pin num="4" name="CD" type="input"/>
+        <pin num="5" name="GND" type="input"/>
+        <pin num="6" name="~CB_EN~" type="input"/>
+        <pin num="7" name="VDD" type="input"/>
+        <pin num="8" name="OUT" type="input"/>
+        <pin num="9" name="PAD" type="input"/>
+      </pins>
+    </libpart>
+    <libpart lib="Power-Board-rescue" part="CP1_Small-Device">
+      <footprints>
+        <fp>CP_*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">C</field>
+        <field name="Value">CP1_Small-Device</field>
+      </fields>
+      <pins>
+        <pin num="1" name="~" type="passive"/>
+        <pin num="2" name="~" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Power-Board-rescue" part="C_Small-Device">
+      <footprints>
+        <fp>C_*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">C</field>
+        <field name="Value">C_Small-Device</field>
+      </fields>
+      <pins>
+        <pin num="1" name="~" type="passive"/>
+        <pin num="2" name="~" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Power-Board-rescue" part="Conn_01x02-Connector-Power-Board-rescue">
+      <footprints>
+        <fp>Connector*:*_??x*mm*</fp>
+        <fp>Connector*:*1x??x*mm*</fp>
+        <fp>Pin?Header?Straight?1X*</fp>
+        <fp>Pin?Header?Angled?1X*</fp>
+        <fp>Socket?Strip?Straight?1X*</fp>
+        <fp>Socket?Strip?Angled?1X*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">J</field>
+        <field name="Value">Conn_01x02-Connector-Power-Board-rescue</field>
+      </fields>
+      <pins>
+        <pin num="1" name="Pin_1" type="passive"/>
+        <pin num="2" name="Pin_2" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Power-Board-rescue" part="Conn_01x02-Connector_Generic">
+      <footprints>
+        <fp>Connector*:*_1x??_*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">J</field>
+        <field name="Value">Conn_01x02-Connector_Generic</field>
+      </fields>
+      <pins>
+        <pin num="1" name="Pin_1" type="passive"/>
+        <pin num="2" name="Pin_2" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Power-Board-rescue" part="Conn_01x03-Connector_Generic">
+      <footprints>
+        <fp>Connector*:*_1x??_*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">J</field>
+        <field name="Value">Conn_01x03-Connector_Generic</field>
+      </fields>
+      <pins>
+        <pin num="1" name="Pin_1" type="passive"/>
+        <pin num="2" name="Pin_2" type="passive"/>
+        <pin num="3" name="Pin_3" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Power-Board-rescue" part="Conn_02x03_Odd_Even-Connector_Generic">
+      <footprints>
+        <fp>Connector*:*_2x??_*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">J</field>
+        <field name="Value">Conn_02x03_Odd_Even-Connector_Generic</field>
+      </fields>
+      <pins>
+        <pin num="1" name="Pin_1" type="passive"/>
+        <pin num="2" name="Pin_2" type="passive"/>
+        <pin num="3" name="Pin_3" type="passive"/>
+        <pin num="4" name="Pin_4" type="passive"/>
+        <pin num="5" name="Pin_5" type="passive"/>
+        <pin num="6" name="Pin_6" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Power-Board-rescue" part="Conn_02x07_Counter_Clockwise-Connector_Generic">
+      <footprints>
+        <fp>Connector*:*_2x??_*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">J</field>
+        <field name="Value">Conn_02x07_Counter_Clockwise-Connector_Generic</field>
+      </fields>
+      <pins>
+        <pin num="1" name="Pin_1" type="passive"/>
+        <pin num="2" name="Pin_2" type="passive"/>
+        <pin num="3" name="Pin_3" type="passive"/>
+        <pin num="4" name="Pin_4" type="passive"/>
+        <pin num="5" name="Pin_5" type="passive"/>
+        <pin num="6" name="Pin_6" type="passive"/>
+        <pin num="7" name="Pin_7" type="passive"/>
+        <pin num="8" name="Pin_8" type="passive"/>
+        <pin num="9" name="Pin_9" type="passive"/>
+        <pin num="10" name="Pin_10" type="passive"/>
+        <pin num="11" name="Pin_11" type="passive"/>
+        <pin num="12" name="Pin_12" type="passive"/>
+        <pin num="13" name="Pin_13" type="passive"/>
+        <pin num="14" name="Pin_14" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Power-Board-rescue" part="D_Zener-Device">
+      <footprints>
+        <fp>TO-???*</fp>
+        <fp>*_Diode_*</fp>
+        <fp>*SingleDiode*</fp>
+        <fp>D_*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">D</field>
+        <field name="Value">D_Zener-Device</field>
+      </fields>
+      <pins>
+        <pin num="1" name="K" type="passive"/>
+        <pin num="2" name="A" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Power-Board-rescue" part="Ferrite_Bead_Small-Device">
+      <footprints>
+        <fp>Inductor_*</fp>
+        <fp>L_*</fp>
+        <fp>*Ferrite*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">L</field>
+        <field name="Value">Ferrite_Bead_Small-Device</field>
+      </fields>
+      <pins>
+        <pin num="1" name="~" type="passive"/>
+        <pin num="2" name="~" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Power-Board-rescue" part="Heatsink-Mechanical">
+      <fields>
+        <field name="Reference">HS</field>
+        <field name="Value">Heatsink-Mechanical</field>
+      </fields>
+    </libpart>
+    <libpart lib="Power-Board-rescue" part="LED-Device">
+      <footprints>
+        <fp>LED*</fp>
+        <fp>LED_SMD:*</fp>
+        <fp>LED_THT:*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">D</field>
+        <field name="Value">LED-Device</field>
+      </fields>
+      <pins>
+        <pin num="1" name="K" type="passive"/>
+        <pin num="2" name="A" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Power-Board-rescue" part="LT6700CS6-1-Custom-Parts">
+      <fields>
+        <field name="Reference">U</field>
+        <field name="Value">LT6700CS6-1-Custom-Parts</field>
+      </fields>
+      <pins>
+        <pin num="1" name="OUTA" type="input"/>
+        <pin num="2" name="GND" type="input"/>
+        <pin num="3" name="+INA" type="input"/>
+        <pin num="4" name="-INB" type="input"/>
+        <pin num="5" name="Vs" type="input"/>
+        <pin num="6" name="OUTB" type="input"/>
+      </pins>
+    </libpart>
+    <libpart lib="Power-Board-rescue" part="LTC3130-1-Custom-Parts">
+      <footprints>
+        <fp>MSOP</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">U</field>
+        <field name="Value">LTC3130-1-Custom-Parts</field>
+      </fields>
+      <pins>
+        <pin num="1" name="GND" type="input"/>
+        <pin num="2" name="BST1" type="input"/>
+        <pin num="3" name="SW1" type="input"/>
+        <pin num="4" name="PV_IN" type="input"/>
+        <pin num="5" name="V_IN" type="input"/>
+        <pin num="6" name="RUN" type="input"/>
+        <pin num="7" name="VCC" type="input"/>
+        <pin num="8" name="MPPC" type="input"/>
+        <pin num="9" name="VS2" type="input"/>
+        <pin num="10" name="VS1" type="input"/>
+        <pin num="11" name="MODE" type="input"/>
+        <pin num="12" name="EXTVCC" type="input"/>
+        <pin num="13" name="PGOOD" type="input"/>
+        <pin num="14" name="V_OUT" type="input"/>
+        <pin num="15" name="BST2" type="input"/>
+        <pin num="16" name="SW2" type="input"/>
+        <pin num="17" name="PAD" type="input"/>
+      </pins>
+    </libpart>
+    <libpart lib="Power-Board-rescue" part="LTC4150-SparkFun-IC-Power">
+      <footprints>
+        <fp>*MSOP10*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">U</field>
+        <field name="Value">LTC4150-SparkFun-IC-Power</field>
+        <field name="Footprint">MSOP10</field>
+        <field name="Field4">IC-11785</field>
+      </fields>
+      <pins>
+        <pin num="1" name="SENSE+" type="BiDi"/>
+        <pin num="2" name="SENSE-" type="BiDi"/>
+        <pin num="3" name="CF+" type="BiDi"/>
+        <pin num="4" name="CF-" type="BiDi"/>
+        <pin num="5" name="~SHDN~" type="input"/>
+        <pin num="6" name="POL" type="BiDi"/>
+        <pin num="7" name="GND" type="power_in"/>
+        <pin num="8" name="VDD" type="power_in"/>
+        <pin num="9" name="~CLR~" type="BiDi"/>
+        <pin num="10" name="~INT~" type="BiDi"/>
+      </pins>
+    </libpart>
+    <libpart lib="Power-Board-rescue" part="LTC4417CGN-Custom-Parts">
+      <fields>
+        <field name="Reference">U</field>
+        <field name="Value">LTC4417CGN-Custom-Parts</field>
+      </fields>
+      <pins>
+        <pin num="1" name="EN" type="input"/>
+        <pin num="2" name="~SHDN" type="input"/>
+        <pin num="3" name="HYS" type="input"/>
+        <pin num="4" name="UV1" type="input"/>
+        <pin num="5" name="OV1" type="input"/>
+        <pin num="6" name="UV2" type="input"/>
+        <pin num="7" name="OV2" type="input"/>
+        <pin num="8" name="UV3" type="input"/>
+        <pin num="9" name="OV3" type="input"/>
+        <pin num="10" name="~VALID1" type="openCol"/>
+        <pin num="11" name="~VALID2" type="openCol"/>
+        <pin num="12" name="~VALID3" type="openCol"/>
+        <pin num="13" name="GND" type="power_in"/>
+        <pin num="14" name="CAS" type="output"/>
+        <pin num="15" name="VOUT" type="output"/>
+        <pin num="16" name="G3" type="output"/>
+        <pin num="17" name="VS3" type="output"/>
+        <pin num="18" name="G2" type="output"/>
+        <pin num="19" name="VS2" type="output"/>
+        <pin num="20" name="G1" type="output"/>
+        <pin num="21" name="VS1" type="output"/>
+        <pin num="22" name="V3" type="input"/>
+        <pin num="23" name="V2" type="input"/>
+        <pin num="24" name="V1" type="input"/>
+      </pins>
+    </libpart>
+    <libpart lib="Power-Board-rescue" part="L_Small-Device">
+      <footprints>
+        <fp>Choke_*</fp>
+        <fp>*Coil*</fp>
+        <fp>Inductor_*</fp>
+        <fp>L_*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">L</field>
+        <field name="Value">L_Small-Device</field>
+      </fields>
+      <pins>
+        <pin num="1" name="~" type="passive"/>
+        <pin num="2" name="~" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Power-Board-rescue" part="Mounting_Hole-Mechanical-Power-Board-rescue">
+      <footprints>
+        <fp>Mounting?Hole*</fp>
+        <fp>Hole*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">MK</field>
+        <field name="Value">Mounting_Hole-Mechanical-Power-Board-rescue</field>
+      </fields>
+    </libpart>
+    <libpart lib="Power-Board-rescue" part="Q_PMOS_DGS-Device">
+      <fields>
+        <field name="Reference">Q</field>
+        <field name="Value">Q_PMOS_DGS-Device</field>
+      </fields>
+      <pins>
+        <pin num="1" name="D" type="passive"/>
+        <pin num="2" name="G" type="input"/>
+        <pin num="3" name="S" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Power-Board-rescue" part="Q_PMOS_SGD-Device">
+      <fields>
+        <field name="Reference">Q</field>
+        <field name="Value">Q_PMOS_SGD-Device</field>
+      </fields>
+      <pins>
+        <pin num="1" name="S" type="passive"/>
+        <pin num="2" name="G" type="input"/>
+        <pin num="3" name="D" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Power-Board-rescue" part="R-Device">
+      <footprints>
+        <fp>R_*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">R</field>
+        <field name="Value">R-Device</field>
+      </fields>
+      <pins>
+        <pin num="1" name="~" type="passive"/>
+        <pin num="2" name="~" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Power-Board-rescue" part="R_Small-Device">
+      <footprints>
+        <fp>R_*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">R</field>
+        <field name="Value">R_Small-Device</field>
+      </fields>
+      <pins>
+        <pin num="1" name="~" type="passive"/>
+        <pin num="2" name="~" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Power-Board-rescue" part="STS8C5H30L-Custom-Parts">
+      <fields>
+        <field name="Reference">U</field>
+        <field name="Value">STS8C5H30L-Custom-Parts</field>
+      </fields>
+      <pins>
+        <pin num="1" name="S1" type="input"/>
+        <pin num="2" name="G1" type="input"/>
+        <pin num="3" name="S2" type="input"/>
+        <pin num="4" name="G2" type="input"/>
+        <pin num="5" name="D2" type="input"/>
+        <pin num="6" name="D2" type="input"/>
+        <pin num="7" name="D1" type="input"/>
+        <pin num="8" name="D1" type="input"/>
+      </pins>
+    </libpart>
+    <libpart lib="Power-Board-rescue" part="SYM_Arrow45_XLarge-Graphic">
+      <fields>
+        <field name="Reference">#SYM</field>
+        <field name="Value">SYM_Arrow45_XLarge-Graphic</field>
+      </fields>
+    </libpart>
+    <libpart lib="Power-Board-rescue" part="TPS54308DDC-Custom-Parts">
+      <footprints>
+        <fp>*SO*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">U</field>
+        <field name="Value">TPS54308DDC-Custom-Parts</field>
+        <field name="Footprint">SOT-23</field>
+      </fields>
+      <pins>
+        <pin num="1" name="GND" type="power_in"/>
+        <pin num="2" name="SW" type="output"/>
+        <pin num="3" name="VIN" type="input"/>
+        <pin num="4" name="FB" type="input"/>
+        <pin num="5" name="EN" type="input"/>
+        <pin num="6" name="BOOT" type="input"/>
+      </pins>
+    </libpart>
+    <libpart lib="Power-Board-rescue" part="Thermistor_NTC-Device">
+      <footprints>
+        <fp>*NTC*</fp>
+        <fp>*Thermistor*</fp>
+        <fp>PIN?ARRAY*</fp>
+        <fp>bornier*</fp>
+        <fp>*Terminal?Block*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">TH</field>
+        <field name="Value">Thermistor_NTC-Device</field>
+      </fields>
+      <pins>
+        <pin num="1" name="~" type="passive"/>
+        <pin num="2" name="~" type="passive"/>
+      </pins>
+    </libpart>
+  </libparts>
+  <libraries>
+    <library logical="Power-Board-rescue">
+      <uri>/Users/Thomas/Desktop/Avionics-Hardware/Power Board/Power Board-rescue.lib</uri>
+    </library>
+  </libraries>
+  <nets>
+    <net code="1" name="Net-(D5-Pad1)">
+      <node ref="D5" pin="1"/>
+      <node ref="R12" pin="1"/>
+    </net>
+    <net code="2" name="+3V3">
+      <node ref="L3" pin="1"/>
+      <node ref="R36" pin="1"/>
+      <node ref="R46" pin="1"/>
+      <node ref="R55" pin="1"/>
+      <node ref="R38" pin="1"/>
+      <node ref="R54" pin="1"/>
+      <node ref="R33" pin="1"/>
+      <node ref="R39" pin="1"/>
+      <node ref="R35" pin="1"/>
+      <node ref="C11" pin="1"/>
+      <node ref="D5" pin="2"/>
+      <node ref="R30" pin="2"/>
+      <node ref="R31" pin="2"/>
+      <node ref="R32" pin="2"/>
+      <node ref="J8" pin="9"/>
+      <node ref="J8" pin="8"/>
+      <node ref="R45" pin="1"/>
+      <node ref="R10" pin="1"/>
+      <node ref="J1" pin="2"/>
+      <node ref="L1" pin="2"/>
+      <node ref="R37" pin="1"/>
+    </net>
+    <net code="3" name="+12V">
+      <node ref="U3" pin="14"/>
+      <node ref="R40" pin="1"/>
+      <node ref="D6" pin="2"/>
+      <node ref="J8" pin="11"/>
+      <node ref="C16" pin="1"/>
+    </net>
+    <net code="4" name="Net-(Q1-Pad2)">
+      <node ref="Q1" pin="2"/>
+      <node ref="U1" pin="20"/>
+      <node ref="Q2" pin="2"/>
+    </net>
+    <net code="5" name="Net-(Q3-Pad2)">
+      <node ref="U1" pin="18"/>
+      <node ref="Q4" pin="2"/>
+      <node ref="Q3" pin="2"/>
+    </net>
+    <net code="6" name="Net-(Q5-Pad2)">
+      <node ref="Q6" pin="2"/>
+      <node ref="U1" pin="16"/>
+      <node ref="Q5" pin="2"/>
+    </net>
+    <net code="7" name="Net-(R4-Pad1)">
+      <node ref="U1" pin="6"/>
+      <node ref="R4" pin="1"/>
+      <node ref="R5" pin="1"/>
+    </net>
+    <net code="8" name="Net-(U2-Pad5)">
+      <node ref="U2" pin="5"/>
+    </net>
+    <net code="9" name="Net-(C8-Pad1)">
+      <node ref="C8" pin="1"/>
+      <node ref="U2" pin="6"/>
+    </net>
+    <net code="10" name="Net-(C8-Pad2)">
+      <node ref="C8" pin="2"/>
+      <node ref="L1" pin="1"/>
+      <node ref="U2" pin="2"/>
+    </net>
+    <net code="11" name="Net-(R10-Pad2)">
+      <node ref="R11" pin="1"/>
+      <node ref="U2" pin="4"/>
+      <node ref="R10" pin="2"/>
+    </net>
+    <net code="12" name="Net-(C13-Pad2)">
+      <node ref="L2" pin="1"/>
+      <node ref="C13" pin="2"/>
+      <node ref="U3" pin="3"/>
+    </net>
+    <net code="13" name="Net-(C14-Pad1)">
+      <node ref="U3" pin="16"/>
+      <node ref="L2" pin="2"/>
+      <node ref="C14" pin="1"/>
+    </net>
+    <net code="14" name="Net-(C2-Pad1)">
+      <node ref="C2" pin="1"/>
+      <node ref="Q2" pin="3"/>
+      <node ref="Q1" pin="3"/>
+      <node ref="U1" pin="21"/>
+    </net>
+    <net code="15" name="Net-(C3-Pad1)">
+      <node ref="U1" pin="19"/>
+      <node ref="Q3" pin="3"/>
+      <node ref="Q4" pin="3"/>
+      <node ref="C3" pin="1"/>
+    </net>
+    <net code="16" name="Net-(C4-Pad1)">
+      <node ref="U1" pin="17"/>
+      <node ref="Q5" pin="3"/>
+      <node ref="C4" pin="1"/>
+      <node ref="Q6" pin="3"/>
+    </net>
+    <net code="17" name="Net-(R1-Pad1)">
+      <node ref="U1" pin="4"/>
+      <node ref="R2" pin="1"/>
+      <node ref="R1" pin="1"/>
+    </net>
+    <net code="18" name="Net-(R5-Pad2)">
+      <node ref="U1" pin="7"/>
+      <node ref="R6" pin="2"/>
+      <node ref="R5" pin="2"/>
+    </net>
+    <net code="19" name="Net-(R7-Pad1)">
+      <node ref="R7" pin="1"/>
+      <node ref="U1" pin="8"/>
+      <node ref="R8" pin="1"/>
+    </net>
+    <net code="20" name="Net-(R8-Pad2)">
+      <node ref="R8" pin="2"/>
+      <node ref="R9" pin="2"/>
+      <node ref="U1" pin="9"/>
+    </net>
+    <net code="21" name="Net-(U1-Pad1)">
+      <node ref="U1" pin="1"/>
+    </net>
+    <net code="22" name="Net-(U1-Pad14)">
+      <node ref="U1" pin="14"/>
+    </net>
+    <net code="23" name="/SEL_~SHDN~">
+      <node ref="U9" pin="14"/>
+      <node ref="U1" pin="2"/>
+    </net>
+    <net code="24" name="Net-(D6-Pad1)">
+      <node ref="R13" pin="1"/>
+      <node ref="D6" pin="1"/>
+    </net>
+    <net code="25" name="Net-(U3-Pad13)">
+      <node ref="U3" pin="13"/>
+    </net>
+    <net code="26" name="Net-(C14-Pad2)">
+      <node ref="C14" pin="2"/>
+      <node ref="U3" pin="15"/>
+    </net>
+    <net code="27" name="Net-(C13-Pad1)">
+      <node ref="C13" pin="1"/>
+      <node ref="U3" pin="2"/>
+    </net>
+    <net code="28" name="Net-(C18-Pad1)">
+      <node ref="C18" pin="1"/>
+      <node ref="U3" pin="7"/>
+    </net>
+    <net code="29" name="Net-(R2-Pad2)">
+      <node ref="R2" pin="2"/>
+      <node ref="R3" pin="2"/>
+      <node ref="U1" pin="5"/>
+    </net>
+    <net code="30" name="GND">
+      <node ref="U1" pin="3"/>
+      <node ref="U1" pin="13"/>
+      <node ref="J1" pin="6"/>
+      <node ref="R13" pin="2"/>
+      <node ref="R50" pin="2"/>
+      <node ref="U3" pin="1"/>
+      <node ref="U3" pin="12"/>
+      <node ref="R28" pin="1"/>
+      <node ref="U3" pin="17"/>
+      <node ref="TH7" pin="1"/>
+      <node ref="TH5" pin="1"/>
+      <node ref="C15" pin="2"/>
+      <node ref="C17" pin="2"/>
+      <node ref="R51" pin="2"/>
+      <node ref="C18" pin="2"/>
+      <node ref="TH3" pin="1"/>
+      <node ref="R21" pin="2"/>
+      <node ref="C5" pin="1"/>
+      <node ref="TH6" pin="1"/>
+      <node ref="R9" pin="1"/>
+      <node ref="R52" pin="2"/>
+      <node ref="U6" pin="3"/>
+      <node ref="J8" pin="10"/>
+      <node ref="U6" pin="2"/>
+      <node ref="C16" pin="2"/>
+      <node ref="R11" pin="2"/>
+      <node ref="C11" pin="2"/>
+      <node ref="C9" pin="2"/>
+      <node ref="TH4" pin="1"/>
+      <node ref="J8" pin="12"/>
+      <node ref="U2" pin="1"/>
+      <node ref="TH2" pin="1"/>
+      <node ref="R12" pin="2"/>
+      <node ref="C7" pin="1"/>
+      <node ref="C10" pin="1"/>
+      <node ref="R3" pin="1"/>
+      <node ref="R6" pin="1"/>
+      <node ref="C6" pin="1"/>
+      <node ref="C24" pin="1"/>
+      <node ref="J2" pin="2"/>
+      <node ref="J3" pin="2"/>
+      <node ref="J4" pin="2"/>
+      <node ref="U9" pin="18"/>
+      <node ref="J5" pin="2"/>
+      <node ref="J7" pin="1"/>
+      <node ref="J6" pin="2"/>
+      <node ref="C1" pin="2"/>
+      <node ref="R20" pin="2"/>
+      <node ref="U4" pin="6"/>
+      <node ref="R42" pin="2"/>
+      <node ref="D2" pin="2"/>
+      <node ref="C26" pin="1"/>
+      <node ref="C22" pin="2"/>
+      <node ref="U5" pin="5"/>
+      <node ref="C2" pin="2"/>
+      <node ref="U5" pin="9"/>
+      <node ref="C25" pin="2"/>
+      <node ref="C3" pin="2"/>
+      <node ref="R56" pin="2"/>
+      <node ref="C23" pin="2"/>
+      <node ref="U7" pin="6"/>
+      <node ref="U7" pin="5"/>
+      <node ref="C4" pin="2"/>
+      <node ref="C19" pin="2"/>
+      <node ref="U9" pin="1"/>
+      <node ref="U8" pin="7"/>
+      <node ref="C21" pin="2"/>
+      <node ref="R43" pin="2"/>
+      <node ref="D3" pin="1"/>
+      <node ref="D1" pin="1"/>
+      <node ref="D4" pin="1"/>
+      <node ref="R44" pin="2"/>
+      <node ref="C27" pin="1"/>
+      <node ref="D7" pin="1"/>
+    </net>
+    <net code="31" name="/BAT_CELL_1">
+      <node ref="R25" pin="2"/>
+      <node ref="R27" pin="1"/>
+      <node ref="R53" pin="1"/>
+      <node ref="J7" pin="2"/>
+    </net>
+    <net code="32" name="/BAT_CELL_2_CONN">
+      <node ref="U8" pin="2"/>
+      <node ref="J7" pin="3"/>
+      <node ref="J4" pin="1"/>
+      <node ref="R34" pin="1"/>
+    </net>
+    <net code="33" name="Net-(Q7-Pad1)">
+      <node ref="R18" pin="1"/>
+      <node ref="U4" pin="1"/>
+      <node ref="Q7" pin="1"/>
+    </net>
+    <net code="34" name="/BAT_CELL_2">
+      <node ref="R16" pin="1"/>
+      <node ref="U8" pin="1"/>
+      <node ref="U8" pin="8"/>
+      <node ref="U1" pin="23"/>
+      <node ref="U7" pin="7"/>
+      <node ref="U7" pin="8"/>
+      <node ref="Q7" pin="3"/>
+      <node ref="R34" pin="2"/>
+      <node ref="R22" pin="2"/>
+      <node ref="R47" pin="1"/>
+      <node ref="R23" pin="1"/>
+      <node ref="U4" pin="2"/>
+      <node ref="R24" pin="2"/>
+      <node ref="C10" pin="2"/>
+      <node ref="C6" pin="2"/>
+      <node ref="R4" pin="2"/>
+      <node ref="Q3" pin="1"/>
+      <node ref="U6" pin="5"/>
+      <node ref="R26" pin="1"/>
+    </net>
+    <net code="35" name="Net-(C20-Pad2)">
+      <node ref="U5" pin="2"/>
+      <node ref="R25" pin="1"/>
+      <node ref="C21" pin="1"/>
+      <node ref="C20" pin="2"/>
+    </net>
+    <net code="36" name="Net-(C22-Pad1)">
+      <node ref="R22" pin="1"/>
+      <node ref="U5" pin="7"/>
+      <node ref="C22" pin="1"/>
+    </net>
+    <net code="37" name="/BAL_OUT">
+      <node ref="U9" pin="10"/>
+      <node ref="U5" pin="8"/>
+    </net>
+    <net code="38" name="Net-(Q7-Pad2)">
+      <node ref="U4" pin="7"/>
+      <node ref="Q7" pin="2"/>
+    </net>
+    <net code="39" name="Net-(D8-Pad1)">
+      <node ref="R20" pin="1"/>
+      <node ref="D8" pin="1"/>
+    </net>
+    <net code="40" name="/CHARGE_STAT">
+      <node ref="U4" pin="5"/>
+      <node ref="U9" pin="9"/>
+      <node ref="D8" pin="2"/>
+    </net>
+    <net code="41" name="/BAT_BAK_VCC">
+      <node ref="R48" pin="1"/>
+      <node ref="J3" pin="1"/>
+      <node ref="C7" pin="2"/>
+      <node ref="R15" pin="1"/>
+      <node ref="R7" pin="2"/>
+      <node ref="Q5" pin="1"/>
+      <node ref="U1" pin="22"/>
+    </net>
+    <net code="42" name="Net-(D3-Pad2)">
+      <node ref="D3" pin="2"/>
+      <node ref="R15" pin="2"/>
+    </net>
+    <net code="43" name="Net-(D4-Pad2)">
+      <node ref="R16" pin="2"/>
+      <node ref="D4" pin="2"/>
+    </net>
+    <net code="44" name="/UMB_VCC">
+      <node ref="C5" pin="2"/>
+      <node ref="R19" pin="1"/>
+      <node ref="U1" pin="24"/>
+      <node ref="R17" pin="1"/>
+      <node ref="R41" pin="1"/>
+      <node ref="C19" pin="1"/>
+      <node ref="R18" pin="2"/>
+      <node ref="U4" pin="8"/>
+      <node ref="U4" pin="3"/>
+      <node ref="J5" pin="1"/>
+      <node ref="R1" pin="2"/>
+      <node ref="Q1" pin="1"/>
+    </net>
+    <net code="45" name="Net-(D7-Pad2)">
+      <node ref="R17" pin="2"/>
+      <node ref="D7" pin="2"/>
+    </net>
+    <net code="46" name="/VCC_IN">
+      <node ref="U3" pin="10"/>
+      <node ref="Q2" pin="1"/>
+      <node ref="Q4" pin="1"/>
+      <node ref="Q6" pin="1"/>
+      <node ref="C1" pin="1"/>
+      <node ref="D2" pin="1"/>
+      <node ref="C17" pin="1"/>
+      <node ref="C15" pin="1"/>
+      <node ref="J2" pin="1"/>
+      <node ref="U3" pin="9"/>
+      <node ref="U3" pin="8"/>
+      <node ref="U2" pin="3"/>
+      <node ref="R14" pin="1"/>
+      <node ref="U3" pin="6"/>
+      <node ref="R49" pin="1"/>
+      <node ref="C9" pin="1"/>
+      <node ref="U3" pin="5"/>
+      <node ref="U3" pin="4"/>
+      <node ref="U3" pin="11"/>
+      <node ref="U1" pin="15"/>
+    </net>
+    <net code="47" name="Net-(D1-Pad2)">
+      <node ref="D1" pin="2"/>
+      <node ref="R14" pin="2"/>
+    </net>
+    <net code="48" name="Net-(J6-Pad1)">
+      <node ref="U4" pin="4"/>
+      <node ref="R21" pin="1"/>
+      <node ref="R19" pin="2"/>
+      <node ref="J6" pin="1"/>
+    </net>
+    <net code="49" name="Net-(TH1-Pad1)">
+      <node ref="TH1" pin="1"/>
+    </net>
+    <net code="50" name="Net-(TH1-Pad2)">
+      <node ref="TH1" pin="2"/>
+    </net>
+    <net code="51" name="Net-(C20-Pad1)">
+      <node ref="C20" pin="1"/>
+      <node ref="U5" pin="1"/>
+      <node ref="R24" pin="1"/>
+    </net>
+    <net code="52" name="Net-(C23-Pad1)">
+      <node ref="C23" pin="1"/>
+      <node ref="U5" pin="4"/>
+    </net>
+    <net code="53" name="Net-(U6-Pad1)">
+      <node ref="U6" pin="1"/>
+    </net>
+    <net code="54" name="Net-(R26-Pad2)">
+      <node ref="R28" pin="2"/>
+      <node ref="U6" pin="4"/>
+      <node ref="R26" pin="2"/>
+    </net>
+    <net code="55" name="Net-(R23-Pad2)">
+      <node ref="R23" pin="2"/>
+      <node ref="U6" pin="6"/>
+      <node ref="U5" pin="6"/>
+    </net>
+    <net code="56" name="Net-(R27-Pad2)">
+      <node ref="U7" pin="1"/>
+      <node ref="R27" pin="2"/>
+      <node ref="R29" pin="2"/>
+      <node ref="U7" pin="3"/>
+    </net>
+    <net code="57" name="Net-(R29-Pad1)">
+      <node ref="U7" pin="2"/>
+      <node ref="U7" pin="4"/>
+      <node ref="R29" pin="1"/>
+      <node ref="U5" pin="3"/>
+    </net>
+    <net code="58" name="Net-(C12-Pad1)">
+      <node ref="C12" pin="1"/>
+      <node ref="U8" pin="3"/>
+    </net>
+    <net code="59" name="Net-(C12-Pad2)">
+      <node ref="U8" pin="4"/>
+      <node ref="C12" pin="2"/>
+    </net>
+    <net code="60" name="/LVL_~SHDN~">
+      <node ref="U8" pin="5"/>
+      <node ref="U9" pin="13"/>
+    </net>
+    <net code="61" name="/MCU_SCL">
+      <node ref="U9" pin="15"/>
+      <node ref="J8" pin="13"/>
+    </net>
+    <net code="62" name="/MCU_SDA">
+      <node ref="J8" pin="14"/>
+      <node ref="U9" pin="16"/>
+    </net>
+    <net code="63" name="Net-(U9-Pad19)">
+      <node ref="U9" pin="19"/>
+    </net>
+    <net code="64" name="/BAT_BAK_VCC_SENS">
+      <node ref="U9" pin="2"/>
+      <node ref="R51" pin="1"/>
+      <node ref="R48" pin="2"/>
+    </net>
+    <net code="65" name="Net-(U9-Pad20)">
+      <node ref="U9" pin="20"/>
+    </net>
+    <net code="66" name="/THERM6">
+      <node ref="U9" pin="23"/>
+      <node ref="TH7" pin="2"/>
+      <node ref="R55" pin="2"/>
+    </net>
+    <net code="67" name="/THERM5">
+      <node ref="TH5" pin="2"/>
+      <node ref="R46" pin="2"/>
+      <node ref="U9" pin="24"/>
+    </net>
+    <net code="68" name="/THERM4">
+      <node ref="R38" pin="2"/>
+      <node ref="TH3" pin="2"/>
+      <node ref="U9" pin="25"/>
+    </net>
+    <net code="69" name="/THERM3">
+      <node ref="R54" pin="2"/>
+      <node ref="U9" pin="26"/>
+      <node ref="TH6" pin="2"/>
+    </net>
+    <net code="70" name="/THERM2">
+      <node ref="R45" pin="2"/>
+      <node ref="TH4" pin="2"/>
+      <node ref="U9" pin="27"/>
+    </net>
+    <net code="71" name="/THERM1">
+      <node ref="TH2" pin="2"/>
+      <node ref="R37" pin="2"/>
+      <node ref="U9" pin="28"/>
+    </net>
+    <net code="72" name="/BAT_VCC_SENS">
+      <node ref="R47" pin="2"/>
+      <node ref="R50" pin="1"/>
+      <node ref="U9" pin="3"/>
+    </net>
+    <net code="73" name="/BAT_CELL_1_SENS">
+      <node ref="U9" pin="30"/>
+      <node ref="R56" pin="1"/>
+      <node ref="R53" pin="2"/>
+    </net>
+    <net code="74" name="/VCC_IN_SENS">
+      <node ref="U9" pin="31"/>
+      <node ref="R52" pin="1"/>
+      <node ref="R49" pin="2"/>
+    </net>
+    <net code="75" name="/UMB_VCC_SENS">
+      <node ref="R44" pin="1"/>
+      <node ref="U9" pin="4"/>
+      <node ref="R41" pin="2"/>
+    </net>
+    <net code="76" name="/12V_SENS">
+      <node ref="R40" pin="2"/>
+      <node ref="R43" pin="1"/>
+      <node ref="U9" pin="5"/>
+    </net>
+    <net code="77" name="/3V3_SENS">
+      <node ref="U9" pin="6"/>
+      <node ref="R42" pin="1"/>
+      <node ref="R39" pin="2"/>
+    </net>
+    <net code="78" name="Net-(J1-Pad1)">
+      <node ref="U9" pin="7"/>
+      <node ref="J1" pin="1"/>
+    </net>
+    <net code="79" name="/LVL_POL">
+      <node ref="U8" pin="6"/>
+      <node ref="R35" pin="2"/>
+      <node ref="U9" pin="11"/>
+    </net>
+    <net code="80" name="/LVL_~INT~">
+      <node ref="R33" pin="2"/>
+      <node ref="U9" pin="12"/>
+      <node ref="U8" pin="9"/>
+      <node ref="U8" pin="10"/>
+    </net>
+    <net code="81" name="/SEL_~VALID3~">
+      <node ref="R30" pin="1"/>
+      <node ref="U9" pin="29"/>
+      <node ref="U1" pin="12"/>
+    </net>
+    <net code="82" name="/SEL_~VALID2~">
+      <node ref="U1" pin="11"/>
+      <node ref="U9" pin="21"/>
+      <node ref="R31" pin="1"/>
+    </net>
+    <net code="83" name="/SEL_~VALID1~">
+      <node ref="U1" pin="10"/>
+      <node ref="U9" pin="22"/>
+      <node ref="R32" pin="1"/>
+    </net>
+    <net code="84" name="Net-(C25-Pad1)">
+      <node ref="C27" pin="2"/>
+      <node ref="C25" pin="1"/>
+      <node ref="L4" pin="2"/>
+      <node ref="U9" pin="32"/>
+    </net>
+    <net code="85" name="Net-(C24-Pad2)">
+      <node ref="L3" pin="2"/>
+      <node ref="C24" pin="2"/>
+      <node ref="L4" pin="1"/>
+      <node ref="U9" pin="17"/>
+      <node ref="C26" pin="2"/>
+    </net>
+    <net code="86" name="Net-(J1-Pad3)">
+      <node ref="J1" pin="3"/>
+    </net>
+    <net code="87" name="Net-(J1-Pad4)">
+      <node ref="J1" pin="4"/>
+    </net>
+    <net code="88" name="Net-(J1-Pad5)">
+      <node ref="J1" pin="5"/>
+      <node ref="R36" pin="2"/>
+      <node ref="U9" pin="8"/>
+    </net>
+    <net code="89" name="Net-(J8-Pad1)">
+      <node ref="J8" pin="1"/>
+    </net>
+    <net code="90" name="Net-(J8-Pad2)">
+      <node ref="J8" pin="2"/>
+    </net>
+    <net code="91" name="Net-(J8-Pad3)">
+      <node ref="J8" pin="3"/>
+    </net>
+    <net code="92" name="Net-(J8-Pad4)">
+      <node ref="J8" pin="4"/>
+    </net>
+    <net code="93" name="Net-(J8-Pad5)">
+      <node ref="J8" pin="5"/>
+    </net>
+    <net code="94" name="Net-(J8-Pad6)">
+      <node ref="J8" pin="6"/>
+    </net>
+    <net code="95" name="Net-(J8-Pad7)">
+      <node ref="J8" pin="7"/>
+    </net>
+  </nets>
+</export>
