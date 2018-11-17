@@ -1,8 +1,8 @@
 EESchema Schematic File Version 4
-LIBS:Control Board-cache
+LIBS:HotfireComms-cache
 EELAYER 26 0
 EELAYER END
-$Descr A4 11693 8268
+$Descr A3 16535 11693
 encoding utf-8
 Sheet 1 1
 Title ""
@@ -15,7 +15,7 @@ Comment3 ""
 Comment4 ""
 $EndDescr
 $Comp
-L Custom-Parts:ISL83490 U?
+L Custom_Parts:ISL83490 U?
 U 1 1 5C733F14
 P 8150 5300
 F 0 "U?" H 7850 4700 50  0000 L CNN
@@ -27,7 +27,7 @@ F 4 "ISL83490IBZ-ND" H 7850 4800 50  0001 C CNN "Digikey Part Number"
 	1    0    0    -1  
 $EndComp
 $Comp
-L Control-Board-rescue:R-device R?
+L Device:R R?
 U 1 1 5C733F1C
 P 8900 5000
 F 0 "R?" V 8980 5000 50  0000 C CNN
@@ -39,7 +39,7 @@ F 4 "311-100HRCT-ND" H 8980 5100 50  0001 C CNN "Digikey Part Number"
 	0    1    1    0   
 $EndComp
 $Comp
-L Control-Board-rescue:C_Small-device C?
+L Device:C_Small C?
 U 1 1 5C733F24
 P 7650 4500
 F 0 "C?" H 7600 5050 50  0000 L CNN
@@ -145,25 +145,25 @@ OPENLOG_RX
 $Comp
 L power:GND #PWR?
 U 1 1 5C733F5F
-P 10600 2150
-F 0 "#PWR?" H 10600 1900 50  0001 C CNN
-F 1 "GND" V 10600 1950 50  0000 C CNN
-F 2 "" H 10600 2150 50  0001 C CNN
-F 3 "" H 10600 2150 50  0001 C CNN
-	1    10600 2150
-	0    -1   1    0   
+P 9500 2550
+F 0 "#PWR?" H 9500 2300 50  0001 C CNN
+F 1 "GND" V 9500 2350 50  0000 C CNN
+F 2 "" H 9500 2550 50  0001 C CNN
+F 3 "" H 9500 2550 50  0001 C CNN
+	1    9500 2550
+	0    1    -1   0   
 $EndComp
 $Comp
-L Control-Board-rescue:RJ45-Connector J?
+L Connector:RJ45_Shielded J?
 U 1 1 5C733F66
-P 10050 2500
-F 0 "J?" H 10126 3117 50  0000 C CNN
-F 1 "RJ45" H 10126 3026 50  0000 C CNN
-F 2 "Connectors:RJ45_8" H 10050 2500 50  0001 C CNN
-F 3 "" H 10050 2500 50  0001 C CNN
-F 4 "RJHSE-5080-ND" H -2100 -9700 50  0001 C CNN "Digikey Part Number"
-	1    10050 2500
-	1    0    0    -1  
+P 10000 2550
+F 0 "J?" H 10076 3167 50  0000 C CNN
+F 1 "RJ45" H 10076 3076 50  0000 C CNN
+F 2 "Connectors:RJ45_8" H 10000 2550 50  0001 C CNN
+F 3 "" H 10000 2550 50  0001 C CNN
+F 4 "RJHSE-5080-ND" H -2150 -9650 50  0001 C CNN "Digikey Part Number"
+	1    10000 2550
+	0    1    1    0   
 $EndComp
 $Comp
 L power:GND #PWR?
@@ -210,7 +210,7 @@ F 3 "" H 10500 1450 50  0001 C CNN
 	0    -1   1    0   
 $EndComp
 $Comp
-L Control-Board-rescue:R_Small-device R?
+L Device:R_Small R?
 U 1 1 5C733F8D
 P 9450 950
 F 0 "R?" H 9480 970 50  0000 L CNN
@@ -222,40 +222,7 @@ F 4 "311-10.0KHRCT-ND" H 9480 1070 50  0001 C CNN "Digikey Part Number"
 	-1   0    0    1   
 $EndComp
 $Comp
-L Control-Board-rescue:Mounting_Hole-Mechanical H?
-U 1 1 5C733F97
-P 8150 1500
-F 0 "H?" H 8250 1546 50  0000 L CNN
-F 1 "Mounting_Hole" H 8250 1455 50  0000 L CNN
-F 2 "Mounting_Holes:MountingHole_3.2mm_M3" H 8150 1500 50  0001 C CNN
-F 3 "" H 8150 1500 50  0001 C CNN
-	1    8150 1500
-	1    0    0    -1  
-$EndComp
-$Comp
-L Control-Board-rescue:Mounting_Hole-Mechanical H?
-U 1 1 5C733F9E
-P 8150 1700
-F 0 "H?" H 8250 1746 50  0000 L CNN
-F 1 "Mounting_Hole" H 8250 1655 50  0000 L CNN
-F 2 "Mounting_Holes:MountingHole_3.2mm_M3" H 8150 1700 50  0001 C CNN
-F 3 "" H 8150 1700 50  0001 C CNN
-	1    8150 1700
-	1    0    0    -1  
-$EndComp
-$Comp
-L Control-Board-rescue:Mounting_Hole-Mechanical H?
-U 1 1 5C733FA5
-P 8150 1900
-F 0 "H?" H 8250 1946 50  0000 L CNN
-F 1 "Mounting_Hole" H 8250 1855 50  0000 L CNN
-F 2 "Mounting_Holes:MountingHole_3.2mm_M3" H 8150 1900 50  0001 C CNN
-F 3 "" H 8150 1900 50  0001 C CNN
-	1    8150 1900
-	1    0    0    -1  
-$EndComp
-$Comp
-L Control-Board-rescue:Mounting_Hole-Mechanical H?
+L Mechanical:MountingHole H?
 U 1 1 5C733FAC
 P 8150 2100
 F 0 "H?" H 8250 2146 50  0000 L CNN
@@ -301,7 +268,7 @@ F 5 "1568-1368-ND" H 2800 5400 50  0001 C CNN "Digikey Part Number"
 	1    0    0    -1  
 $EndComp
 $Comp
-L Custom-Parts:Micro_SD_Card_SPI_MODE_Det J?
+L Custom_Parts:Micro_SD_Card_SPI_MODE_Det J?
 U 1 1 5C733FCB
 P 3350 2000
 F 0 "J?" H 3300 2817 50  0000 C CNN
@@ -444,7 +411,7 @@ F 3 "" H 2800 3800 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Control-Board-rescue:C_Small-device C?
+L Device:C_Small C?
 U 1 1 5C73401B
 P 1900 4000
 F 0 "C?" H 1550 4000 50  0000 L CNN
@@ -493,7 +460,7 @@ SD_MOSI
 Text Label 3400 4600 0    50   ~ 0
 SD_MISO
 $Comp
-L Control-Board-rescue:C_Small-device C?
+L Device:C_Small C?
 U 1 1 5C734038
 P 1750 4000
 F 0 "C?" H 1400 4000 50  0000 L CNN
@@ -559,7 +526,7 @@ F 3 "~" H 3900 6600 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Control-Board-rescue:LED-device D?
+L Device:LED D?
 U 1 1 5C734060
 P 3900 6850
 F 0 "D?" H 3900 6950 50  0000 C CNN
@@ -571,7 +538,7 @@ F 4 "160-1446-1-ND" H 3900 7050 50  0001 C CNN "Digikey Part Number"
 	0    -1   -1   0   
 $EndComp
 $Comp
-L Control-Board-rescue:LED-device D?
+L Device:LED D?
 U 1 1 5C734068
 P 4300 6850
 F 0 "D?" H 4300 6950 50  0000 C CNN
@@ -650,4 +617,37 @@ Text Label 7200 5000 2    60   ~ 0
 OPENLOG_RX
 Wire Wire Line
 	7650 5000 7200 5000
+$Comp
+L Mechanical:MountingHole H?
+U 1 1 5BFBC168
+P 8150 1850
+F 0 "H?" H 8250 1896 50  0000 L CNN
+F 1 "Mounting_Hole" H 8250 1805 50  0000 L CNN
+F 2 "Mounting_Holes:MountingHole_3.2mm_M3" H 8150 1850 50  0001 C CNN
+F 3 "" H 8150 1850 50  0001 C CNN
+	1    8150 1850
+	1    0    0    -1  
+$EndComp
+$Comp
+L Mechanical:MountingHole H?
+U 1 1 5BFBC19E
+P 8150 1600
+F 0 "H?" H 8250 1646 50  0000 L CNN
+F 1 "Mounting_Hole" H 8250 1555 50  0000 L CNN
+F 2 "Mounting_Holes:MountingHole_3.2mm_M3" H 8150 1600 50  0001 C CNN
+F 3 "" H 8150 1600 50  0001 C CNN
+	1    8150 1600
+	1    0    0    -1  
+$EndComp
+$Comp
+L Mechanical:MountingHole H?
+U 1 1 5BFBC1D5
+P 8150 1350
+F 0 "H?" H 8250 1396 50  0000 L CNN
+F 1 "Mounting_Hole" H 8250 1305 50  0000 L CNN
+F 2 "Mounting_Holes:MountingHole_3.2mm_M3" H 8150 1350 50  0001 C CNN
+F 3 "" H 8150 1350 50  0001 C CNN
+	1    8150 1350
+	1    0    0    -1  
+$EndComp
 $EndSCHEMATC
