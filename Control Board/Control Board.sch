@@ -1653,13 +1653,13 @@ Text Label 9450 17200 2    60   ~ 0
 BOARD_TX
 Text Label 9450 16700 2    60   ~ 0
 BOARD_RX
-Text Label 11000 17100 0    60   ~ 0
+Text Label 12000 17100 0    60   ~ 0
 BOARD_TX+
-Text Label 11000 17300 0    60   ~ 0
+Text Label 12000 17300 0    60   ~ 0
 BOARD_TX-
-Text Label 11000 16800 0    60   ~ 0
+Text Label 12000 16800 0    60   ~ 0
 BOARD_RX-
-Text Label 11000 16600 0    60   ~ 0
+Text Label 12000 16600 0    60   ~ 0
 BOARD_RX+
 Text Notes 10450 16350 0    60   ~ 0
 Note: 100 Ω is not the proper termination resistance \nfor RS422 but we're using Cat6 cables which have a \n100 Ω characteristic impedance
@@ -2018,9 +2018,9 @@ Wire Wire Line
 Wire Wire Line
 	2400 5550 2150 5550
 Wire Wire Line
-	10450 17100 11000 17100
+	10450 17100 11800 17100
 Wire Wire Line
-	10450 17300 11000 17300
+	10450 17300 11350 17300
 Wire Wire Line
 	10450 16600 10850 16600
 Wire Wire Line
@@ -2193,9 +2193,9 @@ Wire Wire Line
 Wire Wire Line
 	3100 7250 3250 7250
 Wire Wire Line
-	10550 16800 11000 16800
+	10550 16800 12000 16800
 Wire Wire Line
-	10850 16600 11000 16600
+	10850 16600 11250 16600
 Wire Wire Line
 	9650 16100 9850 16100
 Wire Wire Line
@@ -3568,4 +3568,78 @@ Text Notes 12800 19850 0    50   ~ 0
 Connector:\nConnects to the other boards in the avionics stack
 Text Notes 9700 19250 0    50   ~ 0
 Mounting holes and logo:\nMounting holes and logo
+$Comp
+L Device:D_TVS D?
+U 1 1 5BF9F596
+P 13750 14700
+F 0 "D?" H 13750 14916 50  0000 C CNN
+F 1 "D_TVS" H 13750 14825 50  0000 C CNN
+F 2 "" H 13750 14700 50  0001 C CNN
+F 3 "~" H 13750 14700 50  0001 C CNN
+	1    13750 14700
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:D_TVS_x2_AAC D?
+U 1 1 5BF9FB80
+P 10900 17600
+F 0 "D?" H 10900 17816 50  0000 C CNN
+F 1 "D_TVS_x2_AAC" H 10900 17725 50  0000 C CNN
+F 2 "" H 10750 17600 50  0001 C CNN
+F 3 "~" H 10750 17600 50  0001 C CNN
+	1    10900 17600
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:D_TVS_x2_AAC D?
+U 1 1 5BFC797F
+P 11700 17850
+F 0 "D?" H 11700 18066 50  0000 C CNN
+F 1 "D_TVS_x2_AAC" H 11700 17975 50  0000 C CNN
+F 2 "" H 11550 17850 50  0001 C CNN
+F 3 "~" H 11550 17850 50  0001 C CNN
+	1    11700 17850
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	10550 17600 10550 16800
+Wire Wire Line
+	11250 17600 11250 16600
+Connection ~ 11250 16600
+Wire Wire Line
+	11250 16600 12000 16600
+Wire Wire Line
+	11350 17850 11350 17300
+Connection ~ 11350 17300
+Wire Wire Line
+	11350 17300 12000 17300
+Wire Wire Line
+	12050 17850 12050 17500
+Wire Wire Line
+	12050 17500 11800 17500
+Wire Wire Line
+	11800 17500 11800 17100
+Connection ~ 11800 17100
+Wire Wire Line
+	11800 17100 12000 17100
+Wire Wire Line
+	10900 17750 10900 18100
+Wire Wire Line
+	10900 18100 11300 18100
+Wire Wire Line
+	11700 18100 11700 18000
+$Comp
+L power:GND #PWR?
+U 1 1 5C3AF19A
+P 11300 18100
+F 0 "#PWR?" H 11300 17850 50  0001 C CNN
+F 1 "GND" H 11300 17950 50  0000 C CNN
+F 2 "" H 11300 18100 50  0001 C CNN
+F 3 "" H 11300 18100 50  0001 C CNN
+	1    11300 18100
+	-1   0    0    -1  
+$EndComp
+Connection ~ 11300 18100
+Wire Wire Line
+	11300 18100 11700 18100
 $EndSCHEMATC
