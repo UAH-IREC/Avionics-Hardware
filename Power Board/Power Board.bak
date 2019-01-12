@@ -15,7 +15,7 @@ Comment3 ""
 Comment4 ""
 $EndDescr
 $Comp
-L Device:LED D5
+L Power-Board-rescue:LED-Device D5
 U 1 1 5A8295FF
 P 3500 14300
 F 0 "D5" H 3500 14400 50  0000 C CNN
@@ -27,7 +27,7 @@ F 4 "160-1447-1-ND" H 3500 14500 50  0001 C CNN "Digikey Part Number"
 	1    0    0    -1  
 $EndComp
 $Comp
-L Device:R R12
+L Power-Board-rescue:R-Device R12
 U 1 1 5A8298EE
 P 3000 14300
 F 0 "R12" V 3080 14300 50  0000 C CNN
@@ -39,7 +39,7 @@ F 4 "P100HCT-ND" H 3080 14400 50  0001 C CNN "Digikey Part Number"
 	0    1    1    0   
 $EndComp
 $Comp
-L power:GND #PWR026
+L Power-Board-rescue:GND-power #PWR026
 U 1 1 5A829D6A
 P 2700 14300
 F 0 "#PWR026" H 2700 14050 50  0001 C CNN
@@ -50,7 +50,7 @@ F 3 "" H 2700 14300 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L power:+3V3 #PWR027
+L Power-Board-rescue:+3V3-power #PWR027
 U 1 1 5A82A5C4
 P 3850 14300
 F 0 "#PWR027" H 3850 14150 50  0001 C CNN
@@ -61,7 +61,7 @@ F 3 "" H 3850 14300 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L power:+3V3 #PWR033
+L Power-Board-rescue:+3V3-power #PWR033
 U 1 1 5A835285
 P 3650 17250
 F 0 "#PWR033" H 3650 17100 50  0001 C CNN
@@ -72,7 +72,7 @@ F 3 "" H 3650 17250 50  0001 C CNN
 	0    1    -1   0   
 $EndComp
 $Comp
-L power:+12V #PWR035
+L Power-Board-rescue:+12V-power #PWR035
 U 1 1 5A83647C
 P 3650 16950
 F 0 "#PWR035" H 3650 16800 50  0001 C CNN
@@ -83,7 +83,7 @@ F 3 "" H 3650 16950 50  0001 C CNN
 	0    1    -1   0   
 $EndComp
 $Comp
-L power:+3V3 #PWR017
+L Power-Board-rescue:+3V3-power #PWR017
 U 1 1 5A8F6A7E
 P 6050 8800
 F 0 "#PWR017" H 6050 8650 50  0001 C CNN
@@ -94,7 +94,7 @@ F 3 "" H 6050 8800 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L power:+12V #PWR020
+L Power-Board-rescue:+12V-power #PWR020
 U 1 1 5A8F6E8A
 P 4950 12100
 F 0 "#PWR020" H 4950 11950 50  0001 C CNN
@@ -105,7 +105,7 @@ F 3 "" H 4950 12100 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Device:Q_PMOS_DGS Q1
+L Power-Board-rescue:Q_PMOS_DGS-Device Q1
 U 1 1 5A8EF571
 P 5300 2100
 F 0 "Q1" H 5500 2150 50  0000 L CNN
@@ -117,7 +117,7 @@ F 4 "SI7157DP-T1-GE3CT-ND" H 5500 2250 50  0001 C CNN "Digikey Part Number"
 	0    -1   -1   0   
 $EndComp
 $Comp
-L Device:Q_PMOS_DGS Q2
+L Power-Board-rescue:Q_PMOS_DGS-Device Q2
 U 1 1 5A8EF9DA
 P 5800 2100
 F 0 "Q2" H 6000 2150 50  0000 L CNN
@@ -129,7 +129,7 @@ F 4 "SI7157DP-T1-GE3CT-ND" H 6000 2250 50  0001 C CNN "Digikey Part Number"
 	0    1    -1   0   
 $EndComp
 $Comp
-L Device:Q_PMOS_DGS Q3
+L Power-Board-rescue:Q_PMOS_DGS-Device Q3
 U 1 1 5A8F1A26
 P 6100 2500
 F 0 "Q3" H 6300 2550 50  0000 L CNN
@@ -141,7 +141,7 @@ F 4 "SI7157DP-T1-GE3CT-ND" H 6300 2650 50  0001 C CNN "Digikey Part Number"
 	0    -1   -1   0   
 $EndComp
 $Comp
-L Device:Q_PMOS_DGS Q4
+L Power-Board-rescue:Q_PMOS_DGS-Device Q4
 U 1 1 5A8F1A2D
 P 6600 2500
 F 0 "Q4" H 6800 2550 50  0000 L CNN
@@ -153,7 +153,7 @@ F 4 "SI7157DP-T1-GE3CT-ND" H 6800 2650 50  0001 C CNN "Digikey Part Number"
 	0    1    -1   0   
 $EndComp
 $Comp
-L Device:Q_PMOS_DGS Q5
+L Power-Board-rescue:Q_PMOS_DGS-Device Q5
 U 1 1 5A8F1ADE
 P 6900 2900
 F 0 "Q5" H 7100 2950 50  0000 L CNN
@@ -165,7 +165,7 @@ F 4 "SI7157DP-T1-GE3CT-ND" H 7100 3050 50  0001 C CNN "Digikey Part Number"
 	0    -1   -1   0   
 $EndComp
 $Comp
-L Device:Q_PMOS_DGS Q6
+L Power-Board-rescue:Q_PMOS_DGS-Device Q6
 U 1 1 5A8F1AE5
 P 7400 2900
 F 0 "Q6" H 7600 2950 50  0000 L CNN
@@ -177,7 +177,7 @@ F 4 "SI7157DP-T1-GE3CT-ND" H 7600 3050 50  0001 C CNN "Digikey Part Number"
 	0    1    -1   0   
 $EndComp
 $Comp
-L power:GND #PWR015
+L Power-Board-rescue:GND-power #PWR015
 U 1 1 5A8F52ED
 P 4200 5500
 F 0 "#PWR015" H 4200 5250 50  0001 C CNN
@@ -188,7 +188,7 @@ F 3 "" H 4200 5500 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L power:GND #PWR016
+L Power-Board-rescue:GND-power #PWR016
 U 1 1 5A8F55FE
 P 4800 6000
 F 0 "#PWR016" H 4800 5750 50  0001 C CNN
@@ -199,7 +199,7 @@ F 3 "" H 4800 6000 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Device:C_Small C2
+L Power-Board-rescue:C_Small-Device C2
 U 1 1 5A8F83BF
 P 5700 3650
 F 0 "C2" H 5710 3720 50  0000 L CNN
@@ -211,7 +211,7 @@ F 4 "1276-6717-6-ND" H 5710 3820 50  0001 C CNN "Digikey Part Number"
 	1    0    0    -1  
 $EndComp
 $Comp
-L Device:C_Small C3
+L Power-Board-rescue:C_Small-Device C3
 U 1 1 5A8F8776
 P 6500 3650
 F 0 "C3" H 6510 3720 50  0000 L CNN
@@ -223,7 +223,7 @@ F 4 "1276-6717-6-ND" H 6510 3820 50  0001 C CNN "Digikey Part Number"
 	1    0    0    -1  
 $EndComp
 $Comp
-L Device:C_Small C4
+L Power-Board-rescue:C_Small-Device C4
 U 1 1 5A8F88B6
 P 7300 3650
 F 0 "C4" H 7310 3720 50  0000 L CNN
@@ -235,7 +235,7 @@ F 4 "1276-6717-6-ND" H 7310 3820 50  0001 C CNN "Digikey Part Number"
 	1    0    0    -1  
 $EndComp
 $Comp
-L power:GND #PWR06
+L Power-Board-rescue:GND-power #PWR06
 U 1 1 5A8F8F6F
 P 5700 3750
 F 0 "#PWR06" H 5700 3500 50  0001 C CNN
@@ -246,7 +246,7 @@ F 3 "" H 5700 3750 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L power:GND #PWR07
+L Power-Board-rescue:GND-power #PWR07
 U 1 1 5A8F9094
 P 6500 3750
 F 0 "#PWR07" H 6500 3500 50  0001 C CNN
@@ -257,7 +257,7 @@ F 3 "" H 6500 3750 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L power:GND #PWR08
+L Power-Board-rescue:GND-power #PWR08
 U 1 1 5A8F91B9
 P 7300 3750
 F 0 "#PWR08" H 7300 3500 50  0001 C CNN
@@ -268,7 +268,7 @@ F 3 "" H 7300 3750 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Device:C_Small C5
+L Power-Board-rescue:C_Small-Device C5
 U 1 1 5A8F92DE
 P 4100 3800
 F 0 "C5" H 4110 3870 50  0000 L CNN
@@ -280,7 +280,7 @@ F 4 "1276-6717-6-ND" H 4110 3970 50  0001 C CNN "Digikey Part Number"
 	0    -1   -1   0   
 $EndComp
 $Comp
-L power:GND #PWR03
+L Power-Board-rescue:GND-power #PWR03
 U 1 1 5A8F9E29
 P 8600 2400
 F 0 "#PWR03" H 8600 2150 50  0001 C CNN
@@ -291,7 +291,7 @@ F 3 "" H 8600 2400 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Device:CP1_Small C1
+L Power-Board-rescue:CP1_Small-Device C1
 U 1 1 5A8FA915
 P 8600 2300
 F 0 "C1" H 8610 2370 50  0000 L CNN
@@ -303,7 +303,7 @@ F 4 "1189-1733-ND" H 8610 2470 50  0001 C CNN "Digikey Part Number"
 	1    0    0    -1  
 $EndComp
 $Comp
-L Device:D_Zener D2
+L Power-Board-rescue:D_Zener-Device D2
 U 1 1 5A90020B
 P 8100 2250
 F 0 "D2" H 8100 2350 50  0000 C CNN
@@ -315,7 +315,7 @@ F 4 "SMBJ26AFSCT-ND" H 8100 2450 50  0001 C CNN "Digikey Part Number"
 	0    1    1    0   
 $EndComp
 $Comp
-L power:GND #PWR02
+L Power-Board-rescue:GND-power #PWR02
 U 1 1 5A900989
 P 8100 2400
 F 0 "#PWR02" H 8100 2150 50  0001 C CNN
@@ -326,7 +326,7 @@ F 3 "" H 8100 2400 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L power:GND #PWR011
+L Power-Board-rescue:GND-power #PWR011
 U 1 1 5A906A49
 P 3950 4200
 F 0 "#PWR011" H 3950 3950 50  0001 C CNN
@@ -337,7 +337,7 @@ F 3 "" H 3950 4200 50  0001 C CNN
 	0    -1   -1   0   
 $EndComp
 $Comp
-L power:GND #PWR09
+L Power-Board-rescue:GND-power #PWR09
 U 1 1 5A9084E2
 P 4000 3800
 F 0 "#PWR09" H 4000 3550 50  0001 C CNN
@@ -348,7 +348,7 @@ F 3 "" H 4000 3800 50  0001 C CNN
 	0    1    1    0   
 $EndComp
 $Comp
-L Device:C_Small C6
+L Power-Board-rescue:C_Small-Device C6
 U 1 1 5A90AD02
 P 3050 4200
 F 0 "C6" H 3060 4270 50  0000 L CNN
@@ -360,7 +360,7 @@ F 4 "1276-6717-6-ND" H 3060 4370 50  0001 C CNN "Digikey Part Number"
 	0    -1   -1   0   
 $EndComp
 $Comp
-L Device:R_Small R6
+L Power-Board-rescue:R_Small-Device R6
 U 1 1 5A90AD08
 P 2800 4600
 F 0 "R6" V 2800 4000 50  0000 L CNN
@@ -372,7 +372,7 @@ F 4 "P11.0KHCT-ND" H 2800 4100 50  0001 C CNN "Digikey Part Number"
 	0    1    -1   0   
 $EndComp
 $Comp
-L Device:R_Small R5
+L Power-Board-rescue:R_Small-Device R5
 U 1 1 5A90AD0E
 P 2800 4500
 F 0 "R5" V 2800 3900 50  0000 L CNN
@@ -384,7 +384,7 @@ F 4 "311-5.49KHRCT-ND" H 2800 4000 50  0001 C CNN "Digikey Part Number"
 	0    1    -1   0   
 $EndComp
 $Comp
-L Device:R_Small R4
+L Power-Board-rescue:R_Small-Device R4
 U 1 1 5A90AD14
 P 2800 4400
 F 0 "R4" V 2800 3800 50  0000 L CNN
@@ -396,7 +396,7 @@ F 4 "P82.5KHCT-ND" H 2800 3900 50  0001 C CNN "Digikey Part Number"
 	0    1    -1   0   
 $EndComp
 $Comp
-L power:GND #PWR013
+L Power-Board-rescue:GND-power #PWR013
 U 1 1 5A90AD1A
 P 2900 4600
 F 0 "#PWR013" H 2900 4350 50  0001 C CNN
@@ -407,7 +407,7 @@ F 3 "" H 2900 4600 50  0001 C CNN
 	0    -1   -1   0   
 $EndComp
 $Comp
-L power:GND #PWR010
+L Power-Board-rescue:GND-power #PWR010
 U 1 1 5A90AD20
 P 2950 4200
 F 0 "#PWR010" H 2950 3950 50  0001 C CNN
@@ -418,7 +418,7 @@ F 3 "" H 2950 4200 50  0001 C CNN
 	0    1    1    0   
 $EndComp
 $Comp
-L Device:C_Small C7
+L Power-Board-rescue:C_Small-Device C7
 U 1 1 5A90B733
 P 2000 4600
 F 0 "C7" H 2010 4670 50  0000 L CNN
@@ -430,7 +430,7 @@ F 4 "1276-6717-6-ND" H 2010 4770 50  0001 C CNN "Digikey Part Number"
 	0    -1   -1   0   
 $EndComp
 $Comp
-L power:GND #PWR014
+L Power-Board-rescue:GND-power #PWR014
 U 1 1 5A90B74B
 P 1850 5000
 F 0 "#PWR014" H 1850 4750 50  0001 C CNN
@@ -441,7 +441,7 @@ F 3 "" H 1850 5000 50  0001 C CNN
 	0    -1   -1   0   
 $EndComp
 $Comp
-L power:GND #PWR012
+L Power-Board-rescue:GND-power #PWR012
 U 1 1 5A90B751
 P 1900 4600
 F 0 "#PWR012" H 1900 4350 50  0001 C CNN
@@ -452,7 +452,7 @@ F 3 "" H 1900 4600 50  0001 C CNN
 	0    1    1    0   
 $EndComp
 $Comp
-L Custom-Parts:TPS54308DDC U2
+L Power-Board-rescue:TPS54308DDC-Custom-Parts U2
 U 1 1 5A948659
 P 3350 8800
 F 0 "U2" H 2950 9250 50  0000 L CNN
@@ -464,7 +464,7 @@ F 4 "296-44123-1-ND" H 2950 9350 50  0001 C CNN "Digikey Part Number"
 	1    0    0    -1  
 $EndComp
 $Comp
-L power:GND #PWR018
+L Power-Board-rescue:GND-power #PWR018
 U 1 1 5A94C4DF
 P 3350 9400
 F 0 "#PWR018" H 3350 9150 50  0001 C CNN
@@ -475,7 +475,7 @@ F 3 "" H 3350 9400 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Device:C_Small C8
+L Power-Board-rescue:C_Small-Device C8
 U 1 1 5A94E0E3
 P 4050 8600
 F 0 "C8" H 4060 8670 50  0000 L CNN
@@ -487,19 +487,19 @@ F 4 "478-3351-1-ND" H 4060 8770 50  0001 C CNN "Digikey Part Number"
 	0    -1   -1   0   
 $EndComp
 $Comp
-L Device:L_Small L1
+L Power-Board-rescue:L_Small-Device L1
 U 1 1 5A94EC83
 P 4550 8800
 F 0 "L1" H 4580 8840 50  0000 L CNN
 F 1 "2.2 µH" H 4580 8760 50  0000 L CNN
-F 2 "" H 4550 8800 50  0001 C CNN
+F 2 "Custom Parts:3.3v DC-DC Inductor" H 4550 8800 50  0001 C CNN
 F 3 "" H 4550 8800 50  0001 C CNN
 F 4 "SRP6540-2R2MCT-ND" H 4550 8800 50  0001 C CNN "Digikey Part Number"
 	1    4550 8800
 	0    -1   -1   0   
 $EndComp
 $Comp
-L Device:R_Small R10
+L Power-Board-rescue:R_Small-Device R10
 U 1 1 5A94F6FB
 P 4850 8950
 F 0 "R10" H 4880 8970 50  0000 L CNN
@@ -511,7 +511,7 @@ F 4 "P33.2KHCT-ND" H 4880 9070 50  0001 C CNN "Digikey Part Number"
 	1    0    0    -1  
 $EndComp
 $Comp
-L Device:R_Small R11
+L Power-Board-rescue:R_Small-Device R11
 U 1 1 5A94FD84
 P 4850 9250
 F 0 "R11" H 4880 9270 50  0000 L CNN
@@ -523,7 +523,7 @@ F 4 "P10.0KHCT-ND" H 4880 9370 50  0001 C CNN "Digikey Part Number"
 	1    0    0    -1  
 $EndComp
 $Comp
-L Device:L_Small L2
+L Power-Board-rescue:L_Small-Device L2
 U 1 1 5A9540F5
 P 3400 11600
 F 0 "L2" H 3430 11640 50  0000 L CNN
@@ -535,7 +535,7 @@ F 4 "732-4180-1-ND" H 3430 11740 50  0001 C CNN "Digikey Part Number"
 	0    -1   -1   0   
 $EndComp
 $Comp
-L Device:C_Small C16
+L Power-Board-rescue:C_Small-Device C16
 U 1 1 5A954114
 P 4400 12200
 F 0 "C16" H 4410 12270 50  0000 L CNN
@@ -766,7 +766,7 @@ Connection ~ 3350 9400
 Connection ~ 4850 9400
 Connection ~ 5550 8800
 $Comp
-L Custom-Parts:LTC4417CGN U1
+L Power-Board-rescue:LTC4417CGN-Custom-Parts U1
 U 1 1 5A97CA54
 P 4800 4800
 F 0 "U1" H 4800 5825 50  0000 C CNN
@@ -778,7 +778,7 @@ F 4 "LTC4417CGN#PBF-ND" H 4800 4800 60  0001 C CNN "Digikey Part Number"
 	1    0    0    -1  
 $EndComp
 $Comp
-L Device:LED D6
+L Power-Board-rescue:LED-Device D6
 U 1 1 5A9CAF6E
 P 3500 14800
 F 0 "D6" H 3500 14900 50  0000 C CNN
@@ -790,7 +790,7 @@ F 4 "160-1447-1-ND" H 3500 15000 50  0001 C CNN "Digikey Part Number"
 	1    0    0    -1  
 $EndComp
 $Comp
-L Device:R R13
+L Power-Board-rescue:R-Device R13
 U 1 1 5A9CAF75
 P 3000 14800
 F 0 "R13" V 3080 14800 50  0000 C CNN
@@ -802,7 +802,7 @@ F 4 "P470HCT-ND" H 3080 14900 50  0001 C CNN "Digikey Part Number"
 	0    1    1    0   
 $EndComp
 $Comp
-L power:GND #PWR028
+L Power-Board-rescue:GND-power #PWR028
 U 1 1 5A9CAF7B
 P 2700 14800
 F 0 "#PWR028" H 2700 14550 50  0001 C CNN
@@ -819,7 +819,7 @@ Wire Wire Line
 Wire Wire Line
 	2700 14800 2850 14800
 $Comp
-L power:+12V #PWR029
+L Power-Board-rescue:+12V-power #PWR029
 U 1 1 5A9CB3B4
 P 3850 14800
 F 0 "#PWR029" H 3850 14650 50  0001 C CNN
@@ -830,7 +830,7 @@ F 3 "" H 3850 14800 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L power:GND #PWR036
+L Power-Board-rescue:GND-power #PWR036
 U 1 1 5A9CE5D1
 P 3650 17050
 F 0 "#PWR036" H 3650 16800 50  0001 C CNN
@@ -841,7 +841,7 @@ F 3 "" H 3650 17050 50  0001 C CNN
 	0    -1   1    0   
 $EndComp
 $Comp
-L Custom-Parts:LTC3130-1 U3
+L Power-Board-rescue:LTC3130-1-Custom-Parts U3
 U 1 1 5A9EE135
 P 3400 12400
 F 0 "U3" H 2850 12950 60  0000 C CNN
@@ -853,7 +853,7 @@ F 4 "LTC3130IMSE-1#PBF-ND" H 3400 12400 60  0001 C CNN "Digikey Part Number"
 	1    0    0    -1  
 $EndComp
 $Comp
-L Device:C_Small C14
+L Power-Board-rescue:C_Small-Device C14
 U 1 1 5A9EE557
 P 3600 11600
 F 0 "C14" H 3610 11670 50  0000 L CNN
@@ -865,7 +865,7 @@ F 4 "399-9044-1-ND" H 3600 11600 60  0001 C CNN "Digikey Part Number"
 	0    -1   -1   0   
 $EndComp
 $Comp
-L Device:C_Small C13
+L Power-Board-rescue:C_Small-Device C13
 U 1 1 5A9EEB8C
 P 3200 11600
 F 0 "C13" H 3210 11670 50  0000 L CNN
@@ -886,7 +886,7 @@ Wire Wire Line
 	2250 12200 2250 12100
 Connection ~ 2250 12100
 $Comp
-L Device:C_Small C15
+L Power-Board-rescue:C_Small-Device C15
 U 1 1 5A9EFC5B
 P 2350 12000
 F 0 "C15" H 2360 12070 50  0000 L CNN
@@ -898,7 +898,7 @@ F 4 "445-14373-1-ND" H 2360 12170 50  0001 C CNN "Digikey Part Number"
 	-1   0    0    1   
 $EndComp
 $Comp
-L power:GND #PWR019
+L Power-Board-rescue:GND-power #PWR019
 U 1 1 5A9F0130
 P 2350 11900
 F 0 "#PWR019" H 2350 11650 50  0001 C CNN
@@ -909,7 +909,7 @@ F 3 "" H 2350 11900 50  0001 C CNN
 	-1   0    0    1   
 $EndComp
 $Comp
-L Device:C_Small C17
+L Power-Board-rescue:C_Small-Device C17
 U 1 1 5A9F06C5
 P 2350 12300
 F 0 "C17" H 2360 12370 50  0000 L CNN
@@ -921,7 +921,7 @@ F 4 "1276-6524-1-ND" H 2350 12300 60  0001 C CNN "Digikey Part Number"
 	1    0    0    -1  
 $EndComp
 $Comp
-L power:GND #PWR023
+L Power-Board-rescue:GND-power #PWR023
 U 1 1 5A9F0A02
 P 2350 12400
 F 0 "#PWR023" H 2350 12150 50  0001 C CNN
@@ -937,7 +937,7 @@ Wire Wire Line
 	2550 12200 2550 12300
 Connection ~ 2550 12200
 $Comp
-L Device:C_Small C18
+L Power-Board-rescue:C_Small-Device C18
 U 1 1 5A9F17A0
 P 4200 12800
 F 0 "C18" H 4210 12870 50  0000 L CNN
@@ -951,7 +951,7 @@ $EndComp
 Wire Wire Line
 	4000 12700 4200 12700
 $Comp
-L power:GND #PWR024
+L Power-Board-rescue:GND-power #PWR024
 U 1 1 5A9F1A41
 P 4200 12900
 F 0 "#PWR024" H 4200 12650 50  0001 C CNN
@@ -965,7 +965,7 @@ Wire Wire Line
 	2550 12400 2800 12400
 Connection ~ 2550 12300
 $Comp
-L power:GND #PWR025
+L Power-Board-rescue:GND-power #PWR025
 U 1 1 5A9F1C03
 P 3400 13000
 F 0 "#PWR025" H 3400 12750 50  0001 C CNN
@@ -982,7 +982,7 @@ Wire Wire Line
 	2800 12600 2550 12600
 Connection ~ 2550 12600
 $Comp
-L power:GND #PWR021
+L Power-Board-rescue:GND-power #PWR021
 U 1 1 5A9F1ECB
 P 4200 12300
 F 0 "#PWR021" H 4200 12050 50  0001 C CNN
@@ -997,7 +997,7 @@ Wire Wire Line
 Wire Wire Line
 	4000 12100 4400 12100
 $Comp
-L power:GND #PWR022
+L Power-Board-rescue:GND-power #PWR022
 U 1 1 5A9F23A3
 P 4400 12300
 F 0 "#PWR022" H 4400 12050 50  0001 C CNN
@@ -1017,7 +1017,7 @@ Wire Wire Line
 	3300 13000 3400 13000
 Connection ~ 3400 13000
 $Comp
-L Device:R_Small R9
+L Power-Board-rescue:R_Small-Device R9
 U 1 1 5A9F6F73
 P 1750 5000
 F 0 "R9" V 1750 4400 50  0000 L CNN
@@ -1029,7 +1029,7 @@ F 4 "P11.0KHCT-ND" H 1750 4500 50  0001 C CNN "Digikey Part Number"
 	0    1    -1   0   
 $EndComp
 $Comp
-L Device:R_Small R8
+L Power-Board-rescue:R_Small-Device R8
 U 1 1 5A9F703E
 P 1750 4900
 F 0 "R8" V 1750 4300 50  0000 L CNN
@@ -1041,7 +1041,7 @@ F 4 "311-5.49KHRCT-ND" H 1750 4400 50  0001 C CNN "Digikey Part Number"
 	0    1    -1   0   
 $EndComp
 $Comp
-L Device:R_Small R7
+L Power-Board-rescue:R_Small-Device R7
 U 1 1 5A9F7104
 P 1750 4800
 F 0 "R7" V 1750 4200 50  0000 L CNN
@@ -1121,7 +1121,7 @@ Wire Wire Line
 Wire Wire Line
 	3750 4100 3750 4200
 $Comp
-L Device:R_Small R1
+L Power-Board-rescue:R_Small-Device R1
 U 1 1 5AA292DA
 P 3850 4000
 F 0 "R1" V 3850 3400 50  0000 L CNN
@@ -1133,7 +1133,7 @@ F 4 "P88.7KHCT-ND" H 3850 3500 50  0001 C CNN "Digikey Part Number"
 	0    1    -1   0   
 $EndComp
 $Comp
-L Device:R_Small R2
+L Power-Board-rescue:R_Small-Device R2
 U 1 1 5AA29371
 P 3850 4100
 F 0 "R2" V 3850 3500 50  0000 L CNN
@@ -1146,7 +1146,7 @@ F 4 "P1.58KHCT-ND" H 3850 3600 50  0001 C CNN "Digikey Part Number"
 $EndComp
 Connection ~ 3950 4100
 $Comp
-L Device:R_Small R3
+L Power-Board-rescue:R_Small-Device R3
 U 1 1 5AA29408
 P 3850 4200
 F 0 "R3" V 3850 3600 50  0000 L CNN
@@ -1161,7 +1161,7 @@ Connection ~ 3750 4200
 Wire Wire Line
 	3750 4200 3750 4300
 $Comp
-L Graphic:SYM_Arrow45_XLarge SYM1
+L Power-Board-rescue:SYM_Arrow45_XLarge-Graphic SYM1
 U 1 1 5AA25E4E
 P 2200 20000
 F 0 "SYM1" H 2197 20220 50  0000 C CNN
@@ -1176,7 +1176,7 @@ Wire Wire Line
 	6050 8800 6200 8800
 Connection ~ 6050 8800
 $Comp
-L Power-Board-rescue:Mounting_Hole-Mechanical H1
+L Power-Board-rescue:Mounting_Hole-Mechanical-Power-Board-rescue H1
 U 1 1 5AA6FB6A
 P 2200 19100
 F 0 "H1" H 2300 19146 50  0000 L CNN
@@ -1188,7 +1188,7 @@ F 4 "732-12933-ND" H 0   0   50  0001 C CNN "Digikey Part Number"
 	1    0    0    -1  
 $EndComp
 $Comp
-L Power-Board-rescue:Mounting_Hole-Mechanical H4
+L Power-Board-rescue:Mounting_Hole-Mechanical-Power-Board-rescue H4
 U 1 1 5AA70339
 P 2200 19700
 F 0 "H4" H 2300 19746 50  0000 L CNN
@@ -1200,7 +1200,7 @@ F 4 "732-12933-ND" H 0   0   50  0001 C CNN "Digikey Part Number"
 	1    0    0    -1  
 $EndComp
 $Comp
-L Power-Board-rescue:Mounting_Hole-Mechanical H2
+L Power-Board-rescue:Mounting_Hole-Mechanical-Power-Board-rescue H2
 U 1 1 5AA703D9
 P 2200 19300
 F 0 "H2" H 2300 19346 50  0000 L CNN
@@ -1212,7 +1212,7 @@ F 4 "732-12933-ND" H 0   0   50  0001 C CNN "Digikey Part Number"
 	1    0    0    -1  
 $EndComp
 $Comp
-L Power-Board-rescue:Mounting_Hole-Mechanical H3
+L Power-Board-rescue:Mounting_Hole-Mechanical-Power-Board-rescue H3
 U 1 1 5AA7048D
 P 2200 19500
 F 0 "H3" H 2300 19546 50  0000 L CNN
@@ -1224,7 +1224,7 @@ F 4 "732-12933-ND" H 0   0   50  0001 C CNN "Digikey Part Number"
 	1    0    0    -1  
 $EndComp
 $Comp
-L Power-Board-rescue:Conn_01x02-Connector J2
+L Power-Board-rescue:Conn_01x02-Connector-Power-Board-rescue J2
 U 1 1 5AA75ED0
 P 5000 19050
 F 0 "J2" H 5080 19042 50  0000 L CNN
@@ -1238,7 +1238,7 @@ $EndComp
 Text Label 4800 19050 2    60   ~ 0
 VCC_IN
 $Comp
-L power:GND #PWR037
+L Power-Board-rescue:GND-power #PWR037
 U 1 1 5AA762AB
 P 4800 19150
 F 0 "#PWR037" H 4800 18900 50  0001 C CNN
@@ -1249,7 +1249,7 @@ F 3 "" H 4800 19150 50  0001 C CNN
 	0    1    -1   0   
 $EndComp
 $Comp
-L Power-Board-rescue:Conn_01x02-Connector J3
+L Power-Board-rescue:Conn_01x02-Connector-Power-Board-rescue J3
 U 1 1 5AA7656E
 P 5000 19350
 F 0 "J3" H 5080 19342 50  0000 L CNN
@@ -1262,7 +1262,7 @@ F 5 "https://www.aliexpress.com/item/AMASS-XT30PW-Banana-golden-XT30-Upgrade-Rig
 	1    0    0    -1  
 $EndComp
 $Comp
-L Power-Board-rescue:Conn_01x02-Connector J4
+L Power-Board-rescue:Conn_01x02-Connector-Power-Board-rescue J4
 U 1 1 5AA765F7
 P 5000 19650
 F 0 "J4" H 5080 19642 50  0000 L CNN
@@ -1275,7 +1275,7 @@ F 5 "https://www.aliexpress.com/item/AMASS-XT30PW-Banana-golden-XT30-Upgrade-Rig
 	1    0    0    -1  
 $EndComp
 $Comp
-L Power-Board-rescue:Conn_01x02-Connector J5
+L Power-Board-rescue:Conn_01x02-Connector-Power-Board-rescue J5
 U 1 1 5AA76683
 P 5000 19950
 F 0 "J5" H 5080 19942 50  0000 L CNN
@@ -1294,7 +1294,7 @@ BAT_VCC_CONN
 Text Label 4800 19950 2    60   ~ 0
 UMB_VCC
 $Comp
-L power:GND #PWR038
+L Power-Board-rescue:GND-power #PWR038
 U 1 1 5AA76884
 P 4800 19450
 F 0 "#PWR038" H 4800 19200 50  0001 C CNN
@@ -1305,7 +1305,7 @@ F 3 "" H 4800 19450 50  0001 C CNN
 	0    1    -1   0   
 $EndComp
 $Comp
-L power:GND #PWR039
+L Power-Board-rescue:GND-power #PWR039
 U 1 1 5AA76909
 P 4800 19750
 F 0 "#PWR039" H 4800 19500 50  0001 C CNN
@@ -1316,7 +1316,7 @@ F 3 "" H 4800 19750 50  0001 C CNN
 	0    1    -1   0   
 $EndComp
 $Comp
-L power:GND #PWR040
+L Power-Board-rescue:GND-power #PWR040
 U 1 1 5AA7698E
 P 4800 20050
 F 0 "#PWR040" H 4800 19800 50  0001 C CNN
@@ -1327,7 +1327,7 @@ F 3 "" H 4800 20050 50  0001 C CNN
 	0    1    -1   0   
 $EndComp
 $Comp
-L power:GND #PWR031
+L Power-Board-rescue:GND-power #PWR031
 U 1 1 5AAAEA96
 P 3650 16850
 F 0 "#PWR031" H 3650 16600 50  0001 C CNN
@@ -1352,7 +1352,7 @@ Text Notes 3200 11150 0    50   ~ 0
 Text Notes 4150 1400 0    50   ~ 0
 Power Supply Selector:\nSelects the most appropriate power source between the umbilical supply,\nthe primary battery, and the backup battery. It does this by selecting\nwhatever source is within the preprogrammed voltage limits, in order of\npriority listed above. Also able to be shutdown for a time duration long\nenough to power cycle the system, using the ~SHDN~ pin.
 $Comp
-L Connector_Generic:Conn_01x03 J7
+L Power-Board-rescue:Conn_01x03-Connector_Generic J7
 U 1 1 5B7E8D44
 P 5000 20900
 F 0 "J7" H 5080 20942 50  0000 L CNN
@@ -1368,7 +1368,7 @@ BAT_CELL_1
 Text Label 4800 21000 2    50   ~ 0
 BAT_CELL_2_CONN
 $Comp
-L Custom-Parts:BQ2057WSNTR U4
+L Power-Board-rescue:BQ2057WSNTR-Custom-Parts U4
 U 1 1 5B8211E2
 P 14600 3850
 F 0 "U4" H 14600 4315 50  0000 C CNN
@@ -1380,7 +1380,7 @@ F 4 "296-41202-1-ND" H 0   0   50  0001 C CNN "Digikey Part Number"
 	1    0    0    -1  
 $EndComp
 $Comp
-L Custom-Parts:BQ29209DRBT U5
+L Power-Board-rescue:BQ29209DRBT-Custom-Parts U5
 U 1 1 5B8212FA
 P 14200 8550
 F 0 "U5" H 14200 8965 50  0000 C CNN
@@ -1392,7 +1392,7 @@ F 4 "296-49154-1-ND" H 0   0   50  0001 C CNN "Digikey Part Number"
 	1    0    0    -1  
 $EndComp
 $Comp
-L power:GND #PWR044
+L Power-Board-rescue:GND-power #PWR044
 U 1 1 5B825B1A
 P 13650 4550
 F 0 "#PWR044" H 13650 4300 50  0001 C CNN
@@ -1417,7 +1417,7 @@ Connection ~ 7750 2800
 Wire Wire Line
 	7750 2800 7750 5100
 $Comp
-L Device:R R18
+L Power-Board-rescue:R-Device R18
 U 1 1 5B83594E
 P 13650 2650
 F 0 "R18" V 13443 2650 50  0000 C CNN
@@ -1429,12 +1429,12 @@ F 4 "A109697CT-ND" V 13650 2650 50  0001 C CNN "Digikey Part Number"
 	0    1    1    0   
 $EndComp
 $Comp
-L Device:Q_PMOS_SGD Q7
+L Power-Board-rescue:Q_PMOS_SGD-Device Q7
 U 1 1 5B823DE9
 P 15250 2750
 F 0 "Q7" V 15593 2750 50  0000 C CNN
 F 1 "AON7423" V 15502 2750 50  0000 C CNN
-F 2 "" H 15450 2850 50  0001 C CNN
+F 2 "Custom Parts:AON7423" H 15450 2850 50  0001 C CNN
 F 3 "" H 15250 2750 50  0001 C CNN
 F 4 "785-1310-1-ND" V 15250 2750 50  0001 C CNN "Digikey Part Number"
 	1    15250 2750
@@ -1468,7 +1468,7 @@ Wire Wire Line
 Wire Wire Line
 	15050 3950 15300 3950
 $Comp
-L Device:LED D8
+L Power-Board-rescue:LED-Device D8
 U 1 1 5B8CB8F0
 P 15450 4150
 F 0 "D8" H 15450 4250 50  0000 C CNN
@@ -1480,7 +1480,7 @@ F 4 "160-1888-1-ND" H 15450 4350 50  0001 C CNN "Digikey Part Number"
 	-1   0    0    1   
 $EndComp
 $Comp
-L power:GND #PWR043
+L Power-Board-rescue:GND-power #PWR043
 U 1 1 5B8CB8FD
 P 15900 4150
 F 0 "#PWR043" H 15900 3900 50  0001 C CNN
@@ -1493,7 +1493,7 @@ $EndComp
 Wire Wire Line
 	15300 4150 15300 3950
 $Comp
-L Device:C_Small C19
+L Power-Board-rescue:C_Small-Device C19
 U 1 1 5B8F0A19
 P 13650 4200
 F 0 "C19" H 13660 4270 50  0000 L CNN
@@ -1530,7 +1530,7 @@ Connection ~ 13300 3250
 Wire Wire Line
 	13300 3250 13300 2650
 $Comp
-L Device:R R15
+L Power-Board-rescue:R-Device R15
 U 1 1 5B982700
 P 1850 3050
 F 0 "R15" V 1930 3050 50  0000 C CNN
@@ -1542,7 +1542,7 @@ F 4 "RHM1.0KDCT-ND" H 1930 3150 50  0001 C CNN "Digikey Part Number"
 	1    0    0    -1  
 $EndComp
 $Comp
-L Device:LED D3
+L Power-Board-rescue:LED-Device D3
 U 1 1 5B983C96
 P 1850 3350
 F 0 "D3" H 1850 3450 50  0000 C CNN
@@ -1554,7 +1554,7 @@ F 4 "160-1647-1-ND" H 1850 3550 50  0001 C CNN "Digikey Part Number"
 	0    -1   -1   0   
 $EndComp
 $Comp
-L power:GND #PWR04
+L Power-Board-rescue:GND-power #PWR04
 U 1 1 5B984454
 P 1850 3500
 F 0 "#PWR04" H 1850 3250 50  0001 C CNN
@@ -1567,7 +1567,7 @@ $EndComp
 Wire Wire Line
 	1850 2900 2100 2900
 $Comp
-L Device:R R16
+L Power-Board-rescue:R-Device R16
 U 1 1 5B98D2E1
 P 2900 3050
 F 0 "R16" V 2980 3050 50  0000 C CNN
@@ -1579,7 +1579,7 @@ F 4 "RHM1.0KDCT-ND" H 2980 3150 50  0001 C CNN "Digikey Part Number"
 	1    0    0    -1  
 $EndComp
 $Comp
-L Device:LED D4
+L Power-Board-rescue:LED-Device D4
 U 1 1 5B98D2E8
 P 2900 3350
 F 0 "D4" H 2900 3450 50  0000 C CNN
@@ -1591,7 +1591,7 @@ F 4 "160-1647-1-ND" H 2900 3550 50  0001 C CNN "Digikey Part Number"
 	0    -1   -1   0   
 $EndComp
 $Comp
-L power:GND #PWR05
+L Power-Board-rescue:GND-power #PWR05
 U 1 1 5B98D2EE
 P 2900 3500
 F 0 "#PWR05" H 2900 3250 50  0001 C CNN
@@ -1610,7 +1610,7 @@ Connection ~ 2100 2900
 Wire Wire Line
 	2100 2900 2100 4600
 $Comp
-L Device:R R17
+L Power-Board-rescue:R-Device R17
 U 1 1 5B99F579
 P 3950 3050
 F 0 "R17" V 4030 3050 50  0000 C CNN
@@ -1622,7 +1622,7 @@ F 4 "RHM1.0KDCT-ND" H 4030 3150 50  0001 C CNN "Digikey Part Number"
 	1    0    0    -1  
 $EndComp
 $Comp
-L Device:LED D7
+L Power-Board-rescue:LED-Device D7
 U 1 1 5B99F580
 P 3950 3350
 F 0 "D7" H 3950 3450 50  0000 C CNN
@@ -1634,7 +1634,7 @@ F 4 "160-1647-1-ND" H 3950 3550 50  0001 C CNN "Digikey Part Number"
 	0    -1   -1   0   
 $EndComp
 $Comp
-L power:GND #PWR041
+L Power-Board-rescue:GND-power #PWR041
 U 1 1 5B99F586
 P 3950 3500
 F 0 "#PWR041" H 3950 3250 50  0001 C CNN
@@ -1650,7 +1650,7 @@ Connection ~ 4200 2900
 Wire Wire Line
 	4200 2900 4200 3800
 $Comp
-L Device:R R14
+L Power-Board-rescue:R-Device R14
 U 1 1 5B9A8E94
 P 9100 2150
 F 0 "R14" V 9180 2150 50  0000 C CNN
@@ -1662,7 +1662,7 @@ F 4 "RHM1.0KDCT-ND" H 9180 2250 50  0001 C CNN "Digikey Part Number"
 	1    0    0    -1  
 $EndComp
 $Comp
-L Device:LED D1
+L Power-Board-rescue:LED-Device D1
 U 1 1 5B9A8E9B
 P 9100 2450
 F 0 "D1" H 9100 2550 50  0000 C CNN
@@ -1674,7 +1674,7 @@ F 4 "160-1647-1-ND" H 9100 2650 50  0001 C CNN "Digikey Part Number"
 	0    -1   -1   0   
 $EndComp
 $Comp
-L power:GND #PWR01
+L Power-Board-rescue:GND-power #PWR01
 U 1 1 5B9A8EA1
 P 9100 2600
 F 0 "#PWR01" H 9100 2350 50  0001 C CNN
@@ -1690,7 +1690,7 @@ Wire Wire Line
 	8600 2000 9100 2000
 Connection ~ 9100 2000
 $Comp
-L Device:R R20
+L Power-Board-rescue:R-Device R20
 U 1 1 5B9CB7B5
 P 15750 4150
 F 0 "R20" V 15830 4150 50  0000 C CNN
@@ -1702,7 +1702,7 @@ F 4 "RHM1.0KDCT-ND" H 15830 4250 50  0001 C CNN "Digikey Part Number"
 	0    -1   -1   0   
 $EndComp
 $Comp
-L Connector_Generic:Conn_01x02 J6
+L Power-Board-rescue:Conn_01x02-Connector_Generic J6
 U 1 1 5B9CEC20
 P 12250 3950
 F 0 "J6" H 12170 4167 50  0000 C CNN
@@ -1714,7 +1714,7 @@ F 4 "455-1719-ND" H 0   0   50  0001 C CNN "Digikey Part Number"
 	-1   0    0    -1  
 $EndComp
 $Comp
-L Device:Thermistor_NTC TH1
+L Power-Board-rescue:Thermistor_NTC-Device TH1
 U 1 1 5B9CEDC6
 P 11800 4000
 F 0 "TH1" H 11500 4050 50  0000 L CNN
@@ -1728,7 +1728,7 @@ $EndComp
 Text Notes 10800 4300 0    50   ~ 0
 Not mounted, free hanging
 $Comp
-L power:GND #PWR042
+L Power-Board-rescue:GND-power #PWR042
 U 1 1 5BA07E84
 P 12450 4050
 F 0 "#PWR042" H 12450 3800 50  0001 C CNN
@@ -1739,7 +1739,7 @@ F 3 "" H 12450 4050 50  0001 C CNN
 	-1   0    0    -1  
 $EndComp
 $Comp
-L Device:R R19
+L Power-Board-rescue:R-Device R19
 U 1 1 5BA12446
 P 12750 3700
 F 0 "R19" H 12820 3746 50  0000 L CNN
@@ -1751,7 +1751,7 @@ F 4 "P8.25KDBCT-ND" H 3950 -1850 50  0001 C CNN "Digikey Part Number"
 	1    0    0    -1  
 $EndComp
 $Comp
-L Device:R R21
+L Power-Board-rescue:R-Device R21
 U 1 1 5BA12507
 P 12750 4200
 F 0 "R21" H 12820 4246 50  0000 L CNN
@@ -1793,7 +1793,7 @@ Wire Wire Line
 Text Label 15650 3950 0    50   ~ 0
 CHARGE_STAT
 $Comp
-L Device:C_Small C20
+L Power-Board-rescue:C_Small-Device C20
 U 1 1 5B803945
 P 13150 8500
 F 0 "C20" H 13242 8546 50  0000 L CNN
@@ -1805,7 +1805,7 @@ F 4 "1276-6717-6-ND" H 3150 600 50  0001 C CNN "Digikey Part Number"
 	1    0    0    -1  
 $EndComp
 $Comp
-L Device:C_Small C21
+L Power-Board-rescue:C_Small-Device C21
 U 1 1 5B803B52
 P 13150 8800
 F 0 "C21" H 13242 8846 50  0000 L CNN
@@ -1839,7 +1839,7 @@ Connection ~ 11250 8800
 Wire Wire Line
 	11250 8800 11250 8700
 $Comp
-L power:GND #PWR045
+L Power-Board-rescue:GND-power #PWR045
 U 1 1 5B868CB5
 P 13150 9200
 F 0 "#PWR045" H 13150 8950 50  0001 C CNN
@@ -1850,7 +1850,7 @@ F 3 "" H 13150 9200 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Device:C_Small C23
+L Power-Board-rescue:C_Small-Device C23
 U 1 1 5B868D60
 P 13650 9100
 F 0 "C23" H 13742 9146 50  0000 L CNN
@@ -1883,7 +1883,7 @@ Wire Wire Line
 Wire Wire Line
 	14850 8700 14850 9200
 $Comp
-L Device:R_Small R22
+L Power-Board-rescue:R_Small-Device R22
 U 1 1 5B908F71
 P 15150 8200
 F 0 "R22" H 15091 8154 50  0000 R CNN
@@ -1895,7 +1895,7 @@ F 4 "P100HCT-ND" H 3150 600 50  0001 C CNN "Digikey Part Number"
 	-1   0    0    1   
 $EndComp
 $Comp
-L Device:C_Small C22
+L Power-Board-rescue:C_Small-Device C22
 U 1 1 5B9090B0
 P 15150 9000
 F 0 "C22" H 15242 9046 50  0000 L CNN
@@ -1929,7 +1929,7 @@ Connection ~ 14850 9200
 Wire Wire Line
 	11250 8800 11050 8800
 $Comp
-L Device:C_Small C9
+L Power-Board-rescue:C_Small-Device C9
 U 1 1 5B87BD0A
 P 2450 8950
 F 0 "C9" H 2460 9020 50  0000 L CNN
@@ -1941,7 +1941,7 @@ F 4 "1276-6780-1-ND" H 2450 8950 50  0001 C CNN "Digikey Part Number"
 	-1   0    0    -1  
 $EndComp
 $Comp
-L Device:C_Small C11
+L Power-Board-rescue:C_Small-Device C11
 U 1 1 5A950E03
 P 5550 9150
 F 0 "C11" H 5560 9220 50  0000 L CNN
@@ -1953,7 +1953,7 @@ F 4 "490-13249-1-ND" H 5550 9150 50  0001 C CNN "Digikey Part Number"
 	-1   0    0    -1  
 $EndComp
 $Comp
-L Custom-Parts:LT6700CS6-1 U6
+L Power-Board-rescue:LT6700CS6-1-Custom-Parts U6
 U 1 1 5B87ED39
 P 16100 8700
 F 0 "U6" H 16100 9065 50  0000 C CNN
@@ -1980,7 +1980,7 @@ Wire Wire Line
 	16800 9200 15600 9200
 Connection ~ 15150 9200
 $Comp
-L Device:R_Small R26
+L Power-Board-rescue:R_Small-Device R26
 U 1 1 5B8F1A44
 P 15350 8800
 F 0 "R26" V 15150 8800 50  0000 C CNN
@@ -1992,7 +1992,7 @@ F 4 "P140KDBCT-ND" H 3150 600 50  0001 C CNN "Digikey Part Number"
 	0    -1   -1   0   
 $EndComp
 $Comp
-L Device:R_Small R28
+L Power-Board-rescue:R_Small-Device R28
 U 1 1 5B8F1B92
 P 15600 9000
 F 0 "R28" H 15541 8954 50  0000 R CNN
@@ -2019,7 +2019,7 @@ Wire Wire Line
 	15250 8700 15500 8700
 Connection ~ 15500 8700
 $Comp
-L Device:R_Small R23
+L Power-Board-rescue:R_Small-Device R23
 U 1 1 5B9AB503
 P 15600 8300
 F 0 "R23" H 15659 8346 50  0000 L CNN
@@ -2044,7 +2044,7 @@ Connection ~ 16800 8800
 Wire Wire Line
 	16800 8800 16800 9200
 $Comp
-L Device:R_Small R24
+L Power-Board-rescue:R_Small-Device R24
 U 1 1 5B9F1B5A
 P 12850 8400
 F 0 "R24" V 12654 8400 50  0000 C CNN
@@ -2056,7 +2056,7 @@ F 4 "P100KDBCT-ND" H 3150 600 50  0001 C CNN "Digikey Part Number"
 	0    1    1    0   
 $EndComp
 $Comp
-L Device:R_Small R25
+L Power-Board-rescue:R_Small-Device R25
 U 1 1 5B9F1C80
 P 12850 8700
 F 0 "R25" V 12654 8700 50  0000 C CNN
@@ -2068,7 +2068,7 @@ F 4 "P100KDBCT-ND" H 3150 600 50  0001 C CNN "Digikey Part Number"
 	0    1    1    0   
 $EndComp
 $Comp
-L Device:R_Small R29
+L Power-Board-rescue:R_Small-Device R29
 U 1 1 5BA0E090
 P 11600 9100
 F 0 "R29" H 11750 9050 50  0000 R CNN
@@ -2080,7 +2080,7 @@ F 4 "P10.0KHCT-ND" H 3150 600 50  0001 C CNN "Digikey Part Number"
 	-1   0    0    1   
 $EndComp
 $Comp
-L Device:R_Small R27
+L Power-Board-rescue:R_Small-Device R27
 U 1 1 5BA0E1CA
 P 11250 8900
 F 0 "R27" H 11191 8854 50  0000 R CNN
@@ -2092,7 +2092,7 @@ F 4 "541-10.0SCT-ND" H 3150 600 50  0001 C CNN "Digikey Part Number"
 	1    0    0    -1  
 $EndComp
 $Comp
-L Custom-Parts:STS8C5H30L U7
+L Power-Board-rescue:STS8C5H30L-Custom-Parts U7
 U 1 1 5BA1D13B
 P 12200 8950
 F 0 "U7" H 12200 9325 50  0000 C CNN
@@ -2172,7 +2172,7 @@ Text Notes 15850 8250 0    50   ~ 0
 Text Notes 6100 1900 0    50   ~ 0
 MOSFETs will need heatsinks
 $Comp
-L Mechanical:Heatsink HS1
+L Power-Board-rescue:Heatsink-Mechanical HS1
 U 1 1 5BBF14DE
 P 7450 1850
 F 0 "HS1" H 7592 1971 50  0000 L CNN
@@ -2194,7 +2194,7 @@ THERM3
 Text Label 12150 15950 2    50   ~ 0
 THERM4
 $Comp
-L SparkFun-IC-Power:LTC4150 U8
+L Power-Board-rescue:LTC4150-SparkFun-IC-Power U8
 U 1 1 5BCD2784
 P 13150 11800
 F 0 "U8" H 13150 12560 45  0000 C CNN
@@ -2207,7 +2207,7 @@ F 5 "LTC4150CMS#PBF-ND" H 0   0   50  0001 C CNN "Digikey Part Number"
 	1    0    0    -1  
 $EndComp
 $Comp
-L MCU_Microchip_ATmega:ATxmega32E5-AU U9
+L Power-Board-rescue:ATxmega32E5-AU-MCU_Microchip_ATmega U9
 U 1 1 5BBF70D2
 P 12850 15550
 F 0 "U9" H 13050 14450 50  0000 C CNN
@@ -2241,7 +2241,7 @@ THERM5
 Text Label 12150 16150 2    50   ~ 0
 THERM6
 $Comp
-L power:GND #PWR052
+L Power-Board-rescue:GND-power #PWR052
 U 1 1 5BCE6F9E
 P 12850 16650
 F 0 "#PWR052" H 12850 16400 50  0001 C CNN
@@ -2282,7 +2282,7 @@ Wire Wire Line
 Wire Wire Line
 	11950 11600 12550 11600
 $Comp
-L Device:C_Small C12
+L Power-Board-rescue:C_Small-Device C12
 U 1 1 5BEBDC6E
 P 12350 11850
 F 0 "C12" H 12258 11896 50  0000 R CNN
@@ -2302,7 +2302,7 @@ Wire Wire Line
 Wire Wire Line
 	12350 12000 12350 11950
 $Comp
-L Device:C_Small C10
+L Power-Board-rescue:C_Small-Device C10
 U 1 1 5BEF4BBE
 P 12550 11200
 F 0 "C10" H 12458 11246 50  0000 R CNN
@@ -2318,7 +2318,7 @@ Wire Wire Line
 Wire Wire Line
 	12550 11100 12350 11100
 $Comp
-L power:GND #PWR032
+L Power-Board-rescue:GND-power #PWR032
 U 1 1 5BF1A178
 P 12350 11100
 F 0 "#PWR032" H 12350 10850 50  0001 C CNN
@@ -2329,7 +2329,7 @@ F 3 "" H 12350 11100 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L power:GND #PWR046
+L Power-Board-rescue:GND-power #PWR046
 U 1 1 5BF1A23D
 P 12550 12100
 F 0 "#PWR046" H 12550 11850 50  0001 C CNN
@@ -2373,7 +2373,7 @@ Wire Wire Line
 Wire Wire Line
 	11950 11400 11650 11400
 $Comp
-L Device:R R34
+L Power-Board-rescue:R-Device R34
 U 1 1 5BDEE1DE
 P 11650 11550
 F 0 "R34" H 11581 11504 50  0000 R CNN
@@ -2399,7 +2399,7 @@ Wire Wire Line
 Wire Wire Line
 	14150 11700 14150 11800
 $Comp
-L power:+3V3 #PWR034
+L Power-Board-rescue:+3V3-power #PWR034
 U 1 1 5C00734C
 P 14150 11100
 F 0 "#PWR034" H 14150 10950 50  0001 C CNN
@@ -2435,7 +2435,7 @@ VCC_IN_SENS
 Text Label 9900 21500 2    50   ~ 0
 BAT_CELL_1_SENS
 $Comp
-L Device:R_Small R39
+L Power-Board-rescue:R_Small-Device R39
 U 1 1 5C03751C
 P 8700 19300
 F 0 "R39" H 8759 19346 50  0000 L CNN
@@ -2447,7 +2447,7 @@ F 4 "P121KDBCT-ND" H 0   0   50  0001 C CNN "Digikey Part Number"
 	1    0    0    -1  
 $EndComp
 $Comp
-L Device:R_Small R42
+L Power-Board-rescue:R_Small-Device R42
 U 1 1 5C037610
 P 8700 19500
 F 0 "R42" H 8759 19546 50  0000 L CNN
@@ -2462,7 +2462,7 @@ Wire Wire Line
 	8600 19400 8700 19400
 Connection ~ 8700 19400
 $Comp
-L power:+3V3 #PWR056
+L Power-Board-rescue:+3V3-power #PWR056
 U 1 1 5C04C71B
 P 8700 19200
 F 0 "#PWR056" H 8700 19050 50  0001 C CNN
@@ -2473,7 +2473,7 @@ F 3 "" H 8700 19200 50  0001 C CNN
 	-1   0    0    -1  
 $EndComp
 $Comp
-L power:GND #PWR060
+L Power-Board-rescue:GND-power #PWR060
 U 1 1 5C04CD60
 P 8700 19600
 F 0 "#PWR060" H 8700 19350 50  0001 C CNN
@@ -2484,7 +2484,7 @@ F 3 "" H 8700 19600 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Device:R_Small R40
+L Power-Board-rescue:R_Small-Device R40
 U 1 1 5C076098
 P 9600 19300
 F 0 "R40" H 9659 19346 50  0000 L CNN
@@ -2496,7 +2496,7 @@ F 4 "P121KDBCT-ND" H 0   0   50  0001 C CNN "Digikey Part Number"
 	1    0    0    -1  
 $EndComp
 $Comp
-L Device:R_Small R43
+L Power-Board-rescue:R_Small-Device R43
 U 1 1 5C07609F
 P 9600 19500
 F 0 "R43" H 9659 19546 50  0000 L CNN
@@ -2511,7 +2511,7 @@ Wire Wire Line
 	9500 19400 9600 19400
 Connection ~ 9600 19400
 $Comp
-L power:GND #PWR061
+L Power-Board-rescue:GND-power #PWR061
 U 1 1 5C0760AE
 P 9600 19600
 F 0 "#PWR061" H 9600 19350 50  0001 C CNN
@@ -2522,7 +2522,7 @@ F 3 "" H 9600 19600 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Device:R_Small R41
+L Power-Board-rescue:R_Small-Device R41
 U 1 1 5C08AA2B
 P 10700 19300
 F 0 "R41" H 10759 19346 50  0000 L CNN
@@ -2534,7 +2534,7 @@ F 4 "P121KDBCT-ND" H 0   0   50  0001 C CNN "Digikey Part Number"
 	1    0    0    -1  
 $EndComp
 $Comp
-L Device:R_Small R44
+L Power-Board-rescue:R_Small-Device R44
 U 1 1 5C08AA32
 P 10700 19500
 F 0 "R44" H 10759 19546 50  0000 L CNN
@@ -2549,7 +2549,7 @@ Wire Wire Line
 	10600 19400 10700 19400
 Connection ~ 10700 19400
 $Comp
-L power:GND #PWR062
+L Power-Board-rescue:GND-power #PWR062
 U 1 1 5C08AA41
 P 10700 19600
 F 0 "#PWR062" H 10700 19350 50  0001 C CNN
@@ -2560,7 +2560,7 @@ F 3 "" H 10700 19600 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Device:R_Small R47
+L Power-Board-rescue:R_Small-Device R47
 U 1 1 5C0B4F3C
 P 8700 20500
 F 0 "R47" H 8759 20546 50  0000 L CNN
@@ -2572,7 +2572,7 @@ F 4 "P121KDBCT-ND" H 0   0   50  0001 C CNN "Digikey Part Number"
 	1    0    0    -1  
 $EndComp
 $Comp
-L Device:R_Small R50
+L Power-Board-rescue:R_Small-Device R50
 U 1 1 5C0B4F43
 P 8700 20700
 F 0 "R50" H 8759 20746 50  0000 L CNN
@@ -2587,7 +2587,7 @@ Wire Wire Line
 	8600 20600 8700 20600
 Connection ~ 8700 20600
 $Comp
-L power:GND #PWR067
+L Power-Board-rescue:GND-power #PWR067
 U 1 1 5C0B4F52
 P 8700 20800
 F 0 "#PWR067" H 8700 20550 50  0001 C CNN
@@ -2598,7 +2598,7 @@ F 3 "" H 8700 20800 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Device:R_Small R48
+L Power-Board-rescue:R_Small-Device R48
 U 1 1 5C0DEB8E
 P 10000 20500
 F 0 "R48" H 10059 20546 50  0000 L CNN
@@ -2610,7 +2610,7 @@ F 4 "P121KDBCT-ND" H 0   0   50  0001 C CNN "Digikey Part Number"
 	1    0    0    -1  
 $EndComp
 $Comp
-L Device:R_Small R51
+L Power-Board-rescue:R_Small-Device R51
 U 1 1 5C0DEB95
 P 10000 20700
 F 0 "R51" H 10059 20746 50  0000 L CNN
@@ -2625,7 +2625,7 @@ Wire Wire Line
 	9900 20600 10000 20600
 Connection ~ 10000 20600
 $Comp
-L power:GND #PWR068
+L Power-Board-rescue:GND-power #PWR068
 U 1 1 5C0DEB9E
 P 10000 20800
 F 0 "#PWR068" H 10000 20550 50  0001 C CNN
@@ -2636,7 +2636,7 @@ F 3 "" H 10000 20800 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Device:R_Small R49
+L Power-Board-rescue:R_Small-Device R49
 U 1 1 5C1091A3
 P 11000 20500
 F 0 "R49" H 11059 20546 50  0000 L CNN
@@ -2648,7 +2648,7 @@ F 4 "P121KDBCT-ND" H 0   0   50  0001 C CNN "Digikey Part Number"
 	1    0    0    -1  
 $EndComp
 $Comp
-L Device:R_Small R52
+L Power-Board-rescue:R_Small-Device R52
 U 1 1 5C1091AA
 P 11000 20700
 F 0 "R52" H 11059 20746 50  0000 L CNN
@@ -2663,7 +2663,7 @@ Wire Wire Line
 	10900 20600 11000 20600
 Connection ~ 11000 20600
 $Comp
-L power:GND #PWR069
+L Power-Board-rescue:GND-power #PWR069
 U 1 1 5C1091B3
 P 11000 20800
 F 0 "#PWR069" H 11000 20550 50  0001 C CNN
@@ -2674,7 +2674,7 @@ F 3 "" H 11000 20800 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Device:R_Small R53
+L Power-Board-rescue:R_Small-Device R53
 U 1 1 5C13379A
 P 10000 21400
 F 0 "R53" H 10059 21446 50  0000 L CNN
@@ -2686,7 +2686,7 @@ F 4 "P121KDBCT-ND" H 0   0   50  0001 C CNN "Digikey Part Number"
 	1    0    0    -1  
 $EndComp
 $Comp
-L Device:R_Small R56
+L Power-Board-rescue:R_Small-Device R56
 U 1 1 5C1337A1
 P 10000 21600
 F 0 "R56" H 10059 21646 50  0000 L CNN
@@ -2701,7 +2701,7 @@ Wire Wire Line
 	9900 21500 10000 21500
 Connection ~ 10000 21500
 $Comp
-L power:GND #PWR072
+L Power-Board-rescue:GND-power #PWR072
 U 1 1 5C1337AA
 P 10000 21700
 F 0 "#PWR072" H 10000 21450 50  0001 C CNN
@@ -2712,7 +2712,7 @@ F 3 "" H 10000 21700 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L power:+12V #PWR057
+L Power-Board-rescue:+12V-power #PWR057
 U 1 1 5C149627
 P 9600 19200
 F 0 "#PWR057" H 9600 19050 50  0001 C CNN
@@ -2745,7 +2745,7 @@ Wire Wire Line
 Wire Wire Line
 	5950 5200 5800 5200
 $Comp
-L Device:R_Small R30
+L Power-Board-rescue:R_Small-Device R30
 U 1 1 5C1C49D8
 P 5500 5600
 F 0 "R30" H 5450 4950 50  0000 L CNN
@@ -2757,7 +2757,7 @@ F 4 "P100KDBCT-ND" H -6950 -2100 50  0001 C CNN "Digikey Part Number"
 	1    0    0    -1  
 $EndComp
 $Comp
-L Device:R_Small R31
+L Power-Board-rescue:R_Small-Device R31
 U 1 1 5C1C6432
 P 5650 5600
 F 0 "R31" H 5600 4950 50  0000 L CNN
@@ -2769,7 +2769,7 @@ F 4 "P100KDBCT-ND" H -6800 -2100 50  0001 C CNN "Digikey Part Number"
 	1    0    0    -1  
 $EndComp
 $Comp
-L Device:R_Small R32
+L Power-Board-rescue:R_Small-Device R32
 U 1 1 5C1C6523
 P 5800 5600
 F 0 "R32" H 5750 4950 50  0000 L CNN
@@ -2810,7 +2810,7 @@ Connection ~ 5650 5800
 Wire Wire Line
 	5650 5800 5800 5800
 $Comp
-L power:+3V3 #PWR030
+L Power-Board-rescue:+3V3-power #PWR030
 U 1 1 5C251219
 P 6000 5800
 F 0 "#PWR030" H 6000 5650 50  0001 C CNN
@@ -2827,7 +2827,7 @@ SEL_~VALID1~
 Text Label 12150 16350 2    50   ~ 0
 SEL_~VALID2~
 $Comp
-L Device:C_Small C27
+L Power-Board-rescue:C_Small-Device C27
 U 1 1 5C255C92
 P 13050 14400
 F 0 "C27" V 13000 14700 50  0000 L CNN
@@ -2839,7 +2839,7 @@ F 4 "1276-6717-6-ND" H 3050 6200 50  0001 C CNN "Digikey Part Number"
 	0    1    1    0   
 $EndComp
 $Comp
-L Device:C_Small C25
+L Power-Board-rescue:C_Small-Device C25
 U 1 1 5C258B2C
 P 13050 14200
 F 0 "C25" V 13100 13800 50  0000 L CNN
@@ -2856,7 +2856,7 @@ Connection ~ 12950 14400
 Wire Wire Line
 	12950 14400 12950 14200
 $Comp
-L power:GND #PWR049
+L Power-Board-rescue:GND-power #PWR049
 U 1 1 5C2BBBF3
 P 13150 14400
 F 0 "#PWR049" H 13150 14150 50  0001 C CNN
@@ -2870,7 +2870,7 @@ Wire Wire Line
 	13150 14400 13150 14200
 Connection ~ 13150 14400
 $Comp
-L Device:C_Small C26
+L Power-Board-rescue:C_Small-Device C26
 U 1 1 5C2D4AC3
 P 12750 14400
 F 0 "C26" V 12700 14700 50  0000 L CNN
@@ -2884,7 +2884,7 @@ $EndComp
 Wire Wire Line
 	12850 14450 12850 14400
 $Comp
-L power:GND #PWR048
+L Power-Board-rescue:GND-power #PWR048
 U 1 1 5C2ED4F6
 P 12650 14400
 F 0 "#PWR048" H 12650 14150 50  0001 C CNN
@@ -2895,7 +2895,7 @@ F 3 "" H 12650 14400 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Device:C_Small C24
+L Power-Board-rescue:C_Small-Device C24
 U 1 1 5C2ED74A
 P 12750 13800
 F 0 "C24" V 12800 13400 50  0000 L CNN
@@ -2919,7 +2919,7 @@ Wire Wire Line
 	12650 14400 12650 13800
 Connection ~ 12650 14400
 $Comp
-L Device:Ferrite_Bead_Small L4
+L Power-Board-rescue:Ferrite_Bead_Small-Device L4
 U 1 1 5C338666
 P 12950 14000
 F 0 "L4" H 13050 14046 50  0000 L CNN
@@ -2935,7 +2935,7 @@ Wire Wire Line
 Wire Wire Line
 	12850 13300 12850 13400
 $Comp
-L power:+3V3 #PWR047
+L Power-Board-rescue:+3V3-power #PWR047
 U 1 1 5C352361
 P 12850 13300
 F 0 "#PWR047" H 12850 13150 50  0001 C CNN
@@ -2946,7 +2946,7 @@ F 3 "" H 12850 13300 50  0001 C CNN
 	-1   0    0    -1  
 $EndComp
 $Comp
-L Device:L_Small L3
+L Power-Board-rescue:L_Small-Device L3
 U 1 1 5C3526F5
 P 12850 13500
 F 0 "L3" H 12897 13546 50  0000 L CNN
@@ -2974,7 +2974,7 @@ Wire Notes Line
 Text Notes 12000 13600 0    50   ~ 0
 Close to\npower supply
 $Comp
-L Device:Thermistor_NTC TH2
+L Power-Board-rescue:Thermistor_NTC-Device TH2
 U 1 1 5C36EAE3
 P 13800 19300
 F 0 "TH2" H 13500 19350 50  0000 L CNN
@@ -2986,7 +2986,7 @@ F 4 "490-5630-ND" H 13800 19300 50  0001 C CNN "Digikey Part Number"
 	-1   0    0    1   
 $EndComp
 $Comp
-L Device:R_Small R37
+L Power-Board-rescue:R_Small-Device R37
 U 1 1 5C370428
 P 13800 18950
 F 0 "R37" H 13859 18996 50  0000 L CNN
@@ -3008,7 +3008,7 @@ THERM5
 Text Label 15100 21700 2    50   ~ 0
 THERM6
 $Comp
-L Device:Thermistor_NTC TH4
+L Power-Board-rescue:Thermistor_NTC-Device TH4
 U 1 1 5C3F1CB5
 P 13800 20600
 F 0 "TH4" H 13500 20650 50  0000 L CNN
@@ -3020,7 +3020,7 @@ F 4 "490-5630-ND" H 13800 20600 50  0001 C CNN "Digikey Part Number"
 	-1   0    0    1   
 $EndComp
 $Comp
-L Device:R_Small R45
+L Power-Board-rescue:R_Small-Device R45
 U 1 1 5C3F1CBC
 P 13800 20250
 F 0 "R45" H 13859 20296 50  0000 L CNN
@@ -3034,7 +3034,7 @@ $EndComp
 Wire Wire Line
 	13800 20350 13800 20450
 $Comp
-L power:+3V3 #PWR063
+L Power-Board-rescue:+3V3-power #PWR063
 U 1 1 5C3F1CC4
 P 13800 20150
 F 0 "#PWR063" H 13800 20000 50  0001 C CNN
@@ -3045,7 +3045,7 @@ F 3 "" H 13800 20150 50  0001 C CNN
 	-1   0    0    -1  
 $EndComp
 $Comp
-L power:GND #PWR065
+L Power-Board-rescue:GND-power #PWR065
 U 1 1 5C3F1CCA
 P 13800 20750
 F 0 "#PWR065" H 13800 20500 50  0001 C CNN
@@ -3056,7 +3056,7 @@ F 3 "" H 13800 20750 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Device:Thermistor_NTC TH6
+L Power-Board-rescue:Thermistor_NTC-Device TH6
 U 1 1 5C425358
 P 13800 21900
 F 0 "TH6" H 13500 21950 50  0000 L CNN
@@ -3068,7 +3068,7 @@ F 4 "490-5630-ND" H 13800 21900 50  0001 C CNN "Digikey Part Number"
 	-1   0    0    1   
 $EndComp
 $Comp
-L Device:R_Small R54
+L Power-Board-rescue:R_Small-Device R54
 U 1 1 5C42535F
 P 13800 21550
 F 0 "R54" H 13859 21596 50  0000 L CNN
@@ -3082,7 +3082,7 @@ $EndComp
 Wire Wire Line
 	13800 21650 13800 21750
 $Comp
-L power:+3V3 #PWR070
+L Power-Board-rescue:+3V3-power #PWR070
 U 1 1 5C425367
 P 13800 21450
 F 0 "#PWR070" H 13800 21300 50  0001 C CNN
@@ -3093,7 +3093,7 @@ F 3 "" H 13800 21450 50  0001 C CNN
 	-1   0    0    -1  
 $EndComp
 $Comp
-L power:GND #PWR073
+L Power-Board-rescue:GND-power #PWR073
 U 1 1 5C42536D
 P 13800 22050
 F 0 "#PWR073" H 13800 21800 50  0001 C CNN
@@ -3104,7 +3104,7 @@ F 3 "" H 13800 22050 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Device:Thermistor_NTC TH3
+L Power-Board-rescue:Thermistor_NTC-Device TH3
 U 1 1 5C473DF1
 P 15100 19300
 F 0 "TH3" H 14800 19350 50  0000 L CNN
@@ -3116,7 +3116,7 @@ F 4 "490-5630-ND" H 15100 19300 50  0001 C CNN "Digikey Part Number"
 	-1   0    0    1   
 $EndComp
 $Comp
-L Device:R_Small R38
+L Power-Board-rescue:R_Small-Device R38
 U 1 1 5C473DF8
 P 15100 18950
 F 0 "R38" H 15159 18996 50  0000 L CNN
@@ -3130,7 +3130,7 @@ $EndComp
 Wire Wire Line
 	15100 19050 15100 19150
 $Comp
-L power:+3V3 #PWR055
+L Power-Board-rescue:+3V3-power #PWR055
 U 1 1 5C473E00
 P 15100 18850
 F 0 "#PWR055" H 15100 18700 50  0001 C CNN
@@ -3141,7 +3141,7 @@ F 3 "" H 15100 18850 50  0001 C CNN
 	-1   0    0    -1  
 $EndComp
 $Comp
-L power:GND #PWR059
+L Power-Board-rescue:GND-power #PWR059
 U 1 1 5C473E06
 P 15100 19450
 F 0 "#PWR059" H 15100 19200 50  0001 C CNN
@@ -3152,7 +3152,7 @@ F 3 "" H 15100 19450 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Device:Thermistor_NTC TH5
+L Power-Board-rescue:Thermistor_NTC-Device TH5
 U 1 1 5C473E0D
 P 15100 20600
 F 0 "TH5" H 14800 20650 50  0000 L CNN
@@ -3164,7 +3164,7 @@ F 4 "490-5630-ND" H 15100 20600 50  0001 C CNN "Digikey Part Number"
 	-1   0    0    1   
 $EndComp
 $Comp
-L Device:R_Small R46
+L Power-Board-rescue:R_Small-Device R46
 U 1 1 5C473E14
 P 15100 20250
 F 0 "R46" H 15159 20296 50  0000 L CNN
@@ -3178,7 +3178,7 @@ $EndComp
 Wire Wire Line
 	15100 20350 15100 20450
 $Comp
-L power:+3V3 #PWR064
+L Power-Board-rescue:+3V3-power #PWR064
 U 1 1 5C473E1C
 P 15100 20150
 F 0 "#PWR064" H 15100 20000 50  0001 C CNN
@@ -3189,7 +3189,7 @@ F 3 "" H 15100 20150 50  0001 C CNN
 	-1   0    0    -1  
 $EndComp
 $Comp
-L power:GND #PWR066
+L Power-Board-rescue:GND-power #PWR066
 U 1 1 5C473E22
 P 15100 20750
 F 0 "#PWR066" H 15100 20500 50  0001 C CNN
@@ -3200,7 +3200,7 @@ F 3 "" H 15100 20750 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Device:Thermistor_NTC TH7
+L Power-Board-rescue:Thermistor_NTC-Device TH7
 U 1 1 5C473E29
 P 15100 21900
 F 0 "TH7" H 14800 21950 50  0000 L CNN
@@ -3212,7 +3212,7 @@ F 4 "490-5630-ND" H 15100 21900 50  0001 C CNN "Digikey Part Number"
 	-1   0    0    1   
 $EndComp
 $Comp
-L Device:R_Small R55
+L Power-Board-rescue:R_Small-Device R55
 U 1 1 5C473E30
 P 15100 21550
 F 0 "R55" H 15159 21596 50  0000 L CNN
@@ -3226,7 +3226,7 @@ $EndComp
 Wire Wire Line
 	15100 21650 15100 21750
 $Comp
-L power:+3V3 #PWR071
+L Power-Board-rescue:+3V3-power #PWR071
 U 1 1 5C473E38
 P 15100 21450
 F 0 "#PWR071" H 15100 21300 50  0001 C CNN
@@ -3237,7 +3237,7 @@ F 3 "" H 15100 21450 50  0001 C CNN
 	-1   0    0    -1  
 $EndComp
 $Comp
-L power:GND #PWR074
+L Power-Board-rescue:GND-power #PWR074
 U 1 1 5C473E3E
 P 15100 22050
 F 0 "#PWR074" H 15100 21800 50  0001 C CNN
@@ -3248,7 +3248,7 @@ F 3 "" H 15100 22050 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Connector_Generic:Conn_02x03_Odd_Even J1
+L Power-Board-rescue:Conn_02x03_Odd_Even-Connector_Generic J1
 U 1 1 5C49525A
 P 10850 15150
 F 0 "J1" H 10900 14900 50  0000 C CNN
@@ -3262,7 +3262,7 @@ $EndComp
 Wire Wire Line
 	12150 14850 10650 14850
 $Comp
-L power:+3V3 #PWR050
+L Power-Board-rescue:+3V3-power #PWR050
 U 1 1 5C51B34B
 P 11250 15050
 F 0 "#PWR050" H 11250 14900 50  0001 C CNN
@@ -3287,7 +3287,7 @@ Wire Wire Line
 NoConn ~ 11150 15150
 NoConn ~ 10650 15150
 $Comp
-L power:GND #PWR051
+L Power-Board-rescue:GND-power #PWR051
 U 1 1 5C5A3D0D
 P 11250 15400
 F 0 "#PWR051" H 11250 15150 50  0001 C CNN
@@ -3302,7 +3302,7 @@ Wire Wire Line
 Wire Wire Line
 	11250 15250 11250 15400
 $Comp
-L Device:R_Small R36
+L Power-Board-rescue:R_Small-Device R36
 U 1 1 5C5C0BDB
 P 11400 15150
 F 0 "R36" H 11459 15196 50  0000 L CNN
@@ -3322,7 +3322,7 @@ Connection ~ 11400 15350
 Wire Wire Line
 	11400 15350 10650 15350
 $Comp
-L Device:R_Small R33
+L Power-Board-rescue:R_Small-Device R33
 U 1 1 5C63524B
 P 14250 11200
 F 0 "R33" H 14309 11246 50  0000 L CNN
@@ -3334,7 +3334,7 @@ F 4 "P10.0KHCT-ND" H 0   0   50  0001 C CNN "Digikey Part Number"
 	1    0    0    -1  
 $EndComp
 $Comp
-L Device:R_Small R35
+L Power-Board-rescue:R_Small-Device R35
 U 1 1 5C63583A
 P 14150 11600
 F 0 "R35" H 14209 11646 50  0000 L CNN
@@ -3348,7 +3348,7 @@ $EndComp
 Wire Wire Line
 	13800 19050 13800 19150
 $Comp
-L power:+3V3 #PWR054
+L Power-Board-rescue:+3V3-power #PWR054
 U 1 1 5C3BD236
 P 13800 18850
 F 0 "#PWR054" H 13800 18700 50  0001 C CNN
@@ -3359,7 +3359,7 @@ F 3 "" H 13800 18850 50  0001 C CNN
 	-1   0    0    -1  
 $EndComp
 $Comp
-L power:GND #PWR058
+L Power-Board-rescue:GND-power #PWR058
 U 1 1 5C3BD331
 P 13800 19450
 F 0 "#PWR058" H 13800 19200 50  0001 C CNN
@@ -3372,7 +3372,7 @@ $EndComp
 Text Label 13800 19100 2    50   ~ 0
 THERM1
 $Comp
-L Connector_Generic:Conn_02x07_Counter_Clockwise J8
+L Power-Board-rescue:Conn_02x07_Counter_Clockwise-Connector_Generic J8
 U 1 1 5C0B7D8D
 P 3350 16950
 F 0 "J8" H 3400 17467 50  0000 C CNN
@@ -3384,7 +3384,7 @@ F 4 "952-1932-ND" H 0   0   50  0001 C CNN "Digikey Part Number"
 	1    0    0    -1  
 $EndComp
 $Comp
-L power:+3V3 #PWR053
+L Power-Board-rescue:+3V3-power #PWR053
 U 1 1 5C671E98
 P 3650 17150
 F 0 "#PWR053" H 3650 17000 50  0001 C CNN
@@ -3422,4 +3422,37 @@ Text Notes 13550 13650 0    50   ~ 0
 MCU:\nMeasures voltages and temperatures, controls functions,\nand maintains a measurement of the battery capacity.
 Connection ~ 11650 11700
 Connection ~ 11650 11400
+$Comp
+L Device:D_TVS D?
+U 1 1 5C3A0311
+P 8300 14900
+F 0 "D?" V 8254 14979 50  0000 L CNN
+F 1 "5V TVS" V 8345 14979 50  0000 L CNN
+F 2 "" H 8300 14900 50  0001 C CNN
+F 3 "~" H 8300 14900 50  0001 C CNN
+	1    8300 14900
+	0    1    1    0   
+$EndComp
+$Comp
+L Device:D_TVS D?
+U 1 1 5C3A0818
+P 8300 15450
+F 0 "D?" V 8254 15529 50  0000 L CNN
+F 1 "12V TVS" V 8345 15529 50  0000 L CNN
+F 2 "" H 8300 15450 50  0001 C CNN
+F 3 "~" H 8300 15450 50  0001 C CNN
+	1    8300 15450
+	0    1    1    0   
+$EndComp
+$Comp
+L Device:D_TVS D?
+U 1 1 5C3A093F
+P 8300 15950
+F 0 "D?" V 8254 16029 50  0000 L CNN
+F 1 "24V TVS" V 8345 16029 50  0000 L CNN
+F 2 "" H 8300 15950 50  0001 C CNN
+F 3 "~" H 8300 15950 50  0001 C CNN
+	1    8300 15950
+	0    1    1    0   
+$EndComp
 $EndSCHEMATC
