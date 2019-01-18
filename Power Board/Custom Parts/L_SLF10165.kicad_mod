@@ -1,4 +1,4 @@
-(module L_SLF10165 (layer F.Cu) (tedit 5C3FC91C)
+(module L_SLF10165 (layer F.Cu) (tedit 5C42393F)
   (descr "Resistor SMD 1210, reflow soldering, Vishay (see dcrcw.pdf)")
   (tags "resistor 1210")
   (attr smd)
@@ -21,6 +21,10 @@
   (fp_line (start 5.5 -5.5) (end 5.5 5.5) (layer F.CrtYd) (width 0.05))
   (fp_line (start 5.2 5.4) (end -5.2 5.4) (layer F.SilkS) (width 0.12))
   (fp_line (start -5.2 -5.4) (end 5.2 -5.4) (layer F.SilkS) (width 0.12))
+  (fp_line (start 5.2 -5.4) (end 5.2 -1.8) (layer F.SilkS) (width 0.15))
+  (fp_line (start -5.2 -5.4) (end -5.2 -1.8) (layer F.SilkS) (width 0.15))
+  (fp_line (start -5.2 1.8) (end -5.2 5.4) (layer F.SilkS) (width 0.15))
+  (fp_line (start 5.2 5.4) (end 5.2 1.8) (layer F.SilkS) (width 0.15))
   (pad 1 smd rect (at -4.05 0) (size 2.5 3.2) (layers F.Cu F.Paste F.Mask))
   (pad 2 smd rect (at 4.05 0) (size 2.5 3.2) (layers F.Cu F.Paste F.Mask))
   (model ${KISYS3DMOD}/Inductors_SMD.3dshapes/L_1210.wrl
