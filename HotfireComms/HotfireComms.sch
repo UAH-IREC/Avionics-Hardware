@@ -244,11 +244,11 @@ F 3 "~" H 8150 2700 50  0001 C CNN
 	0    -1   -1   0   
 $EndComp
 $Comp
-L Connector_Generic:Conn_02x07_Counter_Clockwise J1
+L Connector_Generic:Conn_02x07_Odd_Even J1
 U 1 1 5C733FBB
 P 10200 1350
 F 0 "J1" H 10250 1867 50  0000 C CNN
-F 1 "Conn_02x07_Counter_Clockwise" H 10250 1776 50  0000 C CNN
+F 1 "Conn_02x07_Odd_Even" H 10250 1776 50  0000 C CNN
 F 2 "Pin_Headers:Pin_Header_Straight_1x07_Pitch2.54mm" H 10200 1350 50  0001 C CNN
 F 3 "~" H 10200 1350 50  0001 C CNN
 F 4 "952-2219-ND" H 0   0   50  0001 C CNN "Digikey Part Number"

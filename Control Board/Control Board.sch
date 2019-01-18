@@ -2904,11 +2904,11 @@ PWR_SDA
 Text Label 4650 4500 0    50   ~ 0
 PWR_SCL
 $Comp
-L Connector_Generic:Conn_02x07_Counter_Clockwise J18
+L Connector_Generic:Conn_02x07_Odd_Even J18
 U 1 1 5C07DC16
 P 13900 20450
 F 0 "J18" H 13950 20967 50  0000 C CNN
-F 1 "Conn_02x07_Counter_Clockwise" H 13950 20876 50  0000 C CNN
+F 1 "Conn_02x07_Odd_Even" H 13950 20876 50  0000 C CNN
 F 2 "Pin_Headers:Pin_Header_Straight_1x07_Pitch2.54mm" H 13900 20450 50  0001 C CNN
 F 3 "~" H 13900 20450 50  0001 C CNN
 F 4 "952-2217-ND" H 0   0   50  0001 C CNN "Digikey Part Number"

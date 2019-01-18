@@ -2127,7 +2127,7 @@ U 1 1 5BBF14DE
 P 7450 1850
 F 0 "HS1" H 7592 1971 50  0000 L CNN
 F 1 "Heatsink" H 7592 1880 50  0000 L CNN
-F 2 "" H 7462 1850 50  0001 C CNN
+F 2 "Custom Parts:HS_ATS1099" H 7462 1850 50  0001 C CNN
 F 3 "" H 7462 1850 50  0001 C CNN
 F 4 "ATS1099-ND" H 7450 1850 50  0001 C CNN "Digikey Part Number"
 	1    7450 1850
@@ -3203,7 +3203,7 @@ U 1 1 5C49525A
 P 10450 15150
 F 0 "J1" H 10500 14900 50  0000 C CNN
 F 1 "Conn_02x03_Odd_Even" H 10100 14800 50  0000 C CNN
-F 2 "" H 10450 15150 50  0001 C CNN
+F 2 "Pin_Headers:Pin_Header_Straight_2x03_Pitch1.27mm_SMD" H 10450 15150 50  0001 C CNN
 F 3 "" H 10450 15150 50  0001 C CNN
 F 4 "609-3693-1-ND" H -400 0   50  0001 C CNN "Digikey Part Number"
 	1    10450 15150
@@ -3317,18 +3317,6 @@ F 3 "" H 13800 19450 50  0001 C CNN
 $EndComp
 Text Label 13800 19100 2    50   ~ 0
 THERM1
-$Comp
-L Power-Board-rescue:Conn_02x07_Counter_Clockwise-Connector_Generic J8
-U 1 1 5C0B7D8D
-P 3350 16950
-F 0 "J8" H 3400 17467 50  0000 C CNN
-F 1 "Conn_02x07_Counter_Clockwise" H 3400 17376 50  0000 C CNN
-F 2 "Pin_Headers:Pin_Header_Straight_2x07_Pitch2.54mm" H 3350 16950 50  0001 C CNN
-F 3 "" H 3350 16950 50  0001 C CNN
-F 4 "952-1932-ND" H 0   0   50  0001 C CNN "Digikey Part Number"
-	1    3350 16950
-	1    0    0    -1  
-$EndComp
 $Comp
 L Power-Board-rescue:+3V3-power #PWR053
 U 1 1 5C671E98
@@ -3912,4 +3900,16 @@ Wire Wire Line
 Connection ~ 11900 14250
 Wire Wire Line
 	11900 14250 11900 14100
+$Comp
+L Connector_Generic:Conn_02x07_Odd_Even J?
+U 1 1 5C438F55
+P 3350 16950
+F 0 "J?" H 3400 17467 50  0000 C CNN
+F 1 "Conn_02x07_Odd_Even" H 3400 17376 50  0000 C CNN
+F 2 "Pin_Headers:Pin_Header_Straight_2x07_Pitch2.54mm" H 3350 16950 50  0001 C CNN
+F 3 "~" H 3350 16950 50  0001 C CNN
+F 4 "952-1932-ND" H 3350 16950 50  0001 C CNN "Digikey Part Number"
+	1    3350 16950
+	1    0    0    -1  
+$EndComp
 $EndSCHEMATC
