@@ -1177,107 +1177,34 @@ F 4 "732-12933-ND" H 0   0   50  0001 C CNN "Digikey Part Number"
 	1    2200 19500
 	1    0    0    -1  
 $EndComp
-$Comp
-L Power-Board-rescue:Conn_01x02-Connector-Power-Board-rescue J2
-U 1 1 5AA75ED0
-P 5000 19050
-F 0 "J2" H 5080 19042 50  0000 L CNN
-F 1 "Conn_01x02" H 5080 18951 50  0000 L CNN
-F 2 "Custom Parts:XT30_Angled" H 5000 19050 50  0001 C CNN
-F 3 "" H 5000 19050 50  0001 C CNN
-F 4 "https://www.aliexpress.com/item/AMASS-XT30PW-Banana-golden-XT30-Upgrade-Right-Angle-Plug-Connector-male-female-ESC-Motor-PCB-board/32689137918.html" H 5180 19142 50  0001 C CNN "AliExpress Part Link"
-	1    5000 19050
-	1    0    0    -1  
-$EndComp
-Text Label 4800 19050 2    60   ~ 0
+Text Label 5100 19150 2    60   ~ 0
 VCC_IN
-$Comp
-L Power-Board-rescue:GND-power #PWR037
-U 1 1 5AA762AB
-P 4800 19150
-F 0 "#PWR037" H 4800 18900 50  0001 C CNN
-F 1 "GND" V 4800 18950 50  0000 C CNN
-F 2 "" H 4800 19150 50  0001 C CNN
-F 3 "" H 4800 19150 50  0001 C CNN
-	1    4800 19150
-	0    1    -1   0   
-$EndComp
-$Comp
-L Power-Board-rescue:Conn_01x02-Connector-Power-Board-rescue J3
-U 1 1 5AA7656E
-P 5000 19350
-F 0 "J3" H 5080 19342 50  0000 L CNN
-F 1 "Conn_01x02" H 5080 19251 50  0000 L CNN
-F 2 "Custom Parts:XT30_Angled" H 5000 19350 50  0001 C CNN
-F 3 "" H 5000 19350 50  0001 C CNN
-F 4 "" H 0   0   50  0001 C CNN "Digikey Part Number"
-F 5 "https://www.aliexpress.com/item/AMASS-XT30PW-Banana-golden-XT30-Upgrade-Right-Angle-Plug-Connector-male-female-ESC-Motor-PCB-board/32689137918.html" H 0   0   50  0001 C CNN "AliExpress Part Link"
-	1    5000 19350
-	1    0    0    -1  
-$EndComp
-$Comp
-L Power-Board-rescue:Conn_01x02-Connector-Power-Board-rescue J4
-U 1 1 5AA765F7
-P 5000 19650
-F 0 "J4" H 5080 19642 50  0000 L CNN
-F 1 "Conn_01x02" H 5080 19551 50  0000 L CNN
-F 2 "Custom Parts:XT30_Angled" H 5000 19650 50  0001 C CNN
-F 3 "" H 5000 19650 50  0001 C CNN
-F 4 "" H 0   0   50  0001 C CNN "Digikey Part Number"
-F 5 "https://www.aliexpress.com/item/AMASS-XT30PW-Banana-golden-XT30-Upgrade-Right-Angle-Plug-Connector-male-female-ESC-Motor-PCB-board/32689137918.html" H 0   0   50  0001 C CNN "AliExpress Part Link"
-	1    5000 19650
-	1    0    0    -1  
-$EndComp
-$Comp
-L Power-Board-rescue:Conn_01x02-Connector-Power-Board-rescue J5
-U 1 1 5AA76683
-P 5000 19950
-F 0 "J5" H 5080 19942 50  0000 L CNN
-F 1 "Conn_01x02" H 5080 19851 50  0000 L CNN
-F 2 "Custom Parts:XT30_Angled" H 5000 19950 50  0001 C CNN
-F 3 "" H 5000 19950 50  0001 C CNN
-F 4 "" H 0   0   50  0001 C CNN "Digikey Part Number"
-F 5 "https://www.aliexpress.com/item/AMASS-XT30PW-Banana-golden-XT30-Upgrade-Right-Angle-Plug-Connector-male-female-ESC-Motor-PCB-board/32689137918.html" H 0   0   50  0001 C CNN "AliExpress Part Link"
-	1    5000 19950
-	1    0    0    -1  
-$EndComp
-Text Label 4800 19350 2    60   ~ 0
+Text Label 5100 19350 2    60   ~ 0
 BAT_BAK_VCC
-Text Label 4800 19650 2    60   ~ 0
+Text Label 5100 19450 2    60   ~ 0
 BAT_VCC_CONN
-Text Label 4800 19950 2    60   ~ 0
+Text Label 5100 19650 2    60   ~ 0
 UMB_VCC
-$Comp
-L Power-Board-rescue:GND-power #PWR038
-U 1 1 5AA76884
-P 4800 19450
-F 0 "#PWR038" H 4800 19200 50  0001 C CNN
-F 1 "GND" V 4800 19250 50  0000 C CNN
-F 2 "" H 4800 19450 50  0001 C CNN
-F 3 "" H 4800 19450 50  0001 C CNN
-	1    4800 19450
-	0    1    -1   0   
-$EndComp
 $Comp
 L Power-Board-rescue:GND-power #PWR039
 U 1 1 5AA76909
-P 4800 19750
-F 0 "#PWR039" H 4800 19500 50  0001 C CNN
-F 1 "GND" V 4800 19550 50  0000 C CNN
-F 2 "" H 4800 19750 50  0001 C CNN
-F 3 "" H 4800 19750 50  0001 C CNN
-	1    4800 19750
+P 5100 19250
+F 0 "#PWR039" H 5100 19000 50  0001 C CNN
+F 1 "GND" V 5100 19050 50  0000 C CNN
+F 2 "" H 5100 19250 50  0001 C CNN
+F 3 "" H 5100 19250 50  0001 C CNN
+	1    5100 19250
 	0    1    -1   0   
 $EndComp
 $Comp
 L Power-Board-rescue:GND-power #PWR040
 U 1 1 5AA7698E
-P 4800 20050
-F 0 "#PWR040" H 4800 19800 50  0001 C CNN
-F 1 "GND" V 4800 19850 50  0000 C CNN
-F 2 "" H 4800 20050 50  0001 C CNN
-F 3 "" H 4800 20050 50  0001 C CNN
-	1    4800 20050
+P 5100 19550
+F 0 "#PWR040" H 5100 19300 50  0001 C CNN
+F 1 "GND" V 5100 19350 50  0000 C CNN
+F 2 "" H 5100 19550 50  0001 C CNN
+F 3 "" H 5100 19550 50  0001 C CNN
+	1    5100 19550
 	0    1    -1   0   
 $EndComp
 $Comp
@@ -3910,6 +3837,17 @@ F 2 "Pin_Headers:Pin_Header_Straight_2x07_Pitch2.54mm" H 3350 16950 50  0001 C C
 F 3 "~" H 3350 16950 50  0001 C CNN
 F 4 "952-1932-ND" H 3350 16950 50  0001 C CNN "Digikey Part Number"
 	1    3350 16950
+	1    0    0    -1  
+$EndComp
+$Comp
+L Connector:Screw_Terminal_01x06 J?
+U 1 1 5C4745D1
+P 5300 19350
+F 0 "J?" H 5380 19342 50  0000 L CNN
+F 1 "Screw_Terminal_01x06" H 5380 19251 50  0000 L CNN
+F 2 "" H 5300 19350 50  0001 C CNN
+F 3 "~" H 5300 19350 50  0001 C CNN
+	1    5300 19350
 	1    0    0    -1  
 $EndComp
 $EndSCHEMATC
