@@ -1177,13 +1177,13 @@ F 4 "732-12933-ND" H 0   0   50  0001 C CNN "Digikey Part Number"
 	1    2200 19500
 	1    0    0    -1  
 $EndComp
-Text Label 5100 19150 2    60   ~ 0
-VCC_IN
-Text Label 5100 19350 2    60   ~ 0
-BAT_BAK_VCC
-Text Label 5100 19450 2    60   ~ 0
-BAT_VCC_CONN
 Text Label 5100 19650 2    60   ~ 0
+VCC_IN
+Text Label 5100 19450 2    60   ~ 0
+BAT_BAK_VCC
+Text Label 5100 19150 2    60   ~ 0
+BAT_VCC_CONN
+Text Label 5100 19350 2    60   ~ 0
 UMB_VCC
 $Comp
 L Power-Board-rescue:GND-power #PWR039
@@ -3840,13 +3840,14 @@ F 4 "952-1932-ND" H 3350 16950 50  0001 C CNN "Digikey Part Number"
 	1    0    0    -1  
 $EndComp
 $Comp
-L Connector:Screw_Terminal_01x06 J?
+L Connector:Screw_Terminal_01x06 J2
 U 1 1 5C4745D1
 P 5300 19350
-F 0 "J?" H 5380 19342 50  0000 L CNN
+F 0 "J2" H 5380 19342 50  0000 L CNN
 F 1 "Screw_Terminal_01x06" H 5380 19251 50  0000 L CNN
-F 2 "" H 5300 19350 50  0001 C CNN
+F 2 "Custom Parts:3PCV-06" H 5300 19350 50  0001 C CNN
 F 3 "~" H 5300 19350 50  0001 C CNN
+F 4 "3PCV-06-006-ND" H 5300 19350 50  0001 C CNN "Digikey Part Number"
 	1    5300 19350
 	1    0    0    -1  
 $EndComp
