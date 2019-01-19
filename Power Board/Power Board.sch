@@ -3266,7 +3266,7 @@ Note about battery configurations:\nMutually redundant: Each board's backup batt
 Text Notes 4450 18700 0    50   ~ 0
 Connectors:\nConnect to batteries and stuff
 Text Notes 1900 18800 0    50   ~ 0
-Mounting holes:\nM3 Screw holes.\n\nSymbol:\nThe rocket logo on the back.
+Mounting holes:\nM3 Screw holes.\n\nSymbol:\nThe sweet looking rocket logo on the back.
 Text Notes 2350 16300 0    50   ~ 0
 Connector:\n2x7 100mil header used to connect the different boards together
 Text Notes 2400 14000 0    50   ~ 0
